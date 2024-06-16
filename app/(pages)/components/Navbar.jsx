@@ -30,7 +30,7 @@ export const Navbar = () => {
                 <li className="h-full w-full relative">
                     <Link href="#" className="nav-link" onMouseEnter={() => setLessonsSubmenuIsOpen(true)} onMouseLeave={() => setLessonsSubmenuIsOpen(false)}>Lessons <IoIosArrowDown className="ms-2 mt-1" /></Link>
                     {lessonsSubmenuIsOpen && (
-                        <ul className="w-[200px] bg-red-400 absolute" onMouseEnter={() => setLessonsSubmenuIsOpen(true)} onMouseLeave={() => setLessonsSubmenuIsOpen(false)}>
+                        <ul className="w-[200px] bg-red-400 absolute z-20" onMouseEnter={() => setLessonsSubmenuIsOpen(true)} onMouseLeave={() => setLessonsSubmenuIsOpen(false)}>
                             <li className="h-full w-full">
                                 <Link href="/piano-lessons-etobicoke" className="nav-link hover:bg-dcam-dark-blue">
                                     Piano Lessons
@@ -85,7 +85,7 @@ export const Navbar = () => {
                 <li className="h-full w-full">
                     <Link href="#" className="nav-link" onMouseEnter={() => setToolsSubmenuIsOpen(true)} onMouseLeave={() => setToolsSubmenuIsOpen(false)}>Tools <IoIosArrowDown className="ms-2 mt-1" /></Link>
                     {toolsSubmenuIsOpen && (
-                        <ul className="w-[200px] bg-red-400 absolute" onMouseEnter={() => setToolsSubmenuIsOpen(true)} onMouseLeave={() => setToolsSubmenuIsOpen(false)}>
+                        <ul className="w-[200px] bg-red-400 absolute z-20" onMouseEnter={() => setToolsSubmenuIsOpen(true)} onMouseLeave={() => setToolsSubmenuIsOpen(false)}>
                             <li className="h-full w-full">
                                 <Link href="piano-lessons-etobicoke" className="nav-link hover:bg-dcam-dark-blue">
                                     RCM Wizard
@@ -102,7 +102,8 @@ export const Navbar = () => {
             </ul>
         </div>
 
-        <div className="md:hidden bg-dcam-reg-blue h-[45px] relative flex flex-row">
+        {/* MOBILE MENU */}
+        <div className="md:hidden bg-dcam-reg-blue h-[45px] relative flex flex-row z-20">
             <RxHamburgerMenu className="absolute left-2 h-full text-dcam-white hover:cursor-pointer" size="2rem" onClick={handleDrawerToggle} />
             {isDrawerOpen && (
                 <ul className="absolute left-0 -bottom-[45px] flex flex-col w-full h-full">

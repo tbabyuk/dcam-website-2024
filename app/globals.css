@@ -3,12 +3,24 @@
 @tailwind utilities;
 
 
+body {
+  font-family: var(--font-roboto);
+}
+
+h1 {
+  font-family: var(--font-ovo);
+}
 
 
 /* header styles */
 
 .header-btn {
   @apply btn btn-outline border-2 text-dcam-white font-medium bg-dcam-reg-blue hover:bg-dcam-dark-blue hover:border-2 hover:border-dcam-white;
+}
+
+/* slider styles */
+.slider-btn {
+  @apply btn btn-outline border-2 text-dcam-white font-medium bg-dcam-reg-green hover:bg-dcam-dark-green hover:border-2 hover:border-dcam-white;
 }
 
 /* navigation styles */
@@ -19,4 +31,8 @@
 
 .mobile-nav-link {
   @apply bg-dcam-reg-blue text-dcam-white h-[45px] px-4 flex items-center justify-center border-b-2 border-dcam-white/60;
+}
+
+.blah {
+  color: #3d8f44;
 }
