@@ -10,3 +10,13 @@
 .header-btn {
   @apply btn btn-outline border-2 text-dcam-white font-medium bg-dcam-reg-blue hover:bg-dcam-dark-blue hover:border-2 hover:border-dcam-white;
 }
+
+/* navigation styles */
+
+.nav-link {
+  @apply text-[0.9rem] bg-dcam-reg-blue h-[45px] px-4 flex items-center;
+}
+
+.mobile-nav-link {
+  @apply bg-dcam-reg-blue text-dcam-white h-[45px] px-4 flex items-center justify-center border-b-2 border-dcam-white/60;
+}
