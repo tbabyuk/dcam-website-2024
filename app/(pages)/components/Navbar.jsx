@@ -7,10 +7,10 @@ import { IoIosArrowDown } from "react-icons/io";
 
 
 
-export const Navigation = () => {
+export const Navbar = () => {
 
-  const [isDrawerOpen, setIsDrawerOpen] = useState(true);
-  const [lessonsSubmenuIsOpen, setLessonsSubmenuIsOpen] = useState(true);
+  const [isDrawerOpen, setIsDrawerOpen] = useState(false);
+  const [lessonsSubmenuIsOpen, setLessonsSubmenuIsOpen] = useState(false);
   const [toolsSubmenuIsOpen, setToolsSubmenuIsOpen] = useState(false);
 
 

@@ -14,7 +14,7 @@
 /* navigation styles */
 
 .nav-link {
-  @apply text-[0.9rem] bg-dcam-reg-blue h-[45px] px-4 flex items-center;
+  @apply text-[0.9rem] bg-dcam-reg-blue h-[45px] px-3 flex items-center;
 }
 
 .mobile-nav-link {

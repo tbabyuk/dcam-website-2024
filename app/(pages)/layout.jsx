@@ -1,11 +1,13 @@
 import { Header } from "./components/Header"
-import { Navigation } from "./components/Navigation"
+import { Navbar } from "./components/Navbar"
+import { Slider } from "./components/Slider"
 
 export default function PagesLayout({ children }) {
     return (
         <>
             <Header />
-            <Navigation />
+            <Navbar />
+            <Slider />
         </>
     )
   }

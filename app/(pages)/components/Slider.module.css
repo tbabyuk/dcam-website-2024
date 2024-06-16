@@ -1,0 +1,11 @@
+
+
+.slider-image {
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+  }
+  
+  
+  .slider-image.active {
+    opacity: 1;
+  }
