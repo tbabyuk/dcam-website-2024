@@ -7,7 +7,7 @@ body {
   font-family: var(--font-roboto);
 }
 
-h1 {
+h1, h2 {
   font-family: var(--font-ovo);
 }
 
@@ -18,10 +18,35 @@ h1 {
   @apply btn btn-outline border-2 text-dcam-white font-medium bg-dcam-reg-blue hover:bg-dcam-dark-blue hover:border-2 hover:border-dcam-white;
 }
 
-/* slider styles */
+/* hero slider styles */
 .slider-btn {
   @apply btn btn-outline border-2 text-dcam-white font-medium bg-dcam-reg-green hover:bg-dcam-dark-green hover:border-2 hover:border-dcam-white;
 }
+
+/* instruments slider styles */
+
+.slick-slider {
+  @apply px-10
+}
+
+.slick-arrow.slick-prev {
+  background: #FFF;
+  left: 10px;
+  top: 45%;
+  z-index: 10;
+}
+
+.slick-arrow.slick-next {
+  background: #FFF;
+  right: 40px;
+  top: 45%;
+}
+
+.slick-arrow.slick-next::before, .slick-arrow.slick-prev::before {
+  color: gray;
+  font-size: 50px;
+}
+
 
 /* navigation styles */
 
@@ -33,6 +58,6 @@ h1 {
   @apply bg-dcam-reg-blue text-dcam-white h-[45px] px-4 flex items-center justify-center border-b-2 border-dcam-white/60;
 }
 
-.blah {
-  color: #3d8f44;
-}
+/* .blah {
+  @apply text-gray-
+} */

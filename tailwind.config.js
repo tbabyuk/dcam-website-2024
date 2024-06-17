@@ -18,7 +18,8 @@ module.exports = {
         "dcam-reg-green": "#4AAD52", // old palette
         "dcam-dark-green": "#3D8F44",
         regYellow: "#F2F5CD", // new palette
-        "dcam-white": "#F3F4F6"
+        "dcam-white": "#F3F4F6",
+        "dcam-black": "#4b5563"
       }
     },
   },

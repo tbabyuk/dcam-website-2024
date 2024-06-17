@@ -28,7 +28,7 @@ export const Navbar = () => {
                     <Link href="/" className="nav-link hover:bg-dcam-dark-blue">Home</Link>
                 </li>
                 <li className="h-full w-full relative">
-                    <Link href="#" className="nav-link" onMouseEnter={() => setLessonsSubmenuIsOpen(true)} onMouseLeave={() => setLessonsSubmenuIsOpen(false)}>Lessons <IoIosArrowDown className="ms-2 mt-1" /></Link>
+                    <Link href="#" className="nav-link" onMouseEnter={() => setLessonsSubmenuIsOpen(true)} onMouseLeave={() => setLessonsSubmenuIsOpen(false)}>Lessons <IoIosArrowDown className="ms-1" /></Link>
                     {lessonsSubmenuIsOpen && (
                         <ul className="w-[200px] bg-red-400 absolute z-20" onMouseEnter={() => setLessonsSubmenuIsOpen(true)} onMouseLeave={() => setLessonsSubmenuIsOpen(false)}>
                             <li className="h-full w-full">
@@ -83,7 +83,7 @@ export const Navbar = () => {
                     <Link href="/careers" className="nav-link hover:bg-dcam-dark-blue">Careers</Link>
                 </li>
                 <li className="h-full w-full">
-                    <Link href="#" className="nav-link" onMouseEnter={() => setToolsSubmenuIsOpen(true)} onMouseLeave={() => setToolsSubmenuIsOpen(false)}>Tools <IoIosArrowDown className="ms-2 mt-1" /></Link>
+                    <Link href="#" className="nav-link" onMouseEnter={() => setToolsSubmenuIsOpen(true)} onMouseLeave={() => setToolsSubmenuIsOpen(false)}>Tools <IoIosArrowDown className="ms-1" /></Link>
                     {toolsSubmenuIsOpen && (
                         <ul className="w-[200px] bg-red-400 absolute z-20" onMouseEnter={() => setToolsSubmenuIsOpen(true)} onMouseLeave={() => setToolsSubmenuIsOpen(false)}>
                             <li className="h-full w-full">
@@ -111,7 +111,7 @@ export const Navbar = () => {
                         <Link href="/" className="mobile-nav-link hover:bg-dcam-dark-blue">Home</Link>
                     </li>
                     <li className="h-full w-full">
-                        <Link href="#" className={`mobile-nav-link ${lessonsSubmenuIsOpen && "border-none"}`} onClick={() => setLessonsSubmenuIsOpen(!lessonsSubmenuIsOpen)}>Lessons <IoIosArrowDown className="ms-2 mt-1" /></Link>
+                        <Link href="#" className={`mobile-nav-link ${lessonsSubmenuIsOpen && "border-none"}`} onClick={() => setLessonsSubmenuIsOpen(!lessonsSubmenuIsOpen)}>Lessons <IoIosArrowDown className="ms-1 mt-1" /></Link>
                     </li>
                     {lessonsSubmenuIsOpen && (
                         <>
@@ -166,7 +166,7 @@ export const Navbar = () => {
                         <Link href="/careers" className="mobile-nav-link hover:bg-dcam-dark-blue">Careers</Link>
                     </li>
                     <li className="h-full w-full">
-                        <Link href="#" className={`mobile-nav-link ${toolsSubmenuIsOpen && "border-none"}`} onClick={() => setToolsSubmenuIsOpen(!toolsSubmenuIsOpen)}>Tools <IoIosArrowDown className="ms-2 mt-1" /></Link>
+                        <Link href="#" className={`mobile-nav-link ${toolsSubmenuIsOpen && "border-none"}`} onClick={() => setToolsSubmenuIsOpen(!toolsSubmenuIsOpen)}>Tools <IoIosArrowDown className="ms-1 mt-1" /></Link>
                     </li>
                     {toolsSubmenuIsOpen && (
                         <li className="h-full w-full">
