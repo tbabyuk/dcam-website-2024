@@ -9,9 +9,9 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        lightRed: "#D97047", // old palette
-        "dcam-orange": "#F98764", // new palette
-        darkRed: "#F85F30", // new, 10% darker than regRed
+        // "dcam-light-orange": "#D97047", // old palette
+        "dcam-reg-orange": "#F98764", // new palette
+        "dcam-dark-orange": "#F85F30", // new, 10% darker than regRed
         "dcam-light-blue": "#88BDE9", // new palette
         "dcam-reg-blue": "#567FA3", // new palette
         "dcam-dark-blue": "#375681", // new palette

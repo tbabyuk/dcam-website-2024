@@ -7,7 +7,7 @@ body {
   font-family: var(--font-roboto);
 }
 
-h1, h2 {
+h1, h2, h3 {
   font-family: var(--font-ovo);
 }
 
@@ -67,3 +67,12 @@ h1, h2 {
 /* .blah {
   @apply text-gray-
 } */
+
+
+
+
+/* utils */
+
+.visit-page-btn {
+    @apply btn btn-outline btn-lg border-2 block mx-auto mt-20 text-dcam-white font-medium bg-dcam-reg-orange hover:bg-dcam-dark-orange hover:border-2 hover:border-dcam-white;
+}
