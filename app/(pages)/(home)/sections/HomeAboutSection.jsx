@@ -4,7 +4,7 @@ import Image from "next/image"
 
 export const HomeAboutSection = () => {
   return (
-        <section className="intro leading-8 flex flex-col items-center sm:block px-5 lg:px-36 xl:px-52 text-white bg-dcam-reg-blue py-20 relative">
+        <section className="intro leading-8 flex flex-col items-center sm:block px-5 lg:px-36 xl:px-52 text-white bg-dcam-light-blue py-20 relative">
             <img src="images/home/notes_light.svg" className="absolute left-6 top-6 w-[110px]" />
             <img src="images/home/notes_light.svg" className="absolute right-8 bottom-8 w-[110px]" />
             <div className="flex flex-col md:flex-row">

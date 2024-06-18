@@ -1,6 +1,5 @@
-import { InstrumentsSlider } from "../sub-components/InstrumentsSlider"
-import { HomeSectionHeading } from "../sub-components/HomeSectionHeading"
-
+import { HomeSectionHeading } from "../components/HomeSectionHeading"
+import { InstrumentsSlider } from "../components/InstrumentsSlider"
 
 
 export const HomeInstrumentsSection = () => {

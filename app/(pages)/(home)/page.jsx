@@ -1,8 +1,8 @@
-import Image from "next/image";
-import { Slider } from "../components/Slider";
-import { HomeHeadingSection } from "../components/HomeHeadingSection";
-import { HomeAboutSection } from "../components/HomeAboutSection";
-import { HomeInstrumentsSection } from "../components/HomeInstrumentsSection";
+import { Slider } from "./components/Slider";
+import { HomeHeadingSection } from "./sections/HomeHeadingSection";
+import { HomeAboutSection } from "./sections/HomeAboutSection";
+import { HomeInstrumentsSection } from "./sections/HomeInstrumentsSection";
+import { HomeOffersSection } from "./sections/HomeOffersSection";
 
 
 
@@ -14,6 +14,7 @@ export default function HomePage() {
         <HomeHeadingSection />
         <HomeAboutSection />
         <HomeInstrumentsSection />
+        <HomeOffersSection />
       </main>
     </>
   );

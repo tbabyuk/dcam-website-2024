@@ -12,6 +12,12 @@ h1, h2 {
 }
 
 
+/* home page styling */
+
+.offers-icon {
+  @apply p-2 border-[3px] rounded-lg border-dcam-white;
+}
+
 /* header styles */
 
 .header-btn {

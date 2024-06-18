@@ -1,5 +1,5 @@
-import { StudentPortalBtn } from "../sub-components/StudentPortalBtn"
-import { CartBtn } from "../sub-components/CartBtn"
+import { StudentPortalBtn } from "../(home)/components/StudentPortalBtn";
+import { CartBtn } from "../(home)/components/CartBtn"
 import { HiOutlineMail } from "react-icons/hi"
 import { BsTelephone } from "react-icons/bs";
 
