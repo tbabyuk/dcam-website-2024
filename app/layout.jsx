@@ -1,5 +1,9 @@
 import { Ovo, Roboto } from "next/font/google"
 import "./globals.css";
+import { Header } from "./(pages)/components/Header";
+import { Navbar } from "./(pages)/components/Navbar";
+import { Footer } from "./(pages)/components/Footer";
+
 
 const ovo = Ovo({subsets: ["latin"], weight: ["400"], variable: "--font-ovo"});
 const roboto = Roboto({subsets: ["latin"], weight: ["100", "300", "400", "500"], variable: "--font-roboto"});
@@ -15,7 +19,10 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={`${roboto.variable} ${ovo.variable}`}>
-        {children}
+        <Header />
+        <Navbar />
+          {children}
+        <Footer />
       </body>
     </html>
   );

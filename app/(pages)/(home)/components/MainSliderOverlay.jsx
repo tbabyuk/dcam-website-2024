@@ -16,7 +16,7 @@ export const MainSliderOverlay = () => {
               <RegisterButtonHero /> */}
             </div>
             <h1 className="text-5xl xl:text-6xl text-center lg:px-22 xl:px-32">Discover the Joy of Music!</h1>
-            <h2 className="text-xl hidden md:block py-4 roboto px-6 xl:mx-16 text-center leading-9">In-person (and online!) music lessons for children and adults in the Etobicoke neighbourhood of Humber Valley Village!</h2>
+            <h2 className="font-roboto text-xl hidden md:block py-4 roboto px-6 xl:mx-16 text-center leading-9">In-person (and online!) music lessons for children and adults in the Etobicoke neighbourhood of Humber Valley Village!</h2>
             <h2 className="text-2xl md:hidden py-4 roboto px-6 xl:mx-16 text-center">Music Lessons in Etobicoke!</h2>
             {/* <div className="text-center sm:hidden"> */}
             {/* <Typewriter 

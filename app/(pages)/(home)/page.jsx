@@ -4,6 +4,8 @@ import { HomeAboutSection } from "./sections/HomeAboutSection";
 import { HomeInstrumentsSection } from "./sections/HomeInstrumentsSection";
 import { HomeOffersSection } from "./sections/HomeOffersSection";
 import { HomeTeachersSection } from "./sections/HomeTeachersSection";
+import { HomeShopSection } from "./sections/HomeShopSection";
+import { HomeReviewsSection } from "./sections/HomeReviewsSection";
 
 
 
@@ -17,6 +19,8 @@ export default function HomePage() {
         <HomeInstrumentsSection />
         <HomeOffersSection />
         <HomeTeachersSection />
+        <HomeShopSection />
+        <HomeReviewsSection />
       </main>
     </>
   );

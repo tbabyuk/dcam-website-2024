@@ -5,8 +5,8 @@ import { InstrumentsSlider } from "../components/InstrumentsSlider"
 export const HomeInstrumentsSection = () => {
   
   return (
-    <section className="xl:px-28 py-20 bg-white">
-        <HomeSectionHeading title="INSTRUMENTS" textColor="text-dcam-orange" />
+    <section className="bg-dcam-white xl:px-28 py-20">
+        <HomeSectionHeading title="INSTRUMENTS" textColor="text-dcam-reg-orange" />
         <InstrumentsSlider />
     </section>
   )
