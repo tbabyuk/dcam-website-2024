@@ -90,3 +90,7 @@ h1, h2, h3 {
 .font-roboto {
   font-family: var(--font-roboto);
 }
+
+.dcam-submit-btn {
+  @apply btn btn-outline border-2 text-dcam-white font-medium bg-dcam-reg-green hover:bg-dcam-dark-green hover:border-2 hover:border-dcam-white;
+}
