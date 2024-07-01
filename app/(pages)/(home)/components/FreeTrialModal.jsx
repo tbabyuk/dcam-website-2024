@@ -6,32 +6,58 @@ import { useEffect } from "react";
 
 export const FreeTrialModal = ({freeTrialModalRef}) => {
 
-    const [isFormValid, setIsFormValid] = useState(false);
-    const [isFormSubmitted, setIsFormSubmitted] = useState(false);
-    const [trialFormFields, setTrialFormFields] = useState({
+    const initialTrialFormValues = {
         student: "",
         parent: "",
         instrument: "choose instrument",
         phone: "",
         email: "",
         source: "choose option"
-    });
+    }
+
+    const [isFormValid, setIsFormValid] = useState(false);
+    const [isFormSubmitted, setIsFormSubmitted] = useState(false);
+    const [trialFormFields, setTrialFormFields] = useState(initialTrialFormValues);
+    const [isPending, setIsPending] = useState(false);
 
 
     const handleInput = (e) => {
         setTrialFormFields({...trialFormFields, [e.target.name]: e.target.value})
     }
 
-    const handleSubmit = (e) => {
+    const handleSubmit = async (e) => {
         e.preventDefault();
         console.log("submitting these fields:", trialFormFields)
-        setIsFormSubmitted(true);
-        // freeTrialModalRef.current.close();
+
+        try {
+            setIsPending(true);
+            const res = await fetch("/api/submit-trial-form", {
+                method: "POST",
+                headers: {
+                    "Content-Type": "application/json"
+                },
+                body: JSON.stringify(trialFormFields)
+            });
+
+            if(!res.ok) {
+                setIsPending(false);
+                throw new Error("Network response is not ok");
+            }
+
+            const data = await res.json();
+            console.log("success!", data);
+            setIsPending(false);
+            setIsFormSubmitted(true);
+
+        } catch (error) {
+            console.log(error.message)
+        }
+
     }
 
     const handleSubmitAnother = () => {
         setIsFormSubmitted(false);
-        setTrialFormFields({student: "", parent: "", instrument: "choose instrument", phone: "", email: "", source: "choose option"})
+        setTrialFormFields(initialTrialFormValues)
     }
 
 
@@ -57,7 +83,7 @@ export const FreeTrialModal = ({freeTrialModalRef}) => {
                         <p className="text-dcam-reg-green text-[1.3rem]">Your form was successfully submitted! Please expect to hear from us within 1-2 business days to set up your trial lesson!</p>
                         <div className="flex justify-between mt-6">
                             <button className="btn btn-outline text-dcam-black" onClick={() => handleSubmitAnother(false)}>Submit another form</button>
-                            <button className="btn btn-outline text-dcam-black">Close Modal</button>
+                            <button className="btn btn-outline text-dcam-black" onClick={() => freeTrialModalRef.current.close()}>Close Modal</button>
                         </div>
                     </>
                 ) : (
@@ -143,9 +169,16 @@ export const FreeTrialModal = ({freeTrialModalRef}) => {
                             <option value="other">other</option>
                         </select>
                     </label>
-                    <button className="btn dcam-submit-btn w-full mt-3" disabled={!isFormValid}>
+                    {isPending ? (
+                        <button className="btn dcam-submit-btn  w-full mt-3" disabled>
+                            <span className="loading loading-spinner text-gray-400" />
+                            Submitting, please wait...
+                        </button>  
+                    ) : (
+                        <button className="btn dcam-submit-btn w-full mt-3" disabled={!isFormValid}>
                         Submit
-                    </button>                        
+                        </button> 
+                    )} 
                 </form>       
             )}
             </div>
