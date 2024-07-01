@@ -1,7 +1,5 @@
 "use client"
 
-import { submitTrialForm } from "../actions/submitTrialForm"
-import { TrialSubmitBtn } from "./TrialSubmitBtn";
 import { useState } from "react";
 import { useEffect } from "react";
 
