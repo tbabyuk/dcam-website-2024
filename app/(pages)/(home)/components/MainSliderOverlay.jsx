@@ -8,8 +8,9 @@ import { useState, useRef } from "react";
 import { IoMusicalNotes } from "react-icons/io5";
 import { FaFileSignature } from "react-icons/fa";
 import { FreeTrialModal } from "./FreeTrialModal";
+import { memo } from "react";
 
-export const MainSliderOverlay = () => {
+export const MainSliderOverlay = memo(() => {
 
   const freeTrialModalRef = useRef();
 
@@ -37,4 +38,4 @@ export const MainSliderOverlay = () => {
             <FreeTrialModal freeTrialModalRef={freeTrialModalRef} />
         </div>  
     )
-}
+})
