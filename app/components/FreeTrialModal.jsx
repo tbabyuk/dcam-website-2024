@@ -1,7 +1,6 @@
 "use client"
 
-import { useState } from "react";
-import { useEffect } from "react";
+import { useState, useEffect } from "react";
 
 
 export const FreeTrialModal = ({freeTrialModalRef}) => {
@@ -15,10 +14,10 @@ export const FreeTrialModal = ({freeTrialModalRef}) => {
         source: "choose option"
     }
 
+    const [trialFormFields, setTrialFormFields] = useState(initialTrialFormValues);
     const [isFormValid, setIsFormValid] = useState(false);
     const [isFormSubmitted, setIsFormSubmitted] = useState(false);
-    const [trialFormFields, setTrialFormFields] = useState(initialTrialFormValues);
-    const [isPending, setIsPending] = useState(false);
+    const [isTrialSubmitPending, setIsTrialSubmitPending] = useState(false);
 
 
     const handleInput = (e) => {
@@ -30,7 +29,7 @@ export const FreeTrialModal = ({freeTrialModalRef}) => {
         console.log("submitting these fields:", trialFormFields)
 
         try {
-            setIsPending(true);
+            setIsTrialSubmitPending(true);
             const res = await fetch("/api/submit-trial-form", {
                 method: "POST",
                 headers: {
@@ -40,13 +39,13 @@ export const FreeTrialModal = ({freeTrialModalRef}) => {
             });
 
             if(!res.ok) {
-                setIsPending(false);
+                setIsTrialSubmitPending(false);
                 throw new Error("Network response is not ok");
             }
 
             const data = await res.json();
             console.log("success!", data);
-            setIsPending(false);
+            setIsTrialSubmitPending(false);
             setIsFormSubmitted(true);
 
         } catch (error) {
@@ -87,7 +86,7 @@ export const FreeTrialModal = ({freeTrialModalRef}) => {
                         </div>
                     </>
                 ) : (
-                <form className="flex flex-col w-full mx-auto text-dcam-black" onSubmit={handleSubmit}>
+                <form className="flex flex-col text-left w-full mx-auto text-dcam-black" onSubmit={handleSubmit}>
                     <h2 className="text-center font-bold text-xl text-dcam-reg-green mb-3">FREE TRIAL LESSON</h2>
                     {/* <p className="text-xs text-center mb-6">Get started with your free trial lesson today!</p> */}
                     <label className="mb-4">
@@ -169,7 +168,7 @@ export const FreeTrialModal = ({freeTrialModalRef}) => {
                             <option value="other">other</option>
                         </select>
                     </label>
-                    {isPending ? (
+                    {isTrialSubmitPending ? (
                         <button className="btn dcam-submit-btn  w-full mt-3" disabled>
                             <span className="loading loading-spinner text-gray-400" />
                             Submitting, please wait...

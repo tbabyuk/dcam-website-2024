@@ -4,10 +4,10 @@
 // import { RegisterButtonHero } from "./RegisterButtonHero"
 // import { TrialButtonHero } from "./TrialButtonHero"
 
-import { useState, useRef } from "react";
+import { useRef } from "react";
 import { IoMusicalNotes } from "react-icons/io5";
 import { FaFileSignature } from "react-icons/fa";
-import { FreeTrialModal } from "./FreeTrialModal";
+import { FreeTrialModal } from "../../../components/FreeTrialModal";
 import { memo } from "react";
 
 export const MainSliderOverlay = memo(() => {
