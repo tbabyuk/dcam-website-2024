@@ -42,7 +42,7 @@ const PianoLessonsPage = () => {
                 <PageSubtitle subtitle="Overview" />
                 <div className="flex flex-col md:flex-row mb-6">
                     <figure className="flex-shrink-0 md:me-10 mb-10 md:mb-0">
-                        <img src="/lessons/marcus_piano.jpg" className="mx-auto rounded-xl shadow-lg" style={{width: "250px"}} alt="lesson in progress" />
+                        <img src="/images/lesson-offerings/piano/marcus_piano.jpg" className="mx-auto rounded-xl shadow-lg" style={{width: "250px"}} alt="lesson in progress" />
                     </figure>
                     <p>Piano is the most popular instrument in the world - and for many reasons. It's very visual, expressive, and, unlike many other instruments, allows us to play a large number of notes simultaneously. It's sort of like having a whole orchestra at your fingertips! But as a wise man once said: “It's easy to play the piano, but it's hard to play it well”.<br /><br />
                     At DCAM, we believe technique can make or break your piano playing, which is why we do our best to make sure our students learn correct technique from the very beginning - before it becomes a habit.<br /><br />
@@ -65,7 +65,7 @@ const PianoLessonsPage = () => {
                 <PageSubtitle subtitle="Materials" />
                 <div className="flex flex-col md:flex-row mb-6 md:mb-0">
                     <figure className="flex-shrink-0 md:me-10 mb-10 md:mb-0">
-                        <img src="/lessons/abc_books.jpg" alt="a girl doing music theory" className="rounded-md mx-auto w-[170px]" />
+                        <img src="/images/lesson-offerings/piano/abc_books_300.png" alt="a girl doing music theory" className="rounded-md mx-auto w-[170px]" />
                     </figure>
                     <p>For complete beginners, we like to use “The ABC of Piano Playing” series by Boris Berlin, which contains Books 1, 2, and 3. These books are a great introduction to the keyboard and music notation and contain many simple and catchy tunes. After finishing all three of these books, students have several options. Those following the Royal Conservatory path will be able to start either the “Preparatory A Piano Repertoire” or jump straight into the “Level 1 Piano Repertoire”. For students who do not wish to do the Royal Conservatory exams, books will be chosen based on their individual musical preferences.</p>
                 </div>
@@ -78,8 +78,8 @@ const PianoLessonsPage = () => {
                     <span className="italic block">Interested in getting a piano? Talk to us or check out <a href="https://www.long-mcquade.com/" className="dcam-link" target="_blank">Long & McQuade</a>. They offer a variety of pianos for both sale and rent.</span>
                     </p>
                     <div className="flex flex-col md:flex-row w-full justify-evenly mt-8">
-                        <img src="/lessons/eterna.jpg" className="w-full md:w-80 rounded-md mb-6 md:mb-0 md:me-6" />
-                        <img src="/lessons/kawai.jpg" className="w-full md:w-80 rounded-md" />
+                        <img src="/images/lesson-offerings/piano/eterna.jpg" className="w-full md:w-80 rounded-md mb-6 md:mb-0 md:me-6" />
+                        <img src="/images/lesson-offerings/piano/kawai.jpg" className="w-full md:w-80 rounded-md" />
                     </div>
                 </div>
             </section>
