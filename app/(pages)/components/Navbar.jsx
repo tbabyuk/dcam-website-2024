@@ -61,6 +61,11 @@ export const Navbar = () => {
                                     Toddler Music Classes
                                 </Link>
                             </li>
+                            <li className="h-full w-full">
+                                <Link href="/the-band-experience" className="nav-link hover:bg-dcam-dark-blue">
+                                    The Band Experience
+                                </Link>
+                            </li>
                         </ul>
                     )}
                 </li>
@@ -143,6 +148,11 @@ export const Navbar = () => {
                             <li className="h-full w-full">
                                 <Link href="/toddler-music-classes" className="mobile-nav-link hover:bg-dcam-dark-blue" onMouseEnter={() => setLessonsSubmenuIsOpen(true)} onMouseLeave={() => setLessonsSubmenuIsOpen(false)}>
                                     Toddler Music Classes
+                                </Link>
+                            </li>
+                            <li className="h-full w-full">
+                                <Link href="/the-band-experience" className="mobile-nav-link hover:bg-dcam-dark-blue" onMouseEnter={() => setLessonsSubmenuIsOpen(true)} onMouseLeave={() => setLessonsSubmenuIsOpen(false)}>
+                                    The Band Experience
                                 </Link>
                             </li>
                         </>
