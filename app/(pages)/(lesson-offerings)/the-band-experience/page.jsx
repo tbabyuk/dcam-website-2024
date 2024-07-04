@@ -1,7 +1,7 @@
-import { PageTitle } from "../page-content-components/PageTitle";
-import { PageSubtitle } from "../page-content-components/PageSubtitle";
-import { PageBottomTrialButton } from "../page-content-components/PageBottomTrialButton";
-import { LessonTeachersSection } from "../page-content-components/LessonTeachersSection";
+import { PageTitle } from "../../page-content-components/PageTitle";
+import { PageSubtitle } from "../../page-content-components/PageSubtitle";
+import { PageBottomTrialButton } from "../../page-content-components/PageBottomTrialButton";
+import { LessonTeachersSection } from "../../page-content-components/LessonTeachersSection";
 
 
 export const metadata = {

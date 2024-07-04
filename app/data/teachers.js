@@ -122,4 +122,10 @@ export const teachersArray = [
       alt: "piano teacher Linda",
       instrument: ["piano", "vocals"]
     },
+    {
+      name: "Terry",
+      photo: "/images/teachers/terry.jpg",
+      alt: "piano teacher Terry",
+      instrument: ["piano", "theory"]
+    },
 ]

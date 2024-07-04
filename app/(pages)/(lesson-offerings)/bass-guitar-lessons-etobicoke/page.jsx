@@ -1,20 +1,20 @@
-import { PageTitle } from "../page-content-components/PageTitle";
-import { PageSubtitle } from "../page-content-components/PageSubtitle";
-import { PageBottomTrialButton } from "../page-content-components/PageBottomTrialButton";
-import { LessonFormatSection } from "../page-content-components/LessonFormatSection";
-import { LessonDurationSection } from "../page-content-components/LessonDurationSection";
-import { LessonTeachersSection } from "../page-content-components/LessonTeachersSection";
+import { PageTitle } from "../../page-content-components/PageTitle";
+import { PageSubtitle } from "../../page-content-components/PageSubtitle";
+import { PageBottomTrialButton } from "../../page-content-components/PageBottomTrialButton";
+import { LessonFormatSection } from "../../page-content-components/LessonFormatSection";
+import { LessonDurationSection } from "../../page-content-components/LessonDurationSection";
+import { LessonTeachersSection } from "../../page-content-components/LessonTeachersSection";
 import { teachersArray } from "@/app/data/teachers";
 
 
 export const metadata = {
-    title: "Guitar Lessons in Etobicoke | Da Capo Academy of Music",
-    description: "Schedule your free, no-obligation trial lesson today and see why we are the best choice for guitar lessons in Etobicoke and surrounding area! (416) 237-9595",
+    title: "Bass Guitar Lessons in Etobicoke | Da Capo Academy of Music",
+    description: "Looking for bass guitar lessons in Etobicoke? We are here for you! Call or visit our website to register for your free, no-obligation trial lesson TODAY! (416) 237-9595",
     robots: { index: true, follow: true},
     authors: [{name: "Taras (Terry) Babyuk"}],
     openGraph: {
         title: "Guitar Lessons in Etobicoke | Da Capo Academy of Music",
-        description: "Schedule your free, no-obligation trial lesson today and see why we are the best choice for guitar lessons in Etobicoke and surrounding area! (416) 237-9595",
+        description: "Looking for guitar lessons in Etobicoke? We are here for you! Call or visit our website to register for your free, no-obligation trial lesson TODAY! (416) 237-9595",
         url: "https://dacapomusic.ca/guitar-lessons-etobicoke",
         siteName: "Da Capo Academy of Music",
         locale: "en_US",
@@ -32,11 +32,11 @@ export const metadata = {
 }
 
 
-const GuitarLessonsPage = () => {
+const BassGuitarLessonsPage = () => {
 
     return ( 
-        <main className="guitar-page">
-            <PageTitle title="Guitar Lessons" image="/images/lesson-offerings/illustrations/guitar-lessons-illustration.png" alt="guitar lessons illustration" />
+        <main className="bass-guitar-page">
+            <PageTitle title="Bass Guitar Lessons" image="/images/lesson-offerings/illustrations/guitar-lessons-illustration.png" alt="guitar lessons illustration" />
 
             <section className="overview leading-8 flex flex-col items-center sm:block px-5 lg:px-36 xl:px-52 bg-gray-100 py-20">
                 <PageSubtitle subtitle="Overview" />
@@ -44,7 +44,7 @@ const GuitarLessonsPage = () => {
                     <p>Whether you want to be in a band, impress your friends at a party, or just play for yourself - the possibilities are endless when it comes to the  guitar! No wonder it's one of the most popular instruments today!<br /><br />
                     At DCAM, you learn guitar through a fun and gradual process that combines proper technique with music that you actually want to play! Just like guitars, we realize that students come in many different “shapes and sizes”, which is why our teachers do their best to tailor lessons to each student's individual skill level and musical taste.</p>
                     <figure className="flex-shrink-0 md:ms-10 mb-10 md:mb-0">
-                        <img src="/images/lesson-offerings/guitar/guitar_lesson_in_progress.jpg" alt="one of our guitar lessons in progress" style={{width: "200px"}} className="rounded-md mx-auto" />
+                        <img src="/images/lesson-offerings/guitar/guitar_lesson.jpg" alt="guitar lesson in progress" style={{width: "190px"}} className="rounded-md mx-auto" />
                     </figure>
                 </div>
             </section>
@@ -86,11 +86,11 @@ const GuitarLessonsPage = () => {
                 <p>Students can choose to learn any musical style they want on the piano, such as pop, jazz,  classical, etc. Those wishing to go the Royal Conservatory route should expect a heavy focus on classical music.</p>
             </section>
 
-            <LessonTeachersSection teachers={teachersArray.filter(teacher => teacher.instrument.includes("guitar"))} />
+            <LessonTeachersSection teachers={teachersArray.filter(teacher => teacher.instrument.includes("bass guitar"))} />
 
             <PageBottomTrialButton />
         </main>
      );
 }
  
-export default GuitarLessonsPage;
+export default BassGuitarLessonsPage;

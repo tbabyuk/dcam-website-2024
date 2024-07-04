@@ -1,9 +1,10 @@
-import { PageTitle } from "../page-content-components/PageTitle";
-import { PageSubtitle } from "../page-content-components/PageSubtitle";
-import { PageBottomTrialButton } from "../page-content-components/PageBottomTrialButton";
-import { LessonFormatSection } from "../page-content-components/LessonFormatSection";
-import { LessonDurationSection } from "../page-content-components/LessonDurationSection";
-import { LessonTeachersSection } from "../page-content-components/LessonTeachersSection";
+import { PageTitle } from "../../page-content-components/PageTitle";
+import { PageSubtitle } from "../../page-content-components/PageSubtitle";
+import { PageBottomTrialButton } from "../../page-content-components/PageBottomTrialButton";
+import { LessonFormatSection } from "../../page-content-components/LessonFormatSection";
+import { LessonDurationSection } from "../../page-content-components/LessonDurationSection";
+import { LessonTeachersSection } from "../../page-content-components/LessonTeachersSection";
+import { teachersArray } from "@/app/data/teachers";
 
 
 export const metadata = {
@@ -66,7 +67,7 @@ const TheoryLessonsPage = () => {
                 </div>
             </section>
 
-            <LessonTeachersSection />
+            <LessonTeachersSection teachers={teachersArray.filter(teacher => teacher.instrument.includes("theory"))} />
 
             <PageBottomTrialButton />
         </main>
