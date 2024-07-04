@@ -32,37 +32,42 @@ export const Navbar = () => {
                     {lessonsSubmenuIsOpen && (
                         <ul className="w-[200px] bg-red-400 absolute z-20" onMouseEnter={() => setLessonsSubmenuIsOpen(true)} onMouseLeave={() => setLessonsSubmenuIsOpen(false)}>
                             <li className="h-full w-full">
-                                <Link href="/piano-lessons-etobicoke" className="nav-link hover:bg-dcam-dark-blue">
+                                <Link href="/piano-lessons-etobicoke" className="nav-link hover:bg-dcam-dark-blue" onClick={() => setLessonsSubmenuIsOpen(false)}>
                                     Piano Lessons
                                 </Link>
                             </li>
                             <li className="h-full w-full">
-                                <Link href="/guitar-lessons-etobicoke" className="nav-link hover:bg-dcam-dark-blue">
+                                <Link href="/guitar-lessons-etobicoke" className="nav-link hover:bg-dcam-dark-blue" onClick={() => setLessonsSubmenuIsOpen(false)}>
                                     Guitar Lessons
                                 </Link>
                             </li>
                             <li className="h-full w-full">
-                                <Link href="/drum-lessons-etobicoke" className="nav-link hover:bg-dcam-dark-blue">
+                                <Link href="/bass-guitar-lessons-etobicoke" className="nav-link hover:bg-dcam-dark-blue" onClick={() => setLessonsSubmenuIsOpen(false)}>
+                                    Bass Guitar Lessons
+                                </Link>
+                            </li>
+                            <li className="h-full w-full">
+                                <Link href="/drum-lessons-etobicoke" className="nav-link hover:bg-dcam-dark-blue" onClick={() => setLessonsSubmenuIsOpen(false)}>
                                     Drum Lessons
                                 </Link>
                             </li>
                             <li className="h-full w-full">
-                                <Link href="/voice-lessons-etobicoke" className="nav-link hover:bg-dcam-dark-blue">
+                                <Link href="/voice-lessons-etobicoke" className="nav-link hover:bg-dcam-dark-blue" onClick={() => setLessonsSubmenuIsOpen(false)}>
                                     Voice Lessons
                                 </Link>
                             </li>
                             <li className="h-full w-full">
-                                <Link href="/music-theory-lessons-etobicoke" className="nav-link hover:bg-dcam-dark-blue">
+                                <Link href="/music-theory-lessons-etobicoke" className="nav-link hover:bg-dcam-dark-blue" onClick={() => setLessonsSubmenuIsOpen(false)}>
                                     Music Theory Lessons
                                 </Link>
                             </li>
                             <li className="h-full w-full">
-                                <Link href="/toddler-music-classes" className="nav-link hover:bg-dcam-dark-blue">
+                                <Link href="/toddler-music-classes" className="nav-link hover:bg-dcam-dark-blue" onClick={() => setLessonsSubmenuIsOpen(false)}>
                                     Toddler Music Classes
                                 </Link>
                             </li>
                             <li className="h-full w-full">
-                                <Link href="/the-band-experience" className="nav-link hover:bg-dcam-dark-blue">
+                                <Link href="/the-band-experience" className="nav-link hover:bg-dcam-dark-blue" onClick={() => setLessonsSubmenuIsOpen(false)}>
                                     The Band Experience
                                 </Link>
                             </li>
@@ -121,37 +126,42 @@ export const Navbar = () => {
                     {lessonsSubmenuIsOpen && (
                         <>
                             <li className="h-full w-full">
-                                <Link href="/piano-lessons-etobicoke" className="mobile-nav-link border-none hover:bg-dcam-dark-blue" onMouseEnter={() => setLessonsSubmenuIsOpen(true)} onMouseLeave={() => setLessonsSubmenuIsOpen(false)}>
+                                <Link href="/piano-lessons-etobicoke" className="mobile-nav-link border-none hover:bg-dcam-dark-blue" onMouseEnter={() => setLessonsSubmenuIsOpen(true)} onMouseLeave={() => setLessonsSubmenuIsOpen(false)} onClick={() => setIsDrawerOpen(false)}>
                                     Piano Lessons
                                 </Link>
                             </li>
                             <li className="h-full w-full">
-                                <Link href="/guitar-lessons-etobicoke" className="mobile-nav-link border-none hover:bg-dcam-dark-blue" onMouseEnter={() => setLessonsSubmenuIsOpen(true)} onMouseLeave={() => setLessonsSubmenuIsOpen(false)}>
+                                <Link href="/guitar-lessons-etobicoke" className="mobile-nav-link border-none hover:bg-dcam-dark-blue" onMouseEnter={() => setLessonsSubmenuIsOpen(true)} onMouseLeave={() => setLessonsSubmenuIsOpen(false)} onClick={() => setIsDrawerOpen(false)}>
                                     Guitar Lessons
                                 </Link>
                             </li>
                             <li className="h-full w-full">
-                                <Link href="/drum-lessons-etobicoke" className="mobile-nav-link border-none hover:bg-dcam-dark-blue" onMouseEnter={() => setLessonsSubmenuIsOpen(true)} onMouseLeave={() => setLessonsSubmenuIsOpen(false)}>
+                                <Link href="/bass-guitar-lessons-etobicoke" className="mobile-nav-link border-none hover:bg-dcam-dark-blue" onMouseEnter={() => setLessonsSubmenuIsOpen(true)} onMouseLeave={() => setLessonsSubmenuIsOpen(false)} onClick={() => setIsDrawerOpen(false)}>
+                                    Bass Guitar Lessons
+                                </Link>
+                            </li>
+                            <li className="h-full w-full">
+                                <Link href="/drum-lessons-etobicoke" className="mobile-nav-link border-none hover:bg-dcam-dark-blue" onMouseEnter={() => setLessonsSubmenuIsOpen(true)} onMouseLeave={() => setLessonsSubmenuIsOpen(false)} onClick={() => setIsDrawerOpen(false)}>
                                     Drum Lessons
                                 </Link>
                             </li>
                             <li className="h-full w-full">
-                                <Link href="/voice-lessons-etobicoke" className="mobile-nav-link border-none hover:bg-dcam-dark-blue" onMouseEnter={() => setLessonsSubmenuIsOpen(true)} onMouseLeave={() => setLessonsSubmenuIsOpen(false)}>
+                                <Link href="/voice-lessons-etobicoke" className="mobile-nav-link border-none hover:bg-dcam-dark-blue" onMouseEnter={() => setLessonsSubmenuIsOpen(true)} onMouseLeave={() => setLessonsSubmenuIsOpen(false)} onClick={() => setIsDrawerOpen(false)}>
                                     Voice Lessons
                                 </Link>
                             </li>
                             <li className="h-full w-full">
-                                <Link href="/music-theory-lessons-etobicoke" className="mobile-nav-link border-none hover:bg-dcam-dark-blue" onMouseEnter={() => setLessonsSubmenuIsOpen(true)} onMouseLeave={() => setLessonsSubmenuIsOpen(false)}>
+                                <Link href="/music-theory-lessons-etobicoke" className="mobile-nav-link border-none hover:bg-dcam-dark-blue" onMouseEnter={() => setLessonsSubmenuIsOpen(true)} onMouseLeave={() => setLessonsSubmenuIsOpen(false)} onClick={() => setIsDrawerOpen(false)}>
                                     Music Theory Lessons
                                 </Link>
                             </li>
                             <li className="h-full w-full">
-                                <Link href="/toddler-music-classes" className="mobile-nav-link hover:bg-dcam-dark-blue" onMouseEnter={() => setLessonsSubmenuIsOpen(true)} onMouseLeave={() => setLessonsSubmenuIsOpen(false)}>
+                                <Link href="/toddler-music-classes" className="mobile-nav-link border-none hover:bg-dcam-dark-blue" onMouseEnter={() => setLessonsSubmenuIsOpen(true)} onMouseLeave={() => setLessonsSubmenuIsOpen(false)} onClick={() => setIsDrawerOpen(false)}>
                                     Toddler Music Classes
                                 </Link>
                             </li>
                             <li className="h-full w-full">
-                                <Link href="/the-band-experience" className="mobile-nav-link hover:bg-dcam-dark-blue" onMouseEnter={() => setLessonsSubmenuIsOpen(true)} onMouseLeave={() => setLessonsSubmenuIsOpen(false)}>
+                                <Link href="/the-band-experience" className="mobile-nav-link hover:bg-dcam-dark-blue" onMouseEnter={() => setLessonsSubmenuIsOpen(true)} onMouseLeave={() => setLessonsSubmenuIsOpen(false)} onClick={() => setIsDrawerOpen(false)}>
                                     The Band Experience
                                 </Link>
                             </li>

@@ -4,7 +4,7 @@ import { PageBottomTrialButton } from "../page-content-components/PageBottomTria
 import { LessonFormatSection } from "../page-content-components/LessonFormatSection";
 import { LessonDurationSection } from "../page-content-components/LessonDurationSection";
 import { LessonTeachersSection } from "../page-content-components/LessonTeachersSection";
-
+import { teachersArray } from "@/app/data/teachers";
 
 
 export const metadata = {
@@ -42,7 +42,7 @@ const PianoLessonsPage = () => {
                 <PageSubtitle subtitle="Overview" />
                 <div className="flex flex-col md:flex-row mb-6">
                     <figure className="flex-shrink-0 md:me-10 mb-10 md:mb-0">
-                        <img src="/images/lesson-offerings/piano/marcus_piano.jpg" className="mx-auto rounded-xl shadow-lg" style={{width: "250px"}} alt="lesson in progress" />
+                        <img src="/images/lesson-offerings/piano/piano_lesson_in_progress.jpg" className="mx-auto rounded-xl shadow-lg" style={{width: "220px"}} alt="one of our amazing piano students during his lesson" />
                     </figure>
                     <p>Piano is the most popular instrument in the world - and for many reasons. It's very visual, expressive, and, unlike many other instruments, allows us to play a large number of notes simultaneously. It's sort of like having a whole orchestra at your fingertips! But as a wise man once said: “It's easy to play the piano, but it's hard to play it well”.<br /><br />
                     At DCAM, we believe technique can make or break your piano playing, which is why we do our best to make sure our students learn correct technique from the very beginning - before it becomes a habit.<br /><br />
@@ -90,7 +90,7 @@ const PianoLessonsPage = () => {
                 <p>Students can choose to learn any musical style they want on the piano, such as pop, jazz,  classical, etc. Those wishing to go the Royal Conservatory route should expect a heavy focus on classical music.</p>
             </section>
 
-            <LessonTeachersSection />
+            <LessonTeachersSection teachers={teachersArray.filter(teacher => teacher.instrument.includes("piano"))} />
 
             <PageBottomTrialButton />
         </main>

@@ -4,16 +4,18 @@ import { PageBottomTrialButton } from "../page-content-components/PageBottomTria
 import { LessonFormatSection } from "../page-content-components/LessonFormatSection";
 import { LessonDurationSection } from "../page-content-components/LessonDurationSection";
 import { LessonTeachersSection } from "../page-content-components/LessonTeachersSection";
+import { teachersArray } from "@/app/data/teachers";
 
 
 export const metadata = {
     title: "Voice Lessons in Etobicoke | Da Capo Academy of Music",
-    description: "Looking for voice lessons in Etobicoke? We are here for you! Call or visit our website to register for your free, no-obligation trial lesson TODAY! (416) 237-9595",
+    // description: "Looking for voice lessons in Etobicoke? We are here for you! Call or visit our website to register for your free, no-obligation trial lesson TODAY! (416) 237-9595",
+    description: "Schedule your free, no-obligation trial lesson today and see why we are the best choice for voice lessons in Etobicoke and surrounding area! (416) 237-9595",
     robots: { index: true, follow: true},
     authors: [{name: "Taras (Terry) Babyuk"}],
     openGraph: {
         title: "Voice Lessons in Etobicoke | Da Capo Academy of Music",
-        description: "Looking for voice lessons in Etobicoke? We are here for you! Call or visit our website to register for your free, no-obligation trial lesson TODAY! (416) 237-9595",
+        description: "Schedule your free, no-obligation trial lesson today and see why we are the best choice for voice lessons in Etobicoke and surrounding area! (416) 237-9595",
         url: "https://dacapomusic.ca/voice-lessons-etobicoke",
         siteName: "Da Capo Academy of Music",
         locale: "en_US",
@@ -42,7 +44,7 @@ const VoiceLessonsPage = () => {
                 <div className="flex flex-col-reverse md:flex-row mb-6 md:mb-0">
                     <p>Do you or your child like to sing? Are you looking for voice lessons that are fun but also individualized to your or your child's level and interest? Our voice lessons are designed to be educational and fun at the same time. Bring in a song that you want to learn or use one of our method books to take your singing to the next level - it's up to you!<br /><br /> With proper technique and training, you will be surprized at what your voice can do! Call to book your free trial today!</p>
                     <figure className="flex-shrink-0 md:ms-10 mb-10 md:mb-0">
-                        <img src="/images/lesson-offerings/voice/voice_lessons.jpg" alt="a girl singing" className="rounded-md mx-auto w-[160px]" />
+                        <img src="/images/lesson-offerings/voice/voice_lesson_in_progress.jpg" alt="one of our amazing voice students during her lesson" className="rounded-md mx-auto w-[160px]" />
                     </figure>
                 </div>
             </section>
@@ -71,7 +73,7 @@ const VoiceLessonsPage = () => {
                 <p>Students can choose from a wide variety of genres such as pop, jazz, and blues. Very often students will have a specific song they would like to learn to sing, which are teachers are more than happy to help with.</p>
             </section>
 
-            <LessonTeachersSection background="bg-gray-100" />
+            <LessonTeachersSection background="bg-gray-100" teachers={teachersArray.filter(teacher => teacher.instrument.includes("vocals"))} />
 
             <PageBottomTrialButton />
         </main>

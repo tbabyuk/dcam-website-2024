@@ -18,7 +18,7 @@ export const TeacherCard = ({teacher}) => {
             </div>
             <div className="text-dcam-black bg-gradient-to-r from-gray-50 to-gray-200 text-center p-3">
                 <h3 className="font-bold text-[1.3rem] pb-2">{teacher.name}</h3>
-                <p className="text-[0.9rem]">{teacher.instrument}</p>
+                <p className="text-[0.9rem]">{teacher.instrument.join(", ")}</p>
             </div>
         </div>
     )
