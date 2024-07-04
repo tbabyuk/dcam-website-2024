@@ -1,4 +1,4 @@
-import { homePageTeachersArray } from "@/app/data/teachers"
+import { teachersArray } from "@/app/data/teachers"
 import { TeacherCard } from "../components/TeacherCard"
 import { HomeSectionHeading } from "../components/HomeSectionHeading"
 import { VisitPageBtn } from "../../components/VisitPageBtn"
@@ -12,7 +12,7 @@ export const HomeTeachersSection = () => {
             <HomeSectionHeading title="OUR TEACHERS" textColor="text-dcam-reg-orange" />
 
             <div className="teachers-container flex flex-wrap gap-7 justify-center">
-            {homePageTeachersArray.map((teacher, index) => (
+            {teachersArray.map((teacher, index) => (
                 <TeacherCard key={index} teacher={teacher} />
             ))}
             </div>
