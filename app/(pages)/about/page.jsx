@@ -21,7 +21,7 @@ const AboutPage = () => {
     
     return (
             <main className="about-page bg-gray-100 pb-36">
-                    <PageTitle title="About Us" image="/images/pages/about/about_page_illustration.png" />
+                    <PageTitle title="About Us" heatherImage="/images/pages/about/about_page_illustration.png" alt="about page illustration" />
 
                     <section className="content flex flex-col leading-7 px-5 lg:px-36 xl:px-52 py-20">
                         <div className="mb-12">
