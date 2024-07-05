@@ -67,7 +67,7 @@ const TheoryLessonsPage = () => {
                 </div>
             </section>
 
-            <LessonTeachersSection teachers={teachersArray.filter(teacher => teacher.instrument.includes("theory"))} />
+            <LessonTeachersSection teachers={teachersArray.filter(teacher => teacher.instrument.includes("music theory"))} />
 
             <PageBottomTrialButton />
         </main>

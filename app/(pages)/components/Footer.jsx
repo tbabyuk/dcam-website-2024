@@ -12,16 +12,16 @@ export const Footer = () => {
                     <div className="social-links flex">
                         <Link 
                             href="https://www.facebook.com/dacapomusic.ca/" target="_blank" 
-                            className="dcam-link-orange me-3">
+                            className="dcam-link-hover-orange me-3">
                             <FaFacebookSquare size="2.5em"/> 
                         </Link>
                         <Link 
                             href="https://www.instagram.com/dacapomusic.ca/" target="_blank" 
-                            className="dcam-link-orange me-3">
+                            className="dcam-link-hover-orange me-3">
                             <FaInstagramSquare size="2.5em" />
                         </Link>
                         <Link 
-                            href="https://www.youtube.com/watch?v=gSPAOkyO4AA&feature=youtu.be" target="_blank"          className="dcam-link-orange">
+                            href="https://www.youtube.com/watch?v=gSPAOkyO4AA&feature=youtu.be" target="_blank"          className="dcam-link-hover-orange">
                             <FaYoutubeSquare size="2.5em" />
                         </Link>
                     </div>
@@ -42,34 +42,34 @@ export const Footer = () => {
             <div className="flex-1">
                 <h4 className="mb-6 inline-block border-b-2">WHAT WE OFFER:</h4>
                 <ul className="text-sm leading-7 font-light">
-                    <li><Link href="#" className="dcam-link-orange">Piano Lessons</Link></li>
-                    <li><Link href="#" className="dcam-link-orange">Guitar Lessons</Link></li>
-                    <li><Link href="#" className="dcam-link-orange">Drum Lessons</Link></li>
-                    <li><Link href="#" className="dcam-link-orange">Voice Lessons</Link></li>
-                    <li><Link href="#" className="dcam-link-orange">Music Theory Lessons</Link></li>
-                    <li><Link href="#" className="dcam-link-orange">Toddler Music Classes</Link></li>
-                    <li><Link href="#" className="dcam-link-orange">Intro to Music Program</Link></li>
+                    <li><Link href="#" className="dcam-link-hover-orange">Piano Lessons</Link></li>
+                    <li><Link href="#" className="dcam-link-hover-orange">Guitar Lessons</Link></li>
+                    <li><Link href="#" className="dcam-link-hover-orange">Drum Lessons</Link></li>
+                    <li><Link href="#" className="dcam-link-hover-orange">Voice Lessons</Link></li>
+                    <li><Link href="#" className="dcam-link-hover-orange">Music Theory Lessons</Link></li>
+                    <li><Link href="#" className="dcam-link-hover-orange">Toddler Music Classes</Link></li>
+                    <li><Link href="#" className="dcam-link-hover-orange">Intro to Music Program</Link></li>
                 </ul>
             </div>
             <div className="flex-1">
                 <h4 className="mb-6 inline-block border-b-2">LEARN MORE:</h4>
                 <ul className="text-sm leading-7 font-light">
-                    <li><Link href="/rates" className="dcam-link-orange">Rates</Link></li>
-                    <li><Link href="/teachers" className="dcam-link-orange">Teachers</Link></li>
-                    <li><Link href="/reviews" className="dcam-link-orange">Reviews</Link></li>
+                    <li><Link href="/rates" className="dcam-link-hover-orange">Rates</Link></li>
+                    <li><Link href="/teachers" className="dcam-link-hover-orange">Teachers</Link></li>
+                    <li><Link href="/reviews" className="dcam-link-hover-orange">Reviews</Link></li>
                     {/* <li><Link href="/gallery" className="hover:text-lightRed">Gallery</Link></li> */}
-                    <li><Link href="/about" className="dcam-link-orange">About</Link></li>
-                    <li><Link href="/contact" className="dcam-link-orange">Contact</Link></li>
-                    <li><Link href="/blog" className="dcam-link-orange">Blog</Link></li>
+                    <li><Link href="/about" className="dcam-link-hover-orange">About</Link></li>
+                    <li><Link href="/contact" className="dcam-link-hover-orange">Contact</Link></li>
+                    <li><Link href="/blog" className="dcam-link-hover-orange">Blog</Link></li>
                     {/* <li><Link href="/privacypolicy" className="hover:text-lightRed">Privacy Policy</Link></li> */}
                 </ul>
             </div>
             <div className="flex-1">
                 <h4 className="mb-6 inline-block border-b-2">CONTACT US:</h4>
                 <ul className="text-sm leading-10 font-light">
-                    <li><Link href="tel:+4162379595" className="dcam-link-orange">(416) 237-9595</Link></li>
-                    <li><Link href="mailto: info@dacapomusic.ca" className="dcam-link-orange">info@dacapomusic.ca</Link></li>
-                    <li><Link href="https://goo.gl/maps/S1fjfDa8jyphqcLw9" target="_blank" className="me-8 dcam-link-orange">270 The Kingsway, Etobicoke, ON M9A 3T7</Link></li>
+                    <li><Link href="tel:+4162379595" className="dcam-link-hover-orange">(416) 237-9595</Link></li>
+                    <li><Link href="mailto: info@dacapomusic.ca" className="dcam-link-hover-orange">info@dacapomusic.ca</Link></li>
+                    <li><Link href="https://goo.gl/maps/S1fjfDa8jyphqcLw9" target="_blank" className="me-8 dcam-link-hover-orange">270 The Kingsway, Etobicoke, ON M9A 3T7</Link></li>
                 </ul>
             </div>
         </footer>
