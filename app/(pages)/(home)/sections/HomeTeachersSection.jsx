@@ -8,7 +8,7 @@ export const HomeTeachersSection = () => {
 
     return (
 
-        <section className="bg-dcam-white px-5 lg:px-36 py-20">
+        <section className="px-5 lg:px-36 py-20">
             <HomeSectionHeading title="OUR TEACHERS" textColor="text-dcam-reg-orange" />
 
             <div className="teachers-container flex flex-wrap gap-7 justify-center">

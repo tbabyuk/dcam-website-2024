@@ -12,32 +12,32 @@ import { InstrumentCard } from "./InstrumentCard";
 const instrumentsList = [
     {
         name: "piano",
-        imageSrc: "/images/home/instruments/piano.jpg",
+        imageSrc: "/images/pages/home/instruments/piano.jpg",
         url: "/piano-lessons-etobicoke"
     },
     {
         name: "guitar",
-        imageSrc: "/images/home/instruments/guitar.jpg",
+        imageSrc: "/images/pages/home/instruments/guitar.jpg",
         url: "/guitar-lessons-etobicoke"
     },
     {
         name: "bass",
-        imageSrc: "/images/home/instruments/bass.jpg",
+        imageSrc: "/images/pages/home/instruments/bass.jpg",
         url: "/guitar-lessons-etobicoke"
     },
     {
         name: "drums",
-        imageSrc: "/images/home/instruments/drums.jpg",
+        imageSrc: "/images/pages/home/instruments/drums.jpg",
         url: "/drum-lessons-etobicoke"
     },
     {
         name: "voice",
-        imageSrc: "/images/home/instruments/voice.jpg",
+        imageSrc: "/images/pages/home/instruments/voice.jpg",
         url: "/voice-lessons-etobicoke"
     },
     {
         name: "music theory",
-        imageSrc: "/images/home/instruments/theory.jpg",
+        imageSrc: "/images/pages/home/instruments/theory.jpg",
         url: "/music-theory-lessons-etobicoke"
     },
 ]

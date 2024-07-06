@@ -12,14 +12,12 @@ export const HomeOffersSection = () => {
 
   return (
         <section className="offers px-5 lg:px-36 xl:px-52 py-20 text-white bg-dcam-light-blue relative">
-        <img src="images/home/notes_light.svg" className="absolute left-3 top-3 w-[110px]" />
-        <img src="images/home/notes_light.svg" className="absolute right-2 bottom-2 w-[110px]" />
+        <img src="images/pages/home/notes_light.svg" className="absolute left-3 top-3 w-[110px]" />
+        <img src="images/pages/home/notes_light.svg" className="absolute right-2 bottom-2 w-[110px]" />
         <HomeSectionHeading title="WHAT WE OFFER" textColor="text-dcam-white" />
-        {/* <h2 className="mb-20 text-center text-3xl font-semibold pb-2 font-ovo">WHAT WE OFFER</h2> */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-y-10 gap-x-10">
             <div className="flex items-center">
                 <BsPeopleFill size="4rem" className="offers-icon" />
-                {/* <span className="material-symbols-outlined flex-shrink-0" style={{fontSize: "45px", color: "#F3F4F6", border: "4px solid #F3F4F6", borderRadius: "50%", padding: "15px"}}>group</span> */}
                 <div className="ps-6 flex flex-col justify-center">
                     <h2 className="text-xl font-ovo font-semibold">ALL AGES & LEVELS</h2>
                     <p>Lessons for children, adults and even toddlers!</p>

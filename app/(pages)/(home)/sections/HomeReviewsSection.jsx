@@ -20,7 +20,7 @@ export const HomeReviewsSection = async () => {
   const reviews = await fetchReviews();  
 
   return (
-    <section className="reviews bg-dcam-white px-5 lg:px-36 xl:px-52 py-20">
+    <section className="px-5 lg:px-36 xl:px-52 py-20">
         <HomeSectionHeading title="WHAT OUR CUSTOMERS SAY" textColor="text-dcam-reg-orange" />
         {reviews && 
             reviews.map((review) => (
