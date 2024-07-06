@@ -1,0 +1,45 @@
+"use client";
+
+// import { ShopPageTitle } from "./components/ShopPageTitle";
+// import { BreadCrumbs } from "./components/BreadCrumbs"
+// import { usePathname } from "next/navigation";
+
+// export const metadata = {
+//     title: "Shop | Da Capo Academy of Music",
+//     description: "Shop at our online store for music books, gift certificates, and other amazing music merchandise! New products are constantly being added. Fast local delivery is available for Etobicoke, Toronto and the Greater Toronto Area, but we ship all across Canada!",
+//     robots: { index: true, follow: true},
+//     authors: [{name: "Taras (Terry) Babyuk"}],
+//     openGraph: {
+//         title: "Shop | Da Capo Academy of Music",
+//         description: "Shop at our online store for music books, gift certificates, and other amazing music merchandise! New products are constantly being added. Fast local delivery is available for Etobicoke, Toronto and the Greater Toronto Area, but we ship all across Canada!",
+//         url: "https://dacapomusic.ca/shop",
+//         siteName: "Da Capo Academy of Music",
+//         locale: "en_US",
+//         type: "article"
+//     },
+//   }
+
+const BlogLayout = ({children}) => {
+
+
+    // const path = usePathname();
+
+    // const pathArray = path.split("/").filter(Boolean);
+    // const lastSegment = pathArray.length > 1 && pathArray.pop();
+
+
+    // console.log("Logging pathAarray from ShopLayout", pathArray);
+
+    return (
+        <div>
+            <h1 className="font-ovo text-white text-4xl px-5 py-14 lg:px-36 xl:px-52 bg-[url('/images/blog/blog_page_header_bg.jpg')] bg-center bg-cover">Blog</h1>
+            {/* <ShopPageTitle title={lastSegment} heatherImage="/images/pages/shop/shop_page_illustration.png" alt="shop page illustration" /> */}
+            {/* <BreadCrumbs /> */}
+            <main className="bg-white">
+                {children}
+            </main>
+        </div>
+    )
+}
+
+export default BlogLayout;

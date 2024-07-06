@@ -76,14 +76,11 @@ h1, h2, h3 {
 }
 
 
-/* utils */
+/* UTILITIES */
 
 .visit-page-btn {
     @apply btn btn-outline btn-lg border-2 block mx-auto mt-20 text-dcam-white font-medium bg-dcam-reg-orange hover:bg-dcam-dark-orange hover:border-2 hover:border-dcam-white;
 }
-
-
-/* link with orange hover */
 
 .dcam-link-blue {
   @apply text-dcam-reg-blue underline hover:text-dcam-dark-blue;
@@ -111,4 +108,12 @@ h1, h2, h3 {
 
 .dcam-download-btn {
   @apply btn btn-lg bg-dcam-reg-green hover:bg-dcam-dark-green text-dcam-white font-medium;
+}
+
+.dcam-blog-card-btn {
+  @apply btn bg-dcam-reg-green hover:bg-dcam-dark-green text-dcam-white font-medium w-full;
+}
+
+.blog-card {
+  @apply p-6 bg-gray-100 rounded-md border-2 border-gray-200 shadow-lg mx-auto flex flex-col justify-between;
 }
