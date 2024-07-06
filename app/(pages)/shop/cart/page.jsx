@@ -1,8 +1,8 @@
 "use client"
 
 import { useState } from "react"
-import { PageTitle } from "../(pages)/page-content-components/PageTitle"
-import { useShopContext } from "../hooks/useShopContext"
+import { PageTitle } from "../../page-content-components/PageTitle"
+import { useShopContext } from "../../../hooks/useShopContext"
 import { CartProductRow } from "./components/CardProductRow"
 import ReCAPTCHA from "react-google-recaptcha"
 import { FixedQuantityProductRow } from "./components/FixedQuantityProductRow"
@@ -132,57 +132,52 @@ const Cart = () => {
 
 
   return (
-    <>
-      <main className="cart-page">
-          <PageTitle title="Cart" image="/images/illustrations/shop-page-illustration.png" alt="cart page illustration" />
-          <div className="books-list px-5 lg:px-36 bg-gray-100 py-20 overflow-x-auto">
-              <table className="w-full">
-                  <thead>
-                      <tr className="text-center bg-gray-200 border-2 border-gray-200">
-                          <td>Remove</td>
-                          <td>Item</td>
-                          <td>About</td>
-                          <td>Price</td>
-                          <td>Quantity</td>
-                          <td>Total</td>
-                      </tr>
-                  </thead>
-                  <tbody>
-                      {cart.map((product) => (
-                          <CartProductRow key={product.id} product={product} />
-                      ))}
-                      <tr>
-                          <td colSpan="4"></td>
-                          <td className="text-right font-semibold">Subtotal:</td>
-                          <td className="text-center font-semibold py-4">{getSubtotal()}</td>
-                      </tr>
-                      {/* <tr>
-                          <td colSpan="4"></td>
-                          <td className="text-right">Tax:</td>
-                          <td className="text-center">${getTaxTotal()}</td>
-                      </tr>
-                      <tr>
-                          <td colSpan="4"></td>
-                          <td className="text-right font-bold">Total:</td>
-                          <td className="text-center font-bold">${(+getSubtotal() + +getTaxTotal()).toFixed(2)}</td>
-                      </tr> */}
-                      <tr>
-                          <td colSpan="4"></td>
-                          {/* <td className="text-right font-bold"></td> */}
-                          <td colSpan="2" className="text-right text-sm italic">Tax and Shipping calculated at Checkout</td>
-                      </tr>
-                  </tbody>
-              </table>
-              <div className="flex flex-col items-end">
-                <form onSubmit={handleSubmitAndValidate}>
-                  <ReCAPTCHA sitekey="6LdFCTwoAAAAAJz1TIkSuEFdE1AKYDoFa0S7Hcmm" onChange={handleRecaptchaChange} className="mt-4" />
-                  <div className="text-red-500 mt-2 text-[0.9rem] h-[1rem]">{error && error}</div>
-                  <button className="bg-green-500 hover:bg-green-600 mt-4 text-gray-50 py-3 px-5 rounded me-[3px]" disabled={processing}>{processing ? "Processing..." : "Checkout"}</button>
-                </form>
-              </div>
-          </div>
-      </main>
-    </>
+        <div className="books-list px-5 lg:px-36 bg-gray-100 py-20 overflow-x-auto">
+            <table className="w-full">
+                <thead>
+                    <tr className="text-center bg-gray-200 border-2 border-gray-200">
+                        <td>Remove</td>
+                        <td>Item</td>
+                        <td>About</td>
+                        <td>Price</td>
+                        <td>Quantity</td>
+                        <td>Total</td>
+                    </tr>
+                </thead>
+                <tbody>
+                    {cart.map((product) => (
+                        <CartProductRow key={product.id} product={product} />
+                    ))}
+                    <tr>
+                        <td colSpan="4"></td>
+                        <td className="text-right font-semibold">Subtotal:</td>
+                        <td className="text-center font-semibold py-4">{getSubtotal()}</td>
+                    </tr>
+                    {/* <tr>
+                        <td colSpan="4"></td>
+                        <td className="text-right">Tax:</td>
+                        <td className="text-center">${getTaxTotal()}</td>
+                    </tr>
+                    <tr>
+                        <td colSpan="4"></td>
+                        <td className="text-right font-bold">Total:</td>
+                        <td className="text-center font-bold">${(+getSubtotal() + +getTaxTotal()).toFixed(2)}</td>
+                    </tr> */}
+                    <tr>
+                        <td colSpan="4"></td>
+                        {/* <td className="text-right font-bold"></td> */}
+                        <td colSpan="2" className="text-right text-sm italic">Tax and Shipping calculated at Checkout</td>
+                    </tr>
+                </tbody>
+            </table>
+            <div className="flex flex-col items-end">
+              <form onSubmit={handleSubmitAndValidate}>
+                <ReCAPTCHA sitekey="6LdFCTwoAAAAAJz1TIkSuEFdE1AKYDoFa0S7Hcmm" onChange={handleRecaptchaChange} className="mt-4" />
+                <div className="text-red-500 mt-2 text-[0.9rem] h-[1rem]">{error && error}</div>
+                <button className="bg-green-500 hover:bg-green-600 mt-4 text-gray-50 py-3 px-5 rounded me-[3px]" disabled={processing}>{processing ? "Processing..." : "Checkout"}</button>
+              </form>
+            </div>
+        </div>
   )
 }
 

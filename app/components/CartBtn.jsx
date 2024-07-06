@@ -9,7 +9,7 @@ export const CartBtn = () => {
   const {cartItemsTotal} = useShopContext();
 
   return (
-      <Link href="/cart">
+      <Link href="/shop/cart">
           <button className="header-btn"><GiShoppingCart size="1.2rem" />Cart ({cartItemsTotal})</button>
       </Link>
   )

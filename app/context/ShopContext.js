@@ -21,7 +21,7 @@ export const ShopContextProvider = ({children}) => {
             toast.success(
                 <div>
                     <p>{item} was added to your cart!</p>
-                    <p className="text-center mt-4"><Link href="/cart" className="underline font-semibold">View Cart</Link></p>
+                    <p className="text-center mt-4"><Link href="/shop/cart" className="underline font-semibold">View Cart</Link></p>
                 </div>
             )
         } else {
