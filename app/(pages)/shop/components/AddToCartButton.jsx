@@ -5,7 +5,7 @@ import { useShopContext } from "@/app/hooks/useShopContext"
 
 export const AddToCartButton = ({item, id, origin}) => {
   
-  // const {addToCart} = useShopContext()
+  const {addToCart} = useShopContext()
 
 
   return (

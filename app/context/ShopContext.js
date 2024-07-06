@@ -4,11 +4,11 @@ import { createContext, useState } from "react"
 import { toast } from "react-toastify"
 import Link from "next/link"
 
-export const ShopContext = createContext()
+export const ShopContext = createContext();
+
 
 
 export const ShopContextProvider = ({children}) => {
-
 
     console.log("shopContextProvider fired")
 

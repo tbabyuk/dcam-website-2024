@@ -3,6 +3,10 @@ import "./globals.css";
 import { Header } from "./components/Header";
 import { Navbar } from "./components/Navbar";
 import { Footer } from "./components/Footer";
+import { ShopContextProvider } from "./context/ShopContext";
+import { ToastContainer } from "react-toastify";
+import 'react-toastify/dist/ReactToastify.css';
+
 
 
 const ovo = Ovo({subsets: ["latin"], weight: ["400"], variable: "--font-ovo"});
@@ -18,12 +22,20 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={`${roboto.variable} ${ovo.variable}`}>
-        <Header />
-        <Navbar />
-          {children}
-        <Footer />
-      </body>
+      <ShopContextProvider>
+        <body className={`${roboto.variable} ${ovo.variable}`}>
+          <Header />
+          <Navbar />
+            {children}
+          <Footer />
+          <ToastContainer
+            position="top-center"
+            autoClose={2500}
+            hideProgressBar={true}
+            closeOnClick={false}
+          />
+        </body>
+      </ShopContextProvider>
     </html>
   );
 }

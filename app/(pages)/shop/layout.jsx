@@ -1,5 +1,8 @@
-import { PageTitle } from "../page-content-components/PageTitle"
+"use client";
+
+import { ShopPageTitle } from "./components/ShopPageTitle";
 import { BreadCrumbs } from "./components/BreadCrumbs"
+import { usePathname } from "next/navigation";
 
 // export const metadata = {
 //     title: "Shop | Da Capo Academy of Music",
@@ -18,9 +21,18 @@ import { BreadCrumbs } from "./components/BreadCrumbs"
 
 const ShopLayout = ({children}) => {
 
+
+    const path = usePathname();
+
+    const pathArray = path.split("/").filter(Boolean);
+    const lastSegment = pathArray.length > 1 && pathArray.pop();
+
+
+    console.log("Logging pathAarray from ShopLayout", pathArray);
+
     return (
         <div className="shop-page">
-            <PageTitle title="Shop" heatherImage="/images/pages/shop/shop_page_illustration.png" alt="shop page illustration" />
+            <ShopPageTitle title={lastSegment} heatherImage="/images/pages/shop/shop_page_illustration.png" alt="shop page illustration" />
             <BreadCrumbs />
             <main className="bg-white">
                 {children}
