@@ -1,5 +1,5 @@
 import { PageTitle } from "../page-content-components/PageTitle"
-import { Breadcrumbs } from "./components/BreakCrumbs"
+import { BreadCrumbs } from "./components/BreadCrumbs"
 
 // export const metadata = {
 //     title: "Shop | Da Capo Academy of Music",
@@ -21,7 +21,7 @@ const ShopLayout = ({children}) => {
     return (
         <div className="shop-page">
             <PageTitle title="Shop" heatherImage="/images/pages/shop/shop_page_illustration.png" alt="shop page illustration" />
-            <Breadcrumbs />
+            <BreadCrumbs />
             <main className="bg-white">
                 {children}
             </main>

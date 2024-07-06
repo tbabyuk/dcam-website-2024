@@ -22,7 +22,7 @@ const ShopBooksPage = () => {
 
   return (
       <>
-          <p className="leading-8 px-5 lg:px-36 xl:px-52 py-12">Shop for music books and sheet music (coming soon!) New items are constantly being added. Fast local delivery is available for Etobicoke, Toronto and the Greater Toronto Area, but we ship all across Canada!</p>
+          <p className="leading-8 px-5 lg:px-36 xl:px-52 py-12 bg-gray-100">Shop for music books and sheet music (coming soon!) New items are constantly being added. Fast local delivery is available for Etobicoke, Toronto and the Greater Toronto Area, but we ship all across Canada!</p>
           <div className="leading-8 px-5 lg:px-36 xl:px-52 py-20">
             <div className="flex flex-wrap gap-10 justify-center">
                 {shopBookCategoriesArray.map((product, index) => (

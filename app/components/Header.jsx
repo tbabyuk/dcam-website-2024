@@ -1,5 +1,5 @@
-import { StudentPortalBtn } from "../(home)/components/StudentPortalBtn";
-import { CartBtn } from "../(home)/components/CartBtn"
+import { StudentPortalBtn } from "./StudentPortalBtn";
+import { CartBtn } from "./CartBtn";
 import { HiOutlineMail } from "react-icons/hi"
 import { BsTelephone } from "react-icons/bs";
 
@@ -9,7 +9,7 @@ export const Header = () => {
   return (
     <header className="min-h-[80px] bg-[url('/images/header_bg.png')] grid grid-cols-4 px-5">
         <div className="col-span-2 sm:col-span-1 md:col-span-1 flex justify-center items-center py-5">
-            <img src="images/dcam_logo_white.png" className="h-[45px] flex-shrink-0" />
+            <img src="/images/dcam_logo_white.png" alt="Da Capo Academy of Music logo" className="h-[45px] flex-shrink-0" />
         </div>
         <div className="col-span-2 py-5 sm:col-span-3 md:col-span-2 flex justify-center sm:justify-evenly items-center">
             <div className="hidden sm:flex"><StudentPortalBtn /></div>

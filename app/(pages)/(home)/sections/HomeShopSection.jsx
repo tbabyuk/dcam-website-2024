@@ -1,5 +1,5 @@
 import { shopProductCategoriesArray } from "@/app/data/shopData"
-import { ShopProductCategoryCard } from "../../components/ShopProductCategoryCard"
+import { ShopProductCategoryCard } from "@/app/components/ShopProductCategoryCard"
 import { VisitPageBtn } from "../../components/VisitPageBtn"
 import { HomeSectionHeading } from "../components/HomeSectionHeading"
 

@@ -1,8 +1,8 @@
 import { Ovo, Roboto } from "next/font/google"
 import "./globals.css";
-import { Header } from "./(pages)/components/Header";
-import { Navbar } from "./(pages)/components/Navbar";
-import { Footer } from "./(pages)/components/Footer";
+import { Header } from "./components/Header";
+import { Navbar } from "./components/Navbar";
+import { Footer } from "./components/Footer";
 
 
 const ovo = Ovo({subsets: ["latin"], weight: ["400"], variable: "--font-ovo"});
