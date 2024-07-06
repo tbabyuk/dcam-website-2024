@@ -23,7 +23,7 @@ export const metadata = {
 const ContactPage = () => {
     
     return ( 
-            <main className="contact-page bg-gray-100 pb-36">
+            <main className="contact-page bg-white pb-36">
                 <PageTitle title="Contact" heatherImage="/images/pages/contact/contact_page_illustration.png" alt="contact page illustration" />
 
                 <div className="grid md:grid-cols-2 lg:px-36 xl:px-52 py-20 bg-gray-100">

@@ -28,7 +28,7 @@ export const Navbar = () => {
                     <Link href="/" className="nav-link hover:bg-dcam-dark-blue">Home</Link>
                 </li>
                 <li className="h-full w-full relative">
-                    <Link href="#" className="nav-link" onMouseEnter={() => setLessonsSubmenuIsOpen(true)} onMouseLeave={() => setLessonsSubmenuIsOpen(false)}>Lessons <IoIosArrowDown className="ms-1" /></Link>
+                    <div className="nav-link cursor-pointer" onMouseEnter={() => setLessonsSubmenuIsOpen(true)} onMouseLeave={() => setLessonsSubmenuIsOpen(false)}>Lessons <IoIosArrowDown className="ms-1" /></div>
                     {lessonsSubmenuIsOpen && (
                         <ul className="w-[200px] bg-red-400 absolute z-20" onMouseEnter={() => setLessonsSubmenuIsOpen(true)} onMouseLeave={() => setLessonsSubmenuIsOpen(false)}>
                             <li className="h-full w-full">
@@ -93,11 +93,11 @@ export const Navbar = () => {
                     <Link href="/careers" className="nav-link hover:bg-dcam-dark-blue">Careers</Link>
                 </li>
                 <li className="h-full w-full">
-                    <Link href="#" className="nav-link" onMouseEnter={() => setToolsSubmenuIsOpen(true)} onMouseLeave={() => setToolsSubmenuIsOpen(false)}>Tools <IoIosArrowDown className="ms-1" /></Link>
+                    <div className="nav-link cursor-pointer" onMouseEnter={() => setToolsSubmenuIsOpen(true)} onMouseLeave={() => setToolsSubmenuIsOpen(false)}>Tools <IoIosArrowDown className="ms-1" /></div>
                     {toolsSubmenuIsOpen && (
                         <ul className="w-[200px] bg-red-400 absolute z-20" onMouseEnter={() => setToolsSubmenuIsOpen(true)} onMouseLeave={() => setToolsSubmenuIsOpen(false)}>
                             <li className="h-full w-full">
-                                <Link href="piano-lessons-etobicoke" className="nav-link hover:bg-dcam-dark-blue">
+                                <Link href="/tools/rcm-wizard" className="nav-link hover:bg-dcam-dark-blue" onClick={() => setToolsSubmenuIsOpen(false)}>
                                     RCM Wizard
                                 </Link>
                             </li>
@@ -118,10 +118,10 @@ export const Navbar = () => {
             {isDrawerOpen && (
                 <ul className="absolute left-0 -bottom-[45px] flex flex-col w-full h-full">
                     <li className="h-full w-full">
-                        <Link href="/" className="mobile-nav-link hover:bg-dcam-dark-blue">Home</Link>
+                        <Link href="/" className="mobile-nav-link hover:bg-dcam-dark-blue" onClick={() => setIsDrawerOpen(false)}>Home</Link>
                     </li>
                     <li className="h-full w-full">
-                        <Link href="#" className={`mobile-nav-link ${lessonsSubmenuIsOpen && "border-none"}`} onClick={() => setLessonsSubmenuIsOpen(!lessonsSubmenuIsOpen)}>Lessons <IoIosArrowDown className="ms-1 mt-1" /></Link>
+                        <div className={`mobile-nav-link cursor-pointer ${lessonsSubmenuIsOpen && "border-none"}`} onClick={() => setLessonsSubmenuIsOpen(!lessonsSubmenuIsOpen)}>Lessons <IoIosArrowDown className="ms-1 mt-1" /></div>
                     </li>
                     {lessonsSubmenuIsOpen && (
                         <>
@@ -168,35 +168,35 @@ export const Navbar = () => {
                         </>
                     )}
                     <li className="h-full w-full">
-                        <Link href="/rates" className="mobile-nav-link hover:bg-dcam-dark-blue">Rates</Link>
+                        <Link href="/rates" className="mobile-nav-link hover:bg-dcam-dark-blue" onClick={() => setIsDrawerOpen(false)}>Rates</Link>
                     </li>
                     <li className="h-full w-full">
-                        <Link href="/teachers" className="mobile-nav-link hover:bg-dcam-dark-blue">Teachers</Link>
+                        <Link href="/teachers" className="mobile-nav-link hover:bg-dcam-dark-blue" onClick={() => setIsDrawerOpen(false)}>Teachers</Link>
                     </li>
                     <li className="h-full w-full">
-                        <Link href="/reviews" className="mobile-nav-link hover:bg-dcam-dark-blue">Reviews</Link>
+                        <Link href="/reviews" className="mobile-nav-link hover:bg-dcam-dark-blue" onClick={() => setIsDrawerOpen(false)}>Reviews</Link>
                     </li>
                     <li className="h-full w-full">
-                        <Link href="/about" className="mobile-nav-link hover:bg-dcam-dark-blue">About</Link>
+                        <Link href="/about" className="mobile-nav-link hover:bg-dcam-dark-blue" onClick={() => setIsDrawerOpen(false)}>About</Link>
                     </li>
                     <li className="h-full w-full">
-                        <Link href="/contact" className="mobile-nav-link hover:bg-dcam-dark-blue">Contact</Link>
+                        <Link href="/contact" className="mobile-nav-link hover:bg-dcam-dark-blue" onClick={() => setIsDrawerOpen(false)}>Contact</Link>
                     </li>
                     <li className="h-full w-full">
-                        <Link href="/careers" className="mobile-nav-link hover:bg-dcam-dark-blue">Careers</Link>
+                        <Link href="/careers" className="mobile-nav-link hover:bg-dcam-dark-blue" onClick={() => setIsDrawerOpen(false)}>Careers</Link>
                     </li>
                     <li className="h-full w-full">
-                        <Link href="#" className={`mobile-nav-link ${toolsSubmenuIsOpen && "border-none"}`} onClick={() => setToolsSubmenuIsOpen(!toolsSubmenuIsOpen)}>Tools <IoIosArrowDown className="ms-1 mt-1" /></Link>
+                        <div className={`mobile-nav-link cursor-pointer ${toolsSubmenuIsOpen && "border-none"}`} onClick={() => setToolsSubmenuIsOpen(!toolsSubmenuIsOpen)}>Tools <IoIosArrowDown className="ms-1 mt-1" /></div>
                     </li>
                     {toolsSubmenuIsOpen && (
                         <li className="h-full w-full">
-                            <Link href="piano-lessons-etobicoke" className="mobile-nav-link hover:bg-dcam-dark-blue" onMouseEnter={() => setToolsSubmenuIsOpen(true)} onMouseLeave={() => setToolsSubmenuIsOpen(false)}>
+                            <Link href="/tools/rcm-wizard" className="mobile-nav-link hover:bg-dcam-dark-blue" onMouseEnter={() => setToolsSubmenuIsOpen(true)} onMouseLeave={() => setToolsSubmenuIsOpen(false)} onClick={() => setIsDrawerOpen(false)}>
                                 RCM Wizard
                             </Link>
                         </li>
                     )}
                     <li className="h-full w-full">
-                        <Link href="/shop" className="mobile-nav-link hover:bg-dcam-dark-blue">
+                        <Link href="/shop" className="mobile-nav-link hover:bg-dcam-dark-blue" onClick={() => setIsDrawerOpen(false)}>
                             Shop
                         </Link>
                     </li>

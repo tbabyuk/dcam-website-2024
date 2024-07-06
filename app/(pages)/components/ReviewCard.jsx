@@ -7,7 +7,7 @@ export const ReviewCard = ({review}) => {
     const numStars = Array.from({length: review.rating})
 
     return ( 
-        <div className="flex p-5 mb-5 rounded-md bg-gradient-to-r from-dcam-light-blue to-white shadow-md">
+        <div className="flex p-5 mb-6 rounded-md bg-gradient-to-r from-dcam-light-blue to-white shadow-md">
             <div><img src={review.profile_photo_url} className="max-w-[40px]" alt="customer profile image" /></div>
             <div className="px-5">
                 <p className="font-bold pb-1">{review.author_name}</p>

@@ -32,7 +32,7 @@ export const metadata = {
 const ToddlerMusicPage = () => {
     return ( 
         <main className="the-band-experience-page">
-            <PageTitle title="The Band Experience" image="/images/lesson-offerings/toddlers/toddler-music-classes-illustration.png" alt="toddler music classes illustration" />
+            <PageTitle title="The Band Experience" image="/images/lesson-offerings/toddlers/toddler-music-classes-illustration.png" alt="band classes illustration" />
 
             <section className="overview leading-8 flex flex-col items-center sm:block px-5 lg:px-36 xl:px-52 bg-gray-100 py-20">
                 <PageSubtitle subtitle="Overview" />

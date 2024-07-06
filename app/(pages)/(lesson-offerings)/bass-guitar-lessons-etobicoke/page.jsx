@@ -36,7 +36,7 @@ const BassGuitarLessonsPage = () => {
 
     return ( 
         <main className="bass-guitar-page">
-            <PageTitle title="Bass Guitar Lessons" image="/images/lesson-offerings/illustrations/guitar-lessons-illustration.png" alt="guitar lessons illustration" />
+            <PageTitle title="Bass Guitar Lessons" image="/images/lesson-offerings/illustrations/guitar-lessons-illustration.png" alt="bass guitar lessons illustration" />
 
             <section className="overview leading-8 flex flex-col items-center sm:block px-5 lg:px-36 xl:px-52 bg-gray-100 py-20">
                 <PageSubtitle subtitle="Overview" />
