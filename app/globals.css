@@ -91,7 +91,7 @@ h1, h2, h3 {
 }
 
 .dcam-link-hover-orange {
-  @apply hover:text-dcam-reg-orange;
+  @apply underline hover:text-dcam-reg-orange;
 }
 
 .font-ovo {
@@ -116,4 +116,20 @@ h1, h2, h3 {
 
 .blog-card {
   @apply p-6 bg-gray-100 rounded-md border-2 border-gray-200 shadow-lg mx-auto flex flex-col justify-between;
+}
+
+/* blog table styles */
+
+.blog-table table, 
+.blog-table th,
+.blog-table td {
+  @apply border-2 border-gray-200 py-2
+}
+
+.blog-table thead {
+  @apply bg-gray-200
+}
+
+.blog-table tbody {
+  @apply bg-gray-100
 }
