@@ -4,7 +4,7 @@ import { PageBottomTrialButton } from "../../page-content-components/PageBottomT
 import { LessonFormatSection } from "../../page-content-components/LessonFormatSection";
 import { LessonDurationSection } from "../../page-content-components/LessonDurationSection";
 import { LessonTeachersSection } from "../../page-content-components/LessonTeachersSection";
-import { teachersArray } from "@/app/data/teachers";
+import { teachersArray } from "@/app/data/teachersData";
 
 
 export const metadata = {

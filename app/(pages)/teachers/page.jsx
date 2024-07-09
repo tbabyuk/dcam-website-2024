@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { TeacherProfile } from "../page-content-components/TeacherProfile";
-import { teachersArray } from "@/app/data/teachers";
+import { teachersArray } from "@/app/data/teachersData";
 import { PageTitle } from "../page-content-components/PageTitle";
 
 

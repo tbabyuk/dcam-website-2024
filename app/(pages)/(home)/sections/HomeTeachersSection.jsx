@@ -1,4 +1,4 @@
-import { teachersArray } from "@/app/data/teachers"
+import { teachersArray } from "@/app/data/teachersData"
 import { TeacherCard } from "../components/TeacherCard"
 import { HomeSectionHeading } from "../components/HomeSectionHeading"
 import { VisitPageBtn } from "../../components/VisitPageBtn"
