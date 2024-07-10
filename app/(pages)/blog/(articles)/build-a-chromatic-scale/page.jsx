@@ -36,7 +36,7 @@ export const metadata = {
 const ArticleBuildAChromaticScale = () => {
 
   return (
-        <main className="text-gray-700">
+        <main className="text-gray-600">
             <ArticleTitle title="How to Build a Chromatic Scale" date="November 28, 2022" />
             <ArticleImage url="https://firebasestorage.googleapis.com/v0/b/dcam-website.appspot.com/o/blog_images%2Fbuild-a-chromatic-scale%2Fbuild_a_chromatic_scale_cover.jpg?alt=media&token=9d8bc98d-b7fe-49e1-90de-b9396f40824c" alt="build a chromatic scale cover"/>
 
@@ -162,11 +162,9 @@ const ArticleBuildAChromaticScale = () => {
             <section className="conclusion px-5 lg:px-36 xl:px-64 mb-20">
                 <p className="leading-8 mb-6">Chromatic scales add color and interest to musical compositions and you are bound to come across them may many times in your musical journey. Hopefully you now have a much more solid understanding of how these scales work from a theoretical perspective as well as the knowledge of how to correctly write then in music notation. Good luck!</p>
             </section>
-
             <PageBottomTrialButton />
         </main>
-
-  )
+    )
 }
 
 export default ArticleBuildAChromaticScale;
