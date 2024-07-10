@@ -101,6 +101,10 @@ h1, h2, h3 {
   @apply text-dcam-reg-blue underline hover:text-dcam-dark-blue;
 }
 
+.dcam-hover-orange {
+  @apply hover:text-dcam-reg-orange;
+}
+
 .dcam-link-orange {
   @apply text-dcam-reg-orange underline hover:text-dcam-dark-orange;
 }

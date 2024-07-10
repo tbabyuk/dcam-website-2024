@@ -31,8 +31,8 @@ export const Header = () => {
         </div>
         
         <div className="col-span-7 md:col-span-2 xl:col-span-2 flex flex-col items-center justify-center sm:flex-row sm:justify-around md:flex-col xl:flex-row xl:items-center text-dcam-white py-5 border-t-2 border-dcam-white/50 md:border-none">
-          <a href="mailto: info@dacapomusic.ca" className="flex items-center hover:text-dcam-orange mb-2 sm:mb-0 md:mb-1"><HiOutlineMail className="me-1" />info@dacapomusic.ca</a>
-          <a href="tel:+14162379595" className="flex items-center hover:text-dcam-orange"><BsTelephone className="me-1" />(416) 237-9595</a>
+          <a href="mailto: info@dacapomusic.ca" className="flex items-center mb-2 sm:mb-0 md:mb-1 dcam-hover-orange"><HiOutlineMail className="me-1" />info@dacapomusic.ca</a>
+          <a href="tel:+14162379595" className="flex items-center dcam-hover-orange"><BsTelephone className="me-1" />(416) 237-9595</a>
         </div>
         <StudentPortalModal studentPortalModalRef={studentPortalModalRef} />
     </header>
