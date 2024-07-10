@@ -35,7 +35,7 @@ export const metadata = {
 
 const ArticleMusicIntervalsExplained = () => {
 
-  return (
+    return (
         <main className="text-gray-600">
             <ArticleTitle title="How Music Intervals Work (with examples)" date="July 4, 2020" />
             <ArticleImage url="https://firebasestorage.googleapis.com/v0/b/dcam-website.appspot.com/o/blog_images%2Fhow-music-intervals-work%2Fmusic_intervals_cover.jpg?alt=media&token=d7d4e709-2a3f-42df-8f1e-8ffa483d0868" alt="Music Intervals cover"/>

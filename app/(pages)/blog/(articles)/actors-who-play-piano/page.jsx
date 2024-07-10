@@ -34,7 +34,7 @@ export const metadata = {
 
 const ArticleActorsWhoPlayPiano = () => {
 
-  return (
+    return (
         <main className="text-gray-600">
             <ArticleTitle title="Famous Actors Who Can Play the Piano" date="June 18, 2020" />
             <ArticleImage url="https://firebasestorage.googleapis.com/v0/b/dcam-website.appspot.com/o/blog_images%2Factors-who-play-piano%2Factors_who_play_piano_cover.jpg?alt=media&token=c08d7994-a9c7-41b6-a30a-6b232edf2759" alt="Famous Actors Who Play Piano cover"/>

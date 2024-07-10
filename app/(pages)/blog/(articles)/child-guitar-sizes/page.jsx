@@ -33,7 +33,8 @@ export const metadata = {
 
 
 const ArticleChildGuitarSizes = () => {
-  return (
+
+    return (
         <main className="text-gray-600">
             <ArticleTitle title="An Illustrated Guide to Child Guitar Sizes" date="July 19, 2020" />
             <ArticleImage url="https://firebasestorage.googleapis.com/v0/b/dcam-website.appspot.com/o/blog_images%2Fchild-guitar-sizes%2Fchild_guitar_sizes_cover.jpg?alt=media&token=1524c4ed-97f0-4891-bd12-de8f606278b7" alt="Child Guitar Sizes cover"/>
@@ -281,7 +282,7 @@ const ArticleChildGuitarSizes = () => {
             </section>
             <PageBottomTrialButton />
         </main>
-  )
+    )
 }
 
 export default ArticleChildGuitarSizes;

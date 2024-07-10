@@ -34,8 +34,8 @@ export const metadata = {
 
 
 const ArticleCanYouSkipRCMLevels = () => {
-  return (
-            <main className="text-gray-700">
+    return (
+        <main className="text-gray-600">
             <ArticleTitle title="Can you skip RCM levels?" date="November 23, 2020" />
             <ArticleImage url="https://firebasestorage.googleapis.com/v0/b/dcam-website.appspot.com/o/blog_images%2Fcan-you-skip-rcm-levels%2Fskip_rcm_levels_cover.jpg?alt=media&token=cfa33773-cfc5-4751-aae3-0c800d2b2c24" alt="Can You Skip RCM Levels cover"/>
 
@@ -85,7 +85,7 @@ const ArticleCanYouSkipRCMLevels = () => {
             </section>
             <PageBottomTrialButton />
         </main>
-  )
+    )
 }
 
 export default ArticleCanYouSkipRCMLevels;

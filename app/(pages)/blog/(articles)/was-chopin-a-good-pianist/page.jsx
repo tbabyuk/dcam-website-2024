@@ -34,8 +34,9 @@ export const metadata = {
 
 
 const ArticleWasChopinAGoodPianist = () => {
-  return (
-            <main className="text-gray-700">
+
+    return (
+        <main className="text-gray-600">
             <ArticleTitle title="Was Chopin a good pianist?" date="March 14, 2021" />
             <ArticleImage url="https://firebasestorage.googleapis.com/v0/b/dcam-website.appspot.com/o/blog_images%2Fwas-chopin-a-good-pianist%2Fwas_chopin_a_good_pianist_cover.jpg?alt=media&token=e2b8de2a-8898-4517-b10b-cccd53c9ea42" alt="Was Chopin a good pianist cover" />
 
@@ -130,8 +131,7 @@ const ArticleWasChopinAGoodPianist = () => {
             </section>
             <PageBottomTrialButton />
         </main>
-
-  )
+    )
 }
 
 export default ArticleWasChopinAGoodPianist;

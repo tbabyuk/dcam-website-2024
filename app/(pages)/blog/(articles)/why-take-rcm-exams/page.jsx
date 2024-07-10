@@ -33,8 +33,9 @@ export const metadata = {
 
 
 const ArticleWhyTakeRCMExams = () => {
-  return (
-            <main className="text-gray-700">
+
+    return (
+        <main className="text-gray-600">
             <ArticleTitle title="6 Reasons to Take RCM Exams (Royal Conservatory of Music)" date="November 26, 2020" />
             <ArticleImage url="https://firebasestorage.googleapis.com/v0/b/dcam-website.appspot.com/o/blog_images%2Fwhy-take-rcm-exams%2Fwhy_take_rcm_exams_cover.jpg?alt=media&token=69927c65-1e36-4346-bd0d-d843bb717df8" alt="Why Take RCM Exams cover"/>
 
@@ -136,8 +137,7 @@ const ArticleWhyTakeRCMExams = () => {
             </section>
             <PageBottomTrialButton />
         </main>
-
-  )
+    )
 }
 
 export default ArticleWhyTakeRCMExams;

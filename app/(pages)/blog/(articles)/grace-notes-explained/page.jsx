@@ -34,8 +34,9 @@ export const metadata = {
 
 
 const ArticleGraceNotesExplained = () => {
-  return (
-            <main className="text-gray-700">
+
+    return (
+        <main className="text-gray-600">
             <ArticleTitle title="Grace Notes Explained" date="August 25, 2021" />
             <ArticleImage url="https://firebasestorage.googleapis.com/v0/b/dcam-website.appspot.com/o/blog_images%2Fhow-grace-notes-work%2Fgrace_notes_cover.jpg?alt=media&token=7090278a-b646-4d30-a4d2-45f742301034" alt="Grace Notes cover"/>
 
@@ -147,8 +148,7 @@ const ArticleGraceNotesExplained = () => {
             </section>
             <PageBottomTrialButton />
         </main>
-
-  )
+    )
 }
 
 export default ArticleGraceNotesExplained;

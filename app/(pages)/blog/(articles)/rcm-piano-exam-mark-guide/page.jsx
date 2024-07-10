@@ -36,7 +36,7 @@ export const metadata = {
 
 const ArticlePianoExamMarkGuide = () => {
 
-  return (
+    return (
         <main className="text-gray-600">
             <ArticleTitle title="RCM Piano Exam Requirements (all grades)" date="June 22, 2020" />
             <ArticleImage url="https://firebasestorage.googleapis.com/v0/b/dcam-website.appspot.com/o/blog_images%2Frcm-piano-exam-mark-guide%2Frcm_piano_exam_requirements_cover.jpg?alt=media&token=985855d2-b649-4179-9a16-4d4e8a85dd58" alt="RCM Piano Exam requirements cover photo"/>

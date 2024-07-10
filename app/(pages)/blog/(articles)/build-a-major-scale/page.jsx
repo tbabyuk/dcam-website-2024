@@ -35,7 +35,7 @@ export const metadata = {
 
 const ArticleBuildAMajorScale = () => {
 
-  return (
+    return (
         <main className="text-gray-700">
             <ArticleTitle title="How to Build a Major Scale" date="April 22, 2020" />
             <ArticleImage url="https://firebasestorage.googleapis.com/v0/b/dcam-website.appspot.com/o/blog_images%2Fbuild-a-major-scale%2Fmajor_scale_cover.jpg?alt=media&token=e8194246-47de-461b-bef2-8bcf93e58e9c" alt="build a major scale cover"/>

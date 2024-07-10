@@ -1,10 +1,10 @@
+import Link from "next/link"
 import { ArticleTitle } from "../../components/ArticleTitle"
 import { ArticleSectionHeading } from "../../components/ArticleSectionHeading"
 import { ArticleHeading } from "../../components/ArticleHeading"
 import { PageBottomTrialButton } from "@/app/(pages)/page-content-components/PageBottomTrialButton"
 import { ArticleDivider } from "../../components/ArticleDivider"
 import { ArticleImage } from "../../components/ArticleImage"
-import Link from "next/link"
 import { ArticleSectionDivider } from "../../components/ArticleSectionDivider"
 
 
@@ -34,8 +34,9 @@ export const metadata = {
 
 
 const ArticleFamousBandsFromToronto = () => {
-  return (
-            <main className="text-gray-700">
+
+    return (
+        <main className="text-gray-600">
             <ArticleTitle title="Famous Bands from Toronto" date="November 20, 2022" />
             <ArticleImage url="https://firebasestorage.googleapis.com/v0/b/dcam-website.appspot.com/o/blog_images%2Ffamous-bands-from-toronto%2Ffamous_bands_from_toronto_cover.jpg?alt=media&token=598d99c9-4fd5-4be1-80f4-ae7341e0a774" alt="Famous Bands from Toronto cover"/>
 
@@ -174,12 +175,9 @@ const ArticleFamousBandsFromToronto = () => {
                 </div>
                 <p className="mb-10 w-fit ms-auto">The Band's <a href="https://theband.hiof.no/" target="_blank" className="dcam-link-orange">website</a></p>
             </section>
-
             <PageBottomTrialButton />
-            
         </main>
-
-  )
+    )
 }
 
 export default ArticleFamousBandsFromToronto;

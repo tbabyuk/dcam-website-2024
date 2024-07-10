@@ -34,8 +34,9 @@ export const metadata = {
 
 
 const ArticleFamousCanadianPianists = () => {
-  return (
-            <main className="text-gray-700">
+
+    return (
+            <main className="text-gray-600">
             <ArticleTitle title="Famous Canadian Pianists" date="May 9, 2021" />
             <ArticleImage url="https://firebasestorage.googleapis.com/v0/b/dcam-website.appspot.com/o/blog_images%2Ffamous-canadian-pianists%2Ffamous_canadian_pianists_cover.jpg?alt=media&token=fea3b2a6-4ff1-4f2b-939f-e2fe12f27553" alt="Famous Canadian pianists cover"/>
 
@@ -185,8 +186,7 @@ const ArticleFamousCanadianPianists = () => {
             </section>
             <PageBottomTrialButton />
         </main>
-
-  )
+    )
 }
 
 export default ArticleFamousCanadianPianists;

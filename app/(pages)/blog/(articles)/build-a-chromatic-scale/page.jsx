@@ -35,7 +35,7 @@ export const metadata = {
 
 const ArticleBuildAChromaticScale = () => {
 
-  return (
+    return (
         <main className="text-gray-600">
             <ArticleTitle title="How to Build a Chromatic Scale" date="November 28, 2022" />
             <ArticleImage url="https://firebasestorage.googleapis.com/v0/b/dcam-website.appspot.com/o/blog_images%2Fbuild-a-chromatic-scale%2Fbuild_a_chromatic_scale_cover.jpg?alt=media&token=9d8bc98d-b7fe-49e1-90de-b9396f40824c" alt="build a chromatic scale cover"/>

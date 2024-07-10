@@ -37,7 +37,8 @@ export const metadata = {
 
 
 const ArticleRCMPianoEtudesAllPieces = () => {
-  return (
+
+    return (
         <main className="text-gray-600">
             <ArticleTitle title="RCM Piano Etudes - Full List of Pieces" date="August 29, 2020" />
             <ArticleImage url="https://firebasestorage.googleapis.com/v0/b/dcam-website.appspot.com/o/blog_images%2Frcm_piano_etudes_all_pieces%2Frcm_piano_etudes_all_pieces_cover.jpg?alt=media&token=91d114e3-b4d2-4682-8a83-8a90d477ad6a" alt="RCM Piano Etudes All Pieces cover"/>
@@ -1286,7 +1287,7 @@ const ArticleRCMPianoEtudesAllPieces = () => {
             </section>
             <PageBottomTrialButton />
         </main>
-  )
+    )
 }
 
 export default ArticleRCMPianoEtudesAllPieces;

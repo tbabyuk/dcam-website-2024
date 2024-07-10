@@ -34,7 +34,7 @@ export const metadata = {
 
 const ArticleFamousTorontoMusicians = () => {
 
-  return (
+    return (
         <main className="text-gray-600">
             <ArticleTitle title="Famous Musicians from Toronto" date="May 27, 2020" />
             <ArticleImage url="https://firebasestorage.googleapis.com/v0/b/dcam-website.appspot.com/o/blog_images%2Ffamous-toronto-musicians%2Ffamous_toronto_musicians_cover.jpg?alt=media&token=4c94ba43-53ae-4eac-a29a-250e05b3b87b" alt="Famous Musicians from Toronto cover"/>

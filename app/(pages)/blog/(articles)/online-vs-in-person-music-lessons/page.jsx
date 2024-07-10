@@ -34,8 +34,8 @@ export const metadata = {
 
 const ArticleOnlineVsInPersonMusicLessons = () => {
 
-  return (
-        <main className="text-gray-700">
+    return (
+        <main className="text-gray-600">
             <ArticleTitle title="Online vs. In-Person Music Lessons" date="July 14, 2020" />
             <ArticleImage url="https://firebasestorage.googleapis.com/v0/b/dcam-website.appspot.com/o/blog_images%2Fonline-vs-in-person-music-lessons%2Fonline_vs_in_person_lessons_cover.jpg?alt=media&token=1c0ad664-6496-4e1f-b9ef-00a14a8fec4a" alt="Music Intervals cover"/>
 
@@ -166,7 +166,7 @@ const ArticleOnlineVsInPersonMusicLessons = () => {
             </section>
             <PageBottomTrialButton />
         </main>
-  )
+    )
 }
 
 export default ArticleOnlineVsInPersonMusicLessons;

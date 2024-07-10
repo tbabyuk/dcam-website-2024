@@ -33,8 +33,9 @@ export const metadata = {
 
 
 const ArticleRepeatsInRCMPieces = () => {
-  return (
-            <main className="text-gray-700">
+
+    return (
+        <main className="text-gray-600">
             <ArticleTitle title="Should we observe repeats in RCM pieces?" date="October 21, 2022" />
             <ArticleImage url="https://firebasestorage.googleapis.com/v0/b/dcam-website.appspot.com/o/blog_images%2Frepeats-in-rcm-pieces%2Frepeat_signs_cover.jpg?alt=media&token=c875bbad-a456-4ffd-80b4-5088f126ee6b" alt="Repeats in RCM Pieces cover"/>
 
@@ -93,11 +94,9 @@ const ArticleRepeatsInRCMPieces = () => {
                 <p className="leading-8 mb-6">The general motivation behind guidelines such as ignoring repeat signs is to save time during examinations. By saving time, RCM is also able to accommodate more students on a given day. Also, repeating a musical passage can be seen as superfluous on an exam since the examiner has already heard it once and was able to evaluate it the first time around.</p>
                 <p className="leading-8">While observing repeat signs may hardly be felt in beginner pieces, it becomes much more noticeable with higher RCM Levels, where pieces themselves get longer and more difficult, therefore extending your exam time quite a bit. So do your best to follow the RCM guidelines as much as possible!</p>
             </section>
-
             <PageBottomTrialButton />
         </main>
-
-  )
+    )
 }
 
 export default ArticleRepeatsInRCMPieces;
