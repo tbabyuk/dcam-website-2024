@@ -18,16 +18,6 @@ h1, h2, h3 {
   @apply p-2 border-[3px] rounded-lg border-dcam-white;
 }
 
-/* header styles */
-
-.header-btn {
-  @apply btn btn-outline border-2 text-dcam-white font-medium bg-dcam-reg-blue hover:bg-dcam-dark-blue hover:border-2 hover:border-dcam-white;
-}
-
-/* hero slider styles */
-.slider-btn {
-  @apply btn btn-outline border-2 text-dcam-white font-medium bg-dcam-reg-green hover:bg-dcam-dark-green hover:border-2 hover:border-dcam-white;
-}
 
 /* instruments slider styles */
 
@@ -78,10 +68,35 @@ h1, h2, h3 {
 
 /* UTILITIES */
 
+
+/* buttons */
+
+.header-btn {
+  @apply btn btn-outline text-[1rem] font-normal border-2 text-dcam-white bg-dcam-reg-blue hover:bg-dcam-dark-blue hover:border-2 hover:border-dcam-white;
+}
+
+.hero-btn {
+  @apply btn btn-outline text-[1rem] font-normal border-2 text-dcam-white bg-dcam-reg-green hover:bg-dcam-dark-green hover:border-2 hover:border-dcam-white;
+}
+
+.dcam-submit-btn {
+  @apply btn btn-outline border-2 text-dcam-white font-medium bg-dcam-reg-green hover:bg-dcam-dark-green hover:border-2 hover:border-dcam-white;
+}
+
+.dcam-download-btn {
+  @apply btn btn-lg bg-dcam-reg-green hover:bg-dcam-dark-green text-dcam-white font-medium;
+}
+
+.dcam-blog-card-btn {
+  @apply btn bg-dcam-reg-green hover:bg-dcam-dark-green text-dcam-white font-medium w-full;
+}
+
 .visit-page-btn {
     @apply btn btn-outline btn-lg border-2 block mx-auto mt-20 text-dcam-white font-medium bg-dcam-reg-orange hover:bg-dcam-dark-orange hover:border-2 hover:border-dcam-white;
 }
 
+
+/* links */
 .dcam-link-blue {
   @apply text-dcam-reg-blue underline hover:text-dcam-dark-blue;
 }
@@ -102,20 +117,10 @@ h1, h2, h3 {
   font-family: var(--font-roboto);
 }
 
-.dcam-submit-btn {
-  @apply btn btn-outline border-2 text-dcam-white font-medium bg-dcam-reg-green hover:bg-dcam-dark-green hover:border-2 hover:border-dcam-white;
-}
 
-.dcam-download-btn {
-  @apply btn btn-lg bg-dcam-reg-green hover:bg-dcam-dark-green text-dcam-white font-medium;
-}
-
-.dcam-blog-card-btn {
-  @apply btn bg-dcam-reg-green hover:bg-dcam-dark-green text-dcam-white font-medium w-full;
-}
 
 .blog-card {
-  @apply p-6 bg-gray-100 rounded-md border-2 border-gray-200 shadow-lg mx-auto flex flex-col justify-between;
+  @apply p-6 bg-white rounded-md border-2 border-gray-200 shadow-lg mx-auto flex flex-col justify-between;
 }
 
 /* blog table styles */

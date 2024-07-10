@@ -21,15 +21,6 @@
 
 const BlogLayout = ({children}) => {
 
-
-    // const path = usePathname();
-
-    // const pathArray = path.split("/").filter(Boolean);
-    // const lastSegment = pathArray.length > 1 && pathArray.pop();
-
-
-    // console.log("Logging pathAarray from ShopLayout", pathArray);
-
     return (
         <div>
             <h1 className="font-ovo text-white text-4xl px-5 py-14 lg:px-36 xl:px-52 bg-[url('/images/blog/blog_page_header_bg.jpg')] bg-center bg-cover">Blog</h1>

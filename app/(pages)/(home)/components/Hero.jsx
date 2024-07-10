@@ -10,7 +10,7 @@ const sliderImagesArray = ["/images/slider/piano_1200.jpg", "/images/slider/guit
 
 
 
-export const Slider = () => {
+export const Hero = () => {
 
 
   const [sliderIndex, setSliderIndex] = useState(0)

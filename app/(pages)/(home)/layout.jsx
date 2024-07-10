@@ -1,4 +1,4 @@
-import { Slider } from "./components/Slider"
+import { Hero } from "./components/Hero"
 
 export const metadata = {
     title: "Home | Da Capo Academy of Music",
@@ -30,7 +30,7 @@ const HomePageLayout = ({children}) => {
 
     return (
         <>
-            <Slider />
+            <Hero />
             <main className="bg-white">
                 {children}
             </main>

@@ -21,7 +21,7 @@ export const metadata = {
 const BlogPage = () => {
 
     return ( 
-            <div className="blog-list grid gap-y-8 md:grid-cols-2 xl:grid-cols-3 px-5 lg:px-36 py-20">
+        <div className="bg-gray-100 grid gap-y-8 md:grid-cols-2 xl:grid-cols-3 px-5 lg:px-36 py-20">
                 {articlesArray.map((article) => (
                     <BlogCard
                         key={article.id} 

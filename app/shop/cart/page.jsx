@@ -1,8 +1,8 @@
 "use client"
 
 import { useState } from "react"
-import { PageTitle } from "../../page-content-components/PageTitle"
-import { useShopContext } from "../../../hooks/useShopContext"
+// import { PageTitle } from "../../page-content-components/PageTitle"
+import { useShopContext } from "@/app/hooks/useShopContext"
 import { CartProductRow } from "./components/CardProductRow"
 import ReCAPTCHA from "react-google-recaptcha"
 import { FixedQuantityProductRow } from "./components/FixedQuantityProductRow"
