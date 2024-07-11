@@ -1,6 +1,6 @@
 
 
-export const useValidateFormInputs = () => {
+export const useValidateFormFields = () => {
 
     console.log("useValidateForm hook fired")
 
@@ -29,23 +29,14 @@ export const useValidateFormInputs = () => {
       return emailRegex.test(value)
     }
 
-    const preferredDaysValid = (value) => {
-      const preferredDaysValues = Object.values(value)
-      return preferredDaysValues.includes(true)
-    }
-
-    const instrumentsAreValid = (value) => {
-      const instrumentsValues = Object.values(value)
-      return instrumentsValues.includes(true)
+    const preferredDaysValid = (fields) => {
+      return Object.values(fields).includes(true)
     }
 
     const typeOfWorkIsValid = (value) => {
       const typeOfWorkValues = Object.values(value)
       return typeOfWorkValues.includes(true)
     }
-
-
-
 
     return {
       studentNameIsValid,
@@ -54,7 +45,6 @@ export const useValidateFormInputs = () => {
       phoneIsValid,
       emailIsValid,
       preferredDaysValid,
-      instrumentsAreValid,
       typeOfWorkIsValid
     } 
 }

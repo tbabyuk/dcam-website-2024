@@ -14,9 +14,9 @@ export const POST = async (req) => {
             user: "terry@dacapomusic.ca",
             pass: "fbcaqouhkghjywtd"
         }
-        })
+    })
 
-        const emailOptions =
+    const emailOptions =
         {
             from: "terry@dacapomusic.ca",
             to: "terry@dacapomusic.ca",
@@ -44,12 +44,13 @@ export const POST = async (req) => {
         }
 
         try {
+            // throw new Error("Ooops, error with trial form!!!! OOPS")
             await transporter.sendMail(emailOptions);
             console.log("try block fired in Node.js")
             return NextResponse.json({message: "trial notification email sent successfully"}, {status: 200})
         } catch (error) {
             console.log("an error occurred while sending trial email:", error.message)
-            return NextResponse.json({error: "trial notification email failed to send", details: error}, {status: 500})
+            return NextResponse.json({message: error.message}, {status: 500})
         }
 
 }
