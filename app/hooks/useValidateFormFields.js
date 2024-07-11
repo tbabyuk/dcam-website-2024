@@ -29,6 +29,11 @@ export const useValidateFormFields = () => {
       return emailRegex.test(value)
     }
 
+    const instrumentsAreValid = (value) => {
+      const instrumentsValues = Object.values(value)
+      return instrumentsValues.includes(true)
+    }
+
     const preferredDaysValid = (fields) => {
       return Object.values(fields).includes(true)
     }
@@ -44,6 +49,7 @@ export const useValidateFormFields = () => {
       parentNameIsValid,
       phoneIsValid,
       emailIsValid,
+      instrumentsAreValid,
       preferredDaysValid,
       typeOfWorkIsValid
     } 

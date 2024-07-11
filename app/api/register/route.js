@@ -15,7 +15,8 @@ export async function POST(request) {
             lesson_frequency, 
             preferred_days, 
             source, 
-            comments} = await request.json()
+            comments
+            } = await request.json()
 
 
     const transporter = nodemailer.createTransport({

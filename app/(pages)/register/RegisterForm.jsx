@@ -496,7 +496,7 @@ export const RegisterForm = () => {
                             <button className="btn dcam-submit-btn w-full mt-3">
                             Submit
                             </button> 
-                    )} 
+                    )}
                 </form>
             )}
 
