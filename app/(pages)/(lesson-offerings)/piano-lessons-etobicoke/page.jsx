@@ -91,7 +91,7 @@ const PianoLessonsPage = () => {
                 <p>Students can choose to learn any musical style they want on the piano, such as pop, jazz,  classical, etc. Those wishing to go the Royal Conservatory route should expect a heavy focus on classical music.</p>
             </section>
 
-            <LessonTeachersSection teachers={teachersArray.filter(teacher => teacher.instrument.includes("piano"))} />
+            <LessonTeachersSection teachers={teachersArray.filter(teacher => teacher.instrument.includes("piano") && teacher.featured)} />
 
             <PageBottomTrialButton />
         </main>

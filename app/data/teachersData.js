@@ -48,6 +48,24 @@ export const teachersArray = [
       bio: "Giancarlo is a guitarist who recently graduated from the 'Music Industry Arts and Performance Program' at Centennial College. His primary focus lies in playing the guitar, which has led to his performing at multiple venues across Toronto. He started his musical journey at the age of 12 by learning classical guitar and immersing himself in a wide range of musical genres such as blues, rock, bluegrass and improvising. Following his high-school graduation, he finished a pre-university program at the Barranquilla School of Fine Arts and then continued his studies at Centennial College in Toronto. Giancarlo has practical experience in recording techniques and studio recording utilizing digital audio workstations, and providing his expertise as a session musician to others. He is filled with enthusiasm for music and is committed to sharing it with his students as he helps them to develop as musicians."
     },
     {
+      name: "Taisiya",
+      fullName: "Taisiya Sarkisova",
+      photo: "/images/teachers/taisiya.jpg",
+      alt: "vocals and piano teacher Taisiya",
+      featured: true,
+      instrument: ["vocals", "piano"],
+      bio: "Taisiya is a jazz vocal performance student at the University of Toronto. She was raised in Russia in a musical family and grew up in a family vocal ensemble. Prior to her musical education at the University of Toronto, Taisiya studied jazz at the Jazz Academy in Moscow and got to perform in numerous jazz vocal ensembles, sing in a band, and perform with an orchestra. She graduated from Earl Haig Secondary School in 2021 with a musical degree as a piano major from Claude Watson Music Program. There she started learning about composition and modern music. Taisiya also has experience in musical theatre and has been a part of the Mainstage Theatre crew until recently. She has experience in working with kids and knows how to make classes both professional and fun!"
+    },
+    {
+      name: "Senya",
+      fullName: "Senya Wickramasinghe",
+      photo: "/images/teachers/senya.jpg",
+      alt: "piano teacher Taisiya",
+      featured: true,
+      instrument: ["piano"],
+      bio: "Senya has been studying classical piano since she was 4 and teaching classical piano since she was 14. She has completed her RCM Piano Level 8 Certificate by age 14 and RCM 10 Practical by age 16. In high school, Senya was active in the music department as a violinist, and co-president of the music council. With this involvement she gained experience in stage band, chamber string orchestra, competed in the Kiwanis music festival, and took on the role of a piano accompanist for classical violinists. Her current music goals include diversifying her performance repertoire and expanding her knowledge of music history. In the classroom, her goal is to help students build the necessary skills for success while having fun creating music."
+    },
+    {
       name: "Matthew",
       fullName: "Matthew Leombruni",
       photo: "/images/teachers/matthew.jpg",
