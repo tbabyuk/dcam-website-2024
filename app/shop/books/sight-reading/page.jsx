@@ -19,10 +19,9 @@ export const metadata = {
 
 
 const SightReadingBooksPage = () => {
-
-  return (
-      <SightReadingBooksClientPage />
-    )
+    return (
+        <SightReadingBooksClientPage />
+      )
 }
 
 export default SightReadingBooksPage;

@@ -31,9 +31,9 @@ const HomePageLayout = ({children}) => {
     return (
         <>
             <Hero />
-            <main className="bg-white">
+            <div className="bg-white">
                 {children}
-            </main>
+            </div>
         </>
     )
 }

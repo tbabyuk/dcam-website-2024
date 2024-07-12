@@ -31,13 +31,11 @@ const ShopLayout = ({children}) => {
     console.log("Logging pathAarray from ShopLayout", pathArray);
 
     return (
-        <div>
-            <ShopPageTitle title={lastSegment} heatherImage="/images/pages/shop/shop_page_illustration.png" alt="shop page illustration" />
+        <main className="bg-white">
+            <ShopPageTitle title={lastSegment} heatherImage="/images/shop/shop_page_illustration.png" alt="shop page illustration" />
             <BreadCrumbs />
-            <main className="bg-white">
-                {children}
-            </main>
-        </div>
+            {children}
+        </main>
     )
 }
 

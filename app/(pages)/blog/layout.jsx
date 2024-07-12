@@ -22,14 +22,14 @@
 const BlogLayout = ({children}) => {
 
     return (
-        <div>
+        <>
             <h1 className="font-ovo text-white text-4xl px-5 py-14 lg:px-36 xl:px-52 bg-[url('/images/blog/blog_page_header_bg.jpg')] bg-center bg-cover">Blog</h1>
             {/* <ShopPageTitle title={lastSegment} heatherImage="/images/pages/shop/shop_page_illustration.png" alt="shop page illustration" /> */}
             {/* <BreadCrumbs /> */}
-            <main className="bg-white">
+            <div>
                 {children}
-            </main>
-        </div>
+            </div>
+        </>
     )
 }
 

@@ -6,12 +6,12 @@ import { LessonTeachersSection } from "../../page-content-components/LessonTeach
 
 export const metadata = {
     title: "Toddler Music Classes in Etobicoke | Da Capo Academy of Music",
-    description: "Group music classes aimed at toddlers and preschoolers (ages 2-5). (416) 237-9595",
+    description: "Aimed at children aged 2-5, our Toddler Music Program introduces rhythm and melody in a fun and interactive environment. Classes are designed to enhance early childhood development through engaging musical activities!",
     robots: { index: true, follow: true},
     authors: [{name: "Taras (Terry) Babyuk"}],
     openGraph: {
         title: "Toddler Music Classes in Etobicoke | Da Capo Academy of Music",
-        description: "Group music classes aimed at toddlers and preschoolers (ages 2-5). (416) 237-9595",
+        description: "Aimed at children aged 2-5, our Toddler Music Program introduces rhythm and melody in a fun and interactive environment. Classes are designed to enhance early childhood development through engaging musical activities!",
         url: "https://dacapomusic.ca/toddler-music-classes",
         siteName: "Da Capo Academy of Music",
         locale: "en_US",
@@ -30,6 +30,7 @@ export const metadata = {
 
 
 const ToddlerMusicPage = () => {
+
     return ( 
         <main className="toddler-music-page">
             <PageTitle title="Toddler Music Classes" image="/images/pages/toddlers/toddler_music_classes_illustration.png" alt="toddler music classes illustration" />

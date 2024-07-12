@@ -13,9 +13,9 @@ export const metadata = {
     robots: { index: true, follow: true},
     authors: [{name: "Taras (Terry) Babyuk"}],
     openGraph: {
-        title: "Guitar Lessons in Etobicoke | Da Capo Academy of Music",
-        description: "Looking for guitar lessons in Etobicoke? We are here for you! Call or visit our website to register for your free, no-obligation trial lesson TODAY! (416) 237-9595",
-        url: "https://dacapomusic.ca/guitar-lessons-etobicoke",
+        title: "Bass Guitar Lessons in Etobicoke | Da Capo Academy of Music",
+        description: "Looking for bass guitar lessons in Etobicoke? We are here for you! Call or visit our website to register for your free, no-obligation trial lesson TODAY! (416) 237-9595",
+        url: "https://dacapomusic.ca/bass-guitar-lessons-etobicoke",
         siteName: "Da Capo Academy of Music",
         locale: "en_US",
         type: "article",
@@ -35,7 +35,7 @@ export const metadata = {
 const BassGuitarLessonsPage = () => {
 
     return ( 
-        <main className="bass-guitar-page bg-white">
+        <main className="bg-white">
             <PageTitle title="Bass Guitar Lessons" image="/images/pages/bass-guitar/bass_guitar_lessons_illustration.png" alt="bass guitar lessons illustration" />
 
             <section className="overview leading-8 flex flex-col items-center sm:block px-5 lg:px-36 xl:px-52 bg-gray-100 py-20">

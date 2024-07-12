@@ -6,13 +6,13 @@ import { LessonTeachersSection } from "../../page-content-components/LessonTeach
 
 export const metadata = {
     title: "Band Classes in Etobicoke | Da Capo Academy of Music",
-    description: "Experience what it's like to be part of a band! (416) 237-9595",
+    description: "Join our 'Band Experience' program and learn what it's like to be part of a band. Practice, perform, and develop your musical skills in a fun and collaborative environment!",
     robots: { index: true, follow: true},
     authors: [{name: "Taras (Terry) Babyuk"}],
     openGraph: {
         title: "Band Classes in Etobicoke | Da Capo Academy of Music",
-        description: "Experience what it's like to be part of a band! (416) 237-9595",
-        url: "https://dacapomusic.ca/toddler-music-classes",
+        description: "Join our 'Band Experience' program and learn what it's like to be part of a band. Practice, perform, and develop your musical skills in a fun and collaborative environment!",
+        url: "https://dacapomusic.ca/the-band-experience",
         siteName: "Da Capo Academy of Music",
         locale: "en_US",
         type: "article",
@@ -29,9 +29,10 @@ export const metadata = {
 }
 
 
-const ToddlerMusicPage = () => {
+const TheBandExperiencePage = () => {
+    
     return ( 
-        <main className="the-band-experience-page bg-white">
+        <main className="bg-white">
             <PageTitle title="The Band Experience" image="/images/pages/band/the_band_experience_illustration.png" alt="band classes illustration" />
 
             <section className="overview leading-8 flex flex-col items-center sm:block px-5 lg:px-36 xl:px-52 bg-gray-100 py-20">
@@ -76,4 +77,4 @@ const ToddlerMusicPage = () => {
      );
 }
  
-export default ToddlerMusicPage;
+export default TheBandExperiencePage;

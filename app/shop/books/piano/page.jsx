@@ -18,9 +18,8 @@ export const metadata = {
 
 
 const PianoBooksPage = () => {
-
-  return (
-      <PianoBooksClientPage />
+    return (
+        <PianoBooksClientPage />
     )
 }
 

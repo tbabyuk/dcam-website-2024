@@ -21,7 +21,7 @@ export const metadata = {
 const CareersPage = () => {
     
     return ( 
-            <main className="pb-36">
+            <>
                 <PageTitle title="Careers" image="/images/pages/careers/careers_page_illustration.png" alt="careers page illustration" />
 
                 <section className="content leading-7 px-5 lg:px-36 xl:px-52 py-20 bg-white">
@@ -49,10 +49,10 @@ const CareersPage = () => {
 
                 </section>
 
-                <section className="register-page px-5 lg:px-36 xl:px-52 py-20 bg-white">
+                <section className="register-page px-5 lg:px-36 xl:px-52 pt-20 pb-32 bg-white">
                     <TeacherApplicationForm />
                 </section>
-            </main>
+            </>
      );
 }
  

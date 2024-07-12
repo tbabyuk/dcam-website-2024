@@ -41,7 +41,7 @@ const TeachersPage = () => {
                 ))}
             </div>
 
-            <div className="px-5 lg:px-36 xl:px-52 py-20">
+            <div className="px-5 lg:px-36 xl:px-52">
                 <p className="italic"><span className="font-bold">*</span> Lessons with these teachers are subject to our <Link href="/rates" target="_blank" className="dcam-link">premium rates</Link></p>
             </div>
         </main>

@@ -23,10 +23,10 @@ export const metadata = {
 const ContactPage = () => {
     
     return ( 
-            <main className="contact-page bg-white pb-36">
+            <>
                 <PageTitle title="Contact" heatherImage="/images/pages/contact/contact_page_illustration.png" alt="contact page illustration" />
 
-                <div className="grid md:grid-cols-2 lg:px-36 xl:px-52 py-20 bg-gray-100">
+                <div className="grid md:grid-cols-2 lg:px-36 xl:px-52 bg-gray-100 py-20">
                     <section className="contact mb-10 md:mb-0 md:pe-5 lg:pe-10 px-5 lg:px-0">
                         <div className="mb-10">
                             <h2 className="text-lg font-semibold">Telephone:</h2><Link href="tel:+4162379595" className="flex items-center dcam-link-hover-orange"><BsTelephone className={"me-1"}/>(416) 237-9595</Link>
@@ -52,7 +52,7 @@ const ContactPage = () => {
                     </section>
                 </div>
 
-                <section className="neighbourhood text-center px-5 lg:px-36 xl:px-52 py-20">
+                <section className="neighbourhood text-center px-5 lg:px-36 xl:px-52 pt-20 pb-32">
                     <h2 className="text-lg font-semibold mb-5">OUR NEIGHBOURHOOD:</h2>
                     <p>Located in the beautiful Etobicoke neighbourhood of <Link href="https://en.wikipedia.org/wiki/Humber_Valley_Village" target="_blank" className="hover:text-lightRed">Humber Valley Village</Link>, we are just minutes away from the following schools:</p>
                     <table className="mx-auto my-10">
@@ -92,7 +92,7 @@ const ContactPage = () => {
                         </tbody>
                     </table>
                 </section>
-            </main>
+            </>
      );
 }
  

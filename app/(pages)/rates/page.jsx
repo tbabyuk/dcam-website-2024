@@ -29,16 +29,16 @@ export const metadata = {
 const RatesPage = () => {
     
     return (
-            <main className="rates-page bg-white pb-36">
+            <>
                 <PageTitle title="Rates" heatherImage="/images/pages/rates/rates_page_illustration.png" alt="rates page illustration" />
                 
-                <section className="rates-intro px-5 lg:px-36 xl:px-52 bg-gray-100 py-20 mb-24">
+                <section className="rates-intro px-5 lg:px-36 xl:px-52 bg-gray-100 py-20">
                     <p>
                         Lessons at Da Capo Academy of Music are based on the school system and are divided into Fall, Winter, Spring, and an optional Summer term. Your exact rates for each term will depend on which day of the week your lesson falls on, as some days are affected by statutory holidays or there are simply less of them in a given term.<br /><br />Please review below our policies surrounding lessons/payments and click the download button to view payment schedules for each term.<br /><br />*Students not wishing to follow the term system may opt to study on a Pay-As-You-Go basis. Rates for Pay-As-You-Go lessons are separate and can be viewed <a href="/downloads/PAYG_lessons_2023-2024.pdf" download className="dcam-link-orange">here</a>.<br /><br />*Lessons with our highest-qualified and most-experienced teachers are subject to our PREMIUM RATES, which you can find <a href="/downloads/premium_lessons_2023-2024.pdf" download className="dcam-link-orange">here</a>.
                     </p>
                 </section>
 
-                <section className="private-lesson-rates px-5 lg:px-36 xl:px-52">
+                <section className="private-lesson-rates px-5 lg:px-36 xl:px-52 pt-20">
                     <h2 className="font-ovo text-3xl text-dcam-reg-orange font-semibold text-center mb-14">PRIVATE LESSON RATES</h2>
 
                     <h4 className="font-ovo text-xl text-dcam-reg-orange text-center mb-6">2024 SUMMER TERM</h4>
@@ -58,9 +58,10 @@ const RatesPage = () => {
                         <li className="mb-2">* a $20 registration fee applies to all new students or students who return to lessons after being inactive</li>
                     </ul>
                 </section>
+
                 <PageDivider />
 
-                <section className="semi-private-lesson-rates px-5 lg:px-36 xl:px-52">
+                <section className="semi-private-lesson-rates px-5 lg:px-36 xl:px-52 pb-32">
                     <h2 className="font-ovo text-3xl text-dcam-reg-orange font-semibold text-center mb-14">SEMI-PRIVATE LESSON RATES</h2>
 
                     <h4 className="font-ovo text-xl text-dcam-reg-orange text-center mb-6">2024 SUMMER TERM</h4>
@@ -80,7 +81,7 @@ const RatesPage = () => {
                         <li className="mb-2">* A $20 registration fee applies to all new students or students who return to lessons after being inactive</li>
                     </ul>
                 </section>
-            </main>
+            </>
      );
 }
  

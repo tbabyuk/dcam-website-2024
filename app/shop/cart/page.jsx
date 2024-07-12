@@ -1,12 +1,9 @@
 "use client"
 
 import { useState } from "react"
-// import { PageTitle } from "../../page-content-components/PageTitle"
 import { useShopContext } from "@/app/hooks/useShopContext"
 import { CartProductRow } from "./components/CardProductRow"
 import ReCAPTCHA from "react-google-recaptcha"
-import { FixedQuantityProductRow } from "./components/FixedQuantityProductRow"
-
 
 
 const Cart = () => {
@@ -18,46 +15,16 @@ const Cart = () => {
 
 
   // GET SUBTOTAL OF ALL CART ITEMS
-  const getSubtotal = () => {
-    const subtotal = cart.reduce((accumulator, item) => {
-      return accumulator + item.price * item.quantity;
-    }, 0);
-    return subtotal.toFixed(2)
-  }
-
-
-  // REMOVED BECAUSE IT'S CALCULATED BY STRIPE AUTOMATICALLY AT CHECKOUT
-  // const getTaxTotal = () => {
-  //   const taxTotal = cart.reduce((accumulator, item) => {
-  //       return accumulator + item.price * item.quantity * item.tax;
-  //   }, 0)
-  //   return taxTotal.toFixed(2)
-  // }
-
-
-//   useEffect(() => {
-//     getTaxTotal()
-//   }, [cart])
-
-  // const handleCheckout = async () => {
-  //   await fetch("http://localhost:3000/checkout", {
-  //     method: "POST",
-  //     headers: {
-  //       "Content-Type": "application/json"
-  //     },
-  //     body: JSON.stringify({items: cart})
-  //   }).then((response) => {
-  //     return response.json()
-  //   }).then((response) => {
-  //     if(response.url) {
-  //       window.location.assign(response.url)
-  //     }
-  //   })
-  // }
-
+    const getSubtotal = () => {
+      const subtotal = cart.reduce((accumulator, item) => {
+        return accumulator + item.price * item.quantity;
+      }, 0);
+      return subtotal.toFixed(2)
+    }
 
     const handleRecaptchaChange = (value) => {
       // This function is called when the user completes the reCAPTCHA challenge
+      console.log("handleRecaptcha change fired")
       setRecaptchaValue(value);
     };
 
@@ -93,6 +60,7 @@ const Cart = () => {
     e.preventDefault()
     console.log("sending these items to backend...", cart)
 
+    setError("")
     setProcessing(true)
 
     // Check if reCAPTCHA is verified before submitting the form
@@ -106,21 +74,26 @@ const Cart = () => {
             "Content-Type": "application/json"
           },
           body: JSON.stringify({
-            response: recaptchaValue
+            payload: recaptchaValue
           })
         })
 
         const data = await res.json()
 
-        if(data.success) {
+        console.log("logging x from handleSubmitAndValidate:", data)
+
+        if(!data.success) {
+          throw new Error(data["error-codes"])
+        } else {
           console.log("verification successful")
           handleCheckout()
-          // console.log("logging cart contents:", cart)
         }
 
-      } catch(err) {
-         console.log("an arror has occured:", err)
-         setProcessing(false)
+      } catch(error) {
+         console.log("an error occured while verifying reCAPTCHA:", error.message)
+         setError("Sorry, we could not verify your checkmark. Please contact us via email at info@dacapomusic.ca if you are having trouble with your purchase.")
+      } finally {
+        setProcessing(false)
       }
 
     } else {
@@ -151,21 +124,10 @@ const Cart = () => {
                     <tr>
                         <td colSpan="4"></td>
                         <td className="text-right font-semibold">Subtotal:</td>
-                        <td className="text-center font-semibold py-4">{getSubtotal()}</td>
-                    </tr>
-                    {/* <tr>
-                        <td colSpan="4"></td>
-                        <td className="text-right">Tax:</td>
-                        <td className="text-center">${getTaxTotal()}</td>
+                        <td className="text-center font-semibold py-4">${getSubtotal()}</td>
                     </tr>
                     <tr>
                         <td colSpan="4"></td>
-                        <td className="text-right font-bold">Total:</td>
-                        <td className="text-center font-bold">${(+getSubtotal() + +getTaxTotal()).toFixed(2)}</td>
-                    </tr> */}
-                    <tr>
-                        <td colSpan="4"></td>
-                        {/* <td className="text-right font-bold"></td> */}
                         <td colSpan="2" className="text-right text-sm italic">Tax and Shipping calculated at Checkout</td>
                     </tr>
                 </tbody>

@@ -14,7 +14,7 @@ const TheoryBooksClientPage = () => {
   return (
       <>
           <TheoryBooksFilter setFilterValue={setFilterValue} />
-          <div className="books-list grid gap-y-28 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4 px-5 lg:px-36 pt-20 pb-36">
+          <div className="books-list grid gap-y-28 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4 px-5 lg:px-36 pt-20 pb-32">
             {filterValue === "theory-all" && (
                 theoryBooksArray
                     .map((product) => (

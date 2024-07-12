@@ -8,7 +8,7 @@ import { HomeSectionHeading } from "../components/HomeSectionHeading"
 export const HomeShopSection = () => {
 
     return (
-        <section className="shop px-5 lg:px-36 xl:px-52 py-20 bg-dcam-light-blue relative">
+        <section className="shop px-5 lg:px-36 xl:px-52 bg-dcam-light-blue py-20 relative">
             <img src="images/pages/home/notes_light.svg" className="absolute left-2 top-4 w-[110px]" />
             <img src="images/pages/home/notes_light.svg" className="absolute right-2 bottom-4 w-[110px]" />
             <HomeSectionHeading title="SHOP" textColor="text-dcam-white"  />

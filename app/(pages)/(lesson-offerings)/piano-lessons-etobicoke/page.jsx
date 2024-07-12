@@ -9,12 +9,13 @@ import { teachersArray } from "@/app/data/teachersData";
 
 export const metadata = {
     title: "Piano Lessons in Etobicoke | Da Capo Academy of Music",
-    description: "Schedule your free, no-obligation trial lesson today and see why we are the best choice for piano lessons in Etobicoke and surrounding area! (416) 237-9595",
+    // description: "Schedule your free, no-obligation trial lesson today and see why we are the best choice for piano lessons in Etobicoke and surrounding area! (416) 237-9595",
+    description: "Looking for piano lessons in Etobicoke? We are here for you! Call or visit our website to register for your free, no-obligation trial lesson TODAY! (416) 237-9595",
     robots: { index: true, follow: true},
     authors: [{name: "Taras (Terry) Babyuk"}],
     openGraph: {
         title: "Piano Lessons in Etobicoke | Da Capo Academy of Music",
-        description: "Schedule your free, no-obligation trial lesson today and see why we are the best choice for piano lessons in Etobicoke and surrounding area! (416) 237-9595",
+        description: "Looking for piano lessons in Etobicoke? We are here for you! Call or visit our website to register for your free, no-obligation trial lesson TODAY! (416) 237-9595",
         url: "https://dacapomusic.ca/piano-lessons-etobicoke",
         siteName: "Da Capo Academy of Music",
         locale: "en_US",
@@ -35,7 +36,7 @@ export const metadata = {
 const PianoLessonsPage = () => {
 
     return ( 
-        <main className="piano-page">
+        <main className="bg-white">
             <PageTitle title="Piano Lessons" image="/images/pages/piano/piano_lessons_illustration.png" alt="piano lessons illustration" />
 
             <section className="overview leading-8 flex flex-col items-center sm:block px-5 lg:px-36 xl:px-52 bg-gray-100 py-20">

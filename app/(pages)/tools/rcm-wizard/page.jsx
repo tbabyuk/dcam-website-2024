@@ -32,7 +32,7 @@ const RCMWizardPage = () => {
 
 
   return (
-    <div className="flex flex-col sm:flex-row h-auto">
+    <div className="flex flex-col sm:flex-row h-auto pb-20">
         <aside className="bg-gray-200 h-fit p-6 w-full md:max-w-[320px]">
             <h4 className="text-center">Choose Level to view requirements</h4>
                 <select name="" id="" className="w-full my-6 h-12 rounded-md text-center cursor-pointer border-2 border-gray-400" onChange={handleChange}>

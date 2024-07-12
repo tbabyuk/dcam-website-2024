@@ -18,10 +18,9 @@ export const metadata = {
 
 
 const TheoryBooksPage = () => {
-
-  return (
-      <TheoryBooksClientPage />
-    )
+    return (
+        <TheoryBooksClientPage />
+      )
 }
 
 export default TheoryBooksPage;
