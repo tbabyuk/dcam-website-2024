@@ -32,14 +32,14 @@ export const metadata = {
 const ToddlerMusicPage = () => {
     return ( 
         <main className="toddler-music-page">
-            <PageTitle title="Toddler Music Classes" image="/images/lesson-offerings/toddlers/toddler-music-classes-illustration.png" alt="toddler music classes illustration" />
+            <PageTitle title="Toddler Music Classes" image="/images/pages/toddlers/toddler_music_classes_illustration.png" alt="toddler music classes illustration" />
 
             <section className="overview leading-8 flex flex-col items-center sm:block px-5 lg:px-36 xl:px-52 bg-gray-100 py-20">
                 <PageSubtitle subtitle="Overview" />
-                <div className="flex flex-col-reverse md:flex-row mb-6 md:mb-0">
+                <div className="flex flex-col-reverse md:flex-row md:items-center mb-6 md:mb-0">
                     <p>Our “Musical Beginnings” class is a group class aimed at toddlers and preschoolers (ages 2-5). It is designed to introduce young children to music and help them develop an understanding of rhythm, pitch and musicality at an early age. This class is a great gateway into starting to learn an instrument.</p>
                     <figure className="flex-shrink-0 md:ms-10 mb-10 md:mb-0">
-                        <img src="/images/lesson-offerings/toddlers/toddler_lessons.jpg" alt="toddler music lesson in progress" className="rounded-md mx-auto w-[140px]" />
+                        <img src="/images/pages/toddlers/toddler_lessons.jpg" alt="toddler music lesson in progress" className="rounded-md mx-auto w-[180px]" />
                     </figure>
                 </div>
             </section>
@@ -63,7 +63,7 @@ const ToddlerMusicPage = () => {
                 <PageSubtitle subtitle="Materials" />
                 <div className="flex flex-col md:flex-row mb-6 md:mb-0">
                     <figure className="flex-shrink-0 md:me-10 mb-10 md:mb-0">
-                        <img src="/images/lesson-offerings/toddlers/toddler_instruments.png" alt="a girl doing music theory" className="rounded-md mx-auto w-[140px]" />
+                        <img src="/images/pages/toddlers/toddler_instruments.png" alt="a girl doing music theory" className="rounded-md mx-auto w-[140px]" />
                     </figure>
                     <p>The most common instruments in our group toddler and preschooler classes are egg shakers, tambourines, and xylophones.</p>
                 </div>

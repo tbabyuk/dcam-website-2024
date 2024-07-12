@@ -36,7 +36,7 @@ const GuitarLessonsPage = () => {
 
     return ( 
         <main className="guitar-page">
-            <PageTitle title="Guitar Lessons" image="/images/lesson-offerings/illustrations/guitar-lessons-illustration.png" alt="guitar lessons illustration" />
+            <PageTitle title="Guitar Lessons" image="/images/pages/guitar/guitar_lessons_illustration.png" alt="guitar lessons illustration" />
 
             <section className="overview leading-8 flex flex-col items-center sm:block px-5 lg:px-36 xl:px-52 bg-gray-100 py-20">
                 <PageSubtitle subtitle="Overview" />
@@ -44,7 +44,7 @@ const GuitarLessonsPage = () => {
                     <p>Whether you want to be in a band, impress your friends at a party, or just play for yourself - the possibilities are endless when it comes to the  guitar! No wonder it's one of the most popular instruments today!<br /><br />
                     At DCAM, you learn guitar through a fun and gradual process that combines proper technique with music that you actually want to play! Just like guitars, we realize that students come in many different “shapes and sizes”, which is why our teachers do their best to tailor lessons to each student's individual skill level and musical taste.</p>
                     <figure className="flex-shrink-0 md:ms-10 mb-10 md:mb-0">
-                        <img src="/images/lesson-offerings/guitar/guitar_lesson_in_progress.jpg" alt="one of our guitar lessons in progress" style={{width: "200px"}} className="rounded-md mx-auto" />
+                        <img src="/images/pages/guitar/guitar_lesson_in_progress.jpg" alt="one of our guitar lessons in progress" style={{width: "200px"}} className="rounded-md mx-auto" />
                     </figure>
                 </div>
             </section>
@@ -62,7 +62,7 @@ const GuitarLessonsPage = () => {
                 <PageSubtitle subtitle="Materials" />
                 <div className="flex flex-col md:flex-row mb-6">
                     <figure className="flex-shrink-0 md:me-10 mb-10 md:mb-0">
-                        <img src="/images/lesson-offerings/guitar/book_intro_to_guitar.jpg" className="mx-auto rounded-xl shadow-lg" style={{width: "130px"}} alt="lesson in progress" />
+                        <img src="/images/pages/guitar/book_intro_to_guitar.jpg" className="mx-auto rounded-xl shadow-lg" style={{width: "130px"}} alt="lesson in progress" />
                     </figure>
                     <p>Beginning students can start out with our “Intro to Guitar” book series, which includes 3 books. These books help lay all the important foundation for beginning guitarists, including the reading of tablature, strumming patterns, and lots of fun songs to play along to! After completing the series, students are free to start learning songs that interest them and can join our “Band Experience” program, which allows them to get a feel for what it's like to play in a group with other instruments and musicians.</p>
                 </div>
@@ -76,7 +76,7 @@ const GuitarLessonsPage = () => {
                     <span className="italic block text-[0.9rem]">Need a guitar? Talk to us or check out <a href="https://www.long-mcquade.com/" target="_blank" className="dcam-link">Long & McQuade</a>, who offer buy or rent options.</span>
                     </p>
                     <figure className="flex-shrink-0 md:ms-10 mb-10 md:mb-0">
-                        <img src="/images/lesson-offerings/guitar/guitar_lessons.jpg" alt="guitar lesson in progress" style={{width: "320px"}} className="rounded-md mx-auto" />
+                        <img src="/images/pages/guitar/guitar_lessons.jpg" alt="guitar lesson in progress" style={{width: "320px"}} className="rounded-md mx-auto" />
                     </figure>
                 </div>
             </section>

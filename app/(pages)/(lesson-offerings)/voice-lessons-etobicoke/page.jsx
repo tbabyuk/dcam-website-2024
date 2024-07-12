@@ -37,14 +37,14 @@ const VoiceLessonsPage = () => {
 
     return ( 
         <main className="voice-page">
-            <PageTitle title="Voice Lessons" image="/images/lesson-offerings/voice/voice-lessons-illustration.png" alt="voice lessons illustration" />
+            <PageTitle title="Voice Lessons" image="/images/pages/voice/voice_lessons_illustration.png" alt="voice lessons illustration" />
 
             <section className="overview leading-8 flex flex-col items-center sm:block px-5 lg:px-36 xl:px-52 bg-gray-100 py-20">
                 <PageSubtitle subtitle="Overview" />
                 <div className="flex flex-col-reverse md:flex-row mb-6 md:mb-0">
                     <p>Do you or your child like to sing? Are you looking for voice lessons that are fun but also individualized to your or your child's level and interest? Our voice lessons are designed to be educational and fun at the same time. Bring in a song that you want to learn or use one of our method books to take your singing to the next level - it's up to you!<br /><br /> With proper technique and training, you will be surprized at what your voice can do! Call to book your free trial today!</p>
                     <figure className="flex-shrink-0 md:ms-10 mb-10 md:mb-0">
-                        <img src="/images/lesson-offerings/voice/voice_lesson_in_progress.jpg" alt="one of our amazing voice students during her lesson" className="rounded-md mx-auto w-[160px]" />
+                        <img src="/images/pages/voice/voice_lesson_in_progress.jpg" alt="one of our amazing voice students during her lesson" className="rounded-md mx-auto w-[160px]" />
                     </figure>
                 </div>
             </section>
@@ -62,7 +62,7 @@ const VoiceLessonsPage = () => {
                 <PageSubtitle subtitle="Materials" />
                 <div className="flex flex-col md:flex-row mb-6 md:mb-0">
                     <figure className="flex-shrink-0 md:me-10 mb-10 md:mb-0">
-                        <img src="/images/lesson-offerings/voice/voice_books.png" alt="a girl doing music theory" className="rounded-md mx-auto w-[170px]" />
+                        <img src="/images/pages/voice/voice_books.png" alt="a girl doing music theory" className="rounded-md mx-auto w-[170px]" />
                     </figure>
                     <p>Students have the option of purchasing one of our method books or bringing in their own material. Those wishing to go the Royal Conservatory route might want to focus on RCM materials, otherwise a teacher can help the student select a book most suitable to their needs and goals. Some teachers also choose to use their own material that they have accumulated over time and found to be effective with their students.</p>
                 </div>

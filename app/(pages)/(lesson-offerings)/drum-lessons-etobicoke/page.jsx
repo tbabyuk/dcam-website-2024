@@ -35,14 +35,14 @@ export const metadata = {
 const DrumLessonsPage = () => {
     return ( 
         <main className="drums-page">
-            <PageTitle title="Drum Lessons" image="/images/lesson-offerings/drums/drum-lessons-illustration.png" alt="drum lessons illustration" />
+            <PageTitle title="Drum Lessons" image="/images/pages/drums/drum_lessons_illustration.png" alt="drum lessons illustration" />
 
             <section className="overview leading-8 flex flex-col items-center sm:block px-5 lg:px-36 xl:px-52 bg-gray-100 py-20">
                 <PageSubtitle subtitle="Overview" />
                 <div className="flex flex-col-reverse md:flex-row mb-6">
                     <p>Whether you want to play in a band, improve your sense of rhythm, or just let out some steam - there is no denying that drums are just an all-round fun instrument to play!<br /><br /> In our studio, we incorporate real song tracks into our lessons so that you get a genuine playing experience. Students can also choose to play either an acoustic or electric drum set, or alternate between both!</p>
                     <figure className="flex-shrink-0 md:ms-10 mb-10 md:mb-0">
-                        <img src="/images/lesson-offerings/drums/drum_lessons.jpg" alt="guitar lesson in progress" style={{width: "190px"}} className="rounded-md mx-auto" />
+                        <img src="/images/pages/drums/drum_lessons.jpg" alt="guitar lesson in progress" style={{width: "190px"}} className="rounded-md mx-auto" />
                     </figure>
                 </div>
             </section>
@@ -60,7 +60,7 @@ const DrumLessonsPage = () => {
                 <PageSubtitle subtitle="Materials" />
                 <div className="flex flex-col md:flex-row mb-6">
                     <figure className="flex-shrink-0 md:me-10 mb-10 md:mb-0">
-                        <img src="/images/lesson-offerings/drums/drum_books.png" className="mx-auto w-[240px]" alt="lesson in progress" />
+                        <img src="/images/pages/drums/drum_books.png" className="mx-auto w-[220px]" alt="lesson in progress" />
                     </figure>
                     <p>Beginning students can start out with our “Intro to Guitar” book series, which includes 3 books. These books help lay all the important foundation for beginning guitarists, including the reading of tablature, strumming patterns, and lots of fun songs to play along to! After completing the series, students are free to start learning songs that interest them and can join our “Band Experience” program, which allows them to get a feel for what it's like to play in a group with other instruments and musicians.</p>
                 </div>

@@ -35,23 +35,23 @@ export const metadata = {
 const BassGuitarLessonsPage = () => {
 
     return ( 
-        <main className="bass-guitar-page">
-            <PageTitle title="Bass Guitar Lessons" image="/images/lesson-offerings/illustrations/guitar-lessons-illustration.png" alt="bass guitar lessons illustration" />
+        <main className="bass-guitar-page bg-white">
+            <PageTitle title="Bass Guitar Lessons" image="/images/pages/bass-guitar/bass_guitar_lessons_illustration.png" alt="bass guitar lessons illustration" />
 
             <section className="overview leading-8 flex flex-col items-center sm:block px-5 lg:px-36 xl:px-52 bg-gray-100 py-20">
                 <PageSubtitle subtitle="Overview" />
                 <div className="flex flex-col-reverse md:flex-row mb-6">
-                    <p>Whether you want to be in a band, impress your friends at a party, or just play for yourself - the possibilities are endless when it comes to the  guitar! No wonder it's one of the most popular instruments today!<br /><br />
-                    At DCAM, you learn guitar through a fun and gradual process that combines proper technique with music that you actually want to play! Just like guitars, we realize that students come in many different “shapes and sizes”, which is why our teachers do their best to tailor lessons to each student's individual skill level and musical taste.</p>
+                    <p>The bass guitar is the heartbeat of any band, providing the groove that gets people moving and makes music come alive. Whether you dream of playing in a band, laying down cool basslines at a jam session, or simply enjoying the rich, deep sounds on your own, the bass guitar offers endless possibilities for creativity and fun!<br /><br />
+                    At DCAM, we make learning the bass guitar an enjoyable and progressive experience. Our approach combines essential technique with songs and styles that resonate with you. Our instructors customize lessons to suit each individual's skill level and musical interests, ensuring a personalized and engaging learning journey.</p>
                     <figure className="flex-shrink-0 md:ms-10 mb-10 md:mb-0">
-                        <img src="/images/lesson-offerings/guitar/guitar_lesson.jpg" alt="guitar lesson in progress" style={{width: "190px"}} className="rounded-md mx-auto" />
+                        <img src="/images/pages/bass-guitar/bass_guitar_lessons.jpg" alt="guitar lesson in progress" style={{width: "190px"}} className="rounded-md mx-auto" />
                     </figure>
                 </div>
             </section>
 
             <section className="age leading-8 px-5 lg:px-36 xl:px-52 py-20">
-                <PageSubtitle subtitle="What is a good age to start guitar lessons?" />
-                <p>Six is our minimum recommended age for starting guitar lessons. At this age, most children are developed enough physically to be able to comfortably hold a small guitar and have enough finger-strength to be able to depress the strings. However, if your child is younger and you think they are ready to start, we would be happy to give them a free trial lesson and give you our recommendation.</p>
+                <PageSubtitle subtitle="What is a good age to start bass guitar lessons?" />
+                <p>We recommend starting bass guitar lessons at the age of six. At this age, most children have developed the physical ability to comfortably handle a small bass guitar and possess the finger strength needed to press down the strings. However, if your child is younger and you believe they are ready to start, we would be delighted to offer a free trial lesson and provide our professional recommendation.</p>
             </section>
 
             <LessonFormatSection />
@@ -60,30 +60,28 @@ const BassGuitarLessonsPage = () => {
 
             <section className="materials leading-8 flex flex-col items-center sm:block px-5 lg:px-36 xl:px-52 bg-gray-100 py-20">
                 <PageSubtitle subtitle="Materials" />
-                <div className="flex flex-col md:flex-row mb-6">
+                <div className="flex flex-col md:flex-row md:items-center mb-6">
                     <figure className="flex-shrink-0 md:me-10 mb-10 md:mb-0">
-                        <img src="/images/lesson-offerings/guitar/book_intro_to_guitar.jpg" className="mx-auto rounded-xl shadow-lg" style={{width: "130px"}} alt="lesson in progress" />
+                        <img src="/images/pages/bass-guitar/bass_guitar_books.png" className="mx-auto" style={{width: "200px"}} alt="bass guitar books" />
                     </figure>
-                    <p>Beginning students can start out with our “Intro to Guitar” book series, which includes 3 books. These books help lay all the important foundation for beginning guitarists, including the reading of tablature, strumming patterns, and lots of fun songs to play along to! After completing the series, students are free to start learning songs that interest them and can join our “Band Experience” program, which allows them to get a feel for what it's like to play in a group with other instruments and musicians.</p>
+                    <p>Beginning students can start out with one of our beginner method books, which provide a solid foundation for new bass guitarists, covering essential skills such as reading tablature, understanding basic rhythms, and playing along with fun songs. After completing the series, students are encouraged to explore songs that interest them. They can also join our “Band Experience” program, where they can experience playing in a group setting with other instruments and musicians.</p>
                 </div>
             </section>
 
             <section className="instruments leading-8 flex flex-col items-center sm:block px-5 lg:px-36 xl:px-52 py-20">
                 <PageSubtitle subtitle="Instruments" />
-                <div className="flex flex-col-reverse md:flex-row mb-6">
-                    <p>Students can choose to play either an acoustic, electric, or classical guitar. For young children, guitars with nylon strings are recommended, as they don't put a lot of strain on the fingers. Children will also require a guitar that fits their size/age, which can be bought or rented from most music stores or directly from us. Students are expected to have their own guitar and to bring it with them to every lesson.<br /><br />
-                    <span className="italic block text-[0.9rem]">Not sure what the right guitar size is for your child? Check out <a href="https://dacapomusic.ca/child-guitar-sizes/" target="_blank" className="dcam-link">this blog article</a>.</span>
-                    <span className="italic block text-[0.9rem]">Need a guitar? Talk to us or check out <a href="https://www.long-mcquade.com/" target="_blank" className="dcam-link">Long & McQuade</a>, who offer buy or rent options.</span>
+                <div className="flex flex-col-reverse md:flex-row md:items-center mb-6">
+                    <p>For young children, smaller-sized bass guitars with lighter gauge strings are recommended to reduce strain on the fingers. It's important to select a bass that fits the child's size and age, which can be bought or rented from most music stores or directly from us. Students are expected to have their own bass guitar and bring it with them to every lesson.<br /><br />
                     </p>
                     <figure className="flex-shrink-0 md:ms-10 mb-10 md:mb-0">
-                        <img src="/images/lesson-offerings/guitar/guitar_lessons.jpg" alt="guitar lesson in progress" style={{width: "320px"}} className="rounded-md mx-auto" />
+                        <img src="/images/pages/bass-guitar/bass_guitar_instrument.jpg" alt="guitar lesson in progress" style={{width: "180px"}} className="rounded-md mx-auto" />
                     </figure>
                 </div>
             </section>
 
             <section className="styles leading-8 px-5 lg:px-36 xl:px-52 bg-gray-100 py-20">
                 <PageSubtitle subtitle="Styles" />
-                <p>Students can choose to learn any musical style they want on the piano, such as pop, jazz,  classical, etc. Those wishing to go the Royal Conservatory route should expect a heavy focus on classical music.</p>
+                <p>Students can choose to learn any musical style they want on the bass guitar, such as rock, jazz, funk, etc. Our teachers to their best to tailor lesson material to the student's interest.</p>
             </section>
 
             <LessonTeachersSection teachers={teachersArray.filter(teacher => teacher.instrument.includes("bass guitar"))} />
