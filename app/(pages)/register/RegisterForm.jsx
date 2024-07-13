@@ -16,6 +16,7 @@ export const RegisterForm = () => {
         } = useValidateFormFields()
 
   const [firstPageLoad, setFirstPageLoad] = useState(false)
+  const [removeInapplicableFields, setRemoveInapplicableFields] = useState(false)
   const [studentNameError, setStudentNameError] = useState("")
   const [parentNameError, setParentNameError] = useState("")
   const [phoneError, setPhoneError] = useState("")
@@ -246,6 +247,14 @@ export const RegisterForm = () => {
     }
   }, [registerFormFields.preferred_days])
 
+  useEffect(() => {
+    if(registerFormFields.instrument === "toddlers" || registerFormFields.instrument === "band") {
+        setRemoveInapplicableFields(true)
+    } else {
+        setRemoveInapplicableFields(false)
+    }
+  }, [registerFormFields.instrument] )
+
 
   return (
         <>
@@ -310,76 +319,80 @@ export const RegisterForm = () => {
                                 <option value="choose instrument" disabled>choose instrument</option>
                                 <option value="piano">piano</option>
                                 <option value="guitar">guitar</option>
-                                <option value="bass guitar">bass guitar</option>
+                                <option value="bass">bass guitar</option>
                                 <option value="ukulele">ukulele</option>
                                 <option value="drums">drums</option>
                                 <option value="voice">voice</option>
                                 <option value="theory">music theory</option>
                                 <option value="toddlers">music for toddlers</option>
+                                <option value="band">the band experience</option>
                             {/* <option value="theory">intro to music</option> */}
                         </select>
                         <span className={`mb-4 text-[0.8rem] text-right text-red-500 h-[20px] block`}>{instrumentError && instrumentError}</span>
                     </label>
                     {/* LESSON TYPE: PRIVATE OR SEMI-PRIVATE */}
-                    <div className="mb-6 border-2 border-gray-300 p-4">
-                        <span className="block text-sm mb-4">LESSON TYPE:</span>
-                        <div className="flex mb-4 text-[0.9rem]">
-                            <label className="flex items-center me-10">
-                                <input 
-                                    type="radio" 
-                                    name="lesson_type" 
-                                    value="private" 
-                                    checked={registerFormFields.lesson_type === "private"} 
-                                    onChange={e => handleLessonType(e.target.value)} 
-                                    className="me-1" />private
-                            </label>
-                            <label className="flex items-center">
-                                <input 
-                                    type="radio" 
-                                    name="lesson_type" 
-                                    value="semi-private" 
-                                    checked={registerFormFields.lesson_type === "semi-private"} 
-                                    onChange={e => handleLessonType(e.target.value)} 
-                                    className="me-1" />semi-private
-                            </label>
+                    {!removeInapplicableFields && (
+                        <div className="mb-6 border-2 border-gray-300 p-4">
+                            <span className="block text-sm mb-4">LESSON TYPE:</span>
+                            <div className="flex mb-4 text-[0.9rem]">
+                                <label className="flex items-center me-10">
+                                    <input 
+                                        type="radio" 
+                                        name="lesson_type" 
+                                        value="private" 
+                                        checked={registerFormFields.lesson_type === "private"} 
+                                        onChange={e => handleLessonType(e.target.value)} 
+                                        className="me-1" />private
+                                </label>
+                                <label className="flex items-center">
+                                    <input 
+                                        type="radio" 
+                                        name="lesson_type" 
+                                        value="semi-private" 
+                                        checked={registerFormFields.lesson_type === "semi-private"} 
+                                        onChange={e => handleLessonType(e.target.value)} 
+                                        className="me-1" />semi-private
+                                </label>
+                            </div>
+                            <span className="text-[0.8rem] font-semibold">*Note that semi-private lessons require two students to register</span>
                         </div>
-                        <span className="text-[0.8rem] font-semibold">*Note that semi-private lessons require two students to register</span>
-                    </div>
+                    )}
 
-                    <div className="mb-6 border-2 border-gray-300 p-4">
-                        <span className="block text-sm mb-4">LESSON DURATION:</span>
-                        <div className="flex mb-4 text-[0.9rem]">
-                            <label className="flex items-center me-10">
-                                <input 
-                                    type="radio" 
-                                    name="lesson_duration" 
-                                    value="30" 
-                                    checked={registerFormFields.lesson_duration === "30"} 
-                                    onChange={e => handleLessonDuration(e.target.value)} 
-                                    className="me-1" />30 mins
-                            </label>
-                            <label className="flex items-center me-10">
-                                <input 
-                                    type="radio" 
-                                    name="lesson_duration" 
-                                    value="45" 
-                                    checked={registerFormFields.lesson_duration === "45"} 
-                                    onChange={e => handleLessonDuration(e.target.value)} 
-                                    className="me-1" />45 mins
-                            </label>
-                            <label className="flex items-center">
-                                <input 
-                                    type="radio" 
-                                    name="lesson_duration" 
-                                    value="60" 
-                                    checked={registerFormFields.lesson_duration === "60"} 
-                                    onChange={e => handleLessonDuration(e.target.value)} 
-                                    className="me-1" />60 mins
-                            </label>
+                    {!removeInapplicableFields && (
+                        <div className="mb-6 border-2 border-gray-300 p-4">
+                            <span className="block text-sm mb-4">LESSON DURATION:</span>
+                            <div className="flex mb-4 text-[0.9rem]">
+                                <label className="flex items-center me-10">
+                                    <input 
+                                        type="radio" 
+                                        name="lesson_duration" 
+                                        value="30" 
+                                        checked={registerFormFields.lesson_duration === "30"} 
+                                        onChange={e => handleLessonDuration(e.target.value)} 
+                                        className="me-1" />30 mins
+                                </label>
+                                <label className="flex items-center me-10">
+                                    <input 
+                                        type="radio" 
+                                        name="lesson_duration" 
+                                        value="45" 
+                                        checked={registerFormFields.lesson_duration === "45"} 
+                                        onChange={e => handleLessonDuration(e.target.value)} 
+                                        className="me-1" />45 mins
+                                </label>
+                                <label className="flex items-center">
+                                    <input 
+                                        type="radio" 
+                                        name="lesson_duration" 
+                                        value="60" 
+                                        checked={registerFormFields.lesson_duration === "60"} 
+                                        onChange={e => handleLessonDuration(e.target.value)} 
+                                        className="me-1" />60 mins
+                                </label>
+                            </div>
+                            <span className="text-[0.8rem] font-semibold">*Minimum duration of 45 mins is recommended for students 12+ or students working on Royal Conservatory Level 1 and above</span>
                         </div>
-                        <span className="text-[0.8rem] font-semibold">*Minimum duration of 45 mins is recommended for students 12+ or students working on Royal Conservatory Level 1 and above</span>
-                    </div>
-
+                    )}
                     <div className="mb-6 border-2 border-gray-300 p-4">
                         <span className="block text-sm mb-4">LESSON FREQUENCY:</span>
                         <div className="flex text-[0.9rem]">
