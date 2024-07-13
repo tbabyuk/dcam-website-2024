@@ -22,18 +22,16 @@ export async function POST(request) {
     const transporter = nodemailer.createTransport({
         service: "gmail",
         auth: {
-            // user: "info@dacapomusic.ca",
-            // pass: "kwrmhfzqejjsnmry"
-            user: "terry@dacapomusic.ca",
-            pass: "fbcaqouhkghjywtd"
+            user: "info@dacapomusic.ca",
+            pass: process.env.NODEMAILER_INFO_PASS
         }
     })
 
 
     const emailOptions =
         {
-            from: "terry@dacapomusic.ca",
-            to: "terry@dacapomusic.ca",
+            from: "info@dacapomusic.ca",
+            to: "info@dacapomusic.ca",
             subject: "New Lesson Registration",
             html: `
                     <strong>Student Name</strong><br />

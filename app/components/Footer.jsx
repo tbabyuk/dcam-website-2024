@@ -1,6 +1,4 @@
 import Link from "next/link";
-import { BsTelephone } from "react-icons/bs";
-import { HiOutlineMail, HiOutlineOfficeBuilding } from "react-icons/hi"
 import { FaFacebookSquare, FaInstagramSquare, FaYoutubeSquare } from "react-icons/fa"
 
 
