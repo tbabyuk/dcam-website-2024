@@ -45,13 +45,14 @@ export const Footer = () => {
             <div className="flex-1">
                 <h4 className="mb-6 inline-block border-b-2">WHAT WE OFFER:</h4>
                 <ul className="text-sm leading-7 font-light">
-                    <li><Link href="#" className="dcam-hover-orange">Piano Lessons</Link></li>
-                    <li><Link href="#" className="dcam-hover-orange">Guitar Lessons</Link></li>
-                    <li><Link href="#" className="dcam-hover-orange">Drum Lessons</Link></li>
-                    <li><Link href="#" className="dcam-hover-orange">Voice Lessons</Link></li>
-                    <li><Link href="#" className="dcam-hover-orange">Music Theory Lessons</Link></li>
-                    <li><Link href="#" className="dcam-hover-orange">Toddler Music Classes</Link></li>
-                    <li><Link href="#" className="dcam-hover-orange">Intro to Music Program</Link></li>
+                    <li><Link href="/piano-lessons-etobicoke" className="dcam-hover-orange">Piano Lessons</Link></li>
+                    <li><Link href="/guitar-lessons-etobicoke" className="dcam-hover-orange">Guitar Lessons</Link></li>
+                    <li><Link href="/bass-guitar-lessons-etobicoke" className="dcam-hover-orange">Bass Guitar Lessons</Link></li>
+                    <li><Link href="/drum-lessons-etobicoke" className="dcam-hover-orange">Drum Lessons</Link></li>
+                    <li><Link href="/voice-lessons-etobicoke" className="dcam-hover-orange">Voice Lessons</Link></li>
+                    <li><Link href="/music-theory-lessons-etobicoke" className="dcam-hover-orange">Music Theory Lessons</Link></li>
+                    <li><Link href="/toddler-music-classes" className="dcam-hover-orange">Toddler Music Classes</Link></li>
+                    <li><Link href="/the-band-experience" className="dcam-hover-orange">The Band Experience</Link></li>
                 </ul>
             </div>
             <div className="flex-1">
@@ -63,6 +64,9 @@ export const Footer = () => {
                     {/* <li><Link href="/gallery" className="hover:text-lightRed">Gallery</Link></li> */}
                     <li><Link href="/about" className="dcam-hover-orange">About</Link></li>
                     <li><Link href="/contact" className="dcam-hover-orange">Contact</Link></li>
+                    <li><Link href="/careers" className="dcam-hover-orange">Careers</Link></li>
+                    <li><Link href="/tools/rcm-wizard" className="dcam-hover-orange">Tools</Link></li>
+                    <li><Link href="/shop" className="dcam-hover-orange">Shop</Link></li>
                     <li><Link href="/blog" className="dcam-hover-orange">Blog</Link></li>
                     {/* <li><Link href="/privacypolicy" className="hover:text-lightRed">Privacy Policy</Link></li> */}
                 </ul>

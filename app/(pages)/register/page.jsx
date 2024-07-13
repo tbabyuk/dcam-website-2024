@@ -4,7 +4,7 @@ import { PageTitle } from "../page-content-components/PageTitle";
 
 export const metadata = {
     title: "Register | Da Capo Academy of Music...",
-    description: "Register for regular lessons today!",
+    description: "Register for lessons at Da Capo Academy of Music today!",
     robots: { index: true, follow: true},
     authors: [{name: "Taras (Terry) Babyuk"}],
     openGraph: {

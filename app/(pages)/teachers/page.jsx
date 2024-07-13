@@ -12,8 +12,8 @@ export const metadata = {
     openGraph: {
         title: "Teachers | Da Capo Academy of Music",
         description: "Our teachers",
-        // url: "https://dacapomusic.ca/teachers",
-        metadataBase: new URL("https://dacapomusic.ca/"),
+        url: "https://dacapomusic.ca/teachers",
+        // metadataBase: new URL("https://dacapomusic.ca/"),
         siteName: "Da Capo Academy of Music",
         locale: "en_US",
         type: "article",
