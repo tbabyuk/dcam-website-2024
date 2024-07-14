@@ -44,7 +44,7 @@ const ArticleEasyCzernyEtudes = () => {
                 <div>
                     <p className="leading-8">Carl Czerny was an Austrian pianist, teacher, and composer of Czech origin who lived from 1791 to 1857. Over his lifetime, he wrote many works for the piano (over a 1000) and many of these are widely used today by students learning to play the piano. I myself played many of his compositions in the past and remember really enjoying them. Now as a teacher, I find teaching them to my students just as enjoyable, not to mention useful in developing their piano technique and helping them grow as pianists. In this article, I have gathered six of (what I think are) his best etudes for beginning piano students. All of these etudes are also featured in the RCM (Royal Conservatory) curriculum for piano students. Enjoy!</p><br />
 
-                    <p className="leading-8">Let's look at each of these pieces in turn and get inspired to learn them!</p>
+                    <p className="leading-8">Let&apos;s look at each of these pieces in turn and get inspired to learn them!</p>
                 </div>
             </section>
 
@@ -145,7 +145,7 @@ const ArticleEasyCzernyEtudes = () => {
                     <h3 className="text-xl underline mb-4">WHAT YOU MIGHT FIND DIFFICULT:</h3>
                     <ul className="list-disc list-inside">
                         <li className="mb-4"><span className="font-bold">The tempo</span>. Allegro is not an easy tempo for beginners and lots of slow practice is required to make the piece sound well at this tempo.</li>
-                        <li><span className="font-bold">RH LH timing</span>. The trick here is to make each chord sound as if it's being played by one hand, even though in reality it's broken up between two hands. This will require good timing so that the hands can transition seamlessly from one to another.</li>
+                        <li><span className="font-bold">RH LH timing</span>. The trick here is to make each chord sound as if it&apos;s being played by one hand, even though in reality it&apos;s broken up between two hands. This will require good timing so that the hands can transition seamlessly from one to another.</li>
                     </ul>
                 </div>
             </section>
@@ -179,7 +179,7 @@ const ArticleEasyCzernyEtudes = () => {
                     <h3 className="text-xl underline mb-4">WHAT YOU MIGHT FIND DIFFICULT:</h3>
                     <ul className="list-disc list-inside">
                         <li className="mb-4"><span className="font-bold">The tempo</span>. Allegro is not an easy tempo for beginners and lots of slow practice is required to make the piece sound well at this tempo.</li>
-                        <li><span className="font-bold">Hand crossing</span>. For beginning piano students, this might their first introduction to the crossing of hands, which might be awkward at first. However, it's very important skill to develop for more advanced pieces in the future.</li>
+                        <li><span className="font-bold">Hand crossing</span>. For beginning piano students, this might their first introduction to the crossing of hands, which might be awkward at first. However, it&apos;s very important skill to develop for more advanced pieces in the future.</li>
                     </ul>
                 </div>
             </section>

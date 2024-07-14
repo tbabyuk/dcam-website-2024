@@ -43,9 +43,9 @@ const ArticleEasyDebussyPianoPieces = () => {
             <ArticleSectionHeading heading="Introduction" />
             <section className="introduction flex flex-col items-center sm:block px-5 lg:px-36 xl:px-64">
                 <div>
-                    <p className="leading-8">As is usually the case with my "easy" series, I try to put together a collection of pieces that are not just "easy" relative to the composer's other works, but also ones I consider to be the most beautiful. So perhaps a better title for this article would have been "The 3 Easiest and Most Beautiful Debussy Piano Pieces" - but that just sounds too long! Also, keep in mind that the "easiest" piece included here requires you to be at about a high-intermediate level on the piano.</p><br />
+                    <p className="leading-8">As is usually the case with my &quot;easy&quot; series, I try to put together a collection of pieces that are not just &quot;easy&quot; relative to the composer&apos;s other works, but also ones I consider to be the most beautiful. So perhaps a better title for this article would have been &quot;The 3 Easiest and Most Beautiful Debussy Piano Pieces&quot; - but that just sounds too long! Also, keep in mind that the &quot;easiest&quot; piece included here requires you to be at about a high-intermediate level on the piano.</p><br />
 
-                    <p className="leading-8">When it comes to Debussy's piano repertoire, most musicians would probably classify many of the six pieces in his "Children's Corner" suite under the easy category. However, I decided not to include these here since I am not a big fan of these works (feel free to listen to them on YouTube and decide for yourself). Instead, I opted for the three pieces that you find below.</p><br />
+                    <p className="leading-8">When it comes to Debussy&apos;s piano repertoire, most musicians would probably classify many of the six pieces in his &quot;Children&apos;s Corner&quot; suite under the easy category. However, I decided not to include these here since I am not a big fan of these works (feel free to listen to them on YouTube and decide for yourself). Instead, I opted for the three pieces that you find below.</p><br />
 
                     <p className="leading-8">All three of the pieces chosen here are characterized by a flowing melody and dreamy atmosphere that are so integral to the impressionistic style that Debussy is known for. I hope you find them just as enjoyable as I do!</p>
                 </div>
@@ -53,7 +53,7 @@ const ArticleEasyDebussyPianoPieces = () => {
 
             <ArticleSectionDivider />
 
-            <ArticleHeading heading="#1. Page d'album​" bottom="mb-14" />
+            <ArticleHeading heading="#1. Page d&apos;album​" bottom="mb-14" />
             <section className="px-5 lg:px-36 xl:px-64">
                 <div className="p-5 mt-8 mb-12 md:mt-0 bg-dcam-reg-orange text-gray-50 w-fit max-w-[100%] mx-auto rounded">
                     <h3 className="text-2xl text-center mb-3 bg-dcam-dark-orange rounded">Quick Facts</h3>
@@ -77,10 +77,10 @@ const ArticleEasyDebussyPianoPieces = () => {
                     />
                 </div>
                 <div className="leading-8 mb-10 ">
-                    <h3 className="text-xl underline mb-4">WHAT'S EASY ABOUT IT:</h3>
+                    <h3 className="text-xl underline mb-4">WHAT&apos;S EASY ABOUT IT:</h3>
                     <ul className="list-disc list-inside">
                         <li className="mb-4"><span className="font-bold">The key(s)</span>. The piece has only one flat, so (aside from a few accidentals) we are dealing mostly with white keys here.</li>
-                        <li><span className="font-bold">The length</span>. At only 2 pages, this piece is pretty short compared to many of Debussy's other piano works.</li>
+                        <li><span className="font-bold">The length</span>. At only 2 pages, this piece is pretty short compared to many of Debussy&apos;s other piano works.</li>
                     </ul>
                 </div>
                 <div className="leading-8">
@@ -118,7 +118,7 @@ const ArticleEasyDebussyPianoPieces = () => {
                     />
                 </div>
                 <div className="leading-8 mb-10 ">
-                    <h3 className="text-xl underline mb-4">WHAT'S EASY ABOUT IT:</h3>
+                    <h3 className="text-xl underline mb-4">WHAT&apos;S EASY ABOUT IT:</h3>
                     <ul className="list-disc list-inside">
                         <li className="mb-4"><span className="font-bold">The rhythm</span>. The piece consists mostly of eighth notes and has very few dotted notes, which makes it easier to deal with. Although polyrhythmic passages that often occur between the hands (for example eighth notes in LH with triplets in RH) will be trickier to handle.</li>
                     </ul>
@@ -158,7 +158,7 @@ const ArticleEasyDebussyPianoPieces = () => {
                     />
                 </div>
                 <div className="leading-8 mb-10 ">
-                    <h3 className="text-xl underline mb-4">WHAT'S EASY ABOUT IT:</h3>
+                    <h3 className="text-xl underline mb-4">WHAT&apos;S EASY ABOUT IT:</h3>
                     <ul className="list-disc list-inside">
                         <li><span className="font-bold">The tempo</span>. Despite some animated sections, this is mostly a calm and slow piece, so the speed should be very comfortable even when playing sixteenth notes.</li>
                     </ul>
@@ -168,7 +168,7 @@ const ArticleEasyDebussyPianoPieces = () => {
                     <ul className="list-disc list-inside">
                         <li className="mb-4"><span className="font-bold">The key</span>. With five flats, we are talking about even more black keys here!</li>
                         <li className="mb-4"><span className="font-bold">Rhythm and Polyrhythm</span>. The rhythm here is a lot more complicated than in our first piece in this series, with a lot of dotted notes, ties, and even sextuplets. Polyrhythm between the two hands is even trickier here!</li>
-                        <li><span className="font-bold">Thirds</span>. There are quite a few instances of harmonic thirds that occur in RH in this peace, which as many musicians know can be tricky to play well. Hope you've been practicing your thirds!</li>
+                        <li><span className="font-bold">Thirds</span>. There are quite a few instances of harmonic thirds that occur in RH in this peace, which as many musicians know can be tricky to play well. Hope you&apos;ve been practicing your thirds!</li>
                     </ul>
                 </div>
             </section>

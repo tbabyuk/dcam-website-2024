@@ -44,7 +44,7 @@ const ArticleRCMGuitarExamMarkGuide = () => {
             <ArticleSectionHeading heading="Introduction" />
             <section className="introduction flex flex-col items-center sm:block px-5 lg:px-36 xl:px-64">
                 <div>
-                    <p className="mb-10">Planning to do your RCM guitar exam but not sure what exactly you will be graded on and how? You've come to the right place! This guide will tell you what each section of the exam is worth to help you decide how to better allocate your prep time for optimal results! We created this RCM Guitar Exam Mark Guide with you - the student - in mind!</p>
+                    <p className="mb-10">Planning to do your RCM guitar exam but not sure what exactly you will be graded on and how? You&apos;ve come to the right place! This guide will tell you what each section of the exam is worth to help you decide how to better allocate your prep time for optimal results! We created this RCM Guitar Exam Mark Guide with you - the student - in mind!</p>
                     <ArticleSource source="RCM Classical Guitar Syllabus, 2018" />
                 </div>
             </section>
@@ -141,7 +141,7 @@ const ArticleRCMGuitarExamMarkGuide = () => {
                         <p className="mb-5"><span className="underline">Technical Requirements</span>: includes technical tests and 2 etudes. Note that no memory marks are given for the etudes, which means students can have their sheet music in front of them while playing if they wish. A maximum of 20 marks are given for this section.</p>
                         <p className="mb-5"><span className="underline">Musicianship</span>: includes Ear Tests and Sight Reading components, each worth 10 marks, for a combined total of 20.</p>
                         <p className="font-semibold mb-5">The exam is out of 100, with 60 being the passing grade.</p>
-                        <p className="italic">Starting at level 5, students must also write a co-requisite theory exam if they wish to earn a Comprehensive Certificate for their particular level. For level 5, the co-requisite theory exam is “Level 5 Theory”.</p>
+                        <p className="italic">Starting at level 5, students must also write a co-requisite theory exam if they wish to earn a Comprehensive Certificate for their particular level. For level 5, the co-requisite theory exam is &quot;Level 5 Theory&quot;.</p>
                     </div>
                 </div>
             </section>
@@ -157,7 +157,7 @@ const ArticleRCMGuitarExamMarkGuide = () => {
                         <p className="mb-5"><span className="underline">Technical Requirements</span>: includes technical tests and 2 etudes. Note that no memory marks are given for the etudes, which means students can have their sheet music in front of them while playing if they wish. A maximum of 20 marks are given for this section.</p>
                         <p className="mb-5"><span className="underline">Musicianship</span>: includes Ear Tests and Sight Reading components, each worth 10 marks, for a combined total of 20.</p>
                         <p className="font-semibold mb-5">The exam is out of 100, with 60 being the passing grade.</p>
-                        <p className="italic">Students must also write a co-requisite theory exam (“Level 6 Theory”) if they wish to earn a Comprehensive Certificate for this level.</p>
+                        <p className="italic">Students must also write a co-requisite theory exam (&quot;Level 6 Theory&quot;) if they wish to earn a Comprehensive Certificate for this level.</p>
                     </div>
                 </div>
             </section>
@@ -173,7 +173,7 @@ const ArticleRCMGuitarExamMarkGuide = () => {
                         <p className="mb-5"><span className="underline">Technical Requirements</span>: includes technical tests and 2 etudes. Note that no memory marks are given for the etudes, which means students can have their sheet music in front of them while playing if they wish. A maximum of 20 marks are given for this section.</p>
                         <p className="mb-5"><span className="underline">Musicianship</span>: includes Ear Tests and Sight Reading components, each worth 10 marks, for a combined total of 20.</p>
                         <p className="font-semibold mb-5">The exam is out of 100, with 60 being the passing grade.</p>
-                        <p className="italic">Students must also write the co-requisite “Level 7 Theory” exam if they wish to earn a Comprehensive Certificate for this level.</p>
+                        <p className="italic">Students must also write the co-requisite &quot;Level 7 Theory&quot; exam if they wish to earn a Comprehensive Certificate for this level.</p>
                     </div>
                 </div>
             </section>
@@ -189,7 +189,7 @@ const ArticleRCMGuitarExamMarkGuide = () => {
                         <p className="mb-5"><span className="underline">Technical Requirements</span>: includes technical tests and 2 etudes. Note that no memory marks are given for the etudes, which means students can have their sheet music in front of them while playing if they wish. A maximum of 20 marks are given for this section.</p>
                         <p className="mb-5"><span className="underline">Musicianship</span>: includes Ear Tests and Sight Reading components, each worth 10 marks, for a combined total of 20.</p>
                         <p className="font-semibold mb-5">The exam is out of 100, with 60 being the passing grade.</p>
-                        <p className="italic">Students must also write the co-requisite “Level 8 Theory” exam if they wish to earn a Comprehensive Certificate for this level.</p>
+                        <p className="italic">Students must also write the co-requisite &quot;Level 8 Theory&quot; exam if they wish to earn a Comprehensive Certificate for this level.</p>
                     </div>
                 </div>
             </section>
@@ -209,7 +209,7 @@ const ArticleRCMGuitarExamMarkGuide = () => {
                         <p className="mb-5"><span className="underline">Technical Requirements</span>: includes technical tests and 2 etudes. Note that no memory marks are given for the etudes, which means students can have their sheet music in front of them while playing if they wish. A maximum of 20 marks are given for this section.</p>
                         <p className="mb-5"><span className="underline">Musicianship</span>: includes Ear Tests and Sight Reading components, each worth 10 marks, for a combined total of 20.</p>
                         <p className="font-semibold mb-5">The exam is out of 100, with 60 being the passing grade.</p>
-                        <p className="italic">Students must also write the co-requisite “Level 8 Theory”, “Level 9 History”, and “Level 9 Harmony” (or “Keyboard Harmony”) exams if they wish to earn a Comprehensive Certificate for this level.</p>
+                        <p className="italic">Students must also write the co-requisite &quot;Level 8 Theory&quot;, &quot;Level 9 History&quot;, and &quot;Level 9 Harmony&quot; (or &quot;Keyboard Harmony&quot;) exams if they wish to earn a Comprehensive Certificate for this level.</p>
                     </div>
                 </div>
             </section>
@@ -225,7 +225,7 @@ const ArticleRCMGuitarExamMarkGuide = () => {
                         <p className="mb-5"><span className="underline">Technical Requirements</span>: includes technical tests and 2 etudes. Note that no memory marks are given for the etudes, which means students can have their sheet music in front of them while playing if they wish. A maximum of 20 marks are given for this section.</p>
                         <p className="mb-5"><span className="underline">Musicianship</span>: includes Ear Tests and Sight Reading components, each worth 10 marks, for a combined total of 20.</p>
                         <p className="font-semibold mb-5">The exam is out of 100, with 60 being the passing grade.</p>
-                        <p className="italic mb-5">Students must also write the co-requisite “Level 8 Theory”, “Level 9 History”, “Level 9 Harmony” (or “Keyboard Harmony”), “Level 10 History”, and “Level 10 Harmony & Counterpoint” (or “Keyboard Harmony”) exams if they wish to earn a Comprehensive Certificate for this level.</p>
+                        <p className="italic mb-5">Students must also write the co-requisite &quot;Level 8 Theory&quot;, &quot;Level 9 History&quot;, &quot;Level 9 Harmony&quot; (or &quot;Keyboard Harmony&quot;), &quot;Level 10 History&quot;, and &quot;Level 10 Harmony & Counterpoint&quot; (or &quot;Keyboard Harmony&quot;) exams if they wish to earn a Comprehensive Certificate for this level.</p>
                     </div>
                 </div>
             </section>

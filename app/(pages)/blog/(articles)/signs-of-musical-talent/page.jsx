@@ -113,7 +113,7 @@ const ArticleSignsOfMusicalTalent = () => {
             
             <ArticleSectionHeading heading="Conclusion" />
             <section className="conclusion px-5 leading-8 lg:px-36 xl:px-64 mb-20">
-                <p>We hope this list gives you a good idea of what to look out for when considering your child's musical ability. But remember, learning a music instrument is a fun challenge that will help develop your child's ear, coordination, and intellect. So even if you think you have not observed any of the signs mentioned above - consider giving your child a chance at musical education. They will thank you later!</p>
+                <p>We hope this list gives you a good idea of what to look out for when considering your child&apos;s musical ability. But remember, learning a music instrument is a fun challenge that will help develop your child&apos;s ear, coordination, and intellect. So even if you think you have not observed any of the signs mentioned above - consider giving your child a chance at musical education. They will thank you later!</p>
             </section>
             <PageBottomTrialButton />
         </main>

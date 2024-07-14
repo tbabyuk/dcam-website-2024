@@ -44,7 +44,7 @@ const ArticlePianoExamMarkGuide = () => {
             <ArticleSectionHeading heading="Introduction" />
             <section className="introduction flex flex-col items-center sm:block px-5 lg:px-36 xl:px-64">
                 <div>
-                    <p className="mb-5">If you are a piano student planning to do your RCM practical exams and want to know precisely what you will be graded on - you've come to the right place! This guide will tell you exactly what each section of the exam is worth to help you decide how to allocate your prep time for optimal results! We created this RCM Piano Exam Mark Guide with you - the student - in mind!</p>
+                    <p className="mb-5">If you are a piano student planning to do your RCM practical exams and want to know precisely what you will be graded on - you&apos;ve come to the right place! This guide will tell you exactly what each section of the exam is worth to help you decide how to allocate your prep time for optimal results! We created this RCM Piano Exam Mark Guide with you - the student - in mind!</p>
 
                     <p className="mb-5">Although the grading information in this article has been updated according to the latest, 2022 RCM Piano Syllabus, we kept the grading schemes for the old, 2015 Syllabus as we thought our readers might find it useful to compare what has changed, if anything. We hope you find it useful!</p>
 
@@ -64,7 +64,7 @@ const ArticlePianoExamMarkGuide = () => {
                     <div className="mt-8 md:mt-0 md:ms-8">
                         <p className="mb-5"><span className="underline">Repertoire</span>: students are required to perform a total of 3 pieces and can earn 2 extra marks per piece if they have it memorized. A maximum of 66 marks can be earned for this section.</p>
                         <p className="mb-5"><span className="underline">Technical Requirements</span>: consists of technical tests only. A maximum of 14 marks are given for this section.</p>
-                        <p className="mb-5"><span className="underline">Ear Tests and Sight Reading</span>: fall under the “Musicianship” component of the test and are worth 10 marks each, for a combined total of 20.</p>
+                        <p className="mb-5"><span className="underline">Ear Tests and Sight Reading</span>: fall under the &quot;Musicianship&quot; component of the test and are worth 10 marks each, for a combined total of 20.</p>
                         <p className="font-semibold">The exam is out of 100, with 60 being the passing grade.</p>
                     </div>
                 </div>
@@ -79,7 +79,7 @@ const ArticlePianoExamMarkGuide = () => {
                     <div className="mt-8 md:mt-0 md:ms-8">
                         <p className="mb-5"><span className="underline">Repertoire</span>: students are required to perform a total of 3 pieces and can earn 2 extra marks per piece if they have it memorized. A maximum of 66 marks can be earned for this section.</p>
                         <p className="mb-5"><span className="underline">Technical Requirements</span>: consists of technical tests only. A maximum of 14 marks are given for this section.</p>
-                        <p className="mb-5"><span className="underline">Ear Tests and Sight Reading</span>: fall under the “Musicianship” component of the test and are worth 10 marks each, for a combined total of 20.</p>
+                        <p className="mb-5"><span className="underline">Ear Tests and Sight Reading</span>: fall under the &quot;Musicianship&quot; component of the test and are worth 10 marks each, for a combined total of 20.</p>
                         <p className="font-semibold">The exam is out of 100, with 60 being the passing grade.</p>
                     </div>
                 </div>
@@ -94,7 +94,7 @@ const ArticlePianoExamMarkGuide = () => {
                     <div className="mt-8 md:mt-0 md:ms-8">
                         <p className="mb-5"><span className="underline">Repertoire</span>: students are required to perform a total of 3 pieces and can earn 2 extra marks per piece if they have it memorized. A maximum of 56 marks can be earned for this section.</p>
                         <p className="mb-5"><span className="underline">Technical Requirements</span>: includes technical tests and 1 etude. Note that no memory marks are given for the etude, which means students can have their sheet music in front of them while playing if they wish. A maximum of 24 marks are given for this section.</p>
-                        <p className="mb-5"><span className="underline">Ear Tests and Sight Reading</span>: fall under the “Musicianship” component of the test and are worth 10 marks each, for a combined total of 20.</p>
+                        <p className="mb-5"><span className="underline">Ear Tests and Sight Reading</span>: fall under the &quot;Musicianship&quot; component of the test and are worth 10 marks each, for a combined total of 20.</p>
                         <p className="font-semibold">The exam is out of 100, with 60 being the passing grade.</p>
                     </div>
                 </div>
@@ -109,7 +109,7 @@ const ArticlePianoExamMarkGuide = () => {
                     <div className="mt-8 md:mt-0 md:ms-8">
                         <p className="mb-5"><span className="underline">Repertoire</span>: students are required to perform a total of 3 pieces and can earn 2 extra marks per piece if they have it memorized. A maximum of 56 marks can be earned for this section.</p>
                         <p className="mb-5"><span className="underline">Technical Requirements</span>: includes technical tests and 1 etude. Note that no memory marks are given for the etude, which means students can have their sheet music in front of them while playing if they wish. A maximum of 24 marks are given for this section.</p>
-                        <p className="mb-5"><span className="underline">Ear Tests and Sight Reading</span>: fall under the “Musicianship” component of the test and are worth 10 marks each, for a combined total of 20.</p>
+                        <p className="mb-5"><span className="underline">Ear Tests and Sight Reading</span>: fall under the &quot;Musicianship&quot; component of the test and are worth 10 marks each, for a combined total of 20.</p>
                         <p className="font-semibold">The exam is out of 100, with 60 being the passing grade.</p>
                     </div>
                 </div>
@@ -124,7 +124,7 @@ const ArticlePianoExamMarkGuide = () => {
                     <div className="mt-8 md:mt-0 md:ms-8">
                         <p className="mb-5"><span className="underline">Repertoire</span>: students are required to perform a total of 3 pieces and can earn 2 extra marks per piece if they have it memorized. A maximum of 56 marks can be earned for this section.</p>
                         <p className="mb-5"><span className="underline">Technical Requirements</span>: includes technical tests and 2 etudes. Note that no memory marks are given for the etudes, which means students can have their sheet music in front of them while playing if they wish. A maximum of 24 marks are given for this section.</p>
-                        <p className="mb-5"><span className="underline">Ear Tests and Sight Reading</span>: fall under the “Musicianship” component of the test and are worth 10 marks each, for a combined total of 20.</p>
+                        <p className="mb-5"><span className="underline">Ear Tests and Sight Reading</span>: fall under the &quot;Musicianship&quot; component of the test and are worth 10 marks each, for a combined total of 20.</p>
                         <p className="font-semibold">The exam is out of 100, with 60 being the passing grade.</p>
                     </div>
                 </div>
@@ -139,7 +139,7 @@ const ArticlePianoExamMarkGuide = () => {
                     <div className="mt-8 md:mt-0 md:ms-8">
                         <p className="mb-5"><span className="underline">Repertoire</span>: students are required to perform a total of 3 pieces and can earn 2 extra marks per piece if they have it memorized. A maximum of 56 marks can be earned for this section.</p>
                         <p className="mb-5"><span className="underline">Technical Requirements</span>: includes technical tests and 2 etudes. Note that no memory marks are given for the etudes, which means students can have their sheet music in front of them while playing if they wish. A maximum of 24 marks are given for this section.</p>
-                        <p className="mb-5"><span className="underline">Ear Tests and Sight Reading</span>: fall under the “Musicianship” component of the test and are worth 10 marks each, for a combined total of 20.</p>
+                        <p className="mb-5"><span className="underline">Ear Tests and Sight Reading</span>: fall under the &quot;Musicianship&quot; component of the test and are worth 10 marks each, for a combined total of 20.</p>
                         <p className="font-semibold">The exam is out of 100, with 60 being the passing grade.</p>
                     </div>
                 </div>
@@ -157,7 +157,7 @@ const ArticlePianoExamMarkGuide = () => {
                     <div className="mt-8 md:mt-0 md:ms-8">
                         <p className="mb-5"><span className="underline">Repertoire</span>: students are required to perform a total of 3 pieces and can earn 2 extra marks per piece if they have it memorized. A maximum of 56 marks can be earned for this section.</p>
                         <p className="mb-5"><span className="underline">Technical Requirements</span>: includes technical tests and 2 etudes. Note that no memory marks are given for the etudes, which means students can have their sheet music in front of them while playing if they wish. A maximum of 24 marks are given for this section.</p>
-                        <p className="mb-5"><span className="underline">Ear Tests and Sight Reading</span>: fall under the “Musicianship” component of the test and are worth 10 marks each, for a combined total of 20.</p>
+                        <p className="mb-5"><span className="underline">Ear Tests and Sight Reading</span>: fall under the &quot;Musicianship&quot; component of the test and are worth 10 marks each, for a combined total of 20.</p>
                         <p className="font-semibold mb-5">The exam is out of 100, with 60 being the passing grade.</p>
                         <p className="italic">Starting at level 5, students must also write a co-requisite theory exam if they wish to earn a Comprehensive Certificate for their particular level. For level 5, the co-requisite theory exam is Level 5 Theory.</p>
                     </div>
@@ -173,7 +173,7 @@ const ArticlePianoExamMarkGuide = () => {
                     <div className="mt-8 md:mt-0 md:ms-8">
                         <p className="mb-5"><span className="underline">Repertoire</span>: students are required to perform a total of 3 pieces and can earn 2 extra marks per piece if they have it memorized. A maximum of 56 marks can be earned for this section.</p>
                         <p className="mb-5"><span className="underline">Technical Requirements</span>: includes technical tests and 2 etudes. Note that no memory marks are given for the etudes, which means students can have their sheet music in front of them while playing if they wish. A maximum of 24 marks are given for this section.</p>
-                        <p className="mb-5"><span className="underline">Ear Tests and Sight Reading</span>: fall under the “Musicianship” component of the test and are worth 10 marks each, for a combined total of 20.</p>
+                        <p className="mb-5"><span className="underline">Ear Tests and Sight Reading</span>: fall under the &quot;Musicianship&quot; component of the test and are worth 10 marks each, for a combined total of 20.</p>
                         <p className="font-semibold mb-5">The exam is out of 100, with 60 being the passing grade.</p>
                         <p className="italic">Students must also write a co-requisite theory exam (Level 6 Theory) if they wish to earn a Comprehensive Certificate for this level.</p>
                     </div>
@@ -189,7 +189,7 @@ const ArticlePianoExamMarkGuide = () => {
                     <div className="mt-8 md:mt-0 md:ms-8">
                         <p className="mb-5"><span className="underline">Repertoire</span>: students are required to perform a total of 3 pieces and can earn 2 extra marks per piece if they have it memorized. A maximum of 56 marks can be earned for this section.</p>
                         <p className="mb-5"><span className="underline">Technical Requirements</span>: includes technical tests and 2 etudes. Note that no memory marks are given for the etudes, which means students can have their sheet music in front of them while playing if they wish. A maximum of 24 marks are given for this section.</p>
-                        <p className="mb-5"><span className="underline">Ear Tests and Sight Reading</span>: fall under the “Musicianship” component of the test and are worth 10 marks each, for a combined total of 20.</p>
+                        <p className="mb-5"><span className="underline">Ear Tests and Sight Reading</span>: fall under the &quot;Musicianship&quot; component of the test and are worth 10 marks each, for a combined total of 20.</p>
                         <p className="font-semibold mb-5">The exam is out of 100, with 60 being the passing grade.</p>
                         <p className="italic">Students must also write a co-requisite theory exam (Level 7 Theory) if they wish to earn a Comprehensive Certificate for this level.</p>
                     </div>
@@ -205,7 +205,7 @@ const ArticlePianoExamMarkGuide = () => {
                     <div className="mt-8 md:mt-0 md:ms-8">
                         <p className="mb-5"><span className="underline">Repertoire</span>: students are required to perform a total of 4 pieces and can earn 1.5 extra marks per piece if they have it memorized.  A maximum of 56 marks can be earned for this section.</p>
                         <p className="mb-5"><span className="underline">Technical Requirements</span>: includes technical tests and 2 etudes. Note that no memory marks are given for the etudes, which means students can have their sheet music in front of them while playing if they wish. A maximum of 24 marks are given for this section.</p>
-                        <p className="mb-5"><span className="underline">Ear Tests and Sight Reading</span>: fall under the “Musicianship” component of the test and are worth 10 marks each, for a combined total of 20.</p>
+                        <p className="mb-5"><span className="underline">Ear Tests and Sight Reading</span>: fall under the &quot;Musicianship&quot; component of the test and are worth 10 marks each, for a combined total of 20.</p>
                         <p className="font-semibold mb-5">The exam is out of 100, with 60 being the passing grade.</p>
                         <p className="italic">Students must also write a co-requisite theory exam (Level 8 Theory) if they wish to earn a Comprehensive Certificate for this level.</p>
                     </div>
@@ -224,9 +224,9 @@ const ArticlePianoExamMarkGuide = () => {
                     <div className="mt-8 md:mt-0 md:ms-8">
                         <p className="mb-5"><span className="underline">Repertoire</span>: students are required to perform a total of 4 pieces for Level 9 Repertoire. 1 mark per piece (see parentheses) will be deducted for not having it memorized.  A maximum of 56 marks can be earned for this section.</p>
                         <p className="mb-5"><span className="underline">Technical Requirements</span>: includes technical tests and 2 etudes. Note that no memory marks are given for the etudes, which means students can have their sheet music in front of them while playing if they wish. A maximum of 24 marks are given for this section.</p>
-                        <p className="mb-5"><span className="underline">Ear Tests and Sight Reading</span>: fall under the “Musicianship” component of the test and are worth 10 marks each, for a combined total of 20.</p>
+                        <p className="mb-5"><span className="underline">Ear Tests and Sight Reading</span>: fall under the &quot;Musicianship&quot; component of the test and are worth 10 marks each, for a combined total of 20.</p>
                         <p className="font-semibold mb-5">The exam is out of 100, with 60 being the passing grade.</p>
-                        <p className="italic">Students must also write co-requisite theory exams if they wish to earn a Comprehensive Certificate for this level. For Level 9, the co-requisite theory exams consist of: “Level 8 Theory”, “Level 9 Harmony” (or “Keyboard Harmony”), and “Level 9 History”</p>
+                        <p className="italic">Students must also write co-requisite theory exams if they wish to earn a Comprehensive Certificate for this level. For Level 9, the co-requisite theory exams consist of: &quot;Level 8 Theory&quot;, &quot;Level 9 Harmony&quot; (or &quot;Keyboard Harmony&quot;), and &quot;Level 9 History&quot;</p>
                     </div>
                 </div>
             </section>
@@ -240,9 +240,9 @@ const ArticlePianoExamMarkGuide = () => {
                     <div className="mt-8 md:mt-0 md:ms-8">
                         <p className="mb-5"><span className="underline">Repertoire</span>: students are required to perform a total of 5 pieces for Level 10 Repertoire. 1 mark per piece (see parentheses) will be deducted for not having it memorized.  A maximum of 56 marks can be earned for this section.</p>
                         <p className="mb-5"><span className="underline">Technical Requirements</span>: includes technical tests and 2 etudes. Note that no memory marks are given for the etudes, which means students can have their sheet music in front of them while playing if they wish. A maximum of 24 marks are given for this section.</p>
-                        <p className="mb-5"><span className="underline">Ear Tests and Sight Reading</span>: fall under the “Musicianship” component of the test and are worth 10 marks each, for a combined total of 20.</p>
+                        <p className="mb-5"><span className="underline">Ear Tests and Sight Reading</span>: fall under the &quot;Musicianship&quot; component of the test and are worth 10 marks each, for a combined total of 20.</p>
                         <p className="font-semibold mb-5">The exam is out of 100, with 60 being the passing grade.</p>
-                        <p className="italic mb-5">Students must also write co-requisite theory exams if they wish to earn a Comprehensive Certificate for this level. For Level 10, the co-requisite theory exams consist of: “Level 8 Theory”, “Level 9 Harmony” (or “Keyboard Harmony”), “Level 9 History”,  “Level 10 Harmony & Counterpoint” (or “Keyboard Harmony”), and “Level 10 History”.</p>
+                        <p className="italic mb-5">Students must also write co-requisite theory exams if they wish to earn a Comprehensive Certificate for this level. For Level 10, the co-requisite theory exams consist of: &quot;Level 8 Theory&quot;, &quot;Level 9 Harmony&quot; (or &quot;Keyboard Harmony&quot;), &quot;Level 9 History&quot;,  &quot;Level 10 Harmony & Counterpoint&quot; (or &quot;Keyboard Harmony&quot;), and &quot;Level 10 History&quot;.</p>
                         <p className="italic">Students who plan to pursue an ARCT (Associate of the Royal Conservatory) Diploma after Level 10 must receive either an overall mark of 75 or a minimum of 70% in each section of this exam. The numbers in bold parentheses indicate the minimum number of marks required to receive 70% for each section.</p>
                     </div>
                 </div>

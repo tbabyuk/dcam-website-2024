@@ -58,7 +58,7 @@ const ArticleOnlineVsInPersonMusicLessons = () => {
             <section className="px-5 lg:px-36 xl:px-64">
                 <div className="flex flex-col-reverse md:flex-row mb-16">
                     <div className="mt-8 md:mt-0 md:me-10 leading-8">
-                        <p className="mb-6">First, let's clarify what we mean by “online lessons”. In the context of music learning, the term can mean of three things:</p>
+                        <p className="mb-6">First, let&apos;s clarify what we mean by &quot;online lessons&quot;. In the context of music learning, the term can mean of three things:</p>
                         <ol className="list-decimal list-inside mb-6">
                             <li>learning from videos (e.g. YouTube, music-based websites)</li>
                             <li>learning from apps (applications) on the smartphone or tablet</li>
@@ -83,7 +83,7 @@ const ArticleOnlineVsInPersonMusicLessons = () => {
                     <div className="md:me-10 leading-8">
                         <p className="text-lg font-bold mb-6">Advantages:</p>
                         <ul className="list-disc list-inside">
-                            <li>teacher able to physically correct student's body Articleure, hand position, and technique as needed</li>
+                            <li>teacher able to physically correct student&apos;s body Articleure, hand position, and technique as needed</li>
                             <li>easier to keep young children focused, parent presence less necessary</li>
                             <li>no need to worry about connection issues or slow connection speed</li>
                             <li>audio quality is not a factor</li>
@@ -121,8 +121,8 @@ const ArticleOnlineVsInPersonMusicLessons = () => {
                     <div className="mt-12 md:mt-0 md:me-10 leading-8">
                         <p className="text-lg font-bold mb-6">Disadvantages:</p>
                         <ul className="list-disc list-inside">
-                            <li>teacher not able to physically correct student's body posture, hand position, and technique</li>
-                            <li>young children require parent's presence and assistance during lessons</li>
+                            <li>teacher not able to physically correct student&apos;s body posture, hand position, and technique</li>
+                            <li>young children require parent&apos;s presence and assistance during lessons</li>
                             <li>lesson quality can suffer if either side has problem with internet connection or connection speed</li>
                             <li>sound quality of musical instrument might not be great even with good connection speed</li>
                         </ul>                    
@@ -137,11 +137,11 @@ const ArticleOnlineVsInPersonMusicLessons = () => {
                 <figure className="flex-shrink-0 flex flex-col justify-center items-center mb-10">
                         <img src="https://firebasestorage.googleapis.com/v0/b/dcam-website.appspot.com/o/blog_images%2Fonline-vs-in-person-music-lessons%2Fscience.png?alt=media&token=da1f7335-b227-45ea-8fcd-63243f87042e" alt="photo of a scientist" style={{width: "200px"}} className="rounded-md" />
                 </figure>
-                <p className="leading-8 mb-6">Like it or not, online learning is the new reality for millions of people around the world - and it's here to stay! Music lessons have certainly not escaped this new trend, but the question many music teachers, students, and parents are asking is: how effective are online music lessons vs. traditional, in-person lessons?</p>
-                <p className="leading-8 mb-6">For both studies, student perceptions of their teacher and of the effectiveness of their course in general was slightly higher for the “classroom” group than the “online” group. But when researchers compared the two groups on “learning outcomes” (i.e. their actual test results and final grades), they did not find any significant differences.</p>
-                <p className="leading-8 mb-6">In simple terms, what these results tell us is that <span className="font-bold">although students appear to enjoy in-person lessons slightly more than online lessons, the amount of learning that takes place is essentially the same</span>. This is an important point, as many parents wrongly assume that children don't learn as much from online lessons as from in-person lessons.</p>
-                <small>* Study 1: “A Comparison of University Student Perceptions and Success Learning Music Online and Face-to-face” by A. Horspool and S. S. Yang. Merlot Journal of Online Learning and Teaching, 2010.
-                Study 2: “Comparative Analysis of Learner Satisfaction and Learning Outcomes in Online and Face-to-Face Learning Environments” by S. D. Johnson, S. R. Aragon, N. Shaik, and N. Palma-Rivas. Journal of Interactive Learning Research, 2000.</small>
+                <p className="leading-8 mb-6">Like it or not, online learning is the new reality for millions of people around the world - and it&apos;s here to stay! Music lessons have certainly not escaped this new trend, but the question many music teachers, students, and parents are asking is: how effective are online music lessons vs. traditional, in-person lessons?</p>
+                <p className="leading-8 mb-6">For both studies, student perceptions of their teacher and of the effectiveness of their course in general was slightly higher for the &quot;classroom&quot; group than the &quot;online&quot; group. But when researchers compared the two groups on &quot;learning outcomes&quot; (i.e. their actual test results and final grades), they did not find any significant differences.</p>
+                <p className="leading-8 mb-6">In simple terms, what these results tell us is that <span className="font-bold">although students appear to enjoy in-person lessons slightly more than online lessons, the amount of learning that takes place is essentially the same</span>. This is an important point, as many parents wrongly assume that children don&apos;t learn as much from online lessons as from in-person lessons.</p>
+                <small>* Study 1: &quot;A Comparison of University Student Perceptions and Success Learning Music Online and Face-to-face&quot; by A. Horspool and S. S. Yang. Merlot Journal of Online Learning and Teaching, 2010.
+                Study 2: &quot;Comparative Analysis of Learner Satisfaction and Learning Outcomes in Online and Face-to-Face Learning Environments&quot; by S. D. Johnson, S. R. Aragon, N. Shaik, and N. Palma-Rivas. Journal of Interactive Learning Research, 2000.</small>
             </section>
 
             <ArticleDivider />

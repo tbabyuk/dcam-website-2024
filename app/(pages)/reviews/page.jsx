@@ -37,7 +37,7 @@ const ReviewsPage = async () => {
             <PageTitle title="Reviews" heatherImage="/images/pages/reviews/reviews_page_illustration.png" alt="reviews page illustration" />
             <section className="overview flex flex-col items-center sm:block px-5 lg:px-36 xl:px-52 pt-20 pb-32">
                 {reviews && 
-                    reviews.map((review) => <ReviewCard review={review} />
+                    reviews.map((review, index) => <ReviewCard key={index} review={review} />
                 )}
                 
                 <div className="text-center mt-10"><a href="https://search.google.com/local/reviews?placeid=ChIJxzCGYLs3K4gR0hG4dhYU8mk" target="_blank" className="hover:text-lightRed">See All Reviews...</a></div>
