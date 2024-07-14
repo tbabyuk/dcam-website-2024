@@ -912,7 +912,7 @@ const ArticleRCMPianoEtudesAllPieces = () => {
                         </tr>
                         <tr>
                             <td>3</td>
-                            <td>Halley's Comet*</td>
+                            <td>Halley&apos;s Comet*</td>
                             <td>Nancy Telfer</td>
                             <td>7</td>
                         </tr>

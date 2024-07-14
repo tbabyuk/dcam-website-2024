@@ -44,7 +44,7 @@ const ArticleBuildAMajorScale = () => {
             <section className="px-5 lg:px-36 xl:px-64">
                 <div className="leading-8">
                     <p className="mb-6">The major scale is one the most widely-used scales in music and certainly one that every musician should know. Like other scales, it follows a particular pattern (i.e. formula) of whole steps and half steps, which is what gives it the quality that we call &quot;major&quot;.</p>
-                    <p>By the end of this article, you will be able to comfortably build a major scale starting on any key. So let's dive in!</p>
+                    <p>By the end of this article, you will be able to comfortably build a major scale starting on any key. So let&apos;s dive in!</p>
                 </div>            
             </section>
 
@@ -52,7 +52,7 @@ const ArticleBuildAMajorScale = () => {
 
             <ArticleHeading heading="Building a Major Scale" bottom="mb-16" />
             <section className="px-5 lg:px-36 xl:px-64 leading-8">
-                <p className="mb-16">To build a major scale, there are two things we need to know: <span className="font-bold">the formula</span> and <span className="font-bold">the naming convention</span>. Let's look at each of these in turn.</p>
+                <p className="mb-16">To build a major scale, there are two things we need to know: <span className="font-bold">the formula</span> and <span className="font-bold">the naming convention</span>. Let&apos;s look at each of these in turn.</p>
                 <ArticleSubheading subheading="1. The Formula" bottom="mb-6" />
                 <p className="mb-14">All major scales follow a set pattern of whole steps and half steps. As long as we stick to this pattern, we will get a major scale every single time. Here is what that pattern looks like:</p>
                 <figure className="flex-shrink-0 flex flex-col justify-center items-center mb-14">
@@ -70,7 +70,7 @@ const ArticleBuildAMajorScale = () => {
             <section className="px-5 lg:px-36 xl:px-64 leading-8 mb-20">
                 <p className="mb-20">Now that we are familiar with the formula and the naming convention when it comes to major scales, let's do a few examples.</p>
                 <ArticleSubheading subheading='Example 1: "C Major Scale"' bottom="mb-6" />
-                <p className="mb-14">One of the easiest scales to play and one that music students usually learn first is the <span className="font-bold">C Major</span> scale. The reason it&apos;s considered easy is because it only uses the white keys on the piano and has no sharps or flats. If we play every single white key from one &quot;C&quot; to the next &quot;C&quot;, we will discover that it fits perfectly into our major scale formula. Let's take a look:</p>
+                <p className="mb-14">One of the easiest scales to play and one that music students usually learn first is the <span className="font-bold">C Major</span> scale. The reason it&apos;s considered easy is because it only uses the white keys on the piano and has no sharps or flats. If we play every single white key from one &quot;C&quot; to the next &quot;C&quot;, we will discover that it fits perfectly into our major scale formula. Let&apos;s take a look:</p>
                 <figure className="flex-shrink-0 flex justify-center mb-14">
                     <img src="https://firebasestorage.googleapis.com/v0/b/dcam-website.appspot.com/o/blog_images%2Fbuild-a-major-scale%2Fc_major_keyboard.PNG?alt=media&token=57fc7179-5eea-4e15-91c3-97ea9aa63dc5" alt="C major scale example" className="w-[100%] md:w-[70%] rounded-md" />
                 </figure>
@@ -88,11 +88,11 @@ const ArticleBuildAMajorScale = () => {
 
             <section className="px-5 lg:px-36 xl:px-64 leading-8 mb-20">
                 <ArticleSubheading subheading='Example 2: "D Major Scale"' bottom="mb-6" />
-                <p className="mb-14">Now, let&apos;s try building another major scale - <span className="font-bold">D Major</span>. This one is slightly harder as it will include some black keys. But don't let that scare you - just focus on applying our formula! Here is what <span className="font-bold">D Major</span> will look like on the piano:</p>
+                <p className="mb-14">Now, let&apos;s try building another major scale - <span className="font-bold">D Major</span>. This one is slightly harder as it will include some black keys. But don&apos;t let that scare you - just focus on applying our formula! Here is what <span className="font-bold">D Major</span> will look like on the piano:</p>
                 <figure className="flex-shrink-0 flex justify-center mb-14">
                     <img src="https://firebasestorage.googleapis.com/v0/b/dcam-website.appspot.com/o/blog_images%2Fbuild-a-major-scale%2Fd_major_keyboard.PNG?alt=media&token=0007ee9b-2355-44ea-83b4-cc1c5675fc9e" alt="D major scale example" className="w-[100%] md:w-[70%] rounded-md" />
                 </figure>
-                <p className="mb-6">&quot;D&quot; to &quot;E&quot; gives us a whole step, &quot;E&quot; to &quot;F♯&quot; (not &quot;F&quot;!) gives us another whole step, &quot;F♯&quot; to &quot;G&quot; is a half step, &quot;G&quot; to &quot;A&quot; is a whole step, &quot;A&quot; to &quot;B&quot; is a whole step, &quot;B&quot; to &quot;C♯&quot; (not &quot;C&quot;!) is a whole step, &quot;C♯&quot; to &quot;D&quot; is a half step, and we're done!</p>
+                <p className="mb-6">&quot;D&quot; to &quot;E&quot; gives us a whole step, &quot;E&quot; to &quot;F♯&quot; (not &quot;F&quot;!) gives us another whole step, &quot;F♯&quot; to &quot;G&quot; is a half step, &quot;G&quot; to &quot;A&quot; is a whole step, &quot;A&quot; to &quot;B&quot; is a whole step, &quot;B&quot; to &quot;C♯&quot; (not &quot;C&quot;!) is a whole step, &quot;C♯&quot; to &quot;D&quot; is a half step, and we&apos;re done!</p>
                 <p className="mb-14">Here is what the <span className="font-bold">D Major</span> scale would look like written down on the music staff.</p>
                 <figure className="flex-shrink-0 flex flex-col justify-center items-center mb-10">
                     <img src="https://firebasestorage.googleapis.com/v0/b/dcam-website.appspot.com/o/blog_images%2Fbuild-a-major-scale%2Fd_maj_scale.PNG?alt=media&token=057db146-7db3-4fca-8656-b7d782126bec" alt="music interval example" className="rounded-md" />
@@ -126,7 +126,7 @@ const ArticleBuildAMajorScale = () => {
             
             <ArticleSectionHeading heading="Conclusion" />
             <section className="conclusion px-5 lg:px-36 xl:px-64 mb-20">
-                <p className="leading-8 mb-6">Building a major scale isn&apos;t all that difficult as long as you remember the formula and stick to it. Although the naming convention makes no difference if you are just trying to play, it does become important when you want to write it down or be able to communicate correctly with fellow musicians. For example, if you say to someone that the scale of “D Major” has a G♭ in it, this would not be correct (as you know by now, it has an F♯). For this reason - it's well worth it to learn to name scale notes correctly from the very beginning.</p>
+                <p className="leading-8 mb-6">Building a major scale isn&apos;t all that difficult as long as you remember the formula and stick to it. Although the naming convention makes no difference if you are just trying to play, it does become important when you want to write it down or be able to communicate correctly with fellow musicians. For example, if you say to someone that the scale of “D Major” has a G♭ in it, this would not be correct (as you know by now, it has an F♯). For this reason - it&apos;s well worth it to learn to name scale notes correctly from the very beginning.</p>
                 <p className="leading-8">Tip: if you want to get really good and fast at playing major scales, choose any key at random and try to play a major scale starting on it. With practice, you will remember all the notes in any major scale without even having to think about the formula!</p>
             </section>
             <PageBottomTrialButton />

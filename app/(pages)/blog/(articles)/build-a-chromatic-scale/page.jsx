@@ -56,7 +56,7 @@ const ArticleBuildAChromaticScale = () => {
                     <figcaption className="text-gray-500"><small>Listen to how it sounds when played!</small></figcaption>
                 </figure>
                 <p className="mb-10">Unlike major and minor scales, there is more than one correct way to write chromatic scales. At the end of the day, our main guiding principle should always be to make it as readable as possible for the musician, who will, after all, be playing the notes! With this thought in mind, let&apos;s dive in and see how we can build the chromatic scale!</p>
-                <p className="mb-10 italic font-semibold">Unlike diatonic scales like major and minor, chromatic scales are not based on any key. So for a chromatic scale from the note C, we would just call it "Chromatic scale starting on C", as opposed to "C chromatic scale". This is an important distinction to keep in mind.</p>
+                <p className="mb-10 italic font-semibold">Unlike diatonic scales like major and minor, chromatic scales are not based on any key. So for a chromatic scale from the note C, we would just call it &quot;Chromatic scale starting on C&quot;, as opposed to &quot;C chromatic scale&quot;. This is an important distinction to keep in mind.</p>
             </section>
 
             <ArticleSectionDivider />
@@ -65,8 +65,8 @@ const ArticleBuildAChromaticScale = () => {
             <section className="px-5 lg:px-36 xl:px-64 leading-8">
                 <p className="mb-14">When writing/notating a chromatic scale, such as on a music theory exam or in a musical composition, there are some basic rules we need to keep in mind. Here they are:</p>
                 <ul className="list-decimal list-inside">
-                    <li className="mb-8"><span className="font-bold">Do not change the starting note enharmonically</span><br />Whatever note your chromatic scale starts on must always be written the same way. So if you start on "G♯" for example, do not call it "A♭" later in the scale.</li>
-                    <li className="mb-8"><span className="font-bold">Do not use the same letter name more than twice in a row.</span><br />For example, we can not write "F♭", "F♮" and "F♯" when writing a chromatic scale, as this would be using the same letter name ("F") three times.</li>
+                    <li className="mb-8"><span className="font-bold">Do not change the starting note enharmonically</span><br />Whatever note your chromatic scale starts on must always be written the same way. So if you start on "G♯" for example, do not call it &quot;A♭&quot; later in the scale.</li>
+                    <li className="mb-8"><span className="font-bold">Do not use the same letter name more than twice in a row.</span><br />For example, we can not write &quot;F♭&quot;, &quot;F♮&quot; and &quot;F♯&quot; when writing a chromatic scale, as this would be using the same letter name (&quot;F&quot;) three times.</li>
                     <li className="mb-8"><span className="font-bold">For chromatic scales without a key signature, try to use sharps when ascending and flats when descending.</span><br />This is because for musicians, sharps are easier to read when going up and flats when going down.</li>
                     <li className="mb-8"><span className="font-bold">For chromatic scales with a key signature (such as in a musical score), choose accidentals based on the key signature.</span><br />This means that if the key signature is made up mostly of flats, stick with flats when writing your scale (even the ascending part). The same goes for sharps.</li>
                 </ul>
@@ -109,7 +109,7 @@ const ArticleBuildAChromaticScale = () => {
                 <p className="mb-10">As mentioned earlier, there is more than one way to write a chromatic scale, and this also applies to chromatic scales with key signatures. The method I will be demonstrating here is one recommended by the ABRSM (Associated Board of the Royal Schools of Music), which I quite like. This method requires us to add one more rule to the four rules we saw earlier. And that rule is:</p>
                 <p className="mb-10">5.<span className="font-bold"> The 1st, 4th and 5th degrees of the scale should be represented unaltered.</span><br /> In other words, the notes representing the primary triads of our key should be written in the form in which they naturally occur in that particular key.</p>
                 <p className="mb-10">Let&apos;s see how this works in practice by writing a chromatic scale occuring in a key of "B♭ major".</p>
-                <p className="mb-14">We know that the key signature of "B♭ Major" is "B♭" and "E♭" and we also know that the 4th and 5th degrees of this scale will be "E♭" and "F", respectively. Let&apos;s keep these facts in mind as we write out our scale.</p>
+                <p className="mb-14">We know that the key signature of &quot;B♭ Major&quot; is &quot;B♭&quot; and &quot;E♭&quot; and we also know that the 4th and 5th degrees of this scale will be &quot;E♭&quot; and &quot;F&quot;, respectively. Let&apos;s keep these facts in mind as we write out our scale.</p>
                 <figure className="flex-shrink-0 flex flex-col justify-center items-center mb-10">
                     <img src="https://firebasestorage.googleapis.com/v0/b/dcam-website.appspot.com/o/blog_images%2Fbuild-a-chromatic-scale%2Fchromatic_in_b_flat_major.PNG?alt=media&token=3b4e66cf-f258-45a9-915e-12bf23397bb7" alt="chromatic scale in B♭ major" className="xl:w-[85%] rounded-md" />
                     <figcaption className="text-gray-500"><small>Chromatic scale in the key of B♭ major</small></figcaption>
@@ -121,7 +121,7 @@ const ArticleBuildAChromaticScale = () => {
                 <figure className="flex-shrink-0 flex flex-col justify-center items-center mb-14">
                     <img src="https://firebasestorage.googleapis.com/v0/b/dcam-website.appspot.com/o/blog_images%2Fbuild-a-chromatic-scale%2Fchromatic_in_b_flat_major_ascending_wrong.png?alt=media&token=41b90147-bad5-4242-b0a6-2a1da58734e2" alt="chromatic scale in B♭ major, bad example" className="md:w-[60%] rounded-md" />
                 </figure>
-                <p className="mb-10">While this version might also be considered fine, it&apos;s not preferred. Not only are we not being consistent with our accidentals, but we&apos;re also not following the rule of having our subdominant note unaltered here. Instead of having an "E♭" for the subdominant, we are writing it as "D♯" and therefore violating our rule.</p>
+                <p className="mb-10">While this version might also be considered fine, it&apos;s not preferred. Not only are we not being consistent with our accidentals, but we&apos;re also not following the rule of having our subdominant note unaltered here. Instead of having an &quot;E♭&quot; for the subdominant, we are writing it as &quot;D♯&quot; and therefore violating our rule.</p>
                 <p className="mb-14">Here are a few more correct examples, for variety.</p>
                 <figure className="flex-shrink-0 flex flex-col justify-center items-center mb-10">
                     <img src="https://firebasestorage.googleapis.com/v0/b/dcam-website.appspot.com/o/blog_images%2Fbuild-a-chromatic-scale%2Fchromatic_in_e_major.PNG?alt=media&token=dce9620f-a90c-41df-9076-c78df0fcef07" alt="chromatic scale in E major" className="xl:w-[85%] rounded-md" />
@@ -143,7 +143,7 @@ const ArticleBuildAChromaticScale = () => {
 
             <ArticleHeading heading="Example of a Chromatic Scale in Music" bottom="mb-16" />
             <section className="px-5 lg:px-36 xl:px-64 leading-8">
-                <p className="mb-14">See a real-world example of the use of chromatic scales in the famous composition by Rimsky-Korsakov called “Flight of the Bumblebee”.</p>
+                <p className="mb-14">See a real-world example of the use of chromatic scales in the famous composition by Rimsky-Korsakov called &quot;Flight of the Bumblebee&quot;.</p>
                 <div className="flex flex-col items-center">
                     <iframe
                         width="100%"

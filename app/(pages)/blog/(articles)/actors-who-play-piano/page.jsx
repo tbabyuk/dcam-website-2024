@@ -41,7 +41,7 @@ const ArticleActorsWhoPlayPiano = () => {
 
             <ArticleSectionHeading heading="Introduction" />
             <section className="introduction leading-8 flex flex-col items-center sm:block px-5 lg:px-36 xl:px-64">
-                <p>You know them for their acting skills, but you probably didn't know that these famous actors could also impress you on the piano! Here is our list of the top 5 actors who can play the piano! (ordered by age, not skill level)</p>
+                <p>You know them for their acting skills, but you probably didn&apos;t know that these famous actors could also impress you on the piano! Here is our list of the top 5 actors who can play the piano! (ordered by age, not skill level)</p>
             </section>
 
             <ArticleSectionDivider />
@@ -55,7 +55,7 @@ const ArticleActorsWhoPlayPiano = () => {
                     </figure>
                     <div className="mt-8 md:mt-0 md:ms-10 leading-8 self-center">
                         <p>Born to a mother who was both an opera singer and a vocal
-                        instructor, it is hardly surprising that Sandra Bullock began learning both singing and piano as a child. Although her parents hoped for their daughter to have a career in music - we are sure they aren't disappointed with how she turned out! Bullock has shown off her piano skills in several TV shows and movies, like “The Net”.</p>
+                        instructor, it is hardly surprising that Sandra Bullock began learning both singing and piano as a child. Although her parents hoped for their daughter to have a career in music - we are sure they aren&apos;t disappointed with how she turned out! Bullock has shown off her piano skills in several TV shows and movies, like &quot;The Net&quot;.</p>
                     </div>
                 </div>
             </section>
@@ -66,7 +66,7 @@ const ArticleActorsWhoPlayPiano = () => {
             <section className="px-5 lg:px-36 xl:px-64 py-10">
                 <div className="bio flex flex-col-reverse md:flex-row">
                     <div className="mt-8 md:mt-0 md:me-10 leading-8 self-center">
-                        <p>“Dr. House”, aka Hugh Laurie, began piano lessons at the age of six. He is also quite a good singer and has displayed both of these talents in many of his productions as an actor, like the show “A Bit of Fry & Laurie”. And just to show you how serious Laurie is about music: he has actually released two of this own studio albums: “Let Them Talk” (2011) and “Didn't It Rain” (2013). Impressive, Hugh!</p>
+                        <p>&quot;Dr. House&quot;, aka Hugh Laurie, began piano lessons at the age of six. He is also quite a good singer and has displayed both of these talents in many of his productions as an actor, like the show &quot;A Bit of Fry & Laurie&quot;. And just to show you how serious Laurie is about music: he has actually released two of this own studio albums: &quot;Let Them Talk&quot; (2011) and &quot;Didn&apos;t It Rain&quot; (2013). Impressive, Hugh!</p>
                     </div>
                     <figure className="flex-shrink-0 flex flex-col justify-center items-center">
                         <img src="https://firebasestorage.googleapis.com/v0/b/dcam-website.appspot.com/o/blog_images%2Factors-who-play-piano%2Flaurie.jpg?alt=media&token=037a56a2-34f5-4d5d-987c-2236318cdcb3" alt="photo of Hugh Laurie" style={{width: "220px"}} className="rounded-md" />
@@ -85,7 +85,7 @@ const ArticleActorsWhoPlayPiano = () => {
                         <figcaption className="text-gray-500"><small>Richard Gere</small></figcaption>
                     </figure>
                     <div className="mt-8 md:mt-0 md:ms-10 leading-8 self-center">
-                        <p>Turns out the star of “Pretty Woman” and “An Officer and a Gentleman” has quite a musical vein in him! Not only can he play the piano, but also the guitar and trumpet! In high school, Gere even used to write his own music for various stage productions. Interesting fact: in the piano scene from “Pretty Woman”, Gere is actually playing his own composition!</p>
+                        <p>Turns out the star of &quot;Pretty Woman&quot; and &quot;An Officer and a Gentleman&quot; has quite a musical vein in him! Not only can he play the piano, but also the guitar and trumpet! In high school, Gere even used to write his own music for various stage productions. Interesting fact: in the piano scene from &quot;Pretty Woman&quot;, Gere is actually playing his own composition!</p>
                     </div>
                 </div>
             </section>
@@ -115,7 +115,7 @@ const ArticleActorsWhoPlayPiano = () => {
                         <figcaption className="text-gray-500"><small>Clint Eastwood</small></figcaption>
                     </figure>
                     <div className="mt-8 md:mt-0 md:ms-10 leading-8 self-center">
-                        <p>Like Anthony Hopkins - Clint Eastwood also originally envisioned a career in music for himself. He started learning the piano early on and has always been especially passionate about jazz, country, and western music. After he became established as an actor, he was able to return to his love for music by composing scores for films such as “Mystic River” and “Million Dollar Baby”, among others.</p>
+                        <p>Like Anthony Hopkins - Clint Eastwood also originally envisioned a career in music for himself. He started learning the piano early on and has always been especially passionate about jazz, country, and western music. After he became established as an actor, he was able to return to his love for music by composing scores for films such as &quot;Mystic River&quot; and &quot;Million Dollar Baby&quot;, among others.</p>
                     </div>
                 </div>
                 <div className="flex flex-col items-center">

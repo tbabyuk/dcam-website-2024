@@ -160,7 +160,7 @@ const ArticleChildGuitarSizes = () => {
                         <figcaption className="text-gray-500"><small>Yamaha nylon-string guitalele</small></figcaption>
                     </figure>
                     <div className="mt-8 md:mt-0 md:ms-10 leading-8">
-                        <p className="leading-8 mb-8">Another great option for little kids is the guitalele, which is ideal for 3 to 5 year-olds. The manufacturer Yamaha, who first introduced this instrument, describes it as “Half guitar, half ukulele…100% fun!”</p>
+                        <p className="leading-8 mb-8">Another great option for little kids is the guitalele, which is ideal for 3 to 5 year-olds. The manufacturer Yamaha, who first introduced this instrument, describes it as &quot;Half guitar, half ukulele…100% fun!&quot;</p>
                         <p className="leading-8">As the name suggests, the guitalele is a sort of hybrid between the guitar and the ukulele. It is closer to the ukulele in the way it sounds and closer to a guitar in its more mature shape and its number of strings (6). Also like the ukulele, it uses nylon strings.</p>
                     </div>
                 </div>            
@@ -213,7 +213,7 @@ const ArticleChildGuitarSizes = () => {
                     </figure>
                     <div className="mt-8 md:mt-0 md:ms-10 leading-8">
                         <p className="leading-8 mb-8">The 3/4 size guitar is another very popular guitar size for young children and is best suited for 8 to 12 year-olds. As with the 1/2 size guitar, it also comes in classical, acoustic, and electric versions.</p>
-                        <p className="leading-8 mb-8">The 3/4 guitar has standard guitar tuning (E-A-D-G-B-E) and, at 36″ inches, is very close in size and feel to the full size guitar.</p>
+                        <p className="leading-8 mb-8">The 3/4 guitar has standard guitar tuning (E-A-D-G-B-E) and, at 36&quot; inches, is very close in size and feel to the full size guitar.</p>
                         <p className="leading-8">Although the classical (nylon strings) version is still the preferred choice for most, some students at this stage will already begin using acoustic versions (steel strings) to start preparing their fingers for the real, full size acoustic guitar.</p>
                     </div>
                 </div>            
