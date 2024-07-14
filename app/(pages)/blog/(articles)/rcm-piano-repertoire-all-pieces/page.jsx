@@ -173,7 +173,7 @@ const ArticleRCMPianoRepertoireAllPieces = () => {
                             <td>21</td>
                         </tr>
                         <tr>
-                            <td>What's That Noise?</td>
+                            <td>What&apos;s That Noise?</td>
                             <td>Martha Mier</td>
                             <td>22</td>
                         </tr>
@@ -479,7 +479,7 @@ const ArticleRCMPianoRepertoireAllPieces = () => {
                             <td>18</td>
                         </tr>
                         <tr>
-                            <td>This Guy's Disguised</td>
+                            <td>This Guy&apos;s Disguised</td>
                             <td>Bradley Sowash</td>
                             <td>20</td>
                         </tr>
@@ -703,7 +703,7 @@ const ArticleRCMPianoRepertoireAllPieces = () => {
                     </thead>
                     <tbody className="text-center">
                     <tr>
-                        <td>Soldier's March, op. 68, no. 2*</td>
+                        <td>Soldier&apos;s March, op. 68, no. 2*</td>
                         <td>Robert Schumann</td>
                         <td>14</td>
                     </tr>
@@ -1421,7 +1421,7 @@ const ArticleRCMPianoRepertoireAllPieces = () => {
                         </tr>
                         <tr>
                             <td>Polka, op. 39, no. 10</td>
-                            <td>Pyotr Il'yitch Tchaikovsky</td>
+                            <td>Pyotr Il&apos;yitch Tchaikovsky</td>
                             <td>27</td>
                         </tr>
                         <tr>
@@ -1526,7 +1526,7 @@ const ArticleRCMPianoRepertoireAllPieces = () => {
                             <td>4</td>
                         </tr>
                         <tr>
-                            <td>L'indifferente</td>
+                            <td>L&apos;indifferente</td>
                             <td>Jean-Philippe Rameau</td>
                             <td>6</td>
                         </tr>
@@ -1906,7 +1906,7 @@ const ArticleRCMPianoRepertoireAllPieces = () => {
                             <td>68</td>
                         </tr>
                         <tr>
-                            <td>Ticklin' Toes</td>
+                            <td>Ticklin&apos; Toes</td>
                             <td>Florence B. Price</td>
                             <td>70</td>
                         </tr>                        
@@ -2091,7 +2091,7 @@ const ArticleRCMPianoRepertoireAllPieces = () => {
                             <td>66</td>
                         </tr>
                         <tr>
-                            <td>Through Moanin' Pines</td>
+                            <td>Through Moanin&apos; Pines</td>
                             <td>Harry T. Burleigh</td>
                             <td>70</td>
                         </tr>
@@ -2106,7 +2106,7 @@ const ArticleRCMPianoRepertoireAllPieces = () => {
                             <td>74</td>
                         </tr>
                         <tr>
-                            <td>Mysterious Summer's Night</td>
+                            <td>Mysterious Summer&apos;s Night</td>
                             <td>Larysa Kuzmenko</td>
                             <td>77</td>
                         </tr>
@@ -2166,7 +2166,7 @@ const ArticleRCMPianoRepertoireAllPieces = () => {
                             <td>6</td>
                         </tr>
                         <tr>
-                            <td>L'Egyptienne</td>
+                            <td>L&apos;Egyptienne</td>
                             <td>Jean-Philippe Rameau</td>
                             <td>8</td>
                         </tr>
@@ -2273,7 +2273,7 @@ const ArticleRCMPianoRepertoireAllPieces = () => {
                         </tr>
                         <tr>
                             <td>October (Autumn Song), op. 37b, no. 10</td>
-                            <td>Pyotr Il'yich Tchaikovsky</td>
+                            <td>Pyotr Il&apos;yich Tchaikovsky</td>
                             <td>72</td>
                         </tr>
                         <tr>
@@ -2340,7 +2340,7 @@ const ArticleRCMPianoRepertoireAllPieces = () => {
                             <td>103</td>
                         </tr>
                         <tr>
-                            <td>Golliwogg's Cake-walk</td>
+                            <td>Golliwogg&apos;s Cake-walk</td>
                             <td>Claude Debussy</td>
                             <td>106</td>
                         </tr>
@@ -2587,7 +2587,7 @@ const ArticleRCMPianoRepertoireAllPieces = () => {
                             <td>145</td>
                         </tr>
                         <tr>
-                            <td>Cassandra's Dream</td>
+                            <td>Cassandra&apos;s Dream</td>
                             <td>James Domine</td>
                             <td>150</td>
                         </tr>

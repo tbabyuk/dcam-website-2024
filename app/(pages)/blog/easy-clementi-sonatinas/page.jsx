@@ -73,7 +73,7 @@ const ArticleEasyClementiSonatinas = () => {
                         />
                     </div>
                     <div className="leading-8 mb-10 ">
-                        <h3 className="text-xl underline mb-4">WHAT'S EASY ABOUT IT:</h3>
+                        <h3 className="text-xl underline mb-4">WHAT&apos;S EASY ABOUT IT:</h3>
                         <ul className="list-disc list-inside">
                             <li>The key of C major means we are dealing mostly with white keys, aside from occasional black-key accidentals. The middle movement in its tempo of <span className="italic">Andante</span> should be especially comfortable for beginners.</li>
                         </ul>
@@ -112,7 +112,7 @@ const ArticleEasyClementiSonatinas = () => {
                         />
                     </div>
                     <div className="leading-8 mb-10 ">
-                        <h3 className="text-xl underline mb-4">WHAT'S EASY ABOUT IT:</h3>
+                        <h3 className="text-xl underline mb-4">WHAT&apos;S EASY ABOUT IT:</h3>
                         <ul className="list-disc list-inside">
                             <li>The second movement, although in <span className="italic">Allegretto</span> like the first, feels much slower because of very few sixteenth notes. It is also in C Major, which means very few black keys.</li>
                         </ul>
@@ -151,7 +151,7 @@ const ArticleEasyClementiSonatinas = () => {
                         />
                     </div>
                     <div className="leading-8 mb-10 ">
-                        <h3 className="text-xl underline mb-4">WHAT'S EASY ABOUT IT:</h3>
+                        <h3 className="text-xl underline mb-4">WHAT&apos;S EASY ABOUT IT:</h3>
                         <ul className="list-disc list-inside">
                             <li>As usual, the second movement, in <span className="italic">Un poco adagio</span>, should me very comfortable to play even with the F# in the key signature. It is made up of mostly quarter and eighth notes.</li>
                         </ul>

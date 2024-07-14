@@ -68,7 +68,7 @@ const ArticleRCMExamsGuide = () => {
             <section className="px-5 lg:px-36 xl:px-64">
                 <div className="flex flex-col-reverse md:flex-row mb-6">
                     <div className="mt-8 md:mt-0 md:me-10 leading-8">
-                        <p>RCM stands for Royal Conservatory of Music, which was founded in Toronto, Canada in 1886 and prides itself on being one of the largest and most respected music-education institutions in the world. RCM offers a variety of exams as part of its popular “Certificate Program”. These exams evaluate students' proficiency on a musical instrument or knowledge of music-related concepts and topics. Students who successfully pass their exams receive an official certificate recognizing their achievement. RCM certificates are well-regarded and widely-recognized as being an objective and reliable measure of a student's musical proficiency. According to RCM, more than 100,000 of their exams are taken every year across North America.</p>
+                        <p>RCM stands for Royal Conservatory of Music, which was founded in Toronto, Canada in 1886 and prides itself on being one of the largest and most respected music-education institutions in the world. RCM offers a variety of exams as part of its popular “Certificate Program”. These exams evaluate students&apos; proficiency on a musical instrument or knowledge of music-related concepts and topics. Students who successfully pass their exams receive an official certificate recognizing their achievement. RCM certificates are well-regarded and widely-recognized as being an objective and reliable measure of a student&apos;s musical proficiency. According to RCM, more than 100,000 of their exams are taken every year across North America.</p>
                     </div>
                     <figure className="flex-shrink-0 flex flex-col justify-center items-center">
                         <img src="https://firebasestorage.googleapis.com/v0/b/dcam-website.appspot.com/o/blog_images%2Frcm-exams-complete-guide%2Frcm_building_toronto.jpeg?alt=media&token=60f05310-a6aa-4d3a-b36c-d3e70c3316e5" alt="rcm building in Toronto" style={{width: "320px"}} className="rounded-md" />
@@ -91,8 +91,8 @@ const ArticleRCMExamsGuide = () => {
                         <p>Practical exams are mostly about your ability and expertise on your instrument. They are usually done one-on-one with an examiner and can take place either in-person or (since Covid-19) online through Zoom. Practical exams generally consist of four parts: “repertoire”, “technical requirements”, “ear tests” and “sight reading”, but the exact structure can differ depending on the instrument and level.</p>
                     </div>
                 </div>
-                <p className="leading-8 mb-6"><span className="font-bold">1. Repertoire</span> - for this part, students are required to perform a set number of musical pieces, each representing a different style and musical period. Each piece can be chosen from a wide selection of options that RCM provides. The higher the student's level, the more pieces they must perform and the bigger their complexity. This is the longest part of the exam.</p>
-                <p className="leading-8 mb-6"><span className="font-bold">2. Technical Requirements</span> - designed to complement the demands of the repertoire, this part is sub-divided into “technical tests” and “etudes”. Technical tests are things like scales, chords, and arpeggios, which are meant to develop students' technical prowess and finger dexterity. Etudes are shorter musical pieces designed to develop a specific technical skill within a musical context.</p>
+                <p className="leading-8 mb-6"><span className="font-bold">1. Repertoire</span> - for this part, students are required to perform a set number of musical pieces, each representing a different style and musical period. Each piece can be chosen from a wide selection of options that RCM provides. The higher the student&apos;s level, the more pieces they must perform and the bigger their complexity. This is the longest part of the exam.</p>
+                <p className="leading-8 mb-6"><span className="font-bold">2. Technical Requirements</span> - designed to complement the demands of the repertoire, this part is sub-divided into “technical tests” and “etudes”. Technical tests are things like scales, chords, and arpeggios, which are meant to develop students&apos; technical prowess and finger dexterity. Etudes are shorter musical pieces designed to develop a specific technical skill within a musical context.</p>
                 <p className="leading-8 mb-6"><span className="font-bold">3. Ear Tests</span> - this part of the practical exam involves almost no playing on the part of the student. Instead, the the student is asked to listen to and correctly identify things like intervals, chord qualities, and chord progressions, which are played by the examiner. Students are also required to listen to a short melody and then play it back to the examiner.</p>
                 <p className="leading-8 mb-6"><span className="font-bold">4. Sight Reading</span> - this is where students are given a musical excerpt that they have (hopefully) never encountered before. After clapping the rhythm of a short passage from this excerpt, they must then play the whole excerpt. As a general rule, the difficulty level of the sight-reading excerpt is 3 levels below the level for which you are doing the exam. So for a level 6 exam, the sight-reading excerpt will be comparable in difficulty to RCM level 3. </p>
             </section>
@@ -102,13 +102,13 @@ const ArticleRCMExamsGuide = () => {
                 <div className="bio flex flex-col-reverse md:flex-row mb-6">
                     <div className="mt-8 md:mt-0 md:me-10 leading-8">
                         <p className="mb-6">These exams take place either in arcm exams - written classroom setting with a supervisor or online on your computer. The most common written exams are “theory”, “history”, and “harmony”.</p>
-                        <p><span className="font-bold">1. Theory</span> - these exams test students' knowledge of the building blocks of music and include topics such as major and minor scales, chords, intervals, rhythm, transposition, etc.</p>
+                        <p><span className="font-bold">1. Theory</span> - these exams test students&apos; knowledge of the building blocks of music and include topics such as major and minor scales, chords, intervals, rhythm, transposition, etc.</p>
                     </div>
                     <figure className="flex-shrink-0 flex flex-col justify-center items-center">
                         <img src="https://firebasestorage.googleapis.com/v0/b/dcam-website.appspot.com/o/blog_images%2Frcm-exams-complete-guide%2Fwritten_exams.png?alt=media&token=bf6b1b9e-5ba5-476d-9e75-46020c7165d5" alt="RCM practical exams" style={{width: "190px"}} className="rounded-md" />
                     </figure>
                 </div>
-                <p className="leading-8 mb-6"><span className="font-bold">2. History</span> - as the name suggests, history exams test students' knowledge of important dates, musical eras and developments associated with each one, biographical information of well-known composers, etc. Expect to do plenty of memorizing here.</p>
+                <p className="leading-8 mb-6"><span className="font-bold">2. History</span> - as the name suggests, history exams test students&apos; knowledge of important dates, musical eras and developments associated with each one, biographical information of well-known composers, etc. Expect to do plenty of memorizing here.</p>
                 <p className="leading-8 mb-6"><span className="font-bold">3. Harmony</span> - harmony is what happens when many sounds come together. On this exam, students are tested on their knowledge of concepts such as counterpoint, chord progressions, harmonization, cadences, modulations, phrase structures, compositional techniques, and more.</p>
             </section>
 
@@ -873,7 +873,7 @@ const ArticleRCMExamsGuide = () => {
                     <p>1-2 weeks after the examination</p>
                 </div>
                 <div className="leading-8 text-center">
-                    <p className="font-bold">Official results and examiner's comments:</p>
+                    <p className="font-bold">Official results and examiner&apos;s comments:</p>
                     <p>4-6 weeks after the examination</p>
                 </div>
             </section>

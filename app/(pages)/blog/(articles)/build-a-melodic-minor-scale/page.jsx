@@ -78,11 +78,11 @@ const ArticleBuildAMelodicMinorScale = () => {
                 <p className="mb-20">&quot;A&quot; to &quot;B&quot; is a whole step, &quot;B&quot; to &quot;C&quot; is a half step, &quot;C&quot; to &quot;D&quot; is a whole step, &quot;D&quot; to &quot;E&quot; is a whole step, &quot;E&quot; to &quot;F♯&quot; is a whole step, &quot;F♯&quot; to &quot;G♯&quot; is a whole step, and &quot;G♯&quot; to &quot;A&quot; is a half step. On the way down, we bring the 6th and 7th degrees down by a half step so that &quot;G♯&quot; becomes &quot;G&quot; and &quot;F♯&quot; becomes &quot;F&quot;, thus giving us the <span className="font-bold">A Natural Minor</span> scale.</p>
 
                 <ArticleSubheading subheading="2. Using the Harmonic & Natural Minor Scales" bottom="mb-6" />
-                <p className="mb-14">For this method, we will take the <span className="font-bold">A Harmonic Minor</span> scale as our starting point, which we know contains a "G♯" as its raised 7th:</p>
+                <p className="mb-14">For this method, we will take the <span className="font-bold">A Harmonic Minor</span> scale as our starting point, which we know contains a &quot;G♯&quot; as its raised 7th:</p>
                 <figure className="flex-shrink-0 flex justify-center mb-14">
                     <img src="https://firebasestorage.googleapis.com/v0/b/dcam-website.appspot.com/o/blog_images%2Fbuild-a-melodic-minor-scale%2Fa_harmonic_minor.PNG?alt=media&token=df6baf8e-4621-44ef-a0f1-4838e272ae8b&_gl=1*1au8jqg*_ga*NzE2ODk4MDA0LjE2OTMyNzY3MzA.*_ga_CW55HF8NVT*MTY5NTk1OTkxMS42MC4xLjE2OTU5NjExMzIuNDguMC4w" alt="A harmonic minor scale" className="rounded-md md:w-[70%]" />
                 </figure>
-                <p className="mb-14">Now, we are going to modify our harmonic scale slightly by also raising the 6th degree ("F" becomes "F♯"), which is going to give us the ascending portion of our A Melodic Minor scale. So let&apos;s do that now:</p>
+                <p className="mb-14">Now, we are going to modify our harmonic scale slightly by also raising the 6th degree (&quot;F&quot; becomes &quot;F♯&quot;), which is going to give us the ascending portion of our A Melodic Minor scale. So let&apos;s do that now:</p>
                 <figure className="flex-shrink-0 flex justify-center mb-14">
                     <img src="https://firebasestorage.googleapis.com/v0/b/dcam-website.appspot.com/o/blog_images%2Fbuild-a-melodic-minor-scale%2Fa_min_mel_ascending.PNG?alt=media&token=eb01e62e-aa15-48d8-8cff-dea29e5cdbb3&_gl=1*1u6l4nd*_ga*NzE2ODk4MDA0LjE2OTMyNzY3MzA.*_ga_CW55HF8NVT*MTY5NTk1OTkxMS42MC4xLjE2OTU5NjEyNjQuMjYuMC4w" alt="A melodic minor, ascending" className="rounded-md md:w-[50%]" />
                 </figure>
@@ -108,7 +108,7 @@ const ArticleBuildAMelodicMinorScale = () => {
                 <figure className="flex-shrink-0 flex justify-center mb-14">
                     <img src="https://firebasestorage.googleapis.com/v0/b/dcam-website.appspot.com/o/blog_images%2Fbuild-a-melodic-minor-scale%2Fd_har_min_complete.PNG?alt=media&token=ed3a7ab6-ef08-47aa-92c3-07defc7287c4&_gl=1*hx79rq*_ga*NzE2ODk4MDA0LjE2OTMyNzY3MzA.*_ga_CW55HF8NVT*MTY5NjAwNzMzNS42Mi4xLjE2OTYwMDc2MjYuNjAuMC4w" alt="D harmonic minor scale" className="w-[100%] md:w-[70%] rounded-md" />
                 </figure>
-                <p className="mb-14">For the ascending part of our melodic scale, let&apos;s raise the 6th degree on the way up, so that "B♭" becomes just "B":</p>
+                <p className="mb-14">For the ascending part of our melodic scale, let&apos;s raise the 6th degree on the way up, so that &quot;B♭&quot; becomes just &quot;B&quot;:</p>
                 <figure className="flex-shrink-0 flex justify-center mb-14">
                     <img src="https://firebasestorage.googleapis.com/v0/b/dcam-website.appspot.com/o/blog_images%2Fbuild-a-melodic-minor-scale%2Fd_mel_min_ascending.PNG?alt=media&token=264d72cc-0f63-4316-af3c-c4fa618e7977&_gl=1*qcpeol*_ga*NzE2ODk4MDA0LjE2OTMyNzY3MzA.*_ga_CW55HF8NVT*MTY5NjAwNzMzNS42Mi4xLjE2OTYwMDc3NTEuNDYuMC4w" alt="D melodic minor, ascending" className="rounded-md md:w-[50%]" />
                 </figure>
@@ -135,7 +135,7 @@ const ArticleBuildAMelodicMinorScale = () => {
                 <figure className="flex-shrink-0 flex justify-center mb-14">
                     <img src="https://firebasestorage.googleapis.com/v0/b/dcam-website.appspot.com/o/blog_images%2Fbuild-a-melodic-minor-scale%2Ff_sharp_min_har_complete.PNG?alt=media&token=6d3f2fea-c960-4322-954f-d37d15929bad&_gl=1*1l5m7gw*_ga*NzE2ODk4MDA0LjE2OTMyNzY3MzA.*_ga_CW55HF8NVT*MTY5NjAwNzMzNS42Mi4xLjE2OTYwMDg0NzIuNDQuMC4w" alt="F♯ harmonic minor scale" className="w-[100%] md:w-[70%] rounded-md" />
                 </figure>
-                <p className="mb-14">For the ascending part of our melodic scale, let&apos;s raise the 6th degree on the way up, so that "D" becomes just "D♯":</p>
+                <p className="mb-14">For the ascending part of our melodic scale, let&apos;s raise the 6th degree on the way up, so that &quot;D&quot; becomes just &quot;D♯&quot;:</p>
                 <figure className="flex-shrink-0 flex justify-center mb-14">
                     <img src="https://firebasestorage.googleapis.com/v0/b/dcam-website.appspot.com/o/blog_images%2Fbuild-a-melodic-minor-scale%2Ff_sharp_min_mel_ascending.PNG?alt=media&token=55c322a5-2b65-43d6-90a6-2daa87d3d068&_gl=1*hgowd8*_ga*NzE2ODk4MDA0LjE2OTMyNzY3MzA.*_ga_CW55HF8NVT*MTY5NjAwNzMzNS42Mi4xLjE2OTYwMDg1NDMuNDcuMC4w" alt="F♯ melodic minor, ascending" className="rounded-md md:w-[50%]" />
                 </figure>
