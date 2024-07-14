@@ -118,7 +118,7 @@ const ArticleLearningPianoAsAnAdult = () => {
                         <img src="https://firebasestorage.googleapis.com/v0/b/dcam-website.appspot.com/o/blog_images%2Fadult-piano-student-tips%2Fstress.png?alt=media&token=2aed294a-105f-4c5d-be44-ebac674f9f80&_gl=1*11fjj40*_ga*NzE2ODk4MDA0LjE2OTMyNzY3MzA.*_ga_CW55HF8NVT*MTY5NjAyODYwMy42NC4xLjE2OTYwMzEzNzYuNTYuMC4w" alt="a woman with her hand to her forehead, frustrated" style={{width: "120px"}} className="rounded-md" />
                     </figure>
                     <div className="mt-8 md:mt-0 md:ms-10">
-                        <p>Sure, you are an adult and you might feel pressure to learn as fast as you can to "catch up". But this kind of attitude is often unproductive and can lead to feelings of anxiety and burnout. In addition, it might make you try and take short-cuts at the piano, skipping over material that is fundamental to the development of proper technique. Remember the answer to the good old question about how to eat an elephant: “one bite at a time”.</p>
+                        <p>Sure, you are an adult and you might feel pressure to learn as fast as you can to &quot;catch up&quot;. But this kind of attitude is often unproductive and can lead to feelings of anxiety and burnout. In addition, it might make you try and take short-cuts at the piano, skipping over material that is fundamental to the development of proper technique. Remember the answer to the good old question about how to eat an elephant: &quot;one bite at a time&quot;.</p>
                     </div>
                 </div>            
                 <ArticleSubheading subheading="4. Don't compare yourself to other piano players" bottom="mb-6" />
@@ -148,15 +148,15 @@ const ArticleLearningPianoAsAnAdult = () => {
                         <img src="https://firebasestorage.googleapis.com/v0/b/dcam-website.appspot.com/o/blog_images%2Fadult-piano-student-tips%2Falfred-book-series.png?alt=media&token=b811e2bd-b450-4cd2-8515-0ad53987df02&_gl=1*1eb95qu*_ga*NzE2ODk4MDA0LjE2OTMyNzY3MzA.*_ga_CW55HF8NVT*MTY5NjAyODYwMy42NC4xLjE2OTYwMzE4MDkuNTIuMC4w" alt="alfred's adult piano book series" style={{width: "120px"}} className="rounded-md" />
                     </figure>
                     <div className="mt-8 md:mt-0 md:ms-10">
-                        <p>This series takes the “chord” approach to teaching beginners and has plenty of pieces for students to play, arranged progressively according to level of difficulty. There are a total of three books in this series, each building on the previous one. For best results, it is recommended that students work through these books with an experienced teacher.</p>
+                        <p>This series takes the &quot;chord&quot; approach to teaching beginners and has plenty of pieces for students to play, arranged progressively according to level of difficulty. There are a total of three books in this series, each building on the previous one. For best results, it is recommended that students work through these books with an experienced teacher.</p>
                     </div>
                 </div>
                 <div className="mb-20 flex flex-col justify-center items-center">
                     <p className="mb-6">You can find these books on Amazon from the following links:</p>
                     <ul className="leading-8">
-                        <li className="mb-4"><a href="https://www.amazon.ca/gp/product/0882846167/ref=as_li_tl?ie=UTF8&camp=15121&creative=330641&creativeASIN=0882846167&linkCode=as2&tag=dcam08-20&linkId=c32bb7a685da13fd5e5bda55b7b04e54" target="_blank" className="dcam-link">Alfred's Basic Adult Piano Course - Book 1</a></li>
-                        <li className="mb-4"><a href="https://www.amazon.ca/gp/product/B017OBN784/ref=as_li_tl?ie=UTF8&camp=15121&creative=330641&creativeASIN=B017OBN784&linkCode=as2&tag=dcam08-20&linkId=ebc17deebdb39f2890601fe02671d297" target="_blank" className="dcam-link">Alfred's Basic Adult Piano Course - Book 2</a></li>
-                        <li><a href="https://www.amazon.ca/gp/product/B017OBN7QQ/ref=as_li_tl?ie=UTF8&camp=15121&creative=330641&creativeASIN=B017OBN7QQ&linkCode=as2&tag=dcam08-20&linkId=0b5b372bab4de73e81b8eec3581b5b3c" target="_blank" className="dcam-link">Alfred's Basic Adult Piano Course - Book 3</a></li>
+                        <li className="mb-4"><a href="https://www.amazon.ca/gp/product/0882846167/ref=as_li_tl?ie=UTF8&camp=15121&creative=330641&creativeASIN=0882846167&linkCode=as2&tag=dcam08-20&linkId=c32bb7a685da13fd5e5bda55b7b04e54" target="_blank" className="dcam-link">Alfred&apos;s Basic Adult Piano Course - Book 1</a></li>
+                        <li className="mb-4"><a href="https://www.amazon.ca/gp/product/B017OBN784/ref=as_li_tl?ie=UTF8&camp=15121&creative=330641&creativeASIN=B017OBN784&linkCode=as2&tag=dcam08-20&linkId=ebc17deebdb39f2890601fe02671d297" target="_blank" className="dcam-link">Alfred&apos;s Basic Adult Piano Course - Book 2</a></li>
+                        <li><a href="https://www.amazon.ca/gp/product/B017OBN7QQ/ref=as_li_tl?ie=UTF8&camp=15121&creative=330641&creativeASIN=B017OBN7QQ&linkCode=as2&tag=dcam08-20&linkId=0b5b372bab4de73e81b8eec3581b5b3c" target="_blank" className="dcam-link">Alfred&apos;s Basic Adult Piano Course - Book 3</a></li>
                     </ul>
                 </div>
             </section>

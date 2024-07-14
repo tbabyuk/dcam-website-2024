@@ -42,7 +42,7 @@ const ArticleGraceNotesExplained = () => {
 
             <ArticleSectionHeading heading="Introduction" />
             <section className="introduction px-5 lg:px-36 xl:px-64">
-                <p className="leading-8 mb-14">Perhaps you've heard your teacher mention the term “grace note” during one of your lessons and even point one out to you in your sheet music, but you're still not quite sure what they are and how exactly they work. Well, one thing you should definitely know is that they are not notes that belong to a Grace! (bad joke, I know). But all joking aside, let us put on our music nerd hats and explore what these interesting-sounding notes are all about!</p>
+                <p className="leading-8 mb-14">Perhaps you&apos;ve heard your teacher mention the term “grace note” during one of your lessons and even point one out to you in your sheet music, but you&apos;re still not quite sure what they are and how exactly they work. Well, one thing you should definitely know is that they are not notes that belong to a Grace! (bad joke, I know). But all joking aside, let us put on our music nerd hats and explore what these interesting-sounding notes are all about!</p>
             </section>
 
             <ArticleSectionDivider />
@@ -137,7 +137,7 @@ const ArticleGraceNotesExplained = () => {
                     </figure>
                 </div>
                 <p className="mb-10 font-semibold text-[0.9rem]">* Although multiple grace notes do not have a diagonal line going through them, you should play them the same way you would play the acciaccatura. In other words, they should be unaccented and should come before the main beat.</p>
-                <p className="leading-8 mb-10">The two-note grace note is also known as a <span className="font-bold">double appoggiatura</span>, the three-note grace note as a <span className="font-bold">triple appoggiatura</span>, and so on. But this name can be misleading, since these are almost never played on the beat, like the regular appoggiatura is. Instead, they are played in a “crushed” manner, like the acciaccatura.</p>
+                <p className="leading-8 mb-10">The two-note grace note is also known as a <span className="font-bold">double appoggiatura</span>, the three-note grace note as a <span className="font-bold">triple appoggiatura</span>, and so on. But this name can be misleading, since these are almost never played on the beat, like the regular appoggiatura is. Instead, they are played in a &quot;crushed&quot; manner, like the acciaccatura.</p>
             </section>
 
             <ArticleSectionDivider />

@@ -46,7 +46,7 @@ const ArticleOnlineVsInPersonMusicLessons = () => {
                         <img src="https://firebasestorage.googleapis.com/v0/b/dcam-website.appspot.com/o/blog_images%2Fonline-vs-in-person-music-lessons%2Fonline_lesson.png?alt=media&token=6d0b3a8b-8e06-4fc4-b9e9-3e780713e692" alt="online lesson" style={{width: "240px"}} className="rounded-md" />
                     </figure>
                     <div className="mt-8 md:mt-0 md:ms-10 leading-8">
-                        <p>Like it or not, online learning is the new reality for millions of people around the world - and it's here to stay! Music lessons have certainly not escaped this new trend, but the question many music teachers, students, and parents are asking is: how effective are online music lessons vs. traditional, in-person lessons?</p>
+                        <p>Like it or not, online learning is the new reality for millions of people around the world - and it&apos;s here to stay! Music lessons have certainly not escaped this new trend, but the question many music teachers, students, and parents are asking is: how effective are online music lessons vs. traditional, in-person lessons?</p>
                     </div>
                 </div>
                 <p className="leading-8">In this article, we discuss the benefits and drawbacks of online vs. in-person music lessons and give you our own take on how to best decide between the two options. Most importantly, we want to help parents and students make an informed decision as to what type of lessons work best for them!</p>
@@ -64,7 +64,7 @@ const ArticleOnlineVsInPersonMusicLessons = () => {
                             <li>learning from apps (applications) on the smartphone or tablet</li>
                             <li>learning from a teacher via a video connection (Skype, Zoom, etc.)</li>
                         </ol>
-                        <p>In this article, we are using the third meaning of "online lessons" - <span className="font-semibold">learning one-on-one from a teacher via a video connection</span>.</p>
+                        <p>In this article, we are using the third meaning of &quot;online lessons&quot; - <span className="font-semibold">learning one-on-one from a teacher via a video connection</span>.</p>
                     </div>
                     <figure className="flex-shrink-0 flex flex-col justify-center items-center">
                         <img src="https://firebasestorage.googleapis.com/v0/b/dcam-website.appspot.com/o/blog_images%2Fonline-vs-in-person-music-lessons%2Fdefinition.png?alt=media&token=275660a1-f624-4722-a4e3-ce750a8c12b0" alt="dictionary definition" style={{width: "220px"}} className="rounded-md" />
