@@ -45,9 +45,9 @@ const PianoLessonsPage = () => {
                     <figure className="flex-shrink-0 md:me-10 mb-10 md:mb-0">
                         <img src="/images/pages/piano/piano_lesson_in_progress.jpg" className="mx-auto rounded-xl shadow-lg" style={{width: "220px"}} alt="one of our amazing piano students during his lesson" />
                     </figure>
-                    <p>Piano is the most popular instrument in the world - and for many reasons. It's very visual, expressive, and, unlike many other instruments, allows us to play a large number of notes simultaneously. It's sort of like having a whole orchestra at your fingertips! But as a wise man once said: “It's easy to play the piano, but it's hard to play it well”.<br /><br />
+                    <p>Piano is the most popular instrument in the world - and for many reasons. It&apos;s very visual, expressive, and, unlike many other instruments, allows us to play a large number of notes simultaneously. It&apos;s sort of like having a whole orchestra at your fingertips! But as a wise man once said: &quot;It&apos;s easy to play the piano, but it&apos;s hard to play it well&quot;.<br /><br />
                     At DCAM, we believe technique can make or break your piano playing, which is why we do our best to make sure our students learn correct technique from the very beginning - before it becomes a habit.<br /><br />
-                    We also realize that our students come in many different “shapes and sizes”, which is why our teachers do their best to tailor lessons to each student's individual skill level and musical taste.
+                    We also realize that our students come in many different &quot;shapes and sizes&quot;, which is why our teachers do their best to tailor lessons to each student&apos;s individual skill level and musical taste.
                     </p>
                 </div>
             </section>
@@ -68,14 +68,14 @@ const PianoLessonsPage = () => {
                     <figure className="flex-shrink-0 md:me-10 mb-10 md:mb-0">
                         <img src="/images/pages/piano/abc_books_300.png" alt="a girl doing music theory" className="rounded-md mx-auto w-[170px]" />
                     </figure>
-                    <p>For complete beginners, we like to use “The ABC of Piano Playing” series by Boris Berlin, which contains Books 1, 2, and 3. These books are a great introduction to the keyboard and music notation and contain many simple and catchy tunes. After finishing all three of these books, students have several options. Those following the Royal Conservatory path will be able to start either the “Preparatory A Piano Repertoire” or jump straight into the “Level 1 Piano Repertoire”. For students who do not wish to do the Royal Conservatory exams, books will be chosen based on their individual musical preferences.</p>
+                    <p>For complete beginners, we like to use &quot;The ABC of Piano Playing&quot; series by Boris Berlin, which contains Books 1, 2, and 3. These books are a great introduction to the keyboard and music notation and contain many simple and catchy tunes. After finishing all three of these books, students have several options. Those following the Royal Conservatory path will be able to start either the &quot;Preparatory A Piano Repertoire&quot; or jump straight into the &quot;Level 1 Piano Repertoire&quot;. For students who do not wish to do the Royal Conservatory exams, books will be chosen based on their individual musical preferences.</p>
                 </div>
             </section>
 
             <section className="instruments leading-8 px-5 lg:px-36 xl:px-52 py-20">
                 <PageSubtitle subtitle="Instruments" />
                 <div className="flex flex-col items-center">
-                    <p>At DCAM, students learn using upright acoustic pianos. While we don't expect all our students to have an acoustic piano at home, we do recommend getting at least a weighted keyboard. Weighted simply means that the keys have a slight resistance, similar to that of a real piano.<br /><br />
+                    <p>At DCAM, students learn using upright acoustic pianos. While we don&apos;t expect all our students to have an acoustic piano at home, we do recommend getting at least a weighted keyboard. Weighted simply means that the keys have a slight resistance, similar to that of a real piano.<br /><br />
                     <span className="italic block">Interested in getting a piano? Talk to us or check out <a href="https://www.long-mcquade.com/" className="dcam-link" target="_blank">Long & McQuade</a>. They offer a variety of pianos for both sale and rent.</span>
                     </p>
                     <div className="flex flex-col md:flex-row w-full justify-evenly mt-8">

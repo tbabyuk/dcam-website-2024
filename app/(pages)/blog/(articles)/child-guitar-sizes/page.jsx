@@ -72,7 +72,7 @@ const ArticleChildGuitarSizes = () => {
             <section className="px-5 lg:px-36 xl:px-64">
                 <p className="leading-8 mb-8">The four most popular options for child size guitars (from smallest to biggest) are the ukulele, guitalele, 1/2 size, and 3/4 size guitars. At around age 12, most children are grown enough to start using the full size guitar. Some manufacturers also offer a 1/4, 1/8  and 7/8 size guitars, but there are not very common and the sizes described here are entirely suitable and even preferable alternatives.</p>
 
-                <p className="leading-8 mb-10">Having said that - let's take a closer look at our options.</p>       
+                <p className="leading-8 mb-10">Having said that - let&apos;s take a closer look at our options.</p>       
 
                 <figure className="flex-shrink-0 flex flex-col justify-center items-center mb-10">
                     <img src="https://firebasestorage.googleapis.com/v0/b/dcam-website.appspot.com/o/blog_images%2Fchild-guitar-sizes%2Fguitar_comparison.jpg?alt=media&token=2a0f31d9-e883-42e4-89c9-74bce1ddca05" alt="comparison of guitar sizes" style={{width: "400px"}} className="rounded-md" />
@@ -82,7 +82,7 @@ const ArticleChildGuitarSizes = () => {
                 <table className="mx-auto bg-gray-100 w-full md:w-[50%] blog-table mb-14">
                     <thead>
                         <tr>
-                            <th>Child's Age</th>
+                            <th>Child&apos;s Age</th>
                             <th>Recommended Guitar</th>
                             <th>Guitar Size</th>
                         </tr>
@@ -116,7 +116,7 @@ const ArticleChildGuitarSizes = () => {
                     </tbody>
                 </table>
 
-                <p>Now, let's talk about each instrument in a bit more detail.</p>
+                <p>Now, let&apos;s talk about each instrument in a bit more detail.</p>
             </section>
             
             <ArticleDivider />
@@ -137,7 +137,7 @@ const ArticleChildGuitarSizes = () => {
                 <p className="leading-8 mb-8">There are 4 main types of ukuleles: <span className="font-bold">soprano</span>, <span className="font-bold">concert</span>, <span className="font-bold">tenor</span> and <span className="font-bold">baritone</span>. Each one is slightly bigger and has a slightly different sound. The one we discuss here (see photo above) is a soprano ukulele, which is by far the most popular type and is what is considered a “standard” ukulele.</p>
                 <p className="leading-8 mb-8">In addition to being a neat starter instrument for kids, the ukulele is also an instrument in its own right. Plenty of adults play the ukulele instead of guitar and really enjoy its compact size and distinctive sound.</p>
                 <div className="border-2 border-gray-200 bg-green-100 p-5">
-                    <p className="font-bold mb-8">Thinking of buying a ukulele? Here are our recommendations based on our students' experience and feedback:</p>
+                    <p className="font-bold mb-8">Thinking of buying a ukulele? Here are our recommendations based on our students&apos; experience and feedback:</p>
                     <p className="mb-8">A basic, cheaper option:</p>
                     <ul className="list-disc list-inside mb-8">
                         <li><a href="https://www.amazon.ca/Mahalo-Ukuleles-MK1-TBR-Soprano-Transparent/dp/B00MWRYZWI?crid=2CSB71PJ3TO03&keywords=Soprano%2BUkulele&qid=1669657327&qu=eyJxc2MiOiI2LjUyIiwicXNhIjoiNi4xNiIsInFzcCI6IjQuODIifQ%3D%3D&s=musical-instruments&sprefix=soprano%2Bukulele%2Cmi%2C77&sr=1-4&th=1&linkCode=sl1&tag=dcam08-20&linkId=d21b2617d7ab0aa40657a05639ed4212&language=en_CA&ref_=as_li_ss_tl" target="_blank" className="dcam-link font-semibold">Soprano Ukulele</a> (External Link)</li>
@@ -164,10 +164,10 @@ const ArticleChildGuitarSizes = () => {
                         <p className="leading-8">As the name suggests, the guitalele is a sort of hybrid between the guitar and the ukulele. It is closer to the ukulele in the way it sounds and closer to a guitar in its more mature shape and its number of strings (6). Also like the ukulele, it uses nylon strings.</p>
                     </div>
                 </div>            
-                <p className="leading-8 mb-8">Although it resembles a guitar - it is actually tuned differently than a guitar - a 4th up. So, from bottom to top, the guitalele's strings are A-D-G-C-E-A as opposed to the guitar's E-A-D-G-B-E. This means that the chord shapes on a guitalele won't give you the same chords as on the guitar. Despite this, it will get your child accustomed to 6 strings.</p>
+                <p className="leading-8 mb-8">Although it resembles a guitar - it is actually tuned differently than a guitar - a 4th up. So, from bottom to top, the guitalele&apos;s strings are A-D-G-C-E-A as opposed to the guitar&apos;s E-A-D-G-B-E. This means that the chord shapes on a guitalele won&apos;t give you the same chords as on the guitar. Despite this, it will get your child accustomed to 6 strings.</p>
                 <p className="leading-8 mb-8">Some people prefer the guitalele to the ukulele precisely because it has the standard 6 strings of a regular guitar, which makes a later transition to a guitar a bit easier.</p>
                 <div className="border-2 border-gray-200 bg-green-100 p-5">
-                    <p className="font-bold mb-8">Thinking of buying a guitalele? Here are our recommendations based on our students' experience and feedback:</p>
+                    <p className="font-bold mb-8">Thinking of buying a guitalele? Here are our recommendations based on our students&apos; experience and feedback:</p>
                     <p className="mb-8">A solid and reliable choice:</p>
                     <ul className="list-disc list-inside mb-8">
                         <li><a href="https://www.amazon.ca/gp/product/B00AC0OBYE?ie=UTF8&th=1&linkCode=sl1&tag=dcam08-20&linkId=0a008e8bf59c3c96edfab17ded46104f&language=en_CA&ref_=as_li_ss_tl" target="_blank" className="dcam-link font-semibold">Yamaha GL Series Guitalele</a> (External Link)</li>
@@ -193,7 +193,7 @@ const ArticleChildGuitarSizes = () => {
                 </div>            
                 <p className="leading-8 mb-8">Some electric versions of the 1/2 guitar also exist on the market, though most teachers would not recommend an electric guitar at this stage (unless your child is absolutely set on one!).</p>
                 <div className="border-2 border-gray-200 bg-green-100 p-5">
-                    <p className="font-bold mb-8">Thinking of buying a 1/2 guitar? Here are our recommendations based on our students' experience and feedback:</p>
+                    <p className="font-bold mb-8">Thinking of buying a 1/2 guitar? Here are our recommendations based on our students&apos; experience and feedback:</p>
                     <p className="mb-8">A cheap, beginner option (30"):</p>
                     <ul className="list-disc list-inside mb-8">
                         <li><a href="https://www.amazon.ca/CB-SKY-ACOUSTIC-Acoustic-instrument/dp/B07TJW9KMT?crid=1H7BSF8Q3NA53&keywords=half%2Bsize%2Bdenver%2Bnylon%2Bstring%2Bguitar&qid=1669703628&qu=eyJxc2MiOiIwLjk3IiwicXNhIjoiMC4wMCIsInFzcCI6IjAuMDAifQ%3D%3D&s=musical-instruments&sprefix=half%2Bsize%2Bdenver%2Bnylon%2Bstring%2Bguita,mi,100&sr=1-22&th=1&linkCode=sl1&tag=dcam08-20&linkId=e62d6c56c6bd1075cc84a9730f83ecaa&language=en_CA&ref_=as_li_ss_tl" target="_blank" className="dcam-link font-semibold">CB Sky Acoustic Guitar</a> (External Link)</li>
@@ -219,7 +219,7 @@ const ArticleChildGuitarSizes = () => {
                 </div>            
                 <p className="leading-8 mb-8">Because of its slightly smaller size, some adults actually prefer to play the 3/4 size guitar as opposed to a full size one. In fact, the famous singer/songwriter Ed Sheeran is known to prefer 3/4 size guitars.</p>
                 <div className="border-2 border-gray-200 bg-green-100 p-5">
-                    <p className="font-bold mb-8">Thinking of buying a 3/4 size guitar? Here are our recommendations based on our students' experience and feedback:</p>
+                    <p className="font-bold mb-8">Thinking of buying a 3/4 size guitar? Here are our recommendations based on our students&apos; experience and feedback:</p>
                     <p className="mb-8">Cheaper option:</p>
                     <ul className="list-disc list-inside mb-8">
                         <li><a href="https://www.amazon.ca/Classical-Acoustic-Starter-Beginners-Student/dp/B07LH31N5H?crid=2KLGHFLJQRIZC&keywords=nylon%2Bstring%2Bguitar%2B3/4&qid=1669657897&qu=eyJxc2MiOiIyLjQ3IiwicXNhIjoiMS45MiIsInFzcCI6IjAuMDAifQ%3D%3D&s=musical-instruments&sprefix=nylon%2Bstring%2Bguitar%2B3/4,mi,83&sr=1-8&th=1&linkCode=sl1&tag=dcam08-20&linkId=59758f75695f83a0ddf9aad1926ab327&language=en_CA&ref_=as_li_ss_tl" target="_blank" className="dcam-link font-semibold">J&Z 3/4 Size Acoustic Classical Guitar</a> (External Link)</li>
@@ -242,13 +242,13 @@ const ArticleChildGuitarSizes = () => {
                         <figcaption className="text-gray-500"><small>Full size Yamaha steel-string</small></figcaption>
                     </figure>
                     <div className="mt-8 md:mt-0 md:ms-10 leading-8">
-                        <p className="leading-8 mb-8">When we hear the word “guitar”, we usually mean a full size guitar. This is the famous instrument that many of your favourite bands and artists use and the one we usually hear on the radio or on recordings.</p>
+                        <p className="leading-8 mb-8">When we hear the word &quot;guitar&quot;, we usually mean a full size guitar. This is the famous instrument that many of your favourite bands and artists use and the one we usually hear on the radio or on recordings.</p>
                         <p className="leading-8 mb-8">There are numerous brands and varieties of acoustic, classical, and electric full size guitars to choose from, so you are sure to find something that appeals to your taste.</p>
                         <p className="leading-8">Except for classical versions, full size guitars mostly come with steel strings.</p>
                     </div>
                 </div>            
                 <div className="border-2 border-gray-200 bg-green-100 p-5">
-                    <p className="font-bold mb-8">Thinking of buying a full size guitar? Here are our recommendations based on our students' experience and feedback:</p>
+                    <p className="font-bold mb-8">Thinking of buying a full size guitar? Here are our recommendations based on our students&apos; experience and feedback:</p>
                     <p className="font-bold mb-8 bg-green-200">For classical (nylon strings) full size guitars:</p>
                     <p className="mb-8">Cheaper option:</p>
                     <ul className="list-disc list-inside mb-8">

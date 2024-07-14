@@ -62,14 +62,14 @@ const DrumLessonsPage = () => {
                     <figure className="flex-shrink-0 md:me-10 mb-10 md:mb-0">
                         <img src="/images/pages/drums/drum_books.png" className="mx-auto w-[220px]" alt="lesson in progress" />
                     </figure>
-                    <p>Beginning students can start out with our “Intro to Guitar” book series, which includes 3 books. These books help lay all the important foundation for beginning guitarists, including the reading of tablature, strumming patterns, and lots of fun songs to play along to! After completing the series, students are free to start learning songs that interest them and can join our “Band Experience” program, which allows them to get a feel for what it's like to play in a group with other instruments and musicians.</p>
+                    <p>Beginning students can start out with our “Intro to Guitar” book series, which includes 3 books. These books help lay all the important foundation for beginning guitarists, including the reading of tablature, strumming patterns, and lots of fun songs to play along to! After completing the series, students are free to start learning songs that interest them and can join our “Band Experience” program, which allows them to get a feel for what it&apos;s like to play in a group with other instruments and musicians.</p>
                 </div>
             </section>
 
             <section className="instruments leading-8 px-5 lg:px-36 xl:px-52 py-20">
                 <PageSubtitle subtitle="Instruments" />
                 <p>At DCAM, students can choose between an electric and an acoustic drum kit.</p><br />
-                <p><span className="italic block">Don't have a drum kit? Talk to us or check out <a href="https://www.long-mcquade.com/"className="dcam-link" target="_blank">Long & McQuade</a>. They offer both acoustic and electric drum kits for both sale and rent.</span></p>
+                <p><span className="italic block">Don&apos;t have a drum kit? Talk to us or check out <a href="https://www.long-mcquade.com/"className="dcam-link" target="_blank">Long & McQuade</a>. They offer both acoustic and electric drum kits for both sale and rent.</span></p>
             </section>
 
             <section className="styles leading-8 px-5 lg:px-36 xl:px-52 bg-gray-100 py-20">

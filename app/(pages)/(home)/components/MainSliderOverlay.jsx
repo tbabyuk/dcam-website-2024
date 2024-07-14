@@ -12,6 +12,8 @@ import { FreeTrialModal } from "../../../components/FreeTrialModal";
 
 export const MainSliderOverlay = memo(() => {
 
+  MainSliderOverlay.displayName = "MainSliderOverlay";
+
   const freeTrialModalRef = useRef();
 
   return (
