@@ -124,7 +124,7 @@ const ArticleRCMViolinRepertoireAllPieces = () => {
                             <td>12</td>
                         </tr>
                         <tr>
-                            <td>The Bells of St. Basil's</td>
+                            <td>The Bells of St. Basil&apos;s</td>
                             <td>Paul de Keyser</td>
                             <td>13</td>
                         </tr>                    
@@ -277,7 +277,7 @@ const ArticleRCMViolinRepertoireAllPieces = () => {
                             <td>14</td>
                         </tr>
                         <tr>
-                            <td>On Eagle's Wings</td>
+                            <td>On Eagle&apos;s Wings</td>
                             <td>M. Joncas, arr. H. Birston</td>
                             <td>16</td>
                         </tr>
@@ -350,7 +350,7 @@ const ArticleRCMViolinRepertoireAllPieces = () => {
                             <td>33</td>
                         </tr>
                         <tr>
-                            <td>Soldier's March, op. 68, no. 2</td>
+                            <td>Soldier&apos;s March, op. 68, no. 2</td>
                             <td>Robert Schumann</td>
                             <td>34</td>
                         </tr>
@@ -473,7 +473,7 @@ const ArticleRCMViolinRepertoireAllPieces = () => {
                             <td>24</td>
                         </tr>
                         <tr>
-                            <td>Flash of Light'ning</td>
+                            <td>Flash of Light&apos;ning</td>
                             <td>C. Lumsden and B. Attwood</td>
                             <td>25</td>
                         </tr>
@@ -573,7 +573,7 @@ const ArticleRCMViolinRepertoireAllPieces = () => {
                             <td>8</td>
                         </tr>
                         <tr>
-                            <td>Mouvement d'une serenade</td>
+                            <td>Mouvement d&apos;une serenade</td>
                             <td>G. Sammartini, arr. A. Moffat</td>
                             <td>10</td>
                         </tr>
@@ -659,7 +659,7 @@ const ArticleRCMViolinRepertoireAllPieces = () => {
                             <td>33</td>
                         </tr>
                         <tr>
-                            <td>The Farmers' Market</td>
+                            <td>The Farmers&apos; Market</td>
                             <td>Christine Donkin</td>
                             <td>34</td>
                         </tr>
@@ -684,7 +684,7 @@ const ArticleRCMViolinRepertoireAllPieces = () => {
                             <td>43</td>
                         </tr>
                         <tr>
-                            <td>Wallaby's Lullaby, op. 5</td>
+                            <td>Wallaby&apos;s Lullaby, op. 5</td>
                             <td>George Fiala</td>
                             <td>46</td>
                         </tr>
@@ -729,7 +729,7 @@ const ArticleRCMViolinRepertoireAllPieces = () => {
                             <td>8</td>
                         </tr>
                         <tr>
-                            <td>Concerto in F Major: 3rd Movement: Farmers' Dance</td>
+                            <td>Concerto in F Major: 3rd Movement: Farmers&apos; Dance</td>
                             <td>Arnoldo Sartorio</td>
                             <td>13</td>
                         </tr>
@@ -966,7 +966,7 @@ const ArticleRCMViolinRepertoireAllPieces = () => {
                             <td>45</td>
                         </tr>
                         <tr>
-                            <td>Toy Soldiers' March</td>
+                            <td>Toy Soldiers&apos; March</td>
                             <td>Fritz Kreisler</td>
                             <td>48</td>
                         </tr>
@@ -1105,7 +1105,7 @@ const ArticleRCMViolinRepertoireAllPieces = () => {
                             <td>50</td>
                         </tr>
                         <tr>
-                            <td>Youngsters' Dance</td>
+                            <td>Youngsters&apos; Dance</td>
                             <td>Istvan Szelenyi</td>
                             <td>54</td>
                         </tr>
@@ -1125,7 +1125,7 @@ const ArticleRCMViolinRepertoireAllPieces = () => {
                             <td>63</td>
                         </tr>
                         <tr>
-                            <td>I'm Not Myself, but a Stranger</td>
+                            <td>I&apos;m Not Myself, but a Stranger</td>
                             <td>James Rolfe</td>
                             <td>66</td>
                         </tr>
@@ -1373,7 +1373,7 @@ const ArticleRCMViolinRepertoireAllPieces = () => {
                             <td>45</td>
                         </tr>
                         <tr>
-                            <td>Salut d'amour, op. 12</td>
+                            <td>Salut d&apos;amour, op. 12</td>
                             <td>Edward Elgar</td>
                             <td>48</td>
                         </tr>

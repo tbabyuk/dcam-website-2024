@@ -42,11 +42,11 @@ const ArticleEasyChopinEtudes = () => {
             <ArticleSectionHeading heading="Introduction" />
             <section className="introduction flex flex-col items-center sm:block px-5 lg:px-36 xl:px-64">
                 <div>
-                    <p className="leading-8">Chopin is known to have written a total of 27 etudes, most of which are contained in Op. 25 and Op. 10 of his works. In this article, I chose 3 of these 27 that are generally considered the “easier” of the bunch. Remember though, that etudes are by their very nature technically demanding compositions, so even for the 3 etudes discussed here you will need to be an advanced student of the piano.</p><br />
+                    <p className="leading-8">Chopin is known to have written a total of 27 etudes, most of which are contained in Op. 25 and Op. 10 of his works. In this article, I chose 3 of these 27 that are generally considered the &quot;easier&quot; of the bunch. Remember though, that etudes are by their very nature technically demanding compositions, so even for the 3 etudes discussed here you will need to be an advanced student of the piano.</p><br />
 
-                    <p className="leading-8">The three etudes featured in this list all happen to be from Opus 25, and they are: Etude Op. 25, No. 2 in F Minor (“The Bees”), Etude Op. 25, No. 1 in A flat Major (“Aeolian Etude”) and Etude Op. 25, No. 9 in G flat Major (“The Butterfly”).</p><br />
+                    <p className="leading-8">The three etudes featured in this list all happen to be from Opus 25, and they are: Etude Op. 25, No. 2 in F Minor (&quot;The Bees&quot;), Etude Op. 25, No. 1 in A flat Major (&quot;Aeolian Etude&quot;) and Etude Op. 25, No. 9 in G flat Major (&quot;The Butterfly&quot;).</p><br />
 
-                    <p className="leading-8">Note: Chopin also has much slower etudes that some people might consider easier than the ones presented here, simply because of their speed. However, for the purposes of this article I chose to go with the easy “fast” etudes, as these are much more popular and, in my opinion, more interesting to play. If you do want to take a look at the easier “slower” etudes of Chopin, feel free to take a look at Etude Op. 10, No. 3 (“Tristesse”), Etude Op. 25, No. 7 (“Cello”), or Etude Op. 10, No. 6.</p>
+                    <p className="leading-8">Note: Chopin also has much slower etudes that some people might consider easier than the ones presented here, simply because of their speed. However, for the purposes of this article I chose to go with the easy &quot;fast&quot; etudes, as these are much more popular and, in my opinion, more interesting to play. If you do want to take a look at the easier &quot;slower&quot; etudes of Chopin, feel free to take a look at Etude Op. 10, No. 3 (&quot;Tristesse&quot;), Etude Op. 25, No. 7 (&quot;Cello&quot;), or Etude Op. 10, No. 6.</p>
                 </div>
             </section>
 
@@ -77,7 +77,7 @@ const ArticleEasyChopinEtudes = () => {
                     />
                 </div>
                 <div className="leading-8 mb-10 ">
-                    <h3 className="text-xl underline mb-4">WHAT'S EASY ABOUT IT:</h3>
+                    <h3 className="text-xl underline mb-4">WHAT&apos;S EASY ABOUT IT:</h3>
                     <ul className="list-disc list-inside">
                         <li><span className="font-bold">RH notes</span>. The RH melody, although fast, is for the most part conjunct (i.e. the notes are spaced closely together), which makes it easier to play. </li>
                     </ul>
@@ -118,7 +118,7 @@ const ArticleEasyChopinEtudes = () => {
                     />
                 </div>
                 <div className="leading-8 mb-10">
-                    <h3 className="text-xl underline mb-4">WHAT'S EASY ABOUT IT:</h3>
+                    <h3 className="text-xl underline mb-4">WHAT&apos;S EASY ABOUT IT:</h3>
                     <ul className="list-disc list-inside">
                         <li><span className="font-bold">Rhythm</span>. Although the piece does have occasional polyrhythmic passages (see below), for the most part the hands are playing the same rhythm, i.e. sextuplets in both hands. This makes things a bit easier for us.</li>
                     </ul>
@@ -159,16 +159,16 @@ const ArticleEasyChopinEtudes = () => {
                     />
                 </div>
                 <div className="leading-8 mb-10">
-                    <h3 className="text-xl underline mb-4">WHAT'S EASY ABOUT IT:</h3>
+                    <h3 className="text-xl underline mb-4">WHAT&apos;S EASY ABOUT IT:</h3>
                     <ul className="list-disc list-inside">
-                        <li><span className="font-bold">It's short</span>. In fact, this is the shortest of all Chopin's etudes. If played at the indicated tempo, it is just under a minute in duration.</li>
+                        <li><span className="font-bold">It&apos;s short</span>. In fact, this is the shortest of all Chopin&apos;s etudes. If played at the indicated tempo, it is just under a minute in duration.</li>
                     </ul>
                 </div>
                 <div className="leading-8">
                     <h3 className="text-xl underline mb-4">WHAT YOU MIGHT FIND DIFFICULT:</h3>
                     <ul className="list-disc list-inside">
                         <li className="mb-4"><span className="font-bold">RH Octaves</span>. This should not be surprising since octave technique is the main focus of this particular etude. To play it well requires a very loose and relaxed wrist, which is constantly in motion here. If this is a bit of a challenge for your at first, make sure to spend plenty of time practicing at a slow to moderate tempo.</li>
-                        <li><span className="font-bold">Tempo</span>. Allegro assai means “very fast”, which is how the piece is meant to be performed. Again, starting slow and working up to this speed is the key.</li>
+                        <li><span className="font-bold">Tempo</span>. Allegro assai means &quot;very fast&quot;, which is how the piece is meant to be performed. Again, starting slow and working up to this speed is the key.</li>
                     </ul>
                 </div>
             </section>
