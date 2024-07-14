@@ -23,8 +23,8 @@ export const HomeReviewsSection = async () => {
       <section className="px-5 lg:px-36 xl:px-52 pt-20 pb-32">
           <HomeSectionHeading title="WHAT OUR CUSTOMERS SAY" textColor="text-dcam-reg-orange" />
           {reviews && 
-              reviews.map((review) => (
-                  <ReviewCard review={review} />
+              reviews.map((review, index) => (
+                  <ReviewCard key={index} review={review} />
               ))
           }
           {/* <a href="https://search.google.com/local/reviews?placeid=ChIJxzCGYLs3K4gR0hG4dhYU8mk" target="_blank"> */}

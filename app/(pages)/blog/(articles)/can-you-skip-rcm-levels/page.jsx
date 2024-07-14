@@ -41,8 +41,8 @@ const ArticleCanYouSkipRCMLevels = () => {
 
             <ArticleSectionHeading heading="Introduction: Defining the Terms" />
             <section className="introduction px-5 lg:px-36 xl:px-64 mb-20">
-                <p className="leading-8 mb-6">Before jumping into the topic, let's make sure we understand what we mean by "skipping levels". What we are really talking about here is skipping level <span className="font-bold">exams</span>, since you are only officially considered to be at a certain RCM Level after successfully completing the appropriate examination for that level.</p>
-                <p className="leading-8 mb-6">*The terms "level" and "grade" mean the same thing in our context and we will be using them interchangeably.*</p>
+                <p className="leading-8 mb-6">Before jumping into the topic, let&apos;s make sure we understand what we mean by &quot;skipping levels&quot;. What we are really talking about here is skipping level <span className="font-bold">exams</span>, since you are only officially considered to be at a certain RCM Level after successfully completing the appropriate examination for that level.</p>
+                <p className="leading-8 mb-6">*The terms &quot;level&quot; and &quot;grade&quot; mean the same thing in our context and we will be using them interchangeably.*</p>
             </section>
 
             <ArticleSectionDivider />
@@ -51,7 +51,7 @@ const ArticleCanYouSkipRCMLevels = () => {
             <section className="px-5 lg:px-36 xl:px-64 mb-20">
                 <p className="leading-8 mb-6">Yes, RCM allows students to skip level exams, but think carefully about your reason for wanting to do this. The fact is, there are no short-cuts for developing proper technique at your instrument and a proper understanding of musical repertoire. So if your reason for skipping level exams is to get to the top levels as soon as possible, your playing will end up being superficial at best.</p>
                 <p className="leading-8 mb-6">The one exception to this is the Grade 10 exam, which you cannot skip as it is a necessary prerequisite for students wishing to do their ARCT (Associate of the Royal Conservatory).</p>
-                <p className="leading-8">That being said, let’s look at some good and bad reasons for skipping RCM Level exams.</p>
+                <p className="leading-8">That being said, let&apos;s look at some good and bad reasons for skipping RCM Level exams.</p>
             </section>
 
             <ArticleDivider />
@@ -59,7 +59,7 @@ const ArticleCanYouSkipRCMLevels = () => {
             <ArticleHeading heading="Good Reasons to Skip RCM Levels" bottom="mb-16" />
             <section className="px-5 lg:px-36 xl:px-64 mb-20">
                 <ArticleSubheading subheading="GOOD REASON #1:" bottom="mb-6" />
-                <p className="font-bold leading-8 mb-6">You are working through your RCM books one by one (hopefully with a good teacher), learning a good amount of repertoire from each book, but decide that you'd rather save some money and not do every single exam.</p>
+                <p className="font-bold leading-8 mb-6">You are working through your RCM books one by one (hopefully with a good teacher), learning a good amount of repertoire from each book, but decide that you&apos;d rather save some money and not do every single exam.</p>
                 <p className="leading-8">This is completely reasonable. In fact, some teachers might even recommend to their students not to do every single level exam, especially in Elementary Levels (Prep to Grade 4). Once students get to Intermediate Levels (Grades 5-8) however, the material gets noticeably harder, at which point skipping level exams is not a good idea. Also, keep in mind that starting from Grade 5, students need to complete and pass a co-requisite written examination in order to get their Certificate.</p>
             </section>
 
@@ -81,7 +81,7 @@ const ArticleCanYouSkipRCMLevels = () => {
             <section className="px-5 lg:px-36 xl:px-64 mb-20">
                 <ArticleSubheading subheading="BAD REASON #2:" bottom="mb-6" />
                 <p className="font-bold leading-8 mb-6">You are a mature student who started piano a bit late and want to move quickly to “catch up” on what you have missed.</p>
-                <p className="leading-8">If this is your strategy, you will become quite a sloppy musician. Adult/mature students should not feel pressure to “catch up” in music, as this will only lead to bad results. Instead, find a good teacher and focus on improving yourself step-by-step, competing only against yourself. This approach will pay many more dividends as long as you are dedicated and consistent in your practicing.</p>
+                <p className="leading-8">If this is your strategy, you will become quite a sloppy musician. Adult/mature students should not feel pressure to &quot;catch up&quot; in music, as this will only lead to bad results. Instead, find a good teacher and focus on improving yourself step-by-step, competing only against yourself. This approach will pay many more dividends as long as you are dedicated and consistent in your practicing.</p>
             </section>
             <PageBottomTrialButton />
         </main>
