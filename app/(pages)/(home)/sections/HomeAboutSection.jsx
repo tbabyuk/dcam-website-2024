@@ -12,7 +12,7 @@ export const HomeAboutSection = () => {
                 <figure className="flex-shrink-0 mb-8 sm:me-8 float-left">
                     <Image src="images/pages/home/piano_lesson.png" alt="lesson in progress" className="mx-auto" width="230" height="230"  unoptimized />
                 </figure>
-                <p className="hyphens-auto">Located in the beautiful Etobicoke neighbourhood of Humber Valley Village since 2018, Da Capo Academy of Music (DCAM) offers music lessons to students of all ages and skill levels. Our amazing team of teachers are passionate musicians who love to share their passion with their students. Have an instrument you are keen on learning? Great! Fill out our "Free Trial Lesson" form and come in for a free, no-obligation trial lesson!<br /><br />
+                <p className="hyphens-auto">Located in the beautiful Etobicoke neighbourhood of Humber Valley Village since 2018, Da Capo Academy of Music (DCAM) offers music lessons to students of all ages and skill levels. Our amazing team of teachers are passionate musicians who love to share their passion with their students. Have an instrument you are keen on learning? Great! Fill out our &quot;Free Trial Lesson&quot; form and come in for a free, no-obligation trial lesson!<br /><br />
                 Please explore our website to learn more about us. If you have a question, call us during our business hours or send us an email at <a href = "mailto: info@dacapomusic.ca" className="dcam-link">info@dacapomusic.ca</a> and we will get back to you as possible!</p>
             </div>
         </section>  

@@ -102,13 +102,13 @@ const ArticleBuildAChromaticScale = () => {
                 <figure className="flex flex-col items-center mb-14">
                     <audio controls src="https://firebasestorage.googleapis.com/v0/b/dcam-website.appspot.com/o/blog_images%2Fbuild-a-chromatic-scale%2Fd_flat_chromatic_audio.mp3?alt=media&token=744d419b-a5e8-45c7-8502-fc3a3d868869" />
                 </figure>
-                <p className="mb-20">Notice that in the scale above, we switched to sharps as soon as we could, after the note “F”. Before that, we had no choice but to use flats and naturals.</p>
+                <p className="mb-20">Notice that in the scale above, we switched to sharps as soon as we could, after the note &quot;F&quot;. Before that, we had no choice but to use flats and naturals.</p>
             </section>
             <section className="px-5 lg:px-36 xl:px-64 leading-8 mb-20">
                 <ArticleSubheadingRed subheading="2. Writing a Chromatic Scale with a Key Signature" bottom="mb-12" />
                 <p className="mb-10">As mentioned earlier, there is more than one way to write a chromatic scale, and this also applies to chromatic scales with key signatures. The method I will be demonstrating here is one recommended by the ABRSM (Associated Board of the Royal Schools of Music), which I quite like. This method requires us to add one more rule to the four rules we saw earlier. And that rule is:</p>
                 <p className="mb-10">5.<span className="font-bold"> The 1st, 4th and 5th degrees of the scale should be represented unaltered.</span><br /> In other words, the notes representing the primary triads of our key should be written in the form in which they naturally occur in that particular key.</p>
-                <p className="mb-10">Let&apos;s see how this works in practice by writing a chromatic scale occuring in a key of "B♭ major".</p>
+                <p className="mb-10">Let&apos;s see how this works in practice by writing a chromatic scale occuring in a key of &quot;B♭ major&quot;.</p>
                 <p className="mb-14">We know that the key signature of &quot;B♭ Major&quot; is &quot;B♭&quot; and &quot;E♭&quot; and we also know that the 4th and 5th degrees of this scale will be &quot;E♭&quot; and &quot;F&quot;, respectively. Let&apos;s keep these facts in mind as we write out our scale.</p>
                 <figure className="flex-shrink-0 flex flex-col justify-center items-center mb-10">
                     <img src="https://firebasestorage.googleapis.com/v0/b/dcam-website.appspot.com/o/blog_images%2Fbuild-a-chromatic-scale%2Fchromatic_in_b_flat_major.PNG?alt=media&token=3b4e66cf-f258-45a9-915e-12bf23397bb7" alt="chromatic scale in B♭ major" className="xl:w-[85%] rounded-md" />

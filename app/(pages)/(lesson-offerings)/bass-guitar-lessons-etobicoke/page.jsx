@@ -42,7 +42,7 @@ const BassGuitarLessonsPage = () => {
                 <PageSubtitle subtitle="Overview" />
                 <div className="flex flex-col-reverse md:flex-row mb-6">
                     <p>The bass guitar is the heartbeat of any band, providing the groove that gets people moving and makes music come alive. Whether you dream of playing in a band, laying down cool basslines at a jam session, or simply enjoying the rich, deep sounds on your own, the bass guitar offers endless possibilities for creativity and fun!<br /><br />
-                    At DCAM, we make learning the bass guitar an enjoyable and progressive experience. Our approach combines essential technique with songs and styles that resonate with you. Our instructors customize lessons to suit each individual's skill level and musical interests, ensuring a personalized and engaging learning journey.</p>
+                    At DCAM, we make learning the bass guitar an enjoyable and progressive experience. Our approach combines essential technique with songs and styles that resonate with you. Our instructors customize lessons to suit each individual&apos;s skill level and musical interests, ensuring a personalized and engaging learning journey.</p>
                     <figure className="flex-shrink-0 md:ms-10 mb-10 md:mb-0">
                         <img src="/images/pages/bass-guitar/bass_guitar_lessons.jpg" alt="guitar lesson in progress" style={{width: "190px"}} className="rounded-md mx-auto" />
                     </figure>
@@ -64,14 +64,14 @@ const BassGuitarLessonsPage = () => {
                     <figure className="flex-shrink-0 md:me-10 mb-10 md:mb-0">
                         <img src="/images/pages/bass-guitar/bass_guitar_books.png" className="mx-auto" style={{width: "200px"}} alt="bass guitar books" />
                     </figure>
-                    <p>Beginning students can start out with one of our beginner method books, which provide a solid foundation for new bass guitarists, covering essential skills such as reading tablature, understanding basic rhythms, and playing along with fun songs. After completing the series, students are encouraged to explore songs that interest them. They can also join our “Band Experience” program, where they can experience playing in a group setting with other instruments and musicians.</p>
+                    <p>Beginning students can start out with one of our beginner method books, which provide a solid foundation for new bass guitarists, covering essential skills such as reading tablature, understanding basic rhythms, and playing along with fun songs. After completing the series, students are encouraged to explore songs that interest them. They can also join our &quot;Band Experience&quot; program, where they can experience playing in a group setting with other instruments and musicians.</p>
                 </div>
             </section>
 
             <section className="instruments leading-8 flex flex-col items-center sm:block px-5 lg:px-36 xl:px-52 py-20">
                 <PageSubtitle subtitle="Instruments" />
                 <div className="flex flex-col-reverse md:flex-row md:items-center mb-6">
-                    <p>For young children, smaller-sized bass guitars with lighter gauge strings are recommended to reduce strain on the fingers. It's important to select a bass that fits the child's size and age, which can be bought or rented from most music stores or directly from us. Students are expected to have their own bass guitar and bring it with them to every lesson.<br /><br />
+                    <p>For young children, smaller-sized bass guitars with lighter gauge strings are recommended to reduce strain on the fingers. It&apos;s important to select a bass that fits the child&apos;s size and age, which can be bought or rented from most music stores or directly from us. Students are expected to have their own bass guitar and bring it with them to every lesson.<br /><br />
                     </p>
                     <figure className="flex-shrink-0 md:ms-10 mb-10 md:mb-0">
                         <img src="/images/pages/bass-guitar/bass_guitar_instrument.jpg" alt="guitar lesson in progress" style={{width: "180px"}} className="rounded-md mx-auto" />
@@ -81,7 +81,7 @@ const BassGuitarLessonsPage = () => {
 
             <section className="styles leading-8 px-5 lg:px-36 xl:px-52 bg-gray-100 py-20">
                 <PageSubtitle subtitle="Styles" />
-                <p>Students can choose to learn any musical style they want on the bass guitar, such as rock, jazz, funk, etc. Our teachers to their best to tailor lesson material to the student's interest.</p>
+                <p>Students can choose to learn any musical style they want on the bass guitar, such as rock, jazz, funk, etc. Our teachers to their best to tailor lesson material to the student&apos;s interest.</p>
             </section>
 
             <LessonTeachersSection teachers={teachersArray.filter(teacher => teacher.instrument.includes("bass guitar"))} />

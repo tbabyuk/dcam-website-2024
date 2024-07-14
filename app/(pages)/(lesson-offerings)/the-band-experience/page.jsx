@@ -38,7 +38,7 @@ const TheBandExperiencePage = () => {
             <section className="overview leading-8 flex flex-col items-center sm:block px-5 lg:px-36 xl:px-52 bg-gray-100 py-20">
                 <PageSubtitle subtitle="Overview" />
                 <div className="flex flex-col-reverse md:flex-row mb-6 md:mb-0">
-                    <p>Our “Band Experience” program is designed for students who want to experience what it's like to be part of a band. Students get an opportunity to practice and perform together, developing essential skills such as teamwork, timing, and stage presence. Through collaborative rehearsals and live performances during our music recitals, students gain valuable experience and a deeper understanding of playing music in a group setting. This program is an excellent way for budding musicians to build confidence, enhance their musical abilities, and enjoy the thrill of performing as a cohesive unit.</p>
+                    <p>Our &quot;Band Experience&quot; program is designed for students who want to experience what it&apos;s like to be part of a band. Students get an opportunity to practice and perform together, developing essential skills such as teamwork, timing, and stage presence. Through collaborative rehearsals and live performances during our music recitals, students gain valuable experience and a deeper understanding of playing music in a group setting. This program is an excellent way for budding musicians to build confidence, enhance their musical abilities, and enjoy the thrill of performing as a cohesive unit.</p>
                     <figure className="flex-shrink-0 md:ms-10 mb-10 md:mb-0">
                         <img src="/images/pages/band/the_band_experience_rehearsal.jpg" alt="toddler music lesson in progress" className="rounded-md mx-auto w-[180px]" />
                     </figure>
@@ -47,7 +47,7 @@ const TheBandExperiencePage = () => {
 
             <section className="age leading-8 px-5 lg:px-36 xl:px-52 py-20">
                 <PageSubtitle subtitle='When is the right time to join "The Band Experience"?' />
-                <p>Students are expected to have played their instrument for at least a year before joining 'The Band Experience'. The program is not intended to be a replacement for private lessons, as the focus will be on the band working as a unit and not on each individual instrument. For this reason, students are expected to have a basic grasp for their instrument before joining. Bands will be formed based on the level of experience of its members and we do our best to place you in an appropriate group.</p>
+                <p>Students are expected to have played their instrument for at least a year before joining &quot;The Band Experience&quot;. The program is not intended to be a replacement for private lessons, as the focus will be on the band working as a unit and not on each individual instrument. For this reason, students are expected to have a basic grasp for their instrument before joining. Bands will be formed based on the level of experience of its members and we do our best to place you in an appropriate group.</p>
             </section>
 
             <section className="format leading-8 px-5 lg:px-36 xl:px-52 bg-gray-100 py-20">

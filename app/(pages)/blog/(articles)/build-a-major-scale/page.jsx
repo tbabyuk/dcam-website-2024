@@ -68,7 +68,7 @@ const ArticleBuildAMajorScale = () => {
 
             <ArticleHeading heading="Putting It to Practice" bottom="mb-16" />
             <section className="px-5 lg:px-36 xl:px-64 leading-8 mb-20">
-                <p className="mb-20">Now that we are familiar with the formula and the naming convention when it comes to major scales, let's do a few examples.</p>
+                <p className="mb-20">Now that we are familiar with the formula and the naming convention when it comes to major scales, let&apos;s do a few examples.</p>
                 <ArticleSubheading subheading='Example 1: "C Major Scale"' bottom="mb-6" />
                 <p className="mb-14">One of the easiest scales to play and one that music students usually learn first is the <span className="font-bold">C Major</span> scale. The reason it&apos;s considered easy is because it only uses the white keys on the piano and has no sharps or flats. If we play every single white key from one &quot;C&quot; to the next &quot;C&quot;, we will discover that it fits perfectly into our major scale formula. Let&apos;s take a look:</p>
                 <figure className="flex-shrink-0 flex justify-center mb-14">

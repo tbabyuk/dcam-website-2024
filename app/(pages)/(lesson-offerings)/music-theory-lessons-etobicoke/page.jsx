@@ -41,7 +41,7 @@ const TheoryLessonsPage = () => {
             <section className="overview leading-8 flex flex-col items-center sm:block px-5 lg:px-36 xl:px-52 bg-gray-100 py-20">
                 <PageSubtitle subtitle="Overview" />
                 <div className="flex flex-col-reverse md:flex-row mb-6 md:mb-0">
-                    <p>Quoting from the RCM Theory Syllabus (2016), <span className="italic">“The study of theory is an essential component of well-rounded musical training and is intended to support the practical studies to enhance and enrich the musical experience.”</span> We absolutely agree with this statement!<br /><br />At DCAM, you can take Music Theory as a separate lesson or in combination with the study of your favourite instrument.</p>
+                    <p>Quoting from the RCM Theory Syllabus (2016), <span className="italic">&quot;The study of theory is an essential component of well-rounded musical training and is intended to support the practical studies to enhance and enrich the musical experience.&quot;</span> We absolutely agree with this statement!<br /><br />At DCAM, you can take Music Theory as a separate lesson or in combination with the study of your favourite instrument.</p>
                     <figure className="flex-shrink-0 md:ms-10 mb-10 md:mb-0">
                         <img src="/images/pages/theory/theory_lessons.jpg" alt="a girl doing music theory" className="rounded-md mx-auto w-[140px]" />
                     </figure>
@@ -63,7 +63,7 @@ const TheoryLessonsPage = () => {
                     <figure className="flex-shrink-0 md:me-10 mb-10 md:mb-0">
                         <img src="/images/pages/theory/theory_books.png" alt="a girl doing music theory" className="rounded-md mx-auto w-[180px]" />
                     </figure>
-                    <p>Since many of our students eventually intend to write the RCM theory exams, RCM books are our most popular choice for theory studies. However, there are plenty of other great theory books out there which we would be happy to teach if that is what our students would prefer. One example of such books is Barbara Wharram's “Rudimentary Rudiments of Music”.</p>
+                    <p>Since many of our students eventually intend to write the RCM theory exams, RCM books are our most popular choice for theory studies. However, there are plenty of other great theory books out there which we would be happy to teach if that is what our students would prefer. One example of such books is Barbara Wharram&apos;s &quot;Rudimentary Rudiments of Music&quot;.</p>
                 </div>
             </section>
 

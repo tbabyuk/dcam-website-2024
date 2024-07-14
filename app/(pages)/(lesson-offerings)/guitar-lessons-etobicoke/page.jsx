@@ -42,8 +42,8 @@ const GuitarLessonsPage = () => {
             <section className="overview leading-8 flex flex-col items-center sm:block px-5 lg:px-36 xl:px-52 bg-gray-100 py-20">
                 <PageSubtitle subtitle="Overview" />
                 <div className="flex flex-col-reverse md:flex-row mb-6">
-                    <p>Whether you want to be in a band, impress your friends at a party, or just play for yourself - the possibilities are endless when it comes to the  guitar! No wonder it's one of the most popular instruments today!<br /><br />
-                    At DCAM, you learn guitar through a fun and gradual process that combines proper technique with music that you actually want to play! Just like guitars, we realize that students come in many different “shapes and sizes”, which is why our teachers do their best to tailor lessons to each student's individual skill level and musical taste.</p>
+                    <p>Whether you want to be in a band, impress your friends at a party, or just play for yourself - the possibilities are endless when it comes to the  guitar! No wonder it&apos;s one of the most popular instruments today!<br /><br />
+                    At DCAM, you learn guitar through a fun and gradual process that combines proper technique with music that you actually want to play! Just like guitars, we realize that students come in many different &quot;shapes and sizes&quot;, which is why our teachers do their best to tailor lessons to each student&apos;s individual skill level and musical taste.</p>
                     <figure className="flex-shrink-0 md:ms-10 mb-10 md:mb-0">
                         <img src="/images/pages/guitar/guitar_lesson_in_progress.jpg" alt="one of our guitar lessons in progress" style={{width: "200px"}} className="rounded-md mx-auto" />
                     </figure>
@@ -65,14 +65,14 @@ const GuitarLessonsPage = () => {
                     <figure className="flex-shrink-0 md:me-10 mb-10 md:mb-0">
                         <img src="/images/pages/guitar/book_intro_to_guitar.jpg" className="mx-auto rounded-xl shadow-lg" style={{width: "130px"}} alt="lesson in progress" />
                     </figure>
-                    <p>Beginning students can start out with our “Intro to Guitar” book series, which includes 3 books. These books help lay all the important foundation for beginning guitarists, including the reading of tablature, strumming patterns, and lots of fun songs to play along to! After completing the series, students are free to start learning songs that interest them and can join our “Band Experience” program, which allows them to get a feel for what it's like to play in a group with other instruments and musicians.</p>
+                    <p>Beginning students can start out with our &quot;Intro to Guitar&quot; book series, which includes 3 books. These books help lay all the important foundation for beginning guitarists, including the reading of tablature, strumming patterns, and lots of fun songs to play along to! After completing the series, students are free to start learning songs that interest them and can join our &quot;Band Experience&quot; program, which allows them to get a feel for what it&apos;s like to play in a group with other instruments and musicians.</p>
                 </div>
             </section>
 
             <section className="instruments leading-8 flex flex-col items-center sm:block px-5 lg:px-36 xl:px-52 py-20">
                 <PageSubtitle subtitle="Instruments" />
                 <div className="flex flex-col-reverse md:flex-row mb-6">
-                    <p>Students can choose to play either an acoustic, electric, or classical guitar. For young children, guitars with nylon strings are recommended, as they don't put a lot of strain on the fingers. Children will also require a guitar that fits their size/age, which can be bought or rented from most music stores or directly from us. Students are expected to have their own guitar and to bring it with them to every lesson.<br /><br />
+                    <p>Students can choose to play either an acoustic, electric, or classical guitar. For young children, guitars with nylon strings are recommended, as they don&apos;t put a lot of strain on the fingers. Children will also require a guitar that fits their size/age, which can be bought or rented from most music stores or directly from us. Students are expected to have their own guitar and to bring it with them to every lesson.<br /><br />
                     <span className="italic block text-[0.9rem]">Not sure what the right guitar size is for your child? Check out <a href="https://dacapomusic.ca/child-guitar-sizes/" target="_blank" className="dcam-link">this blog article</a>.</span>
                     <span className="italic block text-[0.9rem]">Need a guitar? Talk to us or check out <a href="https://www.long-mcquade.com/" target="_blank" className="dcam-link">Long & McQuade</a>, who offer buy or rent options.</span>
                     </p>

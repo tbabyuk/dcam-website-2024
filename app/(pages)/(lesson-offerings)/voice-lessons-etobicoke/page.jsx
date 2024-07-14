@@ -42,7 +42,7 @@ const VoiceLessonsPage = () => {
             <section className="overview leading-8 flex flex-col items-center sm:block px-5 lg:px-36 xl:px-52 bg-gray-100 py-20">
                 <PageSubtitle subtitle="Overview" />
                 <div className="flex flex-col-reverse md:flex-row mb-6 md:mb-0">
-                    <p>Do you or your child like to sing? Are you looking for voice lessons that are fun but also individualized to your or your child's level and interest? Our voice lessons are designed to be educational and fun at the same time. Bring in a song that you want to learn or use one of our method books to take your singing to the next level - it's up to you!<br /><br /> With proper technique and training, you will be surprized at what your voice can do! Call to book your free trial today!</p>
+                    <p>Do you or your child like to sing? Are you looking for voice lessons that are fun but also individualized to your or your child&apos;s level and interest? Our voice lessons are designed to be educational and fun at the same time. Bring in a song that you want to learn or use one of our method books to take your singing to the next level - it&apos;s up to you!<br /><br /> With proper technique and training, you will be surprized at what your voice can do! Call to book your free trial today!</p>
                     <figure className="flex-shrink-0 md:ms-10 mb-10 md:mb-0">
                         <img src="/images/pages/voice/voice_lesson_in_progress.jpg" alt="one of our amazing voice students during her lesson" className="rounded-md mx-auto w-[160px]" />
                     </figure>
@@ -51,7 +51,7 @@ const VoiceLessonsPage = () => {
 
             <section className="age leading-8 px-5 lg:px-36 xl:px-52 py-20">
                 <PageSubtitle subtitle="What is a good age to start voice lessons?" />
-                <p>Age 7 and up is a good time for children to begin singing lessons. At this age children are mature enough and have enough awareness of their own body to be able to follow the teacher's instructions. Although their voice has not yet matured at this age, they will benefit greatly from developing proper singing habits and techniques that they can continue to apply as they get older. At this age, teachers are careful not to put too much pressure on the vocal chords to avoid causing unnecessary strain.</p>
+                <p>Age 7 and up is a good time for children to begin singing lessons. At this age children are mature enough and have enough awareness of their own body to be able to follow the teacher&apos;s instructions. Although their voice has not yet matured at this age, they will benefit greatly from developing proper singing habits and techniques that they can continue to apply as they get older. At this age, teachers are careful not to put too much pressure on the vocal chords to avoid causing unnecessary strain.</p>
             </section>
 
             <LessonFormatSection />
