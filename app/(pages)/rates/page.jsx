@@ -51,7 +51,7 @@ const RatesPage = () => {
                     <ul className="text-sm">
                         <li className="mb-2">* there is no sales tax on music lessons - rates are exactly as indicated</li>
                         <li className="mb-2">* payment for each term must be made in full before the first lesson of that term</li>
-                        <li className="mb-2">* lessons may be discontinued with one week's notice. Refund will be provided minus $25 early withdrawal fee</li>
+                        <li className="mb-2">* lessons may be discontinued with one week&apos;s notice. Refund will be provided minus $25 early withdrawal fee</li>
                         <li className="mb-2">* all lessons must be completed by the end of each term and cannot be carried over to the next term</li>
                         <li className="mb-2">* students are welcome to register for lessons mid-term, your lessons will simply be pro-rated to the end of ongoing term</li>
                         <li className="mb-2">* families with more than one child enrolled in private lessons qualify for our Family Discount</li>
@@ -74,7 +74,7 @@ const RatesPage = () => {
                     <ul className="text-sm">
                         <li className="mb-2">* There is no sales tax on music lessons - rates are exactly as indicated</li>
                         <li className="mb-2">* Payment for each term must be made in full before the first lesson of that term</li>
-                        <li className="mb-2">* Lessons may be discontinued with one week's notice. Refund will be provided minus $25 early withdrawal fee</li>
+                        <li className="mb-2">* Lessons may be discontinued with one week&apos;s notice. Refund will be provided minus $25 early withdrawal fee</li>
                         <li className="mb-2">* All lessons must be completed by the end of each term and cannot be carried over to the next term</li>
                         <li className="mb-2">* Students are welcome to register for lessons mid-term, your lessons will simply be pro-rated to the end of ongoing term</li>
                         <li className="mb-2">* Unlike for private lessons, the Family Member discount cannot be applied to Semi-Private Lessons</li>

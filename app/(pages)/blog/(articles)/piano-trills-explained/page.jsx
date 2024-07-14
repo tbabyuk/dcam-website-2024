@@ -53,7 +53,7 @@ const ArticlePianoTrillsExplained = () => {
                         <img src="https://firebasestorage.googleapis.com/v0/b/dcam-website.appspot.com/o/blog_images%2Fhow-to-play-a-trill-correctly-piano%2Ftrill.PNG?alt=media&token=49650485-36ad-4f13-8b8c-40067a3a9bca" alt="example of a trill in music" style={{width: "240px"}} className="rounded-md" />
                     </figure>
                     <div className="mt-8 md:mt-0 md:ms-10 leading-8">
-                        <p>A <span className="font-bold">trill</span> (old name: “shake“) is a popular musical ornament that involves a quick alternation between two adjacent notes. In most cases, the alternation happens between the note indicated by the trill and the next (higher) note of the scale.</p><br />
+                        <p>A <span className="font-bold">trill</span> (old name: &quot;shake&quot;) is a popular musical ornament that involves a quick alternation between two adjacent notes. In most cases, the alternation happens between the note indicated by the trill and the next (higher) note of the scale.</p><br />
                         <p>Composers use trills to add rhythmic and melodic interest to a musical passage.</p>
                     </div>
                 </div>            
@@ -84,7 +84,7 @@ const ArticlePianoTrillsExplained = () => {
                         allowFullScreen
                     />
                 </div>
-                <p className="text-center leading-8 text-sm text-gray-500">Example of a trill in "L'isle Joyeuse" by Claude Debussy</p>
+                <p className="text-center leading-8 text-sm text-gray-500">Example of a trill in &quot;L&apos;isle Joyeuse&quot; by Claude Debussy</p>
             </section>
 
             <ArticleDivider />
@@ -92,16 +92,16 @@ const ArticlePianoTrillsExplained = () => {
             <ArticleHeading heading="What note does a trill start on?" bottom="mb-16" />
             <section className="px-5 lg:px-36 xl:px-64 mb-20">
                 <p className="leading-8 mb-10">This is a very common question and one many students and music enthusiasts get confused about. Here is the simple answer:</p>
-                <p className="leading-8 mb-10"><span className="font-bold">Before the 1800s (Baroque & Classical Eras):</span><br /> The trill started on the note above the one indicated by the trill. So for example if the note "E" was marked by a trill, you would start the trill on note “F”.</p>
+                <p className="leading-8 mb-10"><span className="font-bold">Before the 1800s (Baroque & Classical Eras):</span><br /> The trill started on the note above the one indicated by the trill. So for example if the note &quot;E&quot; was marked by a trill, you would start the trill on note &quot;F&quot;.</p>
                 <p className="leading-8 mb-10"><span className="font-bold">After the 1800s (Romantic Era up to present day):</span><br />
-                The trill begins on the same note that is indicated by the trill. So if the note “E” is marked by a trill, you start the trill on “E” as well.</p>
+                The trill begins on the same note that is indicated by the trill. So if the note &quot;E&quot; is marked by a trill, you start the trill on &quot;E&quot; as well.</p>
             </section>
 
             <ArticleDivider />
 
             <ArticleHeading heading="Trill vs. Mordent" bottom="mb-16" />
             <section className="px-5 lg:px-36 xl:px-64 mb-24">
-                <p className="leading-8 mb-10">The main difference between trills and mordents is in in the number of alternations between the adjacent notes. With mordents, we alternate only once between the principal note (the note symbolized by the mordent) and either the upper note (in the case of a <span className="font-bold">mordent</span>) or lower note (in the case of an <span className="font-bold">inverted mordent</span>). With trills, the number of alternations is longer, though the exact number will depend on the rhythm as well as the musician's individual interpretation.</p>
+                <p className="leading-8 mb-10">The main difference between trills and mordents is in in the number of alternations between the adjacent notes. With mordents, we alternate only once between the principal note (the note symbolized by the mordent) and either the upper note (in the case of a <span className="font-bold">mordent</span>) or lower note (in the case of an <span className="font-bold">inverted mordent</span>). With trills, the number of alternations is longer, though the exact number will depend on the rhythm as well as the musician&apos;s individual interpretation.</p>
                 <p className="leading-8 mb-10">Also, trills by definition alternate with the higher note, while with mordents it can be either the higher or lower note (see diagram below).</p>
                 <p className="leading-8 mb-10">A mordent is sometimes referred to as a short trill, which contributes to the occasional confusion between the two terms.</p>
 

@@ -15,7 +15,7 @@ export const ReviewCard = ({review}) => {
             <div className="px-5">
                 <p className="font-bold pb-1">{author_name}</p>
                 <p className="text-xs pb-1">{relative_time_description}</p>
-                <p className="flex pb-2">{numStars.map((star) => <AiFillStar color="#FB8E28" size="1.2em" />)}</p>
+                <p className="flex pb-2">{numStars.map((star, index) => <AiFillStar key={index} color="#FB8E28" size="1.2em" />)}</p>
                 <p>{text}</p>
             </div>
         </div>

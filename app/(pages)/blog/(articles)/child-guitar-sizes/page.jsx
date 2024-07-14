@@ -194,7 +194,7 @@ const ArticleChildGuitarSizes = () => {
                 <p className="leading-8 mb-8">Some electric versions of the 1/2 guitar also exist on the market, though most teachers would not recommend an electric guitar at this stage (unless your child is absolutely set on one!).</p>
                 <div className="border-2 border-gray-200 bg-green-100 p-5">
                     <p className="font-bold mb-8">Thinking of buying a 1/2 guitar? Here are our recommendations based on our students&apos; experience and feedback:</p>
-                    <p className="mb-8">A cheap, beginner option (30"):</p>
+                    <p className="mb-8">A cheap, beginner option (30&quot;):</p>
                     <ul className="list-disc list-inside mb-8">
                         <li><a href="https://www.amazon.ca/CB-SKY-ACOUSTIC-Acoustic-instrument/dp/B07TJW9KMT?crid=1H7BSF8Q3NA53&keywords=half%2Bsize%2Bdenver%2Bnylon%2Bstring%2Bguitar&qid=1669703628&qu=eyJxc2MiOiIwLjk3IiwicXNhIjoiMC4wMCIsInFzcCI6IjAuMDAifQ%3D%3D&s=musical-instruments&sprefix=half%2Bsize%2Bdenver%2Bnylon%2Bstring%2Bguita,mi,100&sr=1-22&th=1&linkCode=sl1&tag=dcam08-20&linkId=e62d6c56c6bd1075cc84a9730f83ecaa&language=en_CA&ref_=as_li_ss_tl" target="_blank" className="dcam-link font-semibold">CB Sky Acoustic Guitar</a> (External Link)</li>
                     </ul>

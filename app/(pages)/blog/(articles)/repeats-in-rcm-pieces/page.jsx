@@ -41,7 +41,7 @@ const ArticleRepeatsInRCMPieces = () => {
 
             <ArticleSectionHeading heading="Introduction" />
             <section className="introduction px-5 lg:px-36 xl:px-64 mb-20">
-                <p className="leading-8 mb-14">A common question asked by students preparing for their RCM exams is whether repeat signs and other similar markings should be observed or ignored. This is the question we are going to answer once and for all in this short article, so that you are confident knowing that you are preparing for your exam in the right way. The information here refers to both Repertoire and Etudes pieces and holds true for all instruments, not just piano. So let's get started!</p>
+                <p className="leading-8 mb-14">A common question asked by students preparing for their RCM exams is whether repeat signs and other similar markings should be observed or ignored. This is the question we are going to answer once and for all in this short article, so that you are confident knowing that you are preparing for your exam in the right way. The information here refers to both Repertoire and Etudes pieces and holds true for all instruments, not just piano. So let&apos;s get started!</p>
                 <ArticleSource source="RCM Practical Examinations Syllabus (2021), RCM Piano Syllabus (2022)" />
             </section>
 
@@ -55,10 +55,10 @@ const ArticleRepeatsInRCMPieces = () => {
                 <p className="leading-8 mb-10">Whenever repeat signs are to be observed, it will say so at the bottom of the first page of the piece you are preparing. See below for an example.</p>
                 <figure className="flex-shrink-0 flex flex-col justify-center items-center mb-10">
                     <img src="https://firebasestorage.googleapis.com/v0/b/dcam-website.appspot.com/o/blog_images%2Frepeats-in-rcm-pieces%2Frepeat_example.jpg?alt=media&token=9541f09d-0f92-4e7e-8149-35e8063b1577" alt="repeat sign" style={{width: "250px"}} className="rounded-md" />
-                    <figcaption className="text-gray-500"><small>Source: RCM Level 2 Piano Repertoire (2015), "Turkish Bazaar" (p.30)
+                    <figcaption className="text-gray-500"><small>Source: RCM Level 2 Piano Repertoire (2015), &quot;Turkish Bazaar&quot; (p.30)
                     </small></figcaption>
                 </figure>
-                <p className="leading-8">At higher levels such as the Associate Diploma (ARCT) or Licentiate Diploma (LRCM), the RCM states that "repeats may be observed at the candidate's discretion, within the allotted time" <span className="italic">(RCM Piano Syllabus, 2022)</span>.</p>
+                <p className="leading-8">At higher levels such as the Associate Diploma (ARCT) or Licentiate Diploma (LRCM), the RCM states that &quot;repeats may be observed at the candidate&apos;s discretion, within the allotted time&quot; <span className="italic">(RCM Piano Syllabus, 2022)</span>.</p>
             </section>
 
             <ArticleDivider />
@@ -85,7 +85,7 @@ const ArticleRepeatsInRCMPieces = () => {
                 <p className="leading-8 mb-10">In practice, you will almost always be observing Da Capo and Dal Segno signs in your pieces for examinations. It is very rare to find examples where RCM tells us not to observe them. One such rare example is illustrated below.</p>
                 <figure className="flex-shrink-0 flex flex-col justify-center items-center mb-10">
                     <img src="https://firebasestorage.googleapis.com/v0/b/dcam-website.appspot.com/o/blog_images%2Frepeats-in-rcm-pieces%2Fdal_segno_example.jpg?alt=media&token=dcab8293-313e-4652-913c-8e3912ae5afa" alt="dal segno sign example" style={{width: "400px"}} className="rounded-md" />
-                    <figcaption className="text-gray-500"><small>Source: RCM Level 9 Piano Etudes (2022), "Atraente" (p.16)</small></figcaption>
+                    <figcaption className="text-gray-500"><small>Source: RCM Level 9 Piano Etudes (2022), &quot;Atraente&quot; (p.16)</small></figcaption>
                 </figure>
             </section>
 
