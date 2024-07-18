@@ -69,10 +69,8 @@ export async function POST(request) {
                 },
               },
         ],
-        success_url: "https://www.dacapomusic.ca/checkout/success",
-        cancel_url: "https://www.dacapomusic.ca/checkout/cancel"
-        // success_url: "http://localhost:3000/checkout/success",
-        // cancel_url: "http://localhost:3000/checkout/cancel"
+        success_url: "https://www.dacapomusic.ca/shop/checkout-success",
+        cancel_url: "https://www.dacapomusic.ca/shop/checkout-cancelled"
     })
 
     if(session) {

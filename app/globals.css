@@ -68,11 +68,12 @@ h1, h2, h3 {
 /* buttons */
 
 .header-btn {
-  @apply btn btn-outline text-[1rem] font-normal border-2 text-dcam-white bg-dcam-reg-blue hover:bg-dcam-dark-blue hover:border-2 hover:border-dcam-white;
+  /* @apply btn btn-outline text-[1rem] font-normal border-2 text-dcam-white bg-dcam-reg-blue hover:bg-dcam-dark-blue hover:border-2 hover:border-dcam-white; */
+  @apply btn border-none bg-dcam-reg-blue hover:bg-dcam-reg-blue/70 text-dcam-white font-normal text-[1rem];
 }
 
 .hero-btn {
-  @apply btn btn-outline text-[1rem] font-normal border-2 text-dcam-white bg-dcam-reg-green hover:bg-dcam-dark-green hover:border-2 hover:border-dcam-white;
+  @apply btn btn-lg btn-wide border-none bg-dcam-reg-green hover:bg-dcam-dark-green text-dcam-white font-normal text-[1.1rem];
 }
 
 .dcam-submit-btn {
