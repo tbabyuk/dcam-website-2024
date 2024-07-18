@@ -18,7 +18,7 @@ export const teachersArray = [
       alt: "piano teacher Deniz",
       featured: true,
       instrument: ["piano", "music theory"],
-      bio: "Deniz Tafaghodi (b. 1997) is a pianist, sound artist, and founder of 'Zerone Duo'. She began her musical journey at the age of four with Orff Music and began studying classical piano at the age of six. Deniz earned her degree in Music (Piano Performance) from the Art & Architecture University of Tehran. She has been teaching classical piano and music theory since 2016. She has also been an active collaborator in various artistic mediums, including live electro-acoustic/audiovisual performances, sound installations, sound design and music composition for theaters contemporary dance performances, and computer games."
+      bio: "Deniz Tafaghodi is a pianist, sound artist, and founder of 'Zerone Duo'. She began her musical journey at the age of four with Orff Music and began studying classical piano at the age of six. Deniz earned her degree in Music (Piano Performance) from the Art & Architecture University of Tehran. She has been teaching classical piano and music theory since 2016. She has also been an active collaborator in various artistic mediums, including live electro-acoustic/audiovisual performances, sound installations, sound design and music composition for theaters contemporary dance performances, and computer games."
     },
     {
       name: "Raul",
