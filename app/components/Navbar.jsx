@@ -113,7 +113,7 @@ export const Navbar = () => {
         </div>
 
         {/* MOBILE MENU */}
-        <div className="md:hidden bg-dcam-reg-blue h-[55px] relative z-20">
+        <div className="md:hidden bg-dcam-reg-blue h-[45px] relative z-20">
             <RxHamburgerMenu className="absolute left-2 h-full text-dcam-white hover:cursor-pointer" size="2rem" onClick={handleDrawerToggle} />
             {isDrawerOpen && (
                 <ul className="absolute left-0 -bottom-[55px] flex flex-col w-full h-[55px]">

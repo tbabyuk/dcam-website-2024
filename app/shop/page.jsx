@@ -4,12 +4,12 @@ import { ShopProductCategoryCard } from "./components/ShopProductCategoryCard";
 
 export const metadata = {
   title: "Shop | Da Capo Academy of Music",
-  description: "Shop at our online store for music books, sheet music, gift certificates, and other amazing music merchandise! New products are constantly being added. Fast local delivery is available for Etobicoke, Toronto and the Greater Toronto Area, but we ship all across Canada!",
+  description: "Shop at our online store for music books, sheet music, gift certificates, and other amazing music merchandise! Pay with credit card, Google Pay, or Apple Pay. New products are constantly being added. Fast local delivery is available for Etobicoke, Toronto and the Greater Toronto Area, but we ship all across Canada!",
   robots: { index: true, follow: true},
   authors: [{name: "Taras (Terry) Babyuk"}],
   openGraph: {
       title: "Shop | Da Capo Academy of Music",
-      description: "Shop at our online store for music books, gift certificates, and other amazing music merchandise! New products are constantly being added. Fast local delivery is available for Etobicoke, Toronto and the Greater Toronto Area, but we ship all across Canada!",
+      description: "Shop at our online store for music books, gift certificates, and other amazing music merchandise! Pay with credit card, Google Pay, or Apple Pay. New products are constantly being added. Fast local delivery is available for Etobicoke, Toronto and the Greater Toronto Area, but we ship all across Canada!",
       url: "https://dacapomusic.ca/shop",
       siteName: "Da Capo Academy of Music",
       locale: "en_US",
