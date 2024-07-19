@@ -23,14 +23,14 @@ export const Navbar = () => {
   return (
     <>
         <div className="hidden relative bg-dcam-reg-blue text-dcam-white h-[45px] md:flex items-center justify-center">
-            <ul className="flex items-center bg-orange-800 h-full">
+            <ul className="flex items-center h-full">
                 <li className="h-full w-full">
                     <Link href="/" className="nav-link hover:bg-dcam-dark-blue">Home</Link>
                 </li>
                 <li className="h-full w-full relative">
                     <div className="nav-link cursor-pointer" onMouseEnter={() => setLessonsSubmenuIsOpen(true)} onMouseLeave={() => setLessonsSubmenuIsOpen(false)}>Lessons <IoIosArrowDown className="ms-1" /></div>
                     {lessonsSubmenuIsOpen && (
-                        <ul className="w-[200px] bg-red-400 absolute z-20" onMouseEnter={() => setLessonsSubmenuIsOpen(true)} onMouseLeave={() => setLessonsSubmenuIsOpen(false)}>
+                        <ul className="w-[200px] absolute z-20" onMouseEnter={() => setLessonsSubmenuIsOpen(true)} onMouseLeave={() => setLessonsSubmenuIsOpen(false)}>
                             <li className="h-full w-full">
                                 <Link href="/piano-lessons-etobicoke" className="nav-link hover:bg-dcam-dark-blue" onClick={() => setLessonsSubmenuIsOpen(false)}>
                                     Piano Lessons
@@ -113,10 +113,10 @@ export const Navbar = () => {
         </div>
 
         {/* MOBILE MENU */}
-        <div className="md:hidden bg-dcam-reg-blue h-[45px] relative flex flex-row z-20">
+        <div className="md:hidden bg-dcam-reg-blue h-[55px] relative z-20">
             <RxHamburgerMenu className="absolute left-2 h-full text-dcam-white hover:cursor-pointer" size="2rem" onClick={handleDrawerToggle} />
             {isDrawerOpen && (
-                <ul className="absolute left-0 -bottom-[45px] flex flex-col w-full h-full">
+                <ul className="absolute left-0 -bottom-[55px] flex flex-col w-full h-[55px]">
                     <li className="h-full w-full">
                         <Link href="/" className="mobile-nav-link hover:bg-dcam-dark-blue" onClick={() => setIsDrawerOpen(false)}>Home</Link>
                     </li>

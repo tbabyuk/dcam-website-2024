@@ -51,7 +51,7 @@ h1, h2, h3 {
 }
 
 .mobile-nav-link {
-  @apply bg-dcam-reg-blue text-dcam-white h-[45px] px-4 flex items-center justify-center border-b-2 border-dcam-white/60;
+  @apply bg-dcam-reg-blue text-dcam-white h-[55px] px-4 flex items-center justify-center border-b-2 border-dcam-white/60;
 }
 
 
