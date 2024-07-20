@@ -13,7 +13,14 @@ export const metadata = {
       url: "https://dacapomusic.ca/shop",
       siteName: "Da Capo Academy of Music",
       locale: "en_US",
-      type: "article"
+      type: "article",
+      images: [
+        {
+            url: "https://firebasestorage.googleapis.com/v0/b/dcam-website.appspot.com/o/og_images%2Fog_dcam_shop_page.jpg?alt=media&token=1ca56158-8337-42e8-99c7-445c85f72663",
+            width: 1200,
+            height: 630
+        }
+    ]
   },
 }
 

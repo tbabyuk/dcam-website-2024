@@ -14,12 +14,12 @@ export const metadata = {
         url: "https://dacapomusic.ca/rates",
         siteName: "Da Capo Academy of Music",
         locale: "en_US",
-        type: "article",
+        type: "website",
         images: [
             {
-                url: "https://firebasestorage.googleapis.com/v0/b/dcam-website.appspot.com/o/page_images%2Frates-page.jpg?alt=media&token=1d31f193-d4c6-4a3c-9d8c-4e069583c859",
+                url: "https://firebasestorage.googleapis.com/v0/b/dcam-website.appspot.com/o/og_images%2Fog_dcam_main.jpg?alt=media&token=e8c883a8-0e34-4076-a51f-6735e6dab683",
                 width: 1200,
-                height: 152
+                height: 630
             }
         ]
     },
