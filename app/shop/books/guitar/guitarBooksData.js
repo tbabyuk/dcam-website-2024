@@ -53,4 +53,39 @@ export const guitarBooksArray = [
         quantity: 1,
         source: "https://firebasestorage.googleapis.com/v0/b/dcam-website.appspot.com/o/shop_images%2Fbooks%2Fguitar%2Fstandard_guitar_method_3_bennett.jpg?alt=media&token=29fd5bc3-ab91-4ddc-97bd-ae1b4f2751fe"
     },
+    // FAST TRACK GUITAR SERIES
+    {
+        // live id confirmed
+        id: "price_1PfP7gCO3Yh2jr9tVfTBfBlk",
+        title: "FastTrack Guitar Method - Book 1",
+        slug: "fasttrack-guitar-method-1",
+        author: "Blake Neely, Jeff Schroedl",
+        publisher: "Hal Leonard",
+        description: "'FastTrack Guitar Method - Book 1' is an ideal starting point for beginners learning to play electric or acoustic guitar. Published by Hal Leonard, this book covers essential techniques such as music notation, tablature, full chords, power chords, riffs, licks, and scales, with a focus on rock and blues styles. With 73 songs and examples, along with access to online audio tracks, this method book ensures an engaging and comprehensive learning experience for aspiring guitarists.",
+        pages: "48",
+        year: "1997",
+        ISBN: "978-0-79357-399-8",
+        price: 13.95,
+        category: ["guitar", "beginner"],
+        stock: "available",
+        quantity: 1,
+        source: "https://firebasestorage.googleapis.com/v0/b/dcam-website.appspot.com/o/shop_images%2Fbooks%2Fguitar%2Ffasttrack_guitar_method_1_neely_schroedl.jpg?alt=media&token=367731f5-f7e8-4633-9ccf-ddc981a35987"
+    },
+    {
+        // live id confirmed
+        id: "price_1PfP84CO3Yh2jr9tIpN2KVkj",
+        title: "FastTrack Guitar Method - Book 2",
+        slug: "fasttrack-guitar-method-2",
+        author: "Blake Neely, Jeff Schroedl",
+        publisher: "Hal Leonard",
+        description: "'FastTrack Guitar Method - Book 2' continues to build on the skills learned in the Book 1. This edition, published by Hal Leonard, delves into advanced techniques such as power chords, barre chords, riffs, slides, bends, and strumming patterns. With 92 songs and audio examples available online, this book provides a comprehensive and engaging approach to advancing your guitar skills in rock, blues, and other styles.",
+        pages: "48",
+        year: "1997",
+        ISBN: "978-0-79357-411-7",
+        price: 13.95,
+        category: ["guitar", "beginner"],
+        stock: "available",
+        quantity: 1,
+        source: "https://firebasestorage.googleapis.com/v0/b/dcam-website.appspot.com/o/shop_images%2Fbooks%2Fguitar%2Ffasttrack_guitar_method_2_neely_schroedl.jpg?alt=media&token=855ff0b5-f40f-42f7-905d-06849bdcd1df"
+    },
 ]
