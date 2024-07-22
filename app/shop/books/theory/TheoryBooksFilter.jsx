@@ -1,17 +1,7 @@
 "use client"
-import { useState } from "react"
 
 
-
-export const TheoryBooksFilter = ({setFilterValue}) => {
-
-    const [selectedBooks, setSelectedBooks] = useState("theory-all")
-
-    const handleFilterBooks = (value) => {
-        console.log("do I fire? 1")
-        setSelectedBooks(value)
-        setFilterValue(value)
-    }
+export const TheoryBooksFilter = ({filterValue, setFilterValue}) => {
 
 
     return (
@@ -20,12 +10,12 @@ export const TheoryBooksFilter = ({setFilterValue}) => {
                 <p className="mb-1">Filter theory books:</p>
                 <select 
                     className="w-full h-8 cursor-pointer border-2 border-gray-400" 
-                    value={selectedBooks}
-                    onChange={(e) => handleFilterBooks(e.target.value)}
+                    value={filterValue}
+                    onChange={(e) => setFilterValue(e.target.value)}
                 >
                     <option value="theory-all">all theory books</option>
                     <option value="theory-rcm">rcm theory books</option>
-                    <option value="theory-non-rcm">non-rcm theory books</option>
+                    {/* <option value="theory-non-rcm">non-rcm theory books</option> */}
                 </select>
             </div>
             {/* <div className="flex">

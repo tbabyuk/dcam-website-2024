@@ -1,16 +1,7 @@
 "use client"
-import { useState } from "react"
 
 
-
-export const SightReadingBooksFilter = ({setFilterValue}) => {
-
-    const [selectedBooks, setSelectedBooks] = useState("sight-reading-all")
-
-    const handleFilterBooks = (value) => {
-        setSelectedBooks(value)
-        setFilterValue(value)
-    }
+export const SightReadingBooksFilter = ({filterValue, setFilterValue}) => {
 
 
     return (
@@ -19,12 +10,12 @@ export const SightReadingBooksFilter = ({setFilterValue}) => {
                 <p className="mb-1">Filter sight-reading books:</p>
                 <select 
                     className="w-full h-8 cursor-pointer border-2 border-gray-400" 
-                    value={selectedBooks}
-                    onChange={(e) => handleFilterBooks(e.target.value)}
+                    value={filterValue}
+                    onChange={(e) => setFilterValue(e.target.value)}
                 >
                     <option value="sight-reading-all">all sight-reading books</option>
                     <option value="sight-reading-rcm">rcm sight-reading books</option>
-                    <option value="sight-reading-non-rcm">non-rcm sight-reading books</option>
+                    {/* <option value="sight-reading-non-rcm">non-rcm sight-reading books</option> */}
                 </select>
             </div>
         </div>

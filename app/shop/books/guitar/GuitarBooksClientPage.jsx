@@ -1,28 +1,28 @@
 "use client"
 
 import { useState } from "react"
-import { pianoBooksArray } from "./pianoBooksData"
+import { guitarBooksArray } from "./guitarBooksData"
 import { ShopProductCard } from "../../components/ShopProductCard"
-import { PianoBooksFilter } from "./PianoBooksFilter"
+import { GuitarBooksFilter } from "./GuitarBooksFilter"
 
 
-const PianoBooksClientPage = () => {
+const GuitarBooksClientPage = () => {
 
-  const [filterValue, setFilterValue] = useState("piano-all")
+  const [filterValue, setFilterValue] = useState("guitar-all")
 
     
   return (
       <>
-          <PianoBooksFilter filterValue={filterValue} setFilterValue={setFilterValue} />
+          <GuitarBooksFilter filterValue={filterValue} setFilterValue={setFilterValue} />
           <div className="grid gap-y-28 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4 px-5 lg:px-36 pt-20 pb-32">
-            {filterValue === "piano-all" && (
-                pianoBooksArray
+            {filterValue === "guitar-all" && (
+                guitarBooksArray
                     .map((product) => (
                     <ShopProductCard key={product.id} product={product} productType="book" />
                     ))
                 )
             }
-            {filterValue === "piano-rcm" && (
+            {/* {filterValue === "piano-rcm" && (
                 pianoBooksArray
                     .filter((book) => book.category.includes("rcm"))
                     .map((product) => (
@@ -37,10 +37,10 @@ const PianoBooksClientPage = () => {
                     <ShopProductCard key={product.id} product={product} productType="book" />
                     ))
                 )
-            }
+            } */}
           </div>
       </>  
     )
 }
 
-export default PianoBooksClientPage;
+export default GuitarBooksClientPage;

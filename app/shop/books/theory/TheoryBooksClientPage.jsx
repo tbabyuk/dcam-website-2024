@@ -13,7 +13,7 @@ const TheoryBooksClientPage = () => {
     
   return (
       <>
-          <TheoryBooksFilter setFilterValue={setFilterValue} />
+          <TheoryBooksFilter filterValue={filterValue} setFilterValue={setFilterValue} />
           <div className="books-list grid gap-y-28 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4 px-5 lg:px-36 pt-20 pb-32">
             {filterValue === "theory-all" && (
                 theoryBooksArray
@@ -30,14 +30,14 @@ const TheoryBooksClientPage = () => {
                     ))
                 )
             }
-            {filterValue === "theory-non-rcm" && (
+            {/* {filterValue === "theory-non-rcm" && (
                 theoryBooksArray
                     .filter((book) => book.category.includes("non-rcm"))
                     .map((product) => (
                     <ShopProductCard key={product.id} product={product} productType="book" />
                     ))
                 )
-            }
+            } */}
           </div>
       </>  
     )

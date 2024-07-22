@@ -14,7 +14,7 @@ const SightReadingBooksClientPage = () => {
     
   return (
       <>
-          <SightReadingBooksFilter setFilterValue={setFilterValue} />
+          <SightReadingBooksFilter filterValue={filterValue} setFilterValue={setFilterValue} />
           <div className="books-list grid gap-y-28 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4 px-5 lg:px-36 pt-20 pb-32">
           {filterValue === "sight-reading-all" && (
               sightReadingBooksArray
@@ -31,14 +31,14 @@ const SightReadingBooksClientPage = () => {
                 ))
             )
           }
-          {filterValue === "sight-reading-non-rcm" && (
+          {/* {filterValue === "sight-reading-non-rcm" && (
               sightReadingBooksArray
                 .filter((book) => book.category.includes("non-rcm"))
                 .map((product) => (
                   <ShopProductCard key={product.id} product={product} productType="book" />
                 ))
             )
-          }
+          } */}
           </div>
       </>  
     )
