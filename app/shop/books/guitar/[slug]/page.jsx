@@ -19,12 +19,12 @@ export async function generateMetadata({params}) {
     openGraph: {
       title: `${targetBook.title} | Da Capo Academy of Music Shop`,
       description: targetBook.description,
-      url: `https://www.dacapomusic.ca/shop/books/piano/${params.slug}`,
+      url: `https://www.dacapomusic.ca/shop/books/guitar/${params.slug}`,
       images: [
         {
           url: targetBook.source,
-          width: targetBook.title.includes("ABC") ? 500 : 800,
-          height: targetBook.title.includes("ABC") ? 374 : 600
+          width: 600,
+          height: 800
         },
       ]
     }

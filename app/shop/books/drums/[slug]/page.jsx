@@ -1,17 +1,17 @@
-import { sightReadingBooksArray } from "../sightReadingBooksData"
+import { drumsBooksArray } from "../drumsBooksData"
 import { AddToCartButton } from "../../../components/AddToCartButton"
 import { BookSpecsDropdown } from "../../../components/BookSpecsDropdown"
 
 
 export async function generateStaticParams() {
-  return sightReadingBooksArray.map((book) => ({
+  return drumsBooksArray.map((book) => ({
       slug: book.slug
   }))
 }
 
 export async function generateMetadata({params}) {
 
-  const targetBook = sightReadingBooksArray.find((book) => book.slug == params.slug)
+  const targetBook = drumsBooksArray.find((book) => book.slug == params.slug)
 
   return {
     title: `${targetBook.title} | Da Capo Academy of Music Shop`,
@@ -19,7 +19,7 @@ export async function generateMetadata({params}) {
     openGraph: {
       title: `${targetBook.title} | Da Capo Academy of Music Shop`,
       description: targetBook.description,
-      url: `https://www.dacapomusic.ca/shop/books/sight-reading/${params.slug}`,
+      url: `https://www.dacapomusic.ca/shop/books/drums/${params.slug}`,
       images: [
         {
           url: targetBook.source,
@@ -34,10 +34,10 @@ export async function generateMetadata({params}) {
 
 const SingleBookPage = ({params}) => {
 
-  const targetBook = sightReadingBooksArray.find((book) => book.slug == params.slug)
+  const targetBook = drumsBooksArray.find((book) => book.slug == params.slug)
 
 
-  console.log("logging target book:", targetBook.stock)
+  console.log("logging target book:", targetBook)
 
   return (
     <div className="px-5 lg:px-36 xl:px-52 py-12 bg-gray-100">

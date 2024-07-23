@@ -15,7 +15,19 @@ export async function generateMetadata({params}) {
 
   return {
     title: `${targetBook.title} | Da Capo Academy of Music Shop`,
-    description: targetBook.description
+    description: targetBook.description,
+    openGraph: {
+      title: `${targetBook.title} | Da Capo Academy of Music Shop`,
+      description: targetBook.description,
+      url: `https://www.dacapomusic.ca/shop/books/theory/${params.slug}`,
+      images: [
+        {
+          url: targetBook.source,
+          width: 600,
+          height: 800
+        },
+      ]
+    }
   }
 }
 

@@ -23,8 +23,8 @@ export async function generateMetadata({params}) {
       images: [
         {
           url: targetBook.source,
-          width: targetBook.title.includes("ABC") ? 500 : 800,
-          height: targetBook.title.includes("ABC") ? 374 : 600
+          width: targetBook.title.includes("ABC") ? 500 : 600,
+          height: targetBook.title.includes("ABC") ? 374 : 800
         },
       ]
     }

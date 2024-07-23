@@ -31,6 +31,11 @@ export const shopBookCategoriesArray = [
         productPage: "/shop/books/guitar"
     },
     {
+        category: "DRUMS BOOKS",
+        source: "https://firebasestorage.googleapis.com/v0/b/dcam-website.appspot.com/o/shop_images%2Fproduct_categories%2Fshop_category_drums.png?alt=media&token=4e107a82-b434-4b82-b2e6-b564581993f1",
+        productPage: "/shop/books/drums"
+    },
+    {
         category: "MUSIC THEORY BOOKS",
         source: "https://firebasestorage.googleapis.com/v0/b/dcam-website.appspot.com/o/shop_images%2Fproduct_categories%2Fshop_category_theory.png?alt=media&token=c51642b0-6321-4c15-ae92-797fcd18a440",
         alt: "music theory books",
@@ -42,11 +47,6 @@ export const shopBookCategoriesArray = [
         alt: "sight reading and ear training books",
         productPage: "/shop/books/sight-reading"
     },
-    // {
-    //     category: "DRUMS BOOKS",
-    //     source: "https://firebasestorage.googleapis.com/v0/b/dcam-website.appspot.com/o/shop_images%2Fproduct_categories%2Fgift_certificates_category.jpg?alt=media&token=dc251ece-8f9c-438f-9980-01edd7d91374",
-    //     productPage: "/shop/books/drums"
-    // }
 ]
 
 
