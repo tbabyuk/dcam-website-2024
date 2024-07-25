@@ -225,7 +225,7 @@ export const pianoBooksArray = [
         slug: "rcm-lvl-3-piano-technical",
         author: "The Royal Conservatory",
         publisher: "RCM Publishing",
-        description: "'RCM Level 3 Technical Requirements' is an essential resource for students preparing for the Royal Conservatory of Music Level 3 examinations. This comprehensive guide includes all the technical exercises required for the exam, such as scales, formula pattern, and triads.",
+        description: "'RCM Level 3 Technical Requirements' is an essential resource for students preparing for the Royal Conservatory of Music Level 3 piano exam. This comprehensive guide includes all the technical exercises required for the exam, such as scales, formula pattern, and triads.",
         pages: "15",
         year: "2015",
         ISBN: "978-1-55440-733-0",

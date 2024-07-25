@@ -22,17 +22,10 @@ import { usePathname } from "next/navigation";
 const ShopLayout = ({children}) => {
 
 
-    const path = usePathname();
-
-    const pathArray = path.split("/").filter(Boolean);
-    const lastSegment = pathArray.length > 1 && pathArray.pop();
-
-
-    console.log("Logging pathAarray from ShopLayout", pathArray);
 
     return (
         <main className="bg-white">
-            <ShopPageTitle title={lastSegment} heatherImage="/images/shop/shop_page_illustration.png" alt="shop page illustration" />
+            <ShopPageTitle heatherImage="/images/shop/shop_page_illustration.png" alt="shop page illustration" />
             <BreadCrumbs />
             {children}
         </main>

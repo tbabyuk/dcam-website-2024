@@ -23,7 +23,7 @@ export const BreadCrumbs = () => {
             return (
               <span key={index}>
                 {isLast ? (
-                  <span className="text-gray-500 font-semibold">{crumb}</span>
+                  <span className="text-gray-500">{crumb}</span>
                 ) : (
                   <Link href={href} className="text-gray-500 dcam-link-hover-orange">
                     {crumb}
