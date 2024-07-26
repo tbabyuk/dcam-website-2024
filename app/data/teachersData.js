@@ -110,6 +110,6 @@ export const teachersArray = [
       alt: "piano teacher Terry",
       featured: false,
       instrument: ["piano", "music theory"],
-      bio: "Taras (Terry) Babyuk started his musical journey with accordion lessons at the age of seven. In his teens, he became fascinated with piano and never looked back. In addition to his 10+ years of experience in the field of education, Terry holds Level 9 RCM Certificate in piano and has taught beginner to high intermediate piano and beginner to advanced music theory for many years. In addition to his fondness for Classical and Romantic-Era music, he also loves film music and enjoys composing original piano pieces in his spare time. Aside from his occasional teaching duties at DCAM, he is also its co-founder and Managing Director."
+      bio: "Taras (Terry) Babyuk started his musical journey with accordion lessons at the age of seven. In his teens, he became fascinated with piano and never looked back. With over 10 years of experience in the field of education, Terry holds a Level 9 RCM Certificate in piano and has taught beginner to high intermediate piano and beginner to advanced music theory for many years. In addition to his fondness for Classical and Romantic-Era music, he also loves film music and enjoys composing original piano pieces in his spare time. Aside from his occasional teaching duties at DCAM, he is also its co-founder and Managing Director."
     },
 ]

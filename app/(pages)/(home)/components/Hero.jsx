@@ -27,7 +27,7 @@ export const Hero = () => {
   }, [])
 
   return (
-    <div className="h-[calc(100vh-235px)] sm:h-[calc(100vh-200px)] md:h-[calc(100vh-133px)] max-h-[600px] relative">
+    <div className="h-[calc(100vh-227px)] sm:h-[calc(100vh-200px)] md:h-[calc(100vh-130px)] max-h-[600px] relative">
         <ShopSliderOverlay />
         <MainSliderOverlay />
 
