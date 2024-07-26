@@ -46,7 +46,7 @@ const SingleBookPage = ({params}) => {
               <img className="mx-auto w-[73%]" src={targetBook.source} alt={targetBook.title} />
             </div>
             <div className="flex-1">
-              <h2 className="font-bold text-2xl mb-6">{targetBook.title}</h2>
+              <h1 className="font-bold text-2xl mb-6">{targetBook.title}</h1>
               <p className="mb-6">Price: <span className="text-green-500 font-semibold">${targetBook.price}</span></p>
               <p className="mb-6">Stock Status: <span className={`${targetBook.stock === "available" ? "text-green-500" : "text-red-500"} font-semibold`}>{targetBook.stock}</span></p>
               <p className="mb-6">Quantity: <span className="text-sm font-semibold">you will be able to change the quantity inside the cart</span></p>
