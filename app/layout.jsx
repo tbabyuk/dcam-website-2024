@@ -5,6 +5,7 @@ import { Navbar } from "./components/Navbar";
 import { Footer } from "./components/Footer";
 import { ShopContextProvider } from "./context/ShopContext";
 import { ToastContainer } from "react-toastify";
+import { GoogleTagManager } from '@next/third-parties/google'
 import 'react-toastify/dist/ReactToastify.css';
 
 
@@ -22,6 +23,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+      <GoogleTagManager gtmId="GTM-K4L4H7X9" />
       <ShopContextProvider>
         <body className={`${roboto.variable} ${ovo.variable}`}>
           <Header />

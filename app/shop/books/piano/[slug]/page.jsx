@@ -27,7 +27,19 @@ export async function generateMetadata({params}) {
           height: targetBook.title.includes("ABC") ? 374 : 800
         },
       ]
-    }
+    },
+    
+    // scripts: [
+    //   {
+    //     type: 'application/ld+json',
+    //     innerHTML: JSON.stringify({
+    //       '@context': 'http://schema.org',
+    //       '@type': 'WebSite',
+    //       'url': 'https://www.example.com/',
+    //       'name': 'Example Site',
+    //     }),
+    //   },
+    // ],
   }
 }
 
@@ -39,8 +51,16 @@ const SingleBookPage = ({params}) => {
 
   console.log("logging target book:", targetBook)
 
+  // const jsonLd = {
+  //   '@context': 'https://schema.org',
+  //   '@type': 'Product',
+  //   name: targetBook.title,
+  //   image: targetBook.source,
+  //   description: targetBook.description,
+  // }
+
   return (
-    <div className="px-5 lg:px-36 xl:px-52 py-12 bg-gray-100">
+      <div className="px-5 lg:px-36 xl:px-52 py-12 bg-gray-100">
         <div className="bg-white p-5 flex flex-col sm:flex-row gap-5">
             <div className="flex-1 mb-8 sm:mb-0">
               <img className="mx-auto w-[73%]" src={targetBook.source} alt={targetBook.title} />
@@ -56,7 +76,7 @@ const SingleBookPage = ({params}) => {
               <BookSpecsDropdown className="mt-6" item={targetBook} />
             </div>
         </div>
-    </div>
+      </div>
   )
 }
 
