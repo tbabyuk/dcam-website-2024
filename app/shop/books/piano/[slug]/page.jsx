@@ -53,7 +53,7 @@ const SingleBookPage = ({params}) => {
     '@type': 'Product',
     name: targetBook.title,
     image: targetBook.source,
-    description: targetBook.description.slice(0, 40),
+    description: targetBook.description.slice(0, 100),
     brand: targetBook.publisher,
     "aggregateRating": {
       "@type": "AggregateRating",
