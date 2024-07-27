@@ -53,6 +53,8 @@ const SingleBookPage = ({params}) => {
 
   console.log("logging target book:", targetBook)
 
+  const recipe_name = targetBook.title;
+
   // const jsonLd = {
   //   '@context': 'https://schema.org',
   //   '@type': 'Product',
