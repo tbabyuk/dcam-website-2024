@@ -37,10 +37,41 @@ const SingleBookPage = ({params}) => {
   const targetBook = drumsBooksArray.find((book) => book.slug == params.slug)
 
 
-  console.log("logging target book:", targetBook)
+  const jsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'Product',
+    name: targetBook.title,
+    image: targetBook.source,
+    description: targetBook.description.slice(0, 40),
+    brand: targetBook.publisher,
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": 5,
+      "worstRating": 0,
+      "bestRating": 5,
+      "reviewCount": 1
+    },
+    offers: {
+      "@type": "Offer",
+      "price": targetBook.price,
+      "priceCurrency": "CAD",
+      "itemCondition": "http://schema.org/NewCondition",
+      "availability": "http://schema.org/InStock",
+      "seller": {
+        "@type": "Organization",
+        "name": "Da Capo Academy of Music"
+      }
+    }
+  }
+
 
   return (
-    <div className="px-5 lg:px-36 xl:px-52 py-12 bg-gray-100">
+    <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
+      <div className="px-5 lg:px-36 xl:px-52 py-12 bg-gray-100">
         <div className="bg-white p-5 flex flex-col sm:flex-row gap-5">
             <div className="flex-1 mb-8 sm:mb-0">
               <img className="mx-auto w-[73%]" src={targetBook.source} alt={targetBook.title} />
@@ -56,7 +87,8 @@ const SingleBookPage = ({params}) => {
               <BookSpecsDropdown className="mt-6" item={targetBook} />
             </div>
         </div>
-    </div>
+      </div>
+    </>
   )
 }
 
