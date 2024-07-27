@@ -1,7 +1,6 @@
 import { pianoBooksArray } from "../pianoBooksData"
 import { AddToCartButton } from "../../../components/AddToCartButton"
 import { BookSpecsDropdown } from "../../../components/BookSpecsDropdown"
-import { GoogleTagManager } from '@next/third-parties/google'
 
 
 export async function generateStaticParams() {
@@ -53,19 +52,21 @@ const SingleBookPage = ({params}) => {
 
   console.log("logging target book:", targetBook)
 
-  const recipe_name = targetBook.title;
 
-  // const jsonLd = {
-  //   '@context': 'https://schema.org',
-  //   '@type': 'Product',
-  //   name: targetBook.title,
-  //   image: targetBook.source,
-  //   description: targetBook.description,
-  // }
+  const jsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'Product',
+    name: targetBook.title,
+    image: targetBook.source,
+    description: targetBook.description,
+  }
 
   return (
       <div className="px-5 lg:px-36 xl:px-52 py-12 bg-gray-100">
-        <GoogleTagManager gtmId="GTM-K4L4H7X9" />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
         <div className="bg-white p-5 flex flex-col sm:flex-row gap-5">
             <div className="flex-1 mb-8 sm:mb-0">
               <img className="mx-auto w-[73%]" src={targetBook.source} alt={targetBook.title} />
