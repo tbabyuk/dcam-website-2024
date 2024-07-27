@@ -28,8 +28,6 @@ export async function generateMetadata({params}) {
         },
       ]
     },
-    
-    
     // scripts: [
     //   {
     //     type: 'application/ld+json',
@@ -58,7 +56,25 @@ const SingleBookPage = ({params}) => {
     '@type': 'Product',
     name: targetBook.title,
     image: targetBook.source,
-    description: targetBook.description,
+    description: targetBook.description.slice(0, 40),
+    brand: targetBook.publisher,
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": 5,
+      "worstRating": 0,
+      "bestRating": 5,
+      "reviewCount": 1
+    },
+    offers: {
+      "@type": "Offer",
+      "priceCurrency": "CAD",
+      "price": targetBook.price,
+      "itemCondition": "http://schema.org/NewCondition",
+      "seller": {
+        "@type": "Organization",
+        "name": "Da Capo Academy of Music"
+      }
+    }
   }
 
   return (
