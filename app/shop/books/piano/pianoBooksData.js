@@ -59,11 +59,11 @@ export const pianoBooksArray = [
     {
         // live id confirmed
         id: "price_1OJLqKCO3Yh2jr9tkQ6pWBud",
-        title: "RCM Prep Piano - Technical Requirements",
+        title: "RCM Prep Piano Technical Requirements",
         slug: "rcm-prep-piano-technical",
         author: "The Royal Conservatory",
         publisher: "RCM Publishing",
-        description: "'RCM Prep Piano - Technical Requirements' is an essential guide for early piano students following the Royal Conservatory of Music curriculum. This book focuses on developing fundamental technical skills, including scales, arpeggios, and other essential finger exercises. Perfect for beginners, it provides structured exercises to build a strong technical foundation, ensuring students are well-prepared for future piano studies.",
+        description: "RCM Prep Piano Technical Requirements book is an essential guide for early piano students following the Royal Conservatory of Music curriculum. This book focuses on developing fundamental technical skills, including scales, arpeggios, and other essential finger exercises. Perfect for beginners, it provides structured exercises to build a strong technical foundation, ensuring students are well-prepared for future piano studies.",
         pages: "16",
         year: "2015",
         ISBN: "978-1-55440-730-9",
@@ -76,11 +76,11 @@ export const pianoBooksArray = [
     {
         // live id confirmed
         id: "price_1OJKtCCO3Yh2jr9tFl7ITVli",
-        title: "RCM Prep A Piano - Repertoire",
+        title: "RCM Prep A Piano Repertoire (6th Edition, 2022)",
         slug: "rcm-prep-a-piano-repertoire",
         author: "The Royal Conservatory",
         publisher: "RCM Publishing",
-        description: "'RCM Prep A Piano - Repertoire' provides a carefully curated selection of pieces for beginners in the Royal Conservatory of Music curriculum. This book introduces young students to a variety of musical styles and techniques. Each piece is chosen to build foundational skills and inspire a love for piano playing, making it an excellent resource for early piano studies.",
+        description: "RCM Prep A Piano Repertoire book provides a carefully curated selection of pieces for beginners in the Royal Conservatory of Music curriculum. This book introduces young students to a variety of musical styles and techniques. Each piece is chosen to build foundational skills and inspire a love for piano playing, making it an excellent resource for early piano studies.",
         pages: "32",
         year: "2022",
         ISBN: "978-1-55440-931-0",
@@ -93,11 +93,11 @@ export const pianoBooksArray = [
     {
         // live id confirmed
         id: "price_1OJKv9CO3Yh2jr9t02PkKGjM",
-        title: "RCM Prep B Piano - Repertoire",
+        title: "RCM Prep B Piano Repertoire (6th Edition, 2022)",
         slug: "rcm-prep-b-piano-repertoire",
         author: "The Royal Conservatory",
         publisher: "RCM Publishing",
-        description: "'RCM Prep B Piano - Repertoire' offers a thoughtfully selected collection of pieces for beginner piano students following the Royal Conservatory of Music curriculum. This book continues to introduce a variety of musical styles and techniques, helping students build on their foundational skills. Each piece is designed to further develop musicality and technical proficiency, making it an excellent resource for progressing early piano students.",
+        description: "RCM Prep B Piano Repertoire book offers a thoughtfully selected collection of pieces for beginner piano students following the Royal Conservatory of Music curriculum. This book continues to introduce a variety of musical styles and techniques, helping students build on their foundational skills. Each piece is designed to further develop musicality and technical proficiency, making it an excellent resource for progressing early piano students.",
         pages: "32",
         year: "2022",
         ISBN: "978-1-55440-932-7",
@@ -113,11 +113,11 @@ export const pianoBooksArray = [
     {
         // live id confirmed
         id: "price_1P63BBCO3Yh2jr9tP57OK1Td",
-        title: "RCM Level 1 Piano - Technical Requirements",
+        title: "RCM Level 1 Piano Technical Requirements",
         slug: "rcm-lvl-1-piano-technical",
         author: "The Royal Conservatory",
         publisher: "RCM Publishing",
-        description: "'RCM Level 1 Piano Technical Requirements' focuses on developing essential technical skills for first-level Royal Conservatory of Music students. The book includes exercises such as scales, triads, and other technical drills to enhance finger strength and dexterity. It lays a solid foundation for advancing piano skills, making it an invaluable resource for Level 1 piano studies.",
+        description: "RCM Level 1 Piano Technical Requirements book focuses on developing essential technical skills for first-level Royal Conservatory of Music students. The book includes exercises such as scales, triads, and other technical drills to enhance finger strength and dexterity. It lays a solid foundation for advancing piano skills, making it an invaluable resource for Level 1 piano studies.",
         pages: "16",
         year: "2015",
         ISBN: "978-1-55440-731-6",
@@ -130,11 +130,11 @@ export const pianoBooksArray = [
     {
         // live id confirmed
         id: "price_1P63KNCO3Yh2jr9txcEs9q9k",
-        title: "RCM Level 1 Piano - Repertoire",
+        title: "RCM Level 1 Piano Repertoire (6th Edition, 2022)",
         slug: "rcm-lvl-1-piano-repertoire",
         author: "The Royal Conservatory",
         publisher: "RCM Publishing",
-        description: "'RCM Level 1 Piano Repertoire' offers a diverse selection of pieces tailored for students at the first level of the Royal Conservatory of Music curriculum. This book introduces a variety of musical styles designed to enhance musicality and technical skills. Each piece is chosen to engage students and promote a deeper understanding of piano playing, making it an excellent resource for Level 1 students.",
+        description: "RCM Level 1 Piano Repertoire book offers a diverse selection of pieces tailored for students at the first level of the Royal Conservatory of Music curriculum. This book introduces a variety of musical styles designed to enhance musicality and technical skills. Each piece is chosen to engage students and promote a deeper understanding of piano playing, making it an excellent resource for Level 1 students.",
         pages: "44",
         year: "2022",
         ISBN: "978-1-55440-933-4",
@@ -147,11 +147,11 @@ export const pianoBooksArray = [
     {
         // live id confirmed
         id: "price_1P63QJCO3Yh2jr9tzTQVyfCL",
-        title: "RCM Level 1 Piano - Etudes",
+        title: "RCM Level 1 Piano Etudes (6th Edition, 2022)",
         slug: "rcm-lvl-1-piano-etudes",
         author: "The Royal Conservatory",
         publisher: "RCM Publishing",
-        description: "'RCM Level 1 Piano Etudes' presents a collection of studies designed to develop specific technical skills and musical expressions for first-level students in the Royal Conservatory of Music curriculum. Each etude is crafted to target particular aspects of piano playing, such as finger agility, rhythm, and articulation. This book serves as an excellent tool for reinforcing foundational techniques and enhancing overall piano proficiency.",
+        description: "RCM Level 1 Piano Etudes book presents a collection of studies designed to develop specific technical skills and musical expressions for first-level students in the Royal Conservatory of Music curriculum. Each etude is crafted to target particular aspects of piano playing, such as finger agility, rhythm, and articulation. This book serves as an excellent tool for reinforcing foundational techniques and enhancing overall piano proficiency.",
         pages: "24",
         year: "2022",
         ISBN: "978-1-55440-943-3",
@@ -167,11 +167,11 @@ export const pianoBooksArray = [
     {
         // live id confirmed
         id: "price_1OJIDMCO3Yh2jr9ttmDvwdIX",
-        title: "RCM Level 2 Piano - Technical Requirements",
+        title: "RCM Level 2 Piano Technical Requirements",
         slug: "rcm-lvl-2-piano-technical",
         author: "The Royal Conservatory",
         publisher: "RCM Publishing",
-        description: "'RCM Level 2 Piano Technical Requirements' builds upon the foundational skills developed in Level 1. This book introduces more advanced exercises, including scales, triads, and other technical drills aimed at further enhancing finger strength, dexterity, and overall proficiency.",
+        description: "RCM Level 2 Piano Technical Requirements book builds upon the foundational skills developed in Level 1. This book introduces more advanced exercises, including scales, triads, and other technical drills aimed at further enhancing finger strength, dexterity, and overall proficiency.",
         pages: "16",
         year: "2015",
         ISBN: "978-1-55440-732-3",
@@ -184,11 +184,11 @@ export const pianoBooksArray = [
     {
         // live id confirmed
         id: "price_1OJIFQCO3Yh2jr9tbs6chZ1X",
-        title: "RCM Level 2 Piano - Repertoire",
+        title: "RCM Level 2 Piano Repertoire (6th Edition, 2022)",
         slug: "rcm-lvl-2-piano-repertoire",
         author: "The Royal Conservatory",
         publisher: "RCM Publishing",
-        description: "The 'RCM Level 2 Piano Repertoire' offers a diverse selection of pieces designed to challenge and inspire second-level Royal Conservatory of Music students. This collection features a variety of genres and styles, providing opportunities to develop musical expression and technical skills. With carefully curated pieces that align with the 2022 syllabus, this book is an invaluable resource for both practice and performance, supporting students on their journey to piano mastery.",
+        description: "RCM Level 2 Piano Repertoire book offers a diverse selection of pieces designed to challenge and inspire second-level Royal Conservatory of Music students. This collection features a variety of genres and styles, providing opportunities to develop musical expression and technical skills. With carefully curated pieces that align with the 2022 syllabus, this book is an invaluable resource for both practice and performance, supporting students on their journey to piano mastery.",
         pages: "48",
         year: "2022",
         ISBN: "978-1-55440-934-1",
@@ -201,11 +201,11 @@ export const pianoBooksArray = [
     {
         // live id confirmed
         id: "price_1OJIHxCO3Yh2jr9tBoTfniJb",
-        title: "RCM Level 2 Piano - Etudes",
+        title: "RCM Level 2 Piano Etudes (6th Edition, 2022)",
         slug: "rcm-lvl-2-piano-etudes",
         author: "The Royal Conservatory",
         publisher: "RCM Publishing",
-        description: "The 'RCM Level 2 Piano Etudes' provides a carefully selected collection of etudes designed to enhance technical and musical development for second-level Royal Conservatory of Music students. This book includes a variety of engaging pieces that focus on specific technical challenges, helping students build agility, precision, and expression. Aligned with the 2022 syllabus, it serves as an essential resource for daily practice and performance preparation, fostering continued growth in piano proficiency.",
+        description: "RCM Level 2 Piano Etudes book provides a carefully selected collection of etudes designed to enhance technical and musical development for second-level Royal Conservatory of Music students. This book includes a variety of engaging pieces that focus on specific technical challenges, helping students build agility, precision, and expression. Aligned with the 2022 syllabus, it serves as an essential resource for daily practice and performance preparation, fostering continued growth in piano proficiency.",
         pages: "24",
         year: "2022",
         ISBN: "978-1-55440-944-0",
@@ -221,11 +221,11 @@ export const pianoBooksArray = [
     {
         // live id confirmed
         id: "price_1OJISICO3Yh2jr9tWhFVsg4b",
-        title: "RCM Lvl 3 Piano - Technical Requirements",
+        title: "RCM Lvl 3 Piano Technical Requirements",
         slug: "rcm-lvl-3-piano-technical",
         author: "The Royal Conservatory",
         publisher: "RCM Publishing",
-        description: "'RCM Level 3 Technical Requirements' is an essential resource for students preparing for the Royal Conservatory of Music Level 3 piano exam. This comprehensive guide includes all the technical exercises required for the exam, such as scales, formula pattern, and triads.",
+        description: "RCM Level 3 Technical Requirements book is an essential resource for students preparing for the Royal Conservatory of Music Level 3 piano exam. This comprehensive guide includes all the technical exercises required for the exam, such as scales, formula pattern, and triads.",
         pages: "15",
         year: "2015",
         ISBN: "978-1-55440-733-0",
@@ -238,11 +238,11 @@ export const pianoBooksArray = [
     {
         // live id confirmed
         id: "price_1OJIU5CO3Yh2jr9tMhHmvO7g",
-        title: "RCM Level 3 Piano - Repertoire",
+        title: "RCM Level 3 Piano Repertoire (6th Edition, 2022)",
         slug: "rcm-lvl-3-piano-repertoire",
         author: "The Royal Conservatory",
         publisher: "RCM Publishing",
-        description: "'RCM Level 3 Piano Repertoire' is a curated collection of pieces for students preparing for the Royal Conservatory of Music Level 3 piano examinations. This book features a diverse selection of pieces from various musical periods, including Baroque, Classical, Romantic, and 21st Century. Each piece is chosen to develop technical skills, musical expression, and stylistic understanding.",
+        description: "RCM Level 3 Piano Repertoire book is a curated collection of pieces for students preparing for the Royal Conservatory of Music Level 3 piano examinations. This book features a diverse selection of pieces from various musical periods, including Baroque, Classical, Romantic, and 21st Century. Each piece is chosen to develop technical skills, musical expression, and stylistic understanding.",
         pages: "44",
         year: "2022",
         ISBN: "978-1-55440-935-8",
@@ -255,11 +255,11 @@ export const pianoBooksArray = [
     {
         // live id confirmed
         id: "price_1OJIXDCO3Yh2jr9t647ERTDO",
-        title: "RCM Level 3 Piano - Etudes",
+        title: "RCM Level 3 Piano Etudes (6th Edition, 2022)",
         slug: "rcm-lvl-3-piano-etudes",
         author: "The Royal Conservatory",
         publisher: "RCM Publishing",
-        description: "'RCM Level 3 Piano Etudes' offers a collection of studies designed to develop technical proficiency and musical expression for students at the Royal Conservatory of Music Level 3. Each etude focuses on specific technical skills, such as hand coordination, articulation, and dynamic control, helping students to build a solid foundation for more advanced repertoire.",
+        description: "RCM Level 3 Piano Etudes book offers a collection of studies designed to develop technical proficiency and musical expression for students at the Royal Conservatory of Music Level 3. Each etude focuses on specific technical skills, such as hand coordination, articulation, and dynamic control, helping students to build a solid foundation for more advanced repertoire.",
         pages: "24",
         year: "2022",
         ISBN: "978-1-55440-945-7",
@@ -275,11 +275,11 @@ export const pianoBooksArray = [
     {
         // live id confirmed
         id: "price_1OJInpCO3Yh2jr9tdXLp8VOR",
-        title: "RCM Lvl 4 Piano - Technical Requirements",
+        title: "RCM Lvl 4 Piano Technical Requirements",
         slug: "rcm-lvl-4-piano-technical",
         author: "The Royal Conservatory",
         publisher: "RCM Publishing",
-        description: "'RCM Level 4 Piano Technical Requirements' book provides essential exercises for students preparing for the Royal Conservatory of Music Level 4 piano exam. This comprehensive guide includes exercises such as scales, triads, and arpeggios designed to improve technical proficiency and meet the technical requirements of the Level 4 piano repertoire.",
+        description: "RCM Level 4 Piano Technical Requirements book provides essential exercises for students preparing for the Royal Conservatory of Music Level 4 piano exam. This comprehensive guide includes exercises such as scales, triads, and arpeggios designed to improve technical proficiency and meet the technical requirements of the Level 4 piano repertoire.",
         pages: "19",
         year: "2015",
         ISBN: "978-1-55440-734-7",
@@ -292,11 +292,11 @@ export const pianoBooksArray = [
     {
         // live id confirmed
         id: "price_1OJIpJCO3Yh2jr9tDUURiuqW",
-        title: "RCM Level 4 Piano - Repertoire",
+        title: "RCM Level 4 Piano Repertoire (6th Edition, 2022)",
         slug: "rcm-lvl-4-piano-repertoire",
         author: "The Royal Conservatory",
         publisher: "RCM Publishing",
-        description: "'RCM Level 4 Piano Repertoire' is a curated collection of pieces for students preparing for the Royal Conservatory of Music Level 4 piano examinations. This book features a diverse selection of pieces from various musical periods, including Baroque, Classical, Romantic, and 21st Century. Each piece is chosen to develop technical skills, musical expression, and stylistic understanding.",
+        description: "RCM Level 4 Piano Repertoire book is a curated collection of pieces for students preparing for the Royal Conservatory of Music Level 4 piano examinations. This book features a diverse selection of pieces from various musical periods, including Baroque, Classical, Romantic, and 21st Century. Each piece is chosen to develop technical skills, musical expression, and stylistic understanding.",
         pages: "44",
         year: "2022",
         ISBN: "978-1-55440-936-5",
@@ -309,11 +309,11 @@ export const pianoBooksArray = [
     {
         // live id confirmed
         id: "price_1OJIqjCO3Yh2jr9t0pxAVcq4",
-        title: "RCM Level 4 Piano - Etudes",
+        title: "RCM Level 4 Piano Etudes (6th Edition, 2022)",
         slug: "rcm-lvl-4-piano-etudes",
         author: "The Royal Conservatory",
         publisher: "RCM Publishing",
-        description: "'RCM Level 4 Piano Etudes' is an essential resource for students preparing for the Royal Conservatory of Music Level 4 piano exam. This book features a selection of etudes designed to develop technical skills, agility, and musical expression. Each etude focuses on specific aspects of piano technique, providing targeted practice to enhance overall proficiency. This engaging collection is a valuable tool for advancing pianists.",
+        description: "RCM Level 4 Piano Etudes book is an essential resource for students preparing for the Royal Conservatory of Music Level 4 piano exam. This book features a selection of etudes designed to develop technical skills, agility, and musical expression. Each etude focuses on specific aspects of piano technique, providing targeted practice to enhance overall proficiency. This engaging collection is a valuable tool for advancing pianists.",
         pages: "24",
         year: "2022",
         ISBN: "978-1-55440-946-4",
@@ -329,11 +329,11 @@ export const pianoBooksArray = [
     {
         // live id confirmed
         id: "price_1OJIwSCO3Yh2jr9tMM8nzvgq",
-        title: "RCM Level 5 Piano - Technical Requirements",
+        title: "RCM Level 5 Piano Technical Requirements",
         slug: "rcm-lvl-5-piano-technical",
         author: "The Royal Conservatory",
         publisher: "RCM Publishing",
-        description: "RCM Level 5 Piano Technical Requirements book",
+        description: "RCM Level 5 Piano Technical Requirements book offers essential exercises for students preparing for the Royal Conservatory of Music Level 5 piano exam. It includes exercises such as scales, triads, and arpeggios among others, and also introduces students to the Dominant 7th Chords at this level. Overall, this book is an indispensable resource for mastering the skills needed for success at level 5 RCM.",
         pages: "19",
         year: "2015",
         ISBN: "978-1-55440-735-4",
@@ -346,7 +346,7 @@ export const pianoBooksArray = [
     {
         // live id confirmed
         id: "price_1OJIxnCO3Yh2jr9tS0riC35l",
-        title: "RCM Level 5 Piano - Repertoire",
+        title: "RCM Level 5 Piano Repertoire (6th Edition, 2022)",
         slug: "rcm-lvl-5-piano-repertoire",
         author: "The Royal Conservatory",
         publisher: "RCM Publishing",
@@ -363,7 +363,7 @@ export const pianoBooksArray = [
     {
         // live id confirmed
         id: "price_1OJIz7CO3Yh2jr9t9kKmDF96",
-        title: "RCM Level 5 Piano - Etudes",
+        title: "RCM Level 5 Piano Etudes (6th Edition, 2022)",
         slug: "rcm-lvl-5-piano-etudes",
         author: "The Royal Conservatory",
         publisher: "RCM Publishing",
@@ -383,11 +383,11 @@ export const pianoBooksArray = [
     {
         // live id confirmed
         id: "price_1OJJ8hCO3Yh2jr9tNTsNbWoB",
-        title: "RCM Level 6 Piano - Technical Requirements",
+        title: "RCM Level 6 Piano Technical Requirements",
         slug: "rcm-lvl-6-piano-technical",
         author: "The Royal Conservatory",
         publisher: "RCM Publishing",
-        description: "RCM Level 6 Piano Technical Requirements book",
+        description: "The RCM Level 6 Piano Technical Requirements book is an essential resource for students preparing for the Royal Conservatory of Music Level 6 piano exam. This comprehensive guide includes exercises such as scales, triads, and arpeggios among others, and also introduces students to the Leading Tone Diminished 7th Chords at this level. This book is an indispensable resource for mastering the skills needed for success at level 6 RCM.",
         pages: "28",
         year: "2015",
         ISBN: "978-1-55440-736-1",
@@ -400,7 +400,7 @@ export const pianoBooksArray = [
     {
         // live id confirmed
         id: "price_1OJJBMCO3Yh2jr9tyIyiStMb",
-        title: "RCM Level 6 Piano - Repertoire",
+        title: "RCM Level 6 Piano Repertoire (6th Edition, 2022)",
         slug: "rcm-lvl-6-piano-repertoire",
         author: "The Royal Conservatory",
         publisher: "RCM Publishing",
@@ -417,7 +417,7 @@ export const pianoBooksArray = [
     {
         // live id confirmed
         id: "price_1OJJCfCO3Yh2jr9teKg1nOpx",
-        title: "RCM Level 6 Piano - Etudes",
+        title: "RCM Level 6 Piano Etudes (6th Edition, 2022)",
         slug: "rcm-lvl-6-piano-etudes",
         author: "The Royal Conservatory",
         publisher: "RCM Publishing",
@@ -437,11 +437,11 @@ export const pianoBooksArray = [
     {
         // live id confirmed
         id: "price_1OJJI8CO3Yh2jr9tABhNpcEM",
-        title: "RCM Level 7 Piano - Technical Requirements",
+        title: "RCM Level 7 Piano Technical Requirements",
         slug: "rcm-lvl-7-piano-technical",
         author: "The Royal Conservatory",
         publisher: "RCM Publishing",
-        description: "RCM Level 7 Piano Technical Requirements book",
+        description: "The RCM Level 7 Piano Technical Requirements book is an indispensable resource for students preparing for the Royal Conservatory of Music Level 7 piano exam. This comprehensive guide includes advanced exercises such as scales, formula pattern, and arpeggios among others, and also introduces students to the Four-Note Chords at this level. This book is an indispensable resource for mastering the skills needed for success at level 7 RCM.",
         pages: "28",
         year: "2015",
         ISBN: "978-1-55440-737-8",
@@ -454,7 +454,7 @@ export const pianoBooksArray = [
     {
         // live id confirmed
         id: "price_1OJJJNCO3Yh2jr9t7Dwxuh5l",
-        title: "RCM Level 7 Piano - Repertoire",
+        title: "RCM Level 7 Piano Repertoire (6th Edition, 2022)",
         slug: "rcm-lvl-7-piano-repertoire",
         author: "The Royal Conservatory",
         publisher: "RCM Publishing",
@@ -471,7 +471,7 @@ export const pianoBooksArray = [
     {
         // live id confirmed
         id: "price_1OJJKeCO3Yh2jr9tzZulmsCU",
-        title: "RCM Level 7 Piano - Etudes",
+        title: "RCM Level 7 Piano Etudes (6th Edition, 2022)",
         slug: "rcm-lvl-7-piano-etudes",
         author: "The Royal Conservatory",
         publisher: "RCM Publishing",
@@ -491,11 +491,11 @@ export const pianoBooksArray = [
     {
         // live id confirmed
         id: "price_1OJJYwCO3Yh2jr9tKLFiI1cV",
-        title: "RCM Lvl 8 Piano - Technical Requirements",
+        title: "RCM Lvl 8 Piano Technical Requirements",
         slug: "rcm-lvl-8-piano-technical",
         author: "The Royal Conservatory",
         publisher: "RCM Publishing",
-        description: "RCM Level 8 Piano Technical Requirements book",
+        description: "The RCM Level 8 Piano Technical Requirements book is a vital resource for students preparing for the Royal Conservatory of Music Level 8 piano exam. This comprehensive guide includes advanced exercises such as scales, triads, arpeggios, and more, meticulously designed to enhance technical proficiency and meet the rigorous requirements of the Level 8 piano repertoire. It is an essential tool for students committed to mastering their technical skills and achieving excellence in their exams.",
         pages: "32",
         year: "2015",
         ISBN: "978-1-55440-738-5",
@@ -508,7 +508,7 @@ export const pianoBooksArray = [
     {
         // live id confirmed
         id: "price_1OJJaPCO3Yh2jr9td3mTCe0m",
-        title: "RCM Level 8 Piano - Repertoire",
+        title: "RCM Level 8 Piano Repertoire (6th Edition, 2022)",
         slug: "rcm-lvl-8-piano-repertoire",
         author: "The Royal Conservatory",
         publisher: "RCM Publishing",
@@ -525,7 +525,7 @@ export const pianoBooksArray = [
     {
         // live id confirmed
         id: "price_1OJJcDCO3Yh2jr9tKEzxClXD",
-        title: "RCM Level 8 Piano - Etudes",
+        title: "RCM Level 8 Piano Etudes (6th Edition, 2022)",
         slug: "rcm-lvl-8-piano-etudes",
         author: "The Royal Conservatory",
         publisher: "RCM Publishing",
@@ -545,7 +545,7 @@ export const pianoBooksArray = [
     {
         // live id confirmed
         id: "price_1OJJoBCO3Yh2jr9tMFNVKWST",
-        title: "RCM Level 9 Piano - Repertoire",
+        title: "RCM Level 9 Piano Repertoire (6th Edition, 2022)",
         slug: "rcm-lvl-9-piano-repertoire",
         author: "The Royal Conservatory",
         publisher: "RCM Publishing",
@@ -562,7 +562,7 @@ export const pianoBooksArray = [
     {
         // live id confirmed
         id: "price_1OJJpvCO3Yh2jr9tbtdU8TdI",
-        title: "RCM Level 9 Piano - Etudes",
+        title: "RCM Level 9 Piano Etudes (6th Edition, 2022)",
         slug: "rcm-lvl-9-piano-etudes",
         author: "The Royal Conservatory",
         publisher: "RCM Publishing",
@@ -599,7 +599,7 @@ export const pianoBooksArray = [
     {
         // live id confirmed
         id: "price_1OJKj8CO3Yh2jr9tHxUl3WYA",
-        title: "RCM Level 10 Piano - Repertoire",
+        title: "RCM Level 10 Piano Repertoire (6th Edition, 2022)",
         slug: "rcm-lvl-10-piano-repertoire",
         author: "The Royal Conservatory",
         publisher: "RCM Publishing",
@@ -616,7 +616,7 @@ export const pianoBooksArray = [
     {
         // live id confirmed
         id: "price_1OJKlLCO3Yh2jr9tFu15rAY7",
-        title: "RCM Level 10 - Etudes",
+        title: "RCM Level 10 Piano Etudes (6th Edition, 2022)",
         slug: "rcm-lvl-10-piano-etudes",
         author: "The Royal Conservatory",
         publisher: "RCM Publishing",
