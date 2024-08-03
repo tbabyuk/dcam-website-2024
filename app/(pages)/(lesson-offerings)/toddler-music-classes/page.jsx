@@ -15,7 +15,7 @@ export const metadata = {
         url: "https://dacapomusic.ca/toddler-music-classes",
         siteName: "Da Capo Academy of Music",
         locale: "en_US",
-        type: "article",
+        type: "website",
         // publishedTime: "2020-07-27T22:12:00+00:00",
         // images: [    
         //     {
@@ -38,7 +38,7 @@ const ToddlerMusicPage = () => {
             <section className="overview leading-8 flex flex-col items-center sm:block px-5 lg:px-36 xl:px-52 bg-gray-100 py-20">
                 <PageSubtitle subtitle="Overview" />
                 <div className="flex flex-col-reverse md:flex-row md:items-center mb-6 md:mb-0">
-                    <p>Our “Musical Beginnings” class is a group class aimed at toddlers and preschoolers (ages 2-5). It is designed to introduce young children to music and help them develop an understanding of rhythm, pitch and musicality at an early age. This class is a great gateway into starting to learn an instrument.</p>
+                    <p>Our “Musical Beginnings” program is a group class aimed at toddlers and preschoolers (ages 2-5). It is designed to introduce young children to music and help them develop an understanding of rhythm, pitch and musicality at an early age. This class is a great gateway into starting to learn an instrument.</p>
                     <figure className="flex-shrink-0 md:ms-10 mb-10 md:mb-0">
                         <img src="/images/pages/toddlers/toddler_lessons.jpg" alt="toddler music lesson in progress" className="rounded-md mx-auto w-[180px]" />
                     </figure>
@@ -57,7 +57,7 @@ const ToddlerMusicPage = () => {
 
             <section className="duration leading-8 px-5 lg:px-36 xl:px-52 py-20">
                 <PageSubtitle subtitle="Lesson Duration" />
-                <p>“Musical Beginnings” classes normally last for 45 minutes.</p>
+                <p>“Musical Beginnings” classes normally last for 30 minutes.</p>
             </section>
 
             <section className="materials leading-8 px-5 lg:px-36 xl:px-52 bg-gray-100 py-20">

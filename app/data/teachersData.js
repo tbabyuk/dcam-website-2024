@@ -30,13 +30,13 @@ export const teachersArray = [
       bio: "Originally from Havana, Cuba, Raul started his musical career at the age of eight. Dazzled by the sound of drums and percussion, he took lessons with several private teachers, who encouraged him to pursue music as a profession. After finishing his studies in Cuba, he immigrated to Canada in 2005 and continued his studies at Humber College, where he finished his Degree in “Contemporary Music” in 2010. During his time at Humber, he was awarded the Millennium Scholarship and, as a member of the Humber Studio Jazz Ensemble, gained valuable experience working with world class artists such as Mike Stern, Randy Brecker, Dave Douglas, Labarbera Brothers, Chris Potter and others. Today, he teaches and continues performing and recording professionally in the city of Toronto."  
     },
     // {
-    //   name: "Chloe",
-    //   fullName: "Chloe Dionne",
-    //   photo: "/images/teachers/chloe.jpg",
-    //   alt: "voice teacher Chloe",
+    //   name: "Lauren",
+    //   fullName: "Lauren MacDonald",
+    //   photo: "/images/teachers/lauren.jpg",
+    //   alt: "toddler music classes teacher Lauren",
     //   featured: true,
-    //   instrument: ["vocals", "beginner piano"],
-    //   bio: "Chloé is currently a vocal performance master's student at the University of Toronto. She is passionate about singing in many genres such as opera, pop, jazz, and musical theater. Chloe has performed around Nova Scotia in many events, independently, and at the Fountain School of Performing Arts where she received her Bachelors of Music degree. With the Fountain School, she was in several operas, was a prize winner in their 2023 Concerto Night, and a performer in their 2022 reopening gala performing in the same concert as artists such as Jeremy Dutcher and Kiefer Sutherland. She is also a songwriter and composer. She was recently selected to participate in a music production workshop with Nova Scotian artist and producer Erin Costelo. As a teacher, she strives to give students the confidence to expand their musical world while giving them a solid technical foundation."
+    //   instrument: ["toddlers"],
+    //   bio: "Lauren has over a decade of experience working with toddlers, pre-schoolers and kindergarten aged children! Her approaching is nurturing, mindful, and encouraging. She also has a passion for music, with voice training in the musical theatre style under Gerald Issac and choral experience throughout her undergrad. Lauren will graduate from the University of Toronto this year with a Bachelor's of Arts degree — she is currently applying for teacher's college where she plans to study to teach elementary school."
     // },
     {
       name: "Giancarlo",
