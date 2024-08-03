@@ -21,7 +21,7 @@ const ReturnPolicyPage = () => {
   return (
         <div className="leading-8 px-5 lg:px-36 xl:px-52 py-14 bg-gray-100">
             <h1 className="text-dcam-reg-orange text-3xl mb-4">Return Policy for Da Capo Academy of Music Shop</h1>
-            <p>At DCAM, we strive to ensure your complete satisfaction with your purchase. If you are not entirely satisfied with your purchase, we're here to help.</p>
+            <p>At DCAM, we strive to ensure your complete satisfaction with your purchase. If you are not entirely satisfied with your purchase, we&apos;re here to help.</p>
             <h3 className="text-xl font-semibold mt-8 text-dcam-black">1. Return Time Frame</h3>
             <p>You have 30 calendar days to return an item from the date you received it.</p>
             <h3 className="text-xl font-semibold mt-8 text-dcam-black">2. Condition of Returned Items</h3>
