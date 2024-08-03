@@ -1,5 +1,20 @@
 
 
+export const metadata = {
+    title: "Shop - Return Policy | Da Capo Academy of Music",
+    description: "Our return policy for books and print materials.",
+    robots: { index: true, follow: true},
+    authors: [{name: "Taras (Terry) Babyuk"}],
+    openGraph: {
+        title: "Shop - Return Policy | Da Capo Academy of Music",
+        description: "Our return policy for books and print materials.",
+        url: "https://dacapomusic.ca/shop/return-policy",
+        siteName: "Da Capo Academy of Music",
+        locale: "en_US",
+        type: "website"
+    }
+  }
+
 
 const ReturnPolicyPage = () => {
 
