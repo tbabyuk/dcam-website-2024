@@ -53,7 +53,7 @@ export const teachersArray = [
       photo: "/images/teachers/lauren.jpg",
       alt: "toddler music classes teacher Lauren",
       featured: true,
-      instrument: ["musical beginnings program, music for toddlers"],
+      instrument: ["toddlers", "musical beginnings program"],
       bio: "Lauren has over a decade of experience working with toddlers, pre-schoolers and kindergarten-aged children. Her approach is nurturing, mindful, and encouraging. She also has a passion for music, with voice training in the musical theatre style under Gerald Issac and choral experience throughout her undergrad. Lauren will graduate from the University of Toronto this year with a Bachelor's of Arts degree — she is currently applying for teacher's college where she plans to study to teach elementary school."
     },
     // {
@@ -81,7 +81,7 @@ export const teachersArray = [
       alt: "piano teacher Linda",
       featured: true,
       instrument: ["vocals", "beginner piano"],
-      bio: "Linda Wang is currently studying jazz vocals at Humber College in her Bachelor Degree program. She also enjoys playing and teaching piano and believes in the fulfillment and joy that music can bring to people. Linda has performed as a member of numerous ensembles, most notably Humber&apos;s Gospel Choir and World Drumming Ensemble, which has helped her grow as a musician and a person. She aspires to work in music production and composition in the future. However, her goal in the classroom is to ensure that each student can learn while having fun!"
+      bio: "Linda Wang is currently studying jazz vocals at Humber College in her Bachelor Degree program. She also enjoys playing and teaching piano and believes in the fulfillment and joy that music can bring to people. Linda has performed as a member of numerous ensembles, most notably Humber's Gospel Choir and World Drumming Ensemble, which has helped her grow as a musician and a person. She aspires to work in music production and composition in the future. However, her goal in the classroom is to ensure that each student can learn while having fun!"
     },
     {
       name: "Jonathan",

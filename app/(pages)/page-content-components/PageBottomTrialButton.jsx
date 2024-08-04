@@ -1,11 +1,7 @@
-"use client";
-
-
 import { TrialButton } from "./TrialButton"
 
+
 export const PageBottomTrialButton = () => {
-
-
   return (
     <div className="flex flex-col border-t-2 border-t-gray-200 px-5 py-20 md:px-20 lg:px-36 xl:px-80">
         <div className="mb-5 text-center">
