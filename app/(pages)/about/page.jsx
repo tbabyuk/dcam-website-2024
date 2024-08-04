@@ -34,18 +34,16 @@ const AboutPage = () => {
                     <div className="mb-12">
                         <p><strong>Da Capo Academy of Music (DCAM)</strong> began as an at-home piano studio and opened its doors at Humbertown Shopping Centre in September 2018. Our name comes from the Italian musical term “Da Capo”, which means “from the beginning” and is a common term found in sheet music. At DCAM, we offer private music lessons to students of all ages and skill levels and also prepare students for RCM (Royal Conservatory of Music) exams, recitals, auditions, and competitions. To showcase their progress, students have an opportunity to participate in one or both of our bi-annual music recitals. We are passionate about music and love to pass this passion on to our students! Whether you are a parent wanting to start your child on a musical path or an adult who has finally decided seriously start learning a music instrument - we welcome you at our school!</p>
                     </div>
-                    <div className="flex flex-col md:flex-row flex-wrap gap-2">
+                    <div className="flex flex-col sm:flex-row flex-wrap gap-2">
                         {aboutPagePhotosArray.map((photo) => (
-                            <div className="flex justify-center items-center h-[250px]">
+                            <div className="flex flex-grow items-center h-[250px]">
                                 <img 
-                                    src={photo.source} 
-                                    alt={photo.alt} 
-                                    className="max-h-full rounded-lg" 
+                                    src={photo.source}
+                                    alt={photo.alt}
+                                    className="h-full w-full rounded-lg object-cover object-center hover:scale-125" 
                                 />
                             </div>
                         ))}
-
-
                     </div>
                 </section>
             </>
