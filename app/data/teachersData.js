@@ -3,6 +3,24 @@
 
 export const teachersArray = [
     {
+      name: "Raul",
+      fullName: "Raul Pineda",
+      photo: "/images/teachers/raul.jpg",
+      alt: "drums teacher Raul",
+      featured: true,
+      instrument: ["drums"],
+      bio: "Originally from Havana, Cuba, Raul started his musical career at the age of eight. Dazzled by the sound of drums and percussion, he took lessons with several private teachers, who encouraged him to pursue music as a profession. After finishing his studies in Cuba, he immigrated to Canada in 2005 and continued his studies at Humber College, where he finished his Degree in “Contemporary Music” in 2010. During his time at Humber, he was awarded the Millennium Scholarship and, as a member of the Humber Studio Jazz Ensemble, gained valuable experience working with world class artists such as Mike Stern, Randy Brecker, Dave Douglas, Labarbera Brothers, Chris Potter and others. Today, he teaches and continues performing and recording professionally in the city of Toronto."  
+    },
+    {
+      name: "Taisiya",
+      fullName: "Taisiya Sarkisova",
+      photo: "/images/teachers/taisiya.jpg",
+      alt: "vocals and piano teacher Taisiya",
+      featured: true,
+      instrument: ["vocals", "piano"],
+      bio: "Taisiya is a jazz vocal performance student at the University of Toronto. She was raised in Russia in a musical family and grew up in a family vocal ensemble. Prior to her musical education at the University of Toronto, Taisiya studied jazz at the Jazz Academy in Moscow and got to perform in numerous jazz vocal ensembles, sing in a band, and perform with an orchestra. She graduated from Earl Haig Secondary School in 2021 with a musical degree as a piano major from Claude Watson Music Program. There she started learning about composition and modern music. Taisiya also has experience in musical theatre and has been a part of the Mainstage Theatre crew until recently. She has experience in working with kids and knows how to make classes both professional and fun!"
+    },
+    {
       name: "Andrew",
       fullName: "Andrew Chiappetta",
       photo: "/images/teachers/andrew.jpg",
@@ -21,24 +39,6 @@ export const teachersArray = [
       bio: "Deniz Tafaghodi is a pianist, sound artist, and founder of 'Zerone Duo'. She began her musical journey at the age of four with Orff Music and began studying classical piano at the age of six. Deniz earned her degree in Music (Piano Performance) from the Art & Architecture University of Tehran. She has been teaching classical piano and music theory since 2016. She has also been an active collaborator in various artistic mediums, including live electro-acoustic/audiovisual performances, sound installations, sound design and music composition for theaters contemporary dance performances, and computer games."
     },
     {
-      name: "Raul",
-      fullName: "Raul Pineda",
-      photo: "/images/teachers/raul.jpg",
-      alt: "drums teacher Raul",
-      featured: true,
-      instrument: ["drums"],
-      bio: "Originally from Havana, Cuba, Raul started his musical career at the age of eight. Dazzled by the sound of drums and percussion, he took lessons with several private teachers, who encouraged him to pursue music as a profession. After finishing his studies in Cuba, he immigrated to Canada in 2005 and continued his studies at Humber College, where he finished his Degree in “Contemporary Music” in 2010. During his time at Humber, he was awarded the Millennium Scholarship and, as a member of the Humber Studio Jazz Ensemble, gained valuable experience working with world class artists such as Mike Stern, Randy Brecker, Dave Douglas, Labarbera Brothers, Chris Potter and others. Today, he teaches and continues performing and recording professionally in the city of Toronto."  
-    },
-    // {
-    //   name: "Lauren",
-    //   fullName: "Lauren MacDonald",
-    //   photo: "/images/teachers/lauren.jpg",
-    //   alt: "toddler music classes teacher Lauren",
-    //   featured: true,
-    //   instrument: ["toddlers"],
-    //   bio: "Lauren has over a decade of experience working with toddlers, pre-schoolers and kindergarten aged children! Her approaching is nurturing, mindful, and encouraging. She also has a passion for music, with voice training in the musical theatre style under Gerald Issac and choral experience throughout her undergrad. Lauren will graduate from the University of Toronto this year with a Bachelor's of Arts degree — she is currently applying for teacher's college where she plans to study to teach elementary school."
-    // },
-    {
       name: "Giancarlo",
       fullName: "Giancarlo Gianneo",
       photo: "/images/teachers/giancarlo.jpg",
@@ -48,23 +48,23 @@ export const teachersArray = [
       bio: "Giancarlo is a guitarist who recently graduated from the 'Music Industry Arts and Performance Program' at Centennial College. His primary focus lies in playing the guitar, which has led to his performing at multiple venues across Toronto. He started his musical journey at the age of 12 by learning classical guitar and immersing himself in a wide range of musical genres such as blues, rock, bluegrass and improvising. Following his high-school graduation, he finished a pre-university program at the Barranquilla School of Fine Arts and then continued his studies at Centennial College in Toronto. Giancarlo has practical experience in recording techniques and studio recording utilizing digital audio workstations, and providing his expertise as a session musician to others. He is filled with enthusiasm for music and is committed to sharing it with his students as he helps them to develop as musicians."
     },
     {
-      name: "Taisiya",
-      fullName: "Taisiya Sarkisova",
-      photo: "/images/teachers/taisiya.jpg",
-      alt: "vocals and piano teacher Taisiya",
+      name: "Lauren",
+      fullName: "Lauren MacDonald",
+      photo: "/images/teachers/lauren.jpg",
+      alt: "toddler music classes teacher Lauren",
       featured: true,
-      instrument: ["vocals", "piano"],
-      bio: "Taisiya is a jazz vocal performance student at the University of Toronto. She was raised in Russia in a musical family and grew up in a family vocal ensemble. Prior to her musical education at the University of Toronto, Taisiya studied jazz at the Jazz Academy in Moscow and got to perform in numerous jazz vocal ensembles, sing in a band, and perform with an orchestra. She graduated from Earl Haig Secondary School in 2021 with a musical degree as a piano major from Claude Watson Music Program. There she started learning about composition and modern music. Taisiya also has experience in musical theatre and has been a part of the Mainstage Theatre crew until recently. She has experience in working with kids and knows how to make classes both professional and fun!"
+      instrument: ["musical beginnings program, music for toddlers"],
+      bio: "Lauren has over a decade of experience working with toddlers, pre-schoolers and kindergarten-aged children. Her approach is nurturing, mindful, and encouraging. She also has a passion for music, with voice training in the musical theatre style under Gerald Issac and choral experience throughout her undergrad. Lauren will graduate from the University of Toronto this year with a Bachelor's of Arts degree — she is currently applying for teacher's college where she plans to study to teach elementary school."
     },
-    {
-      name: "Senya",
-      fullName: "Senya Wickramasinghe",
-      photo: "/images/teachers/senya.jpg",
-      alt: "piano teacher Taisiya",
-      featured: true,
-      instrument: ["piano"],
-      bio: "Senya has been studying classical piano since she was 4 and teaching classical piano since she was 14. She has completed her RCM Piano Level 8 Certificate by age 14 and RCM 10 Practical by age 16. In high school, Senya was active in the music department as a violinist, and co-president of the music council. With this involvement she gained experience in stage band, chamber string orchestra, competed in the Kiwanis music festival, and took on the role of a piano accompanist for classical violinists. Her current music goals include diversifying her performance repertoire and expanding her knowledge of music history. In the classroom, her goal is to help students build the necessary skills for success while having fun creating music."
-    },
+    // {
+    //   name: "Senya",
+    //   fullName: "Senya Wickramasinghe",
+    //   photo: "/images/teachers/senya.jpg",
+    //   alt: "piano teacher Taisiya",
+    //   featured: true,
+    //   instrument: ["piano"],
+    //   bio: "Senya has been studying classical piano since she was 4 and teaching classical piano since she was 14. She has completed her RCM Piano Level 8 Certificate by age 14 and RCM 10 Practical by age 16. In high school, Senya was active in the music department as a violinist, and co-president of the music council. With this involvement she gained experience in stage band, chamber string orchestra, competed in the Kiwanis music festival, and took on the role of a piano accompanist for classical violinists. Her current music goals include diversifying her performance repertoire and expanding her knowledge of music history. In the classroom, her goal is to help students build the necessary skills for success while having fun creating music."
+    // },
     {
       name: "Matthew",
       fullName: "Matthew Leombruni",
