@@ -48,12 +48,13 @@ const ToddlerMusicPage = () => {
 
             <section className="age leading-8 px-5 lg:px-36 xl:px-52 py-16">
                 <PageSubtitle subtitle="Why start early?" />
-                <p>Early childhood is a critical time for cognitive, social, and emotional development. Music can play a significant role in enhancing these areas. Our program focuses on:</p><br />
-                <ul className="list-disc list-inside">
-                    <li><span className="font-semibold">Cognitive Development</span>: Engaging with music helps toddlers develop better memory, attention, and problem-solving skills.</li>
-                    <li><span className="font-semibold">Social Skills</span>: Group activities encourage interaction, sharing, and cooperation with peers.</li>
-                    <li><span className="font-semibold">Emotional Growth</span>: Music is a wonderful way for toddlers to express themselves and explore their emotions.</li>
-                </ul>
+                <p>Early childhood is a critical time for cognitive, social, and emotional development. Music can play a significant role in enhancing these areas.<br /><br />Our program focuses on:
+                    <ul className="list-disc list-inside">
+                        <li><span className="font-semibold">Cognitive Development</span>: Engaging with music helps toddlers develop better memory, attention, and problem-solving skills.</li>
+                        <li><span className="font-semibold">Social Skills</span>: Group activities encourage interaction, sharing, and cooperation with peers.</li>
+                        <li><span className="font-semibold">Emotional Growth</span>: Music is a wonderful way for toddlers to express themselves and explore their emotions.</li>
+                    </ul>
+                </p>
             </section>
 
             <section className="format leading-8 px-5 lg:px-36 xl:px-52 py-16">
