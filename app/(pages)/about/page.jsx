@@ -40,7 +40,7 @@ const AboutPage = () => {
                                 <img 
                                     src={photo.source}
                                     alt={photo.alt}
-                                    className="h-full w-full rounded-lg object-cover object-center hover:scale-125" 
+                                    className="h-full w-full rounded-lg object-cover" 
                                 />
                             </div>
                         ))}
