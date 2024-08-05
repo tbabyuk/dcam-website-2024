@@ -72,7 +72,7 @@ const TheBandExperiencePage = () => {
 
             <section className="duration leading-8 px-5 lg:px-36 xl:px-52 py-16">
                 <PageSubtitle subtitle="Pricing" />
-                <p>The program includes weekly 45-minute band rehearsals at a cost of $25.00/class. Current students who are also taking private lessons at DCAM get a 10% discount on "The Band Experience" program. Tuition must be paid a month in advance, on the 1st of each month.</p>
+                <p>The program includes weekly 45-minute band rehearsals at a cost of $25.00/class. Current students who are also taking private lessons at DCAM get a 10% discount on &quot;The Band Experience&quot; program. Tuition must be paid a month in advance, on the 1st of each month.</p>
             </section>
 
             <LessonTeachersSection />
