@@ -52,7 +52,7 @@ const TheBandExperiencePage = () => {
 
             <section className="format leading-8 px-5 lg:px-36 xl:px-52 py-16">
                 <PageSubtitle subtitle="Program Format" />
-                <p>Rehearsals take place once a week and last for 45 minutes. Each rehearsal is led by either one or two band leaders (our teachers). The goal of each rehearsal is to work on a small repertoire of songs that the band could perform for an audience either on the DCAM stage or at one of our recitals. The band can only make progress if all of its members show up to rehearsals, so regular attendance is strongly encouraged. Except for extenuating circumstances, band members who miss three consecutive rehearsals may not be able to continue in the program.<br /><br /> The program runs in three-months sessions which culminate in a performance, so we encourage students to be ready to commit to a minimum of three months of rehearsals. After the final performance, students can choose to continue on to the next session or take time off.</p>
+                <p>Rehearsals take place once a week and last for 45 minutes. Each rehearsal is led by either one or two band leaders (our teachers). The goal of each rehearsal is to work on a small repertoire of songs that the band could perform for an audience either on the DCAM stage or at one of our recitals. The band can only make progress if all of its members show up to rehearsals, so regular attendance is strongly encouraged. Except for extenuating circumstances, band members who miss three consecutive rehearsals may not be able to continue in the program.<br /><br /> The program runs in three-month sessions which culminate in a performance, so we encourage students to be ready to commit to a minimum of three months of rehearsals. After the final performance, students can choose to continue on to the next session or take time off.</p>
             </section>
 
             <section className="duration leading-8 px-5 lg:px-36 xl:px-52 py-16">
@@ -72,10 +72,10 @@ const TheBandExperiencePage = () => {
 
             <section className="duration leading-8 px-5 lg:px-36 xl:px-52 py-16">
                 <PageSubtitle subtitle="Pricing" />
-                <p>The program includes weekly 45-minute band rehearsals at a cost of $25.00/class. Current students who are also taking private lessons at DCAM get a 10% discount on &quot;The Band Experience&quot; program. Tuition must be paid a month in advance, on the 1st of each month.</p>
+                <p>The program includes weekly 45-minute rehearsals at a cost of $25.00/class. Current students who are also taking private lessons at DCAM get a 10% discount on &quot;The Band Experience&quot; program. Tuition must be paid a month in advance, on the 1st of each month.</p>
             </section>
 
-            <LessonTeachersSection />
+            <LessonTeachersSection custom="Band rehearsals are led by either one or two band leaders (our teachers). Band leaders will be announced before the program begins." />
 
             <PageBottomRegisterButton />
         </main>

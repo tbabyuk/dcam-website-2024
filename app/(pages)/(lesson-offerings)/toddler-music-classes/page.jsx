@@ -83,8 +83,8 @@ const ToddlerMusicPage = () => {
             </section>
 
             <LessonTeachersSection 
-                bio="Lauren has over a decade of experience working with toddlers, pre-schoolers and kindergarten-aged children. Her approach is nurturing, mindful, and encouraging. She also has a passion for music, with voice training in the musical theatre style under Gerald Issac and choral experience throughout her undergrad. Lauren will graduate from the University of Toronto this year with a Bachelor's of Arts degree — she is currently applying for teacher's college where she plans to study to teach elementary school." 
-                teachers={teachersArray.filter(teacher => teacher.instrument.includes("toddlers"))} 
+                custom="Lauren has over a decade of experience working with toddlers, pre-schoolers and kindergarten-aged children. Her approach is nurturing, mindful, and encouraging. She also has a passion for music, with voice training in the musical theatre style under Gerald Issac and choral experience throughout her undergrad. Lauren will graduate from the University of Toronto this year with a Bachelor's of Arts degree — she is currently applying for teacher's college where she plans to study to teach elementary school." 
+                teachers={teachersArray.filter(teacher => teacher.instrument.includes("toddlers"))}
             />
 
             <PageBottomRegisterButton />
