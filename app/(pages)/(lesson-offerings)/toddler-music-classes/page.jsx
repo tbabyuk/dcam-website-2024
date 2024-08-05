@@ -79,7 +79,7 @@ const ToddlerMusicPage = () => {
 
             <section className="duration leading-8 px-5 lg:px-36 xl:px-52 py-16">
                 <PageSubtitle subtitle="Pricing" />
-                <p>The program includes 4 monthly classes at $20.00/class, paid on the 1st of each month. Your fee will be pro-rated if you start in the middle of a month. Families who do not want to commit to monthly lessons can choose to do drop-in classes instead, at a fee of $25.00/class (paid before the start of each class).</p>
+                <p>The program includes weekly 30-minute classes at a cost of $20.00/class. Families of current students receive a 10% discount off this rate. Tuition must be paid a month in advance, on the 1st of each month. Your fee will be pro-rated if you start in the middle of a month. Families who do not wish to commit to monthly lessons can choose to do drop-in classes instead, at a fee of $25.00/class (paid before the start of each class). No discounts can be applied to drop-in classes.</p>
             </section>
 
             <LessonTeachersSection 
