@@ -58,7 +58,7 @@ const ToddlerMusicPage = () => {
             </section>
 
             <section className="format leading-8 px-5 lg:px-36 xl:px-52 py-16">
-                <PageSubtitle subtitle="Lesson Format" />
+                <PageSubtitle subtitle="Program Format" />
                 <p>In our fun and interactive classes, children will engage in singing, movement, and playing simple instruments such as egg shakers, tambourines, and xylophones. These activities are not only enjoyable but also support cognitive and social development. With guidance from our experienced instructor, children will explore the basics of music in a playful and supportive environment.</p>
             </section>
 

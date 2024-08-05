@@ -51,8 +51,8 @@ const TheBandExperiencePage = () => {
             </section>
 
             <section className="format leading-8 px-5 lg:px-36 xl:px-52 py-16">
-                <PageSubtitle subtitle="Lesson Format" />
-                <p>Rehearsals normally take place once a week and last for 45 minutes. Each rehearsal is led by either one or two band leaders (our teachers). The goal of each practice is to work on a small repertoire of songs that the band could perform for an audience either on the DCAM stage or at one of our recitals. The band can only make progress if all of its members show up to rehearsals, so we encourage regular attendance from all band members. Except for extenuating circumstances, band members who miss three consecutive rehearsals may not be able to continue in the program.</p>
+                <PageSubtitle subtitle="Program Format" />
+                <p>Rehearsals take place once a week and last for 45 minutes. Each rehearsal is led by either one or two band leaders (our teachers). The goal of each practice is to work on a small repertoire of songs that the band could perform for an audience either on the DCAM stage or at one of our recitals. The band can only make progress if all of its members show up to rehearsals, so regular attendance is strongly encouraged. Except for extenuating circumstances, band members who miss three consecutive rehearsals may not be able to continue in the program. The program runs in six-months sessions which culminate in a performance, so we encourage students to be ready to commit to six months of rehearsals. After the final performance, students can choose to continue on to the next session or take time off.</p>
             </section>
 
             <section className="duration leading-8 px-5 lg:px-36 xl:px-52 py-16">
