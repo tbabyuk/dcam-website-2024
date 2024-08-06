@@ -15,8 +15,8 @@ module.exports = {
         "dcam-light-blue": "#88BDE9", // new palette
         "dcam-reg-blue": "#567FA3", // new palette
         "dcam-dark-blue": "#375681", // new palette
-        "dcam-reg-green": "#4AAD52", // old palette
-        "dcam-dark-green": "#3D8F44",
+        "dcam-reg-green": "#17BA66",
+        "dcam-dark-green": "#14A359",
         regYellow: "#F2F5CD", // new palette
         "dcam-white": "#F3F4F6",
         "dcam-black": "#4b5563"
