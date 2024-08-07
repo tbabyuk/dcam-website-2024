@@ -5,6 +5,7 @@ import { Navbar } from "./components/Navbar";
 import { Footer } from "./components/Footer";
 import { ShopContextProvider } from "./context/ShopContext";
 import { ToastContainer } from "react-toastify";
+import { Analytics } from '@vercel/analytics/react'
 // import { GoogleTagManager } from '@next/third-parties/google'
 import { GoogleAnalytics } from "./components/GoogleAnalytics";
 import 'react-toastify/dist/ReactToastify.css';
@@ -39,6 +40,7 @@ export default function RootLayout({ children }) {
             hideProgressBar={true}
             closeOnClick={false}
           />
+          <Analytics />
         </body>
       </ShopContextProvider>
     </html>
