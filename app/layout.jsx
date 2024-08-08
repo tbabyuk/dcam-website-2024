@@ -5,9 +5,7 @@ import { Navbar } from "./components/Navbar";
 import { Footer } from "./components/Footer";
 import { ShopContextProvider } from "./context/ShopContext";
 import { ToastContainer } from "react-toastify";
-// import { Analytics } from '@vercel/analytics/react'
-// import { GoogleTagManager } from '@next/third-parties/google'
-// import { GoogleAnalytics } from "./components/GoogleAnalytics";
+import { GoogleAnalytics } from "@next/third-parties/google";
 import 'react-toastify/dist/ReactToastify.css';
 
 
@@ -26,8 +24,6 @@ export default function RootLayout({ children }) {
 
   return (
     <html lang="en">
-      {/* <GoogleTagManager gtmId="GTM-K4L4H7X9" /> */}
-      {/* <GoogleAnalytics GA_MEASUREMENT_ID={process.env.GA_MEASUREMENT_ID} /> */}
       <ShopContextProvider>
         <body className={`${roboto.variable} ${ovo.variable}`}>
           <Header />
@@ -40,9 +36,9 @@ export default function RootLayout({ children }) {
             hideProgressBar={true}
             closeOnClick={false}
           />
-          {/* <Analytics /> */}
         </body>
       </ShopContextProvider>
+      <GoogleAnalytics gaId="G-Q83VX4272W" />
     </html>
   );
 }
