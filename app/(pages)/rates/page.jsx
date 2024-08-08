@@ -34,18 +34,15 @@ const RatesPage = () => {
                 
                 <section className="rates-intro px-5 lg:px-36 xl:px-52 bg-gray-100 py-20">
                     <p>
-                        Lessons at Da Capo Academy of Music are based on the school system and are divided into Fall, Winter, Spring, and an optional Summer term. Your exact rates for each term will depend on which day of the week your lesson falls on, as some days are affected by statutory holidays or there are simply less of them in a given term.<br /><br />Please review below our policies surrounding lessons/payments and click the download button to view payment schedules for each term.<br /><br />*Students not wishing to follow the term system may opt to study on a Pay-As-You-Go basis. Rates for Pay-As-You-Go lessons are separate and can be viewed <a href="/downloads/PAYG_lessons_2023-2024.pdf" download className="dcam-link-orange">here</a>.<br /><br />*Lessons with our highest-qualified and most-experienced teachers are subject to our PREMIUM RATES, which you can find <a href="/downloads/premium_lessons_2023-2024.pdf" download className="dcam-link-orange">here</a>.
+                        Lessons at Da Capo Academy of Music are based on the school system and are divided into Fall, Winter, Spring, and an optional Summer term. Your exact rates for each term will depend on which day of the week your lesson falls on, as some days are affected by statutory holidays or there are simply less of them in a given term.<br /><br />Please review below our policies surrounding lessons/payments and click the download button to view payment schedules for each term.<br /><br />*Students not wishing to follow the term system may opt to study on a Pay-As-You-Go basis. Rates for Pay-As-You-Go lessons are separate and can be viewed <a href="/downloads/PAYG_lessons_2024-2025.pdf" download className="dcam-link-orange">here</a>.<br /><br />*Lessons with our highest-qualified and most-experienced teachers are subject to our PREMIUM RATES, which you can find <a href="/downloads/premium_lessons_2024-2025.pdf" download className="dcam-link-orange">here</a>.
                     </p>
                 </section>
 
                 <section className="private-lesson-rates px-5 lg:px-36 xl:px-52 pt-20">
                     <h2 className="font-ovo text-3xl text-dcam-reg-orange font-semibold text-center mb-14">PRIVATE LESSON RATES</h2>
 
-                    <h4 className="font-ovo text-xl text-dcam-reg-orange text-center mb-6">2024 SUMMER TERM</h4>
-                    <DownloadButton text="Download Payment Schedule" file="private_lessons_summer_2024.pdf" />
-
-                    <h4 className="font-ovo text-xl text-dcam-reg-orange text-center mt-14 mb-6">2023-2024 ACADEMIC YEAR | Fall, Winter, Spring Terms</h4>
-                    <DownloadButton text="Download Payment Schedule" file="private_lessons_2023-2024.pdf" />
+                    <h4 className="font-ovo font-semibold text-xl text-dcam-reg-orange text-center mb-6">2024 FALL TERM</h4>
+                    <DownloadButton text="Download Payment Schedule" file="private_lessons_2024-2025.pdf" />
 
                     <h4 className="font-ovo text-xl text-dcam-reg-orange font-semibold mt-16 mb-3">PRIVATE LESSONS (one-on-one):</h4>
                     <ul className="text-sm">
@@ -64,11 +61,8 @@ const RatesPage = () => {
                 <section className="semi-private-lesson-rates px-5 lg:px-36 xl:px-52 pb-32">
                     <h2 className="font-ovo text-3xl text-dcam-reg-orange font-semibold text-center mb-14">SEMI-PRIVATE LESSON RATES</h2>
 
-                    <h4 className="font-ovo text-xl text-dcam-reg-orange text-center mb-6">2024 SUMMER TERM</h4>
-                    <DownloadButton text="Download Payment Schedule" file="semi_private_lessons_summer_2024.pdf" />
-
-                    <h4 className="font-ovo text-xl text-dcam-reg-orange text-center mt-14 mb-6">2023-2024 ACADEMIC YEAR | Fall, Winter, Spring Terms</h4>
-                    <DownloadButton text="Download Payment Schedule" file="semi_private_lessons_2023-2024.pdf" />
+                    <h4 className="font-ovo font-semibold text-xl text-dcam-reg-orange text-center mb-6">2024 FALL TERM</h4>
+                    <DownloadButton text="Download Payment Schedule" file="semi_private_lessons_2024-2025.pdf" />
                     
                     <h4 className="font-ovo text-xl text-dcam-reg-orange font-semibold mt-16 mb-3">SEMI-PRIVATE LESSONS (two students per teacher):</h4>
                     <ul className="text-sm">
