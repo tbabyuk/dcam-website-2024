@@ -83,7 +83,7 @@ const ToddlerMusicPage = () => {
             </section>
 
             <LessonTeachersSection 
-                custom="Lauren has over a decade of experience working with toddlers, pre-schoolers and kindergarten-aged children. Her approach is nurturing, mindful, and encouraging. She also has a passion for music, with voice training in the musical theatre style under Gerald Issac and choral experience throughout her undergrad. Lauren will graduate from the University of Toronto this year with a Bachelor's of Arts degree — she is currently applying for teacher's college where she plans to study to teach elementary school." 
+                custom="With over a decade of experience working with youngsters, Lauren is passionate about introducing toddlers to the enchanting world of music. Her warm, encouraging approach creates a supportive and fun learning environment where little ones can explore their musicality. Lauren's own musical journey began as a toddler through music lessons based on the Orff Method, igniting a lifelong love for the arts. Her passion for performance and music continued through competitive highland dancing as well as voice training in musical theatre style under Gerald Issac. As a member of various choral ensembles during her university years, she has continued to develop her musical talents while working toward her Bachelor of Arts degree at the University of Toronto. Lauren's next goal is to obtain a degree in Education to become an Elementary School Teacher." 
                 teachers={teachersArray.filter(teacher => teacher.instrument.includes("toddlers"))}
             />
 
