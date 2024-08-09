@@ -53,7 +53,7 @@ export const teachersArray = [
       photo: "/images/teachers/lauren.jpg",
       alt: "toddler music classes teacher Lauren",
       featured: true,
-      instrument: ["toddlers", "musical beginnings program"],
+      instrument: ["toddlers", "musical beginnings"],
       bio: "With over a decade of experience working with youngsters, Lauren is passionate about introducing toddlers to the enchanting world of music. Her warm, encouraging approach creates a supportive and fun learning environment where little ones can explore their musicality. Lauren's own musical journey began as a toddler through music lessons based on the Orff Method, igniting a lifelong love for the arts. Her passion for performance and music continued through competitive highland dancing as well as voice training in musical theatre style under Gerald Issac. As a member of various choral ensembles during her university years, she has continued to develop her musical talents while working toward her Bachelor of Arts degree at the University of Toronto. Lauren's next goal is to obtain a degree in Education to become an Elementary School Teacher."
     },
     // {
